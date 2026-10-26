@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>kotori</title>
+<meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171816" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="kotori">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
+<style>
+/* Layout: one relaxed reading column (≈40em), soft cards on a warm paper ground, generous spacing. Same type family and sizes as Varys; only colour and layout differ. Text sizes are rem so A−/A+ scales everything but the tab bar. */
+:root{
+  --paper:#faf8f4; --card:#ffffff; --ink:#2a2b28; --ink-2:#55574f; --ink-3:#86887e;
+  --rule:#e8e4dc; --wash:#f2efe8;
+  --accent:#5f7356; --accent-ink:#ffffff; --accent-wash:#e9eee3;
+  --sun:#c9893b; --sun-wash:#f7ecdc; --ok:#5f7356;
+  --star:#d9d4c9; --star-on:#c9893b;
+  --bar:rgba(250,248,244,.88); --shadow:0 1px 2px rgba(60,55,40,.04),0 6px 24px rgba(60,55,40,.06);
+  --sans:"Noto Sans TC","PingFang TC","Heiti TC",system-ui,sans-serif;
+  --col:40em; --scale:1; color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#171816; --card:#1f201d; --ink:#ecebe6; --ink-2:#bdbcb3; --ink-3:#8e8e85;
+  --rule:#2e2f2b; --wash:#242521;
+  --accent:#a9c09b; --accent-ink:#171816; --accent-wash:#27302a;
+  --sun:#e0ad6b; --sun-wash:#33291c; --ok:#a9c09b; --star:#3a3b36; --star-on:#e0ad6b;
+  --bar:rgba(23,24,22,.88); --shadow:0 1px 2px rgba(0,0,0,.2),0 6px 24px rgba(0,0,0,.25); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#171816; --card:#1f201d; --ink:#ecebe6; --ink-2:#bdbcb3; --ink-3:#8e8e85;
+  --rule:#2e2f2b; --wash:#242521;
+  --accent:#a9c09b; --accent-ink:#171816; --accent-wash:#27302a;
+  --sun:#e0ad6b; --sun-wash:#33291c; --ok:#a9c09b; --star:#3a3b36; --star-on:#e0ad6b;
+  --bar:rgba(23,24,22,.88); --shadow:0 1px 2px rgba(0,0,0,.2),0 6px 24px rgba(0,0,0,.25); color-scheme:dark}
+
+html{font-size:calc(16px * var(--scale));-webkit-text-size-adjust:100%}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:1rem;line-height:1.75;letter-spacing:.01em;-webkit-font-smoothing:antialiased;line-break:strict;
+  padding:env(safe-area-inset-top,0px) max(16px,env(safe-area-inset-right,0px)) calc(96px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--paper)}
+a{color:inherit}
+button,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+[hidden]{display:none!important}
+h1,h2,h3{text-wrap:pretty;margin:0}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bar);backdrop-filter:saturate(1.4) blur(16px);-webkit-backdrop-filter:saturate(1.4) blur(16px);
+  margin:0 calc(-1 * max(16px,env(safe-area-inset-right,0px))) 0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));
+  padding:10px max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px))}
+.top-in{max-width:var(--col);margin:0 auto;display:flex;align-items:center;gap:10px}
+.mark{font-weight:500;font-size:26px;letter-spacing:.02em;line-height:1;color:var(--ink);flex:1}
+.scaler{display:inline-flex;border:1px solid var(--rule);border-radius:999px;overflow:hidden;font-size:14px;background:var(--card)}
+.scaler button{border:0;background:none;min-width:40px;min-height:34px;cursor:pointer;font-weight:700}
+.scaler button:disabled{opacity:.35}
+.scaler output{display:grid;place-items:center;min-width:44px;font-size:12px;color:var(--ink-3);border-inline:1px solid var(--rule);font-variant-numeric:tabular-nums}
+.icon-btn{border:1px solid var(--rule);background:var(--card);border-radius:999px;width:36px;height:36px;display:grid;place-items:center;cursor:pointer;flex:none}
+.icon-btn svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+
+main{max-width:var(--col);margin:0 auto}
+
+/* greeting */
+.hello{padding-block:28px 8px}
+.hello .date{font-size:.8125rem;color:var(--ink-3);letter-spacing:.06em}
+.hello h1{font-size:1.625rem;font-weight:900;line-height:1.4;margin:6px 0 4px}
+.hello .meta{font-size:.9375rem;color:var(--ink-2)}
+.notice{margin-top:14px;padding:12px 16px;border-radius:14px;background:var(--sun-wash);color:var(--ink);font-size:.9375rem;display:flex;gap:10px;align-items:center;cursor:pointer;border:0;width:100%;text-align:left}
+.notice b{color:var(--sun)}
+.lead{font-size:1.0625rem;line-height:1.9;color:var(--ink-2);margin:18px 0 0}
+
+.chips{display:flex;gap:8px;overflow-x:auto;padding:18px 0 4px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chips a{flex:none;text-decoration:none;font-size:.875rem;padding:6px 14px;border-radius:999px;background:var(--wash);color:var(--ink-2)}
+.chips a.on{background:var(--accent);color:var(--accent-ink)}
+
+/* today-try */
+.try{margin-top:24px;padding:20px;border-radius:20px;background:var(--accent-wash)}
+.try .k{font-size:.75rem;font-weight:700;letter-spacing:.14em;color:var(--accent)}
+.try h2{font-size:1.1875rem;font-weight:700;line-height:1.55;margin:6px 0 4px}
+.try p{margin:0;color:var(--ink-2);font-size:.9375rem}
+.try button{margin-top:10px;border:0;background:none;padding:0;color:var(--accent);font-weight:700;cursor:pointer}
+
+/* sections & stories */
+.sec{padding-top:40px;scroll-margin-top:80px}
+.sec-h{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.sec-h .no{font-size:.75rem;font-weight:700;color:var(--accent);letter-spacing:.12em}
+.sec-h h2{font-size:1.375rem;font-weight:900}
+.sec-h span{font-size:.8125rem;color:var(--ink-3)}
+.sec-empty{padding:18px 20px;border-radius:16px;background:var(--wash);color:var(--ink-3);font-size:.9375rem}
+.story{background:var(--card);border-radius:20px;box-shadow:var(--shadow);padding:24px 22px;margin-bottom:18px;scroll-margin-top:80px;position:relative}
+.story.read::after{content:"讀過";position:absolute;top:18px;right:20px;font-size:.75rem;color:var(--ok);font-weight:700}
+.tagrow{display:flex;gap:8px;flex-wrap:wrap;font-size:.75rem;color:var(--ink-3)}
+.tag{padding:2px 10px;border-radius:999px;background:var(--wash);font-weight:500}
+.tag.try-t{background:var(--sun-wash);color:var(--sun);font-weight:700}
+.story h3{font-weight:900;font-size:clamp(1.375rem,2.6vw,1.6875rem);line-height:1.45;margin:12px 0 6px;letter-spacing:-.005em}
+.orig{font-size:.875rem;color:var(--ink-3);margin:0 0 10px;line-height:1.5}
+.byline{font-size:.8125rem;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:4px 12px;margin-bottom:16px}
+.prose{font-size:1.0625rem;line-height:1.9;margin:0 0 16px}
+.why{border-radius:14px;background:var(--accent-wash);padding:14px 16px;margin:0 0 14px;font-size:1rem;line-height:1.85}
+.why b{display:block;font-size:.75rem;letter-spacing:.12em;color:var(--accent);margin-bottom:2px}
+.act{border-radius:14px;background:var(--sun-wash);padding:12px 16px;margin:0 0 14px;font-size:.9375rem;font-weight:700}
+.note{font-size:.8125rem;color:var(--ink-3);margin:8px 0 0}
+details.more{border-top:1px dashed var(--rule);margin-top:6px}
+details.more summary{cursor:pointer;list-style:none;padding:12px 0;font-size:.9375rem;font-weight:700;display:flex;justify-content:space-between;align-items:center;min-height:44px}
+details.more summary::-webkit-details-marker{display:none}
+details.more summary::after{content:"＋";font-weight:400;color:var(--ink-3)}
+details.more[open] summary::after{content:"－"}
+details.more ul{margin:0 0 12px;padding-left:1.1em;display:grid;gap:10px;font-size:1rem;line-height:1.85}
+.watch{font-size:.9375rem;color:var(--ink-2);margin:0 0 8px}
+
+.fb{margin-top:16px;padding-top:16px;border-top:1px dashed var(--rule);display:grid;gap:10px}
+.row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:.875rem}
+.link-out{text-decoration:none;font-weight:700;border-bottom:1.5px solid var(--ink);padding-bottom:1px}
+.stars{display:flex;align-items:center}
+.stars .l{font-size:.8125rem;color:var(--ink-3);margin-right:4px}
+.star{border:0;background:none;padding:0;min-width:38px;min-height:44px;font-size:26px;line-height:1;color:var(--star);cursor:pointer;transition:color .15s,transform .15s}
+.star.on{color:var(--star-on)}
+.star:active{transform:scale(1.2)}
+.st-t{font-size:.8125rem;color:var(--ink-3);margin-left:6px}
+textarea{width:100%;min-height:46px;resize:vertical;border:1px solid var(--rule);border-radius:12px;background:var(--paper);padding:10px 12px;font-size:.9375rem;line-height:1.6}
+textarea::placeholder{color:var(--ink-3)}
+.btn{border:1px solid var(--rule);background:var(--card);border-radius:999px;padding:8px 16px;min-height:40px;cursor:pointer;font-size:.875rem;font-weight:700}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.sent{font-size:.75rem;color:var(--ok)}
+
+/* end card, ask box, qa */
+.endcard{margin-top:28px;padding:28px 22px;border-radius:20px;background:var(--accent);color:var(--accent-ink);text-align:left}
+.endcard h2{font-size:1.25rem;font-weight:900;margin-bottom:6px}
+.endcard p{margin:0;opacity:.9}
+.ask{margin-top:28px;padding:22px;border-radius:20px;background:var(--card);box-shadow:var(--shadow);display:grid;gap:10px}
+.ask h2{font-size:1.1875rem;font-weight:900}
+.ask p{margin:0;font-size:.9375rem;color:var(--ink-2)}
+.foot{font-size:.75rem;color:var(--ink-3);padding-block:28px}
+.view-h{font-size:1.625rem;font-weight:900;padding-top:28px}
+.view-sub{color:var(--ink-2);font-size:.9375rem;margin:6px 0 18px}
+.qa{background:var(--card);border-radius:20px;box-shadow:var(--shadow);padding:22px;margin-bottom:16px}
+.qa .who{font-size:.8125rem;color:var(--accent);font-weight:700}
+.qa .q{font-size:1.0625rem;font-weight:700;line-height:1.6;margin:4px 0 10px}
+.qa .a{font-size:1rem;line-height:1.85;color:var(--ink-2)}
+.qa.mine{outline:2px solid var(--sun-wash)}
+.empty{padding:36px 0;color:var(--ink-3);font-size:.9375rem}
+.empty b{display:block;font-size:1.125rem;color:var(--ink);margin-bottom:4px}
+
+/* sheet (onboarding & settings) */
+.scrim{position:fixed;inset:0;z-index:50;background:rgba(30,28,22,.35);display:grid;align-items:end;justify-items:center}
+.sheet{width:min(560px,100%);max-height:92vh;overflow:auto;overflow-x:hidden;grid-template-columns:minmax(0,1fr);background:var(--paper);border-radius:24px 24px 0 0;
+  padding:26px max(22px,env(safe-area-inset-right,0px)) calc(26px + env(safe-area-inset-bottom,0px)) max(22px,env(safe-area-inset-left,0px));display:grid;gap:16px}
+@media (min-width:700px){.scrim{align-items:center}.sheet{border-radius:24px}}
+.sheet h2{font-size:1.5rem;font-weight:900}
+.sheet p{margin:0;color:var(--ink-2)}
+.sheet label.f{display:grid;gap:6px;font-size:.875rem;font-weight:700}
+.sheet input[type=text]{min-width:0;width:100%;border:1px solid var(--rule);border-radius:12px;background:var(--card);padding:12px 14px;font-size:1.0625rem}
+.picks{display:grid;gap:8px}
+.pick{display:flex;gap:12px;align-items:center;padding:12px 14px;border-radius:14px;background:var(--card);border:1px solid var(--rule);cursor:pointer}
+.pick input{width:20px;height:20px;accent-color:var(--accent)}
+.pick span small{display:block;color:var(--ink-3);font-size:.8125rem}
+
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:999px;font-size:14px;z-index:60}
+
+/* tab bar (fixed px) */
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--bar);backdrop-filter:saturate(1.4) blur(16px);-webkit-backdrop-filter:saturate(1.4) blur(16px);border-top:1px solid var(--rule);
+  padding:0 max(8px,env(safe-area-inset-right,0px)) env(safe-area-inset-bottom,0px) max(8px,env(safe-area-inset-left,0px))}
+.tabbar nav{max-width:420px;margin:0 auto;display:grid;grid-template-columns:repeat(2,1fr)}
+.tab{border:0;background:none;cursor:pointer;display:grid;justify-items:center;gap:2px;padding:8px 0 6px;font-size:12px;line-height:1.3;color:var(--ink-3);min-height:58px;position:relative}
+.tab svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.tab[aria-selected="true"]{color:var(--ink);font-weight:700}
+.dot{position:absolute;top:7px;left:calc(50% + 9px);width:8px;height:8px;border-radius:50%;background:var(--sun)}
+@media (prefers-reduced-motion:no-preference){.story,.qa{animation:in .35s ease-out both}@keyframes in{from{opacity:.001;transform:translateY(6px)}to{opacity:1;transform:none}}}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <div class="mark">kotori</div>
+  <div class="scaler" role="group" aria-label="字級"><button type="button" id="zOut" aria-label="縮小字級">A−</button><output id="zVal">100%</output><button type="button" id="zIn" aria-label="放大字級">A+</button></div>
+  <button class="icon-btn" type="button" id="openSet" aria-label="設定"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></button>
+</div></header>
+
+<main id="main"><p class="empty"><b>正在打開這一期…</b></p></main>
+
+<div class="toast" id="toast" hidden></div>
+<div class="scrim" id="scrim" hidden><div class="sheet" id="sheet" role="dialog" aria-modal="true"></div></div>
+
+<div class="tabbar"><nav role="tablist" aria-label="檢視">
+  <button class="tab" role="tab" data-view="today" aria-selected="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>本期</button>
+  <button class="tab" role="tab" data-view="qa" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M9 9.5a3 3 0 1 1 3 3v1M12 15.5v.01"/></svg>大家問<i class="dot" id="qaDot" hidden></i></button>
+</nav></div>
+
+<script>
+// 回饋送到 Google 試算表的網址（Apps Script 部署後填入）
+const FEEDBACK_URL = '';
+
+(function(){
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ls={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const ST=['','沒幫助','幫助不大','普通','有幫助','非常有幫助'];
+let D=null; const S={name:ls.get('k-name',''),secs:ls.get('k-secs',null),fb:ls.get('k-fb',{}),read:ls.get('k-read',{}),asked:ls.get('k-asked',[]),view:'today'};
+
+/* font scale, remembered on this device */
+const STEPS=[.875,1,1.125,1.25,1.375,1.5,1.75];
+let si=STEPS.indexOf(Number(ls.get('k-scale',1))); if(si<0) si=1;
+function applyScale(){document.documentElement.style.setProperty('--scale',STEPS[si]);$('#zVal').textContent=Math.round(STEPS[si]*100)+'%';$('#zOut').disabled=si===0;$('#zIn').disabled=si===STEPS.length-1;ls.set('k-scale',STEPS[si]);}
+$('#zIn').onclick=()=>{if(si<STEPS.length-1){si++;applyScale();}};
+$('#zOut').onclick=()=>{if(si>0){si--;applyScale();}};
+applyScale();
+
+/* feedback queue: saved on the phone first, sent when online */
+function queue(rec){const q=ls.get('k-queue',[]);q.push(Object.assign({sid:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:S.name,edition:D?D.edition.id:'',ts:new Date().toISOString()},rec));ls.set('k-queue',q);flush();}
+let flushing=false;
+async function flush(){
+  if(flushing||!FEEDBACK_URL||!navigator.onLine) return; flushing=true;
+  let q=ls.get('k-queue',[]);
+  while(q.length){const r=q[0];
+    try{await fetch(FEEDBACK_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(r)});}catch(e){break}
+    q.shift();ls.set('k-queue',q);}
+  flushing=false;
+}
+addEventListener('online',flush);
+
+/* render */
+const greet=()=>{const h=new Date().getHours();return h<11?'早安':h<18?'午安':'晚安'};
+function visibleSecs(){return D.sections.filter(s=>!S.secs||S.secs.includes(s.id))}
+function visibleItems(){const ids=visibleSecs().map(s=>s.id);return D.items.filter(i=>ids.includes(i.sec))}
+function storyHTML(it){
+  const f=S.fb[it.id]||{}; const rd=S.read[it.id];
+  const orig=/[㐀-鿿]/.test(it.orig||'')?'':(it.orig?`<p class="orig">${esc(it.orig)}</p>`:'');
+  const det=(it.detail||[]).length?`<details class="more"><summary>再多讀一點・${it.detail.length} 個重點</summary><ul>${it.detail.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>${it.watch?`<p class="watch">${esc(it.watch)}</p>`:''}</details>`:'';
+  const extra=(it.extra_links||[]).map(l=>`<a class="link-out" href="${esc(l.u)}" target="_blank" rel="noopener">${esc(l.t)} ↗</a>`).join('');
+  const stars=[1,2,3,4,5].map(n=>`<button type="button" class="star ${f.stars>=n?'on':''}" data-star="${it.id}" data-n="${n}" aria-label="${n} 顆星：${ST[n]}" aria-pressed="${f.stars===n}">★</button>`).join('');
+  return `<article class="story ${rd?'read':''}" id="s-${it.id}" data-id="${it.id}">
+  <div class="tagrow">${it.action?'<span class="tag try-t">今天可以試</span>':''}<span class="tag">${esc(it.media)}</span><span>約 ${it.read} 分鐘</span></div>
+  <h3>${esc(it.title)}</h3>${orig}
+  <div class="byline"><span>${esc(it.date)}</span>${it.author?`<span>${esc(it.author)}</span>`:''}</div>
+  <p class="prose">${esc(it.summary)}</p>
+  <div class="why"><b>跟我們的關係</b>${esc(it.why)}</div>
+  ${it.action?`<div class="act">${esc(it.action)}</div>`:''}
+  ${det}
+  ${it.note?`<p class="note">${esc(it.note)}</p>`:''}
+  <div class="fb">
+    <div class="row"><a class="link-out" href="${esc(it.link)}" target="_blank" rel="noopener">讀原文 ↗</a>${extra}</div>
+    <div class="stars" role="group" aria-label="這篇對你有幫助嗎"><span class="l">有幫助嗎</span>${stars}<span class="st-t">${f.stars?ST[f.stars]:''}</span></div>
+    <textarea id="n-${it.id}" rows="1" placeholder="想說的、想問的，寫在這裡（選填）">${esc(f.note||'')}</textarea>
+    <div class="row"><button class="btn" type="button" data-send="${it.id}">送出</button><span class="sent" id="sn-${it.id}">${f.noteSent?'已送出':''}</span></div>
+  </div></article>`;
+}
+function todayHTML(){
+  const its=visibleItems(); const mins=its.reduce((a,i)=>a+(i.read||0),0);
+  const tryIt=its.find(i=>i.action);
+  const unreadQA=(D.qa||[]).filter(q=>S.name&&q.name===S.name&&!ls.get('k-qa-seen',[]).includes(q.id));
+  const allRead=its.length&&its.every(i=>S.read[i.id]);
+  const secs=visibleSecs().map((s,n)=>{const list=its.filter(i=>i.sec===s.id);
+    const body=list.length?list.map(storyHTML).join(''):`<div class="sec-empty">${esc((D.empty_note||{})[s.id]||'這期這一區沒有新內容。')}</div>`;
+    return `<section class="sec" id="sec-${s.id}"><div class="sec-h"><span class="no">No.${String(n+1).padStart(2,'0')}</span><h2>${esc(s.name)}</h2><span>${esc(s.sub)}</span></div>${body}</section>`}).join('');
+  return `<section class="hello"><div class="date">${esc(D.edition.label)}・${esc(D.edition.stamp||'')}</div>
+    <h1>${greet()}${S.name?'，'+esc(S.name):''}</h1>
+    <div class="meta">今天 ${its.length} 篇・約 ${mins} 分鐘</div>
+    ${unreadQA.length?`<button class="notice" type="button" data-go="qa"><b>●</b>你的問題有回答了，去看看</button>`:''}
+    ${D.lead?`<p class="lead">${esc(D.lead)}</p>`:''}</section>
+  <nav class="chips" id="chips">${visibleSecs().map(s=>`<a href="#sec-${s.id}" data-sec="${s.id}">${esc(s.name)}</a>`).join('')}</nav>
+  ${tryIt?`<section class="try"><div class="k">今天可以試</div><h2>${esc(tryIt.action)}</h2><p>出自：${esc(tryIt.title)}</p><button type="button" data-jump="${tryIt.id}">看這篇 →</button></section>`:''}
+  ${secs}
+  ${allRead?`<section class="endcard"><h2>本期讀完了</h2><p>謝謝你。明天早上會有新的一期。</p></section>`:''}
+  <section class="ask"><h2>想問什麼？</h2><p>咖啡、餐飲、吧台上遇到的問題都可以問。下一期會回答，所有人都看得到。</p>
+    <textarea id="askBox" rows="2" placeholder="例如：淺焙豆做冰美式，怎麼讓它不要那麼酸？"></textarea>
+    <div class="row"><button class="btn primary" type="button" id="askSend">送出問題</button><span class="sent" id="askSent"></span></div></section>
+  <p class="foot">${esc(D.foot||'')}</p>`;
+}
+function qaHTML(){
+  const qa=D.qa||[];
+  const mine=S.asked.filter(a=>!qa.some(q=>q.text===a.text));
+  return `<h1 class="view-h">大家問</h1><p class="view-sub">大家的提問，每天早上的新一期一起回答。</p>`+
+   (mine.length?`<div class="qa mine"><div class="who">你問的，下一期回答</div>${mine.map(a=>`<p class="q">${esc(a.text)}</p>`).join('')}</div>`:'')+
+   (qa.length?qa.map(q=>`<div class="qa ${S.name&&q.name===S.name?'mine':''}"><div class="who">${esc(q.name||'有人')} 問</div><p class="q">${esc(q.q)}</p><div class="a">${esc(q.a)}</div></div>`).join('')
+   :`<div class="empty"><b>還沒有人提問</b>在「本期」最下面的「想問什麼？」寫下你的問題，下一期就會在這裡回答。</div>`);
+}
+function render(){
+  const m=$('#main'); if(!D) return;
+  m.innerHTML=S.view==='qa'?qaHTML():todayHTML();
+  document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected',t.dataset.view===S.view));
+  const unread=(D.qa||[]).some(q=>!ls.get('k-qa-seen',[]).includes(q.id));
+  $('#qaDot').hidden=!unread||S.view==='qa';
+  if(S.view==='qa') ls.set('k-qa-seen',(D.qa||[]).map(q=>q.id));
+  watchRead(); spyChips();
+}
+
+/* "讀過": a story counts as read after its end has been on screen for a moment, or once rated */
+let ro=null;
+function watchRead(){
+  if(ro) ro.disconnect(); if(!('IntersectionObserver' in window)) return;
+  const timers={};
+  ro=new IntersectionObserver(es=>es.forEach(e=>{const id=e.target.closest('.story').dataset.id;
+    if(e.isIntersecting){timers[id]=setTimeout(()=>markRead(id),1500)}else clearTimeout(timers[id])}),{threshold:1});
+  document.querySelectorAll('.story .fb').forEach(x=>ro.observe(x));
+}
+function markRead(id){ if(S.read[id]) return; S.read[id]=Date.now(); ls.set('k-read',S.read);
+  const el=document.getElementById('s-'+id); if(el) el.classList.add('read');
+  const its=visibleItems(); if(its.length&&its.every(i=>S.read[i.id])&&!document.querySelector('.endcard')){const y=scrollY;render();scrollTo(0,y);} }
+let co=null;
+function spyChips(){ if(co) co.disconnect(); const secs=[...document.querySelectorAll('.sec')]; if(!secs.length) return;
+  co=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('.chips a').forEach(a=>a.classList.toggle('on',a.dataset.sec===e.target.id.slice(4)))}}),{rootMargin:'-30% 0px -60% 0px'});
+  secs.forEach(s=>co.observe(s)); }
+
+/* onboarding & settings */
+function openSheet(first){
+  const secs=D.sections;
+  $('#sheet').innerHTML=`<h2>${first?'歡迎':'設定'}</h2>${first?'<p>每天早上一期，咖啡和餐飲的新知。先告訴我們你是誰，再勾你想看的。</p>':''}
+   <label class="f">你的名字<input type="text" id="fName" maxlength="20" placeholder="例如：小明" value="${esc(S.name)}" autocomplete="nickname"></label>
+   <div class="f" style="font-size:.875rem;font-weight:700">想看的內容</div>
+   <div class="picks">${secs.map(s=>`<label class="pick"><input type="checkbox" value="${s.id}" ${!S.secs||S.secs.includes(s.id)?'checked':''}><span>${esc(s.name)}<small>${esc(s.sub)}</small></span></label>`).join('')}</div>
+   <button class="btn primary" type="button" id="fSave">${first?'開始讀':'儲存'}</button>
+   ${first?'':'<p style="font-size:.8125rem;color:var(--ink-3)">想放到手機主畫面：iPhone 用 Safari 打開，按「分享」→「加入主畫面」。</p>'}`;
+  $('#scrim').hidden=false; setTimeout(()=>{const n=$('#fName');if(first&&n)n.focus()},50);
+  $('#fSave').onclick=()=>{const n=$('#fName').value.trim(); if(!n){$('#fName').focus();toast('請先寫名字');return}
+    const picked=[...document.querySelectorAll('.picks input:checked')].map(x=>x.value); if(!picked.length){toast('至少勾一個');return}
+    S.name=n; S.secs=picked; ls.set('k-name',n); ls.set('k-secs',picked); $('#scrim').hidden=true; render(); toast(first?'歡迎，'+n:'已儲存'); flush();};
+}
+$('#openSet').onclick=()=>D&&openSheet(false);
+$('#scrim').addEventListener('click',e=>{if(e.target.id==='scrim'&&S.name)$('#scrim').hidden=true});
+
+/* events */
+document.addEventListener('click',e=>{
+  const st=e.target.closest('[data-star]'); if(st){const id=st.dataset.star,n=Number(st.dataset.n);const it=D.items.find(i=>i.id===id);
+    const f=S.fb[id]=Object.assign({},S.fb[id]); f.stars=f.stars===n?0:n; ls.set('k-fb',S.fb);
+    queue({type:'rating',itemId:id,title:it.title,stars:f.stars||'',text:''}); markRead(id);
+    const art=st.closest('.story'); art.querySelectorAll('.star').forEach(b=>{b.classList.toggle('on',Number(b.dataset.n)<=f.stars);b.setAttribute('aria-pressed',Number(b.dataset.n)===f.stars)}); art.querySelector('.st-t').textContent=f.stars?ST[f.stars]:''; return;}
+  const sd=e.target.closest('[data-send]'); if(sd){const id=sd.dataset.send;const t=$('#n-'+id).value.trim();if(!t){toast('先寫點什麼');return}
+    const it=D.items.find(i=>i.id===id); const f=S.fb[id]=Object.assign({},S.fb[id],{note:t,noteSent:true}); ls.set('k-fb',S.fb);
+    queue({type:'note',itemId:id,title:it.title,stars:f.stars||'',text:t}); $('#sn-'+id).textContent='已送出'; toast('收到了，謝謝'); return;}
+  if(e.target.id==='askSend'){const t=$('#askBox').value.trim(); if(!t){toast('先寫下你的問題');return}
+    queue({type:'question',itemId:'',title:'',stars:'',text:t}); S.asked.push({text:t,ts:Date.now()}); ls.set('k-asked',S.asked);
+    $('#askBox').value=''; $('#askSent').textContent='已送出，下一期回答'; toast('問題送出了'); return;}
+  const tb=e.target.closest('.tab'); if(tb){S.view=tb.dataset.view;render();scrollTo(0,0);return;}
+  const go=e.target.closest('[data-go]'); if(go){S.view=go.dataset.go;render();scrollTo(0,0);return;}
+  const j=e.target.closest('[data-jump]'); if(j){const el=$('#s-'+j.dataset.jump); if(el) el.scrollIntoView({behavior:'smooth',block:'start'}); return;}
+});
+function toast(m){const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>t.hidden=true,1800);}
+
+/* boot */
+fetch('data.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(d=>{D=d;render();if(!S.name)openSheet(true);flush();})
+ .catch(()=>{$('#main').innerHTML='<p class="empty"><b>暫時打不開這一期</b>請確認網路後重新整理。</p>'});
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
+})();
+</script>
+</body>
+</html>

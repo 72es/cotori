@@ -1,0 +1,214 @@
+{
+ "edition": {
+  "id": "2026-10-27-am",
+  "label": "10月27日 週二",
+  "stamp": "第一期・試刊"
+ },
+ "lead": "第一期 kotori。這期有一個吧台馬上能試的實驗（換濾杯調酸甜）、嘉義咖啡節的競標行情，和一篇講厭氧發酵到底加多少分的研究。讀完按星星告訴我們有沒有幫助，有想問的寫在下面，下一期回答。",
+ "sections": [
+  {
+   "id": "coffee",
+   "name": "咖啡產業",
+   "sub": "行情、台灣與世界、門市"
+  },
+  {
+   "id": "science",
+   "name": "咖啡科學",
+   "sub": "烘豆、萃取、處理法、產地"
+  },
+  {
+   "id": "dyk",
+   "name": "你知道嗎",
+   "sub": "值得慢慢讀的深度內容"
+  },
+  {
+   "id": "food",
+   "name": "餐飲",
+   "sub": "餐飲業與消費者"
+  }
+ ],
+ "items": [
+  {
+   "id": "basket-acidity-sweetness",
+   "sec": "science",
+   "hl": "long",
+   "title": "濾杯孔型也是萃取參數：同一支豆，換濾杯就能在「明亮」和「甜感」之間切換",
+   "orig": "Acidity vs sweetness: How basket design affects espresso extraction",
+   "date": "2026/10/26",
+   "media": "Perfect Daily Grind",
+   "author": "Bhavi（受訪：Davide Spinelli）",
+   "tier": "T2",
+   "read": 9,
+   "summary": "這篇的核心主張是：濃縮的酸和甜不是豆子固定的性格，而是萃取出來的結果，濾杯要像研磨度、水溫一樣當成配方參數。義式甜感主要來自三個訊號：醇厚度、懸浮的脂質和克立瑪。文章比較 IMS 兩款 58mm 濾杯：孔洞平均分布的 NT 讓出水均勻，杯子更乾淨、酸質更清楚；孔洞集中在中央的 Big Bang 讓出水往中間收，口感更圓、甜感更多，也比較能容忍布粉的小失誤。",
+   "why": "這是吧台馬上能試的實驗。客人覺得某支豆太酸時，不一定要換豆子，先換濾杯、重新調研磨度，酸甜平衡可能就不一樣。值得找一支偏酸的豆，用店裡的兩種濾杯各調一次，盲測比較看看。",
+   "detail": [
+    "分辨好的酸和不好的酸，四個問題：會不會讓你分泌唾液、口腔乾淨；酸有沒有可辨認的形狀（柑橘、紅莓、蘋果）且底下有甜；收尾乾淨持久還是消失後留下澀感；延長萃取後，如果酸降甜升，原本就是萃取不足。",
+    "研究引用：精品豆的酸感主要來自有機酸，商業豆的酸澀則和綠原酸較相關。",
+    "換濾杯一定要重新調研磨度：固定粉量、液重、溫度和布粉方式，先打一杯參考，再一次只改一個變數，通常兩三杯就夠，最後用折射儀和杯測確認。",
+    "最常見的錯誤：沒有重調就比較，把萃取時間造成的差異算到濾杯頭上；其次是改粉量去補償，等於換了整個配方。",
+    "粉量參考：23.5mm 的 Big Bang，深焙 17–19 克、中焙 18–20 克、淺焙 19–21 克。",
+    "門市管理建議：配方卡寫上濾杯型號；每個濾杯做記號或固定配一支把手；每支豆設預設濾杯，另一款當修正工具。",
+    "評估指標：TDS 與萃取率、五分制感官評分、不同咖啡師與時段的萃取時間一致性，以及客人的反應（倒掉重做的杯數、對酸的抱怨、單點濃縮的銷量）。"
+   ],
+   "note": "受訪者是 IMS-Filtri 的品牌大使，IMS 也是 Perfect Daily Grind 的贊助商，屬廠商觀點；原理可信，但不必只用這個品牌驗證。",
+   "action": "這週找一支偏酸的單品，用店裡兩種濾杯各調一次，盲測比較。",
+   "link": "https://perfectdailygrind.com/2026/10/espresso-basket-design-extraction/"
+  },
+  {
+   "id": "chiayi-auction",
+   "sec": "coffee",
+   "hl": "short",
+   "title": "嘉義咖啡節紫金級競標：水洗批次 5 公斤 20 萬元標出，每公斤 4 萬元",
+   "orig": "嘉義咖啡節競標熱烈 水洗咖啡5公斤20萬元標出",
+   "date": "2026/10/26",
+   "media": "自由時報（標題）、報新聞（縣府資料）",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": "上一期留下的追蹤題有了答案：啡嚐嘉義咖啡節最後一天的紫金級公開競標，一支水洗批次 5 公斤以 20 萬元標出，換算每公斤生豆 4 萬元。這次競標的豆子來自縣府 10 月 17、18 日辦的產地杯測分級評鑑，73 支生豆依處理法和品種分五組，選出 5 支紫金級、13 支金級、11 支銀級和 32 支優等。",
+   "why": "每公斤 4 萬元是收藏級的價格，不是日常採購行情，但它代表台灣豆正在建立自己的價格標竿。跟客人聊台灣咖啡時，這是一個好話題：嘉義現在用分級評鑑加公開競標，讓好豆子被看見。",
+   "detail": [
+    "評鑑導入臺灣咖啡分類分級系統，分水洗、蜜處理、日曬、藝伎水洗、藝伎其他五組。",
+    "評審：12 位國內外專業評審，加上 2 位通過考評的在地種子評審（仙井咖啡莊園、山時棲咖啡莊園）。",
+    "人才培育：縣府已輔導 20 位種子成員取得 SCA 的 CVA 咖啡價值評估證照。",
+    "26 日下午同時舉辦杯測分級媒合，讓金級、銀級批次直接對接採購端。",
+    "上期提到：嘉義咖啡種植面積約 200 公頃，走精品路線；縣府方向是品質評鑑、品牌行銷、國際交流、產業媒合。"
+   ],
+   "note": "自由時報全文讀不到，得標者、批次莊園和其他紫金級批次的價格待下期補；評鑑數字取自縣府發布的資料。",
+   "link": "https://news.ltn.com.tw/news/ChiayiCounty/breakingnews/5619431",
+   "extra_links": [
+    {
+     "t": "報新聞：杯測分級與競標說明",
+     "u": "https://n.yam.com/Article/20261026837927"
+    }
+   ]
+  },
+  {
+   "id": "brazil-real-coffee",
+   "sec": "coffee",
+   "hl": "short",
+   "title": "巴西大選後雷亞爾重挫，阿拉比卡期貨回落約 1.5%",
+   "orig": "Brazil markets face sell off as Lula stuns investors with election win",
+   "date": "2026/10/26",
+   "media": "Business Today（引述彭博）、Rio Times、Trading Economics、Fresh Cup（引述彭博）",
+   "author": "",
+   "tier": "T3",
+   "read": 4,
+   "summary": "巴西總統決選結果出爐後，週日晚間芝商所的美元兌雷亞爾期貨上漲約一成，隱含雷亞爾從上週五約 4.98 跌到 5.6 附近；在東京掛牌的巴西股票 ETF 盤中最多跌 16%，是 2020 年以來最大跌幅。紐約阿拉比卡期貨 10 月 26 日報價約每磅 302.85 美分，跌約 1.5%。彭博另一篇分析指出，巴西豐收理應壓低價格，但交易所認證庫存處在 1999 年以來最低，價格一直下不來。",
+   "why": "巴西是全世界最大的咖啡產國，它的貨幣和收成會牽動全球生豆價格，最後也會反映在我們進貨的成本上。這則讓大家知道，咖啡價格不只看天氣，也看匯率和政治。",
+   "detail": [
+    "選舉結果：盧拉得票約 51.8%，佛拉維歐．波索納洛 48.2%；波索納洛陣營要求宣告決選無效。",
+    "花旗週五調查 73 位投資人，多數預期盧拉勝選後雷亞爾至少跌 5%，利率交換也會上升超過 1 個百分點。",
+    "巴西券商 Monte Bravo 預估，聖保羅股市開盤第一個小時可能跌 11%，交易員預期會觸發熔斷。這段寫作時巴西股市還沒開盤。",
+    "雷亞爾今年稍早升值，讓巴西農民出口收入減少、更不想賣豆；這股力量現在可能反轉。",
+    "彭博引述 Archer Consulting：部分巴西豆在私人市場拿得到溢價，農民沒有動機交割到交易所；等巴西和其他產區的過剩供給真正到貨，期貨可能大跌。",
+    "阿拉比卡報價取自 Trading Economics 的差價合約參考價，和交易所收盤價可能略有差距。"
+   ],
+   "watch": "觀察點：雷亞爾本週收在哪裡，以及巴西農民會不會開始把囤著的豆子賣出。",
+   "note": "雷亞爾與 ETF 數字來自亞洲時段的期貨與東京盤，屬開盤前訊號；巴西本地市場實際收盤，下一期再對照。",
+   "link": "https://www.businesstoday.in/markets/stocks/story/brazil-markets-face-sell-off-as-lula-stuns-investors-with-election-win-563551-2026-10-26",
+   "extra_links": [
+    {
+     "t": "Rio Times：雷亞爾期貨",
+     "u": "https://www.riotimesonline.com/brazil-real-falls-after-lula-runoff-win/"
+    },
+    {
+     "t": "Fresh Cup 咖啡週報（彭博庫存分析）",
+     "u": "https://freshcup.com/coffee-news-club-october-26th/"
+    },
+    {
+     "t": "Trading Economics 咖啡報價",
+     "u": "https://tradingeconomics.com/commodity/coffee"
+    }
+   ]
+  },
+  {
+   "id": "dyk-carbonic-maceration",
+   "sec": "dyk",
+   "hl": "long",
+   "title": "你知道嗎｜二氧化碳浸漬發酵做多久？一篇論文比較了 31°C 和 36°C、2 到 10 天",
+   "orig": "Profile of chemical compounds, aroma, and cup quality of arabica coffee from ohmic-heated carbonic maceration",
+   "date": "2026/03/19",
+   "media": "AIMS Agriculture and Food",
+   "author": "Mustafa Arnida 等（印尼哈山努丁大學）",
+   "tier": "T1",
+   "read": 8,
+   "summary": "二氧化碳浸漬（carbonic maceration）是從葡萄酒借來的處理法：把整顆咖啡果放進充滿二氧化碳的密閉槽裡發酵。這篇開放取用的論文，用可控溫的歐姆加熱發酵槽，比較 31°C 和 36°C 兩種溫度、48、144、240 小時三種時間，再用液相層析、氣相層析質譜和杯測檢驗。四組發酵處理的杯測分數是 85.0 到 85.75 分，對照組是 84.5 分；發酵越久，糖分越低，酚類、吡啶這類揮發物越多。",
+   "why": "店裡如果有厭氧或二氧化碳浸漬的豆子，這篇能幫你跟客人說清楚：這種處理大約讓杯測分數提高 0.5 到 1.25 分，不是神奇的跳級；發酵太久會往發酵味、酚類走。說明風味時，可以講得更精準、也更誠實。",
+   "detail": [
+    "處理條件：阿拉比卡整顆咖啡果，在富含二氧化碳的厭氧環境中發酵，用歐姆加熱控溫在 31°C 或 36°C。",
+    "綠原酸：3-CQA 和 4-CQA 隨發酵時間下降；5-CQA 在 36°C、240 小時時持平或略升。",
+    "葫蘆巴鹼：低溫時相對穩定，時間拉長、尤其 36°C 時下降。",
+    "咖啡因在中等時間達到高峰後持平；糖分整體隨時間下降，10 天後明顯偏低。",
+    "揮發物：不同處理在主成分分析中分群明顯；時間越長，酚類、醇類、吡咯、吡啶等越多。",
+    "杯測風味描述包括堅果、花香、檸檬、紅糖、香料、果香和酒香。",
+    "限制：只測兩個溫度、三個時間點；摘要沒有說明杯測分數差異的統計顯著性，也沒有交代重複次數，結論只適用於這套設備和條件。"
+   ],
+   "note": "你知道嗎專題：題目是「厭氧與二氧化碳浸漬發酵」。這裡整理的是期刊摘要與目錄資訊。",
+   "link": "https://www.aimspress.com/article/doi/10.3934/agrfood.2026009"
+  },
+  {
+   "id": "coffee-cacao-lab",
+   "sec": "science",
+   "hl": "short",
+   "title": "美國國務院出資 800 萬美元，成立咖啡與可可創新實驗室，研究抗逆品種",
+   "orig": "UH Mānoa and Clemson to lead federal program to boost US, global coffee, cacao production",
+   "date": "2026/10/26",
+   "media": "Fresh Cup（引述 Maui Now、Clemson 新聞稿）",
+   "author": "Fionn Pooler",
+   "tier": "T2",
+   "read": 3,
+   "summary": "夏威夷大學馬諾阿分校和克萊門森大學將共同主持一個多年期的「咖啡與可可創新實驗室」，第一年由美國國務院出資 800 萬美元。計畫要和夏威夷及世界各地的農民、研究者合作，開發更強的作物品種、測試田間管理方法，提升產區面對氣候變遷的韌性。夏威夷是美國唯一同時商業種植咖啡和可可的州。",
+   "why": "咖啡的品種改良要好幾年才會看到成果，但這類研究決定了未來我們買得到什麼樣的豆子：更抗病、更耐氣候變化。知道研究在往哪裡走，跟客人聊產地時也更有底。",
+   "detail": [
+    "主持單位：夏威夷大學馬諾阿分校熱帶農業學院、克萊門森大學。",
+    "資金：美國國務院出資，第一年 800 萬美元，計畫總額為數百萬美元等級的多年期研究。",
+    "工作內容：開發改良品種、測試耕作方法、強化生產系統，從夏威夷擴大到全球產區。",
+    "背景：2025 年的大規模裁員與經費凍結曾影響夏威夷咖啡產業；美國國際開發署關閉時，資助了全球數十個咖啡計畫。",
+    "同期其他研究新聞：衣索比亞研究團隊用超音波把咖啡羊皮層變成高純度纖維素，詳見意外區。"
+   ],
+   "link": "https://freshcup.com/coffee-news-club-october-26th/"
+  },
+  {
+   "id": "parchment",
+   "sec": "science",
+   "hl": "long",
+   "updated": true,
+   "title": "咖啡羊皮層變高純度纖維素：衣索比亞團隊用超音波，把純度從 83% 拉到 92%",
+   "orig": "Impact of combined ultrasound-assisted alkaline delignification and two-stage bleaching for efficient microfibrillated cellulose isolation from Ethiopian coffee parchment",
+   "date": "2026/10/19",
+   "media": "Case Studies in Chemical and Environmental Engineering（經 Bioengineer、Sprudge、Ethiopian Business Review 報導）",
+   "author": "B. T. Kidanu、A. K. Sibhatu、B. Z. Tizazu（阿迪斯阿貝巴科技大學）",
+   "tier": "T1",
+   "read": 5,
+   "summary": "羊皮層是咖啡豆外面那層紙一樣的薄殼，乾燥脫殼時會被去掉，約占咖啡果乾重的 6% 到 10%，在衣索比亞多半直接在田裡燒掉。研究團隊在鹼液處理時同時打高強度超音波，再做兩段漂白，最後得到純度 91.8% 的微纖化纖維素，去除了 93% 的木質素；傳統做法只有 83.3% 純度、72.5% 去木質素。這種纖維素耐熱、在水中分散均勻，適合做複合材料、薄膜和塗層。",
+   "why": "羊皮層是咖啡豆外面那層薄殼，我們拿到生豆時早就被去掉了。這個研究讓產地的廢棄物有機會變成另一份收入，是講咖啡永續時一個具體、有數字的例子。",
+   "detail": [
+    "原理：超音波在液體中產生微小氣泡並瞬間崩解（空蝕效應），把植物細胞壁打開，讓化學藥劑更容易滲透。",
+    "第一步鹼處理：傳統做法用 4% 氫氧化鈉、90°C、4 小時，只去掉約 29% 的木質素；加上 60 分鐘超音波後提高到約 50%，纖維素含量從 54.3% 升到 71.8%，並保留 96.3% 的原始纖維素。",
+    "省藥劑：4% 鹼液加超音波，回收的纖維素比 8% 鹼液不加超音波還多。",
+    "兩段漂白：先用鹼性過氧化氫，再用 pH 4.5 的亞氯酸鈉；殘留木質素從 25.5% 降到 3.5%。",
+    "材料性質：結晶度從 60.4% 升到 80.8%；耐熱到 264°C 才開始分解，最後殘碳約 4%（原料超過 25%）；顆粒約 1.6 微米，在水中不易結塊。",
+    "可能用途：塑膠和生質聚合物的補強填料、薄膜、塗層；纖維素本身也用於紙板、生質塑膠、紡織、食品與化妝品。",
+    "作者自己點出的限制：仍需大量能源和化學品（多次漂白、清洗、乾燥）；沒有生命週期和成本分析，環境與經濟效益還不能確認；超音波從實驗室燒瓶放大到工廠是很大的工程挑戰。"
+   ],
+   "note": "數字來自 Bioengineer 與 Ethiopian Business Review 對論文的整理，期刊全文未讀。",
+   "link": "https://bioengineer.org/sound-waves-turn-ethiopian-coffee-waste-into-high-grade-cellulose/",
+   "extra_links": [
+    {
+     "t": "Sprudge 原報導",
+     "u": "https://sprudge.com/researchers-created-a-way-to-turn-coffee-parchment-into-highly-sought-after-cellulose-1492471.html"
+    },
+    {
+     "t": "Ethiopian Business Review",
+     "u": "https://ethiopianbusinessreview.net/ethiopian-researchers-turn-coffee-waste-into-high-purity-cellulose-using-sound-waves/"
+    }
+   ]
+  }
+ ],
+ "qa": [],
+ "empty_note": {
+  "food": "這期沒有夠格的餐飲新聞，下一期開始補上。"
+ },
+ "foot": "每天早上更新一次。內容是依原文整理的繁中摘要，數字以原文為準。"
+}
