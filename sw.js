@@ -1,5 +1,5 @@
 // kotori offline cache: app shell cache-first, data.json network-first (falls back to last copy).
-const V = 'kotori-v1';
+const V = 'kotori-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './apple-touch-icon.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(V).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));

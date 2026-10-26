@@ -82,11 +82,11 @@ main{max-width:var(--col);margin:0 auto}
 .chips a.on{background:var(--accent);color:var(--accent-ink)}
 
 /* today-try */
-.try{margin-top:24px;padding:20px;border-radius:20px;background:var(--accent-wash)}
-.try .k{font-size:.75rem;font-weight:700;letter-spacing:.14em;color:var(--accent)}
-.try h2{font-size:1.1875rem;font-weight:700;line-height:1.55;margin:6px 0 4px}
-.try p{margin:0;color:var(--ink-2);font-size:.9375rem}
-.try button{margin-top:10px;border:0;background:none;padding:0;color:var(--accent);font-weight:700;cursor:pointer}
+.keys{margin-top:22px;padding:20px 20px 16px;border-radius:20px;background:var(--accent-wash)}
+.keys .k{font-size:.75rem;font-weight:700;letter-spacing:.14em;color:var(--accent)}
+.keys ol{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:10px;counter-reset:k}
+.keys li{display:grid;grid-template-columns:1.5rem 1fr;font-size:1rem;line-height:1.75;counter-increment:k}
+.keys li::before{content:counter(k);font-size:.8125rem;font-weight:700;color:var(--accent);padding-top:.25em}
 
 /* sections & stories */
 .sec{padding-top:40px;scroll-margin-top:80px}
@@ -99,10 +99,12 @@ main{max-width:var(--col);margin:0 auto}
 .story.read::after{content:"讀過";position:absolute;top:18px;right:20px;font-size:.75rem;color:var(--ok);font-weight:700}
 .tagrow{display:flex;gap:8px;flex-wrap:wrap;font-size:.75rem;color:var(--ink-3)}
 .tag{padding:2px 10px;border-radius:999px;background:var(--wash);font-weight:500}
-.tag.try-t{background:var(--sun-wash);color:var(--sun);font-weight:700}
 .story h3{font-weight:900;font-size:clamp(1.375rem,2.6vw,1.6875rem);line-height:1.45;margin:12px 0 6px;letter-spacing:-.005em}
 .orig{font-size:.875rem;color:var(--ink-3);margin:0 0 10px;line-height:1.5}
-.byline{font-size:.8125rem;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:4px 12px;margin-bottom:16px}
+.byline{font-size:.8125rem;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:4px 12px;margin:8px 0 16px}
+.byline .src{font-weight:700;color:var(--ink-2)}
+.act .tl{color:var(--sun);margin-right:6px}
+.why b{font-size:1.125rem!important;letter-spacing:0!important}
 .prose{font-size:1.0625rem;line-height:1.9;margin:0 0 16px}
 .why{border-radius:14px;background:var(--accent-wash);padding:14px 16px;margin:0 0 14px;font-size:1rem;line-height:1.85}
 .why b{display:block;font-size:.75rem;letter-spacing:.12em;color:var(--accent);margin-bottom:2px}
@@ -236,12 +238,11 @@ function storyHTML(it){
   const extra=(it.extra_links||[]).map(l=>`<a class="link-out" href="${esc(l.u)}" target="_blank" rel="noopener">${esc(l.t)} ↗</a>`).join('');
   const stars=[1,2,3,4,5].map(n=>`<button type="button" class="star ${f.stars>=n?'on':''}" data-star="${it.id}" data-n="${n}" aria-label="${n} 顆星：${ST[n]}" aria-pressed="${f.stars===n}">★</button>`).join('');
   return `<article class="story ${rd?'read':''}" id="s-${it.id}" data-id="${it.id}">
-  <div class="tagrow">${it.action?'<span class="tag try-t">今天可以試</span>':''}<span class="tag">${esc(it.media)}</span><span>約 ${it.read} 分鐘</span></div>
   <h3>${esc(it.title)}</h3>${orig}
-  <div class="byline"><span>${esc(it.date)}</span>${it.author?`<span>${esc(it.author)}</span>`:''}</div>
+  <div class="byline"><span class="src">${esc(it.media)}${it.author?'・'+esc(it.author):''}</span><span>約 ${it.read} 分鐘</span><span>${esc(it.date)}</span></div>
   <p class="prose">${esc(it.summary)}</p>
-  <div class="why"><b>跟我們的關係</b>${esc(it.why)}</div>
-  ${it.action?`<div class="act">${esc(it.action)}</div>`:''}
+  <div class="why"><b aria-label="跟我們的關係">🦉</b>${esc(it.why)}</div>
+  ${it.action?`<div class="act"><span class="tl">試試看</span>${esc(it.action)}</div>`:''}
   ${det}
   ${it.note?`<p class="note">${esc(it.note)}</p>`:''}
   <div class="fb">
@@ -253,7 +254,6 @@ function storyHTML(it){
 }
 function todayHTML(){
   const its=visibleItems(); const mins=its.reduce((a,i)=>a+(i.read||0),0);
-  const tryIt=its.find(i=>i.action);
   const unreadQA=(D.qa||[]).filter(q=>S.name&&q.name===S.name&&!ls.get('k-qa-seen',[]).includes(q.id));
   const allRead=its.length&&its.every(i=>S.read[i.id]);
   const secs=visibleSecs().map((s,n)=>{const list=its.filter(i=>i.sec===s.id);
@@ -264,8 +264,8 @@ function todayHTML(){
     <div class="meta">今天 ${its.length} 篇・約 ${mins} 分鐘</div>
     ${unreadQA.length?`<button class="notice" type="button" data-go="qa"><b>●</b>你的問題有回答了，去看看</button>`:''}
     ${D.lead?`<p class="lead">${esc(D.lead)}</p>`:''}</section>
+  ${(D.keys||[]).length?`<section class="keys"><div class="k">本期重點整理</div><ol>${D.keys.map(k=>`<li>${esc(k)}</li>`).join('')}</ol></section>`:''}
   <nav class="chips" id="chips">${visibleSecs().map(s=>`<a href="#sec-${s.id}" data-sec="${s.id}">${esc(s.name)}</a>`).join('')}</nav>
-  ${tryIt?`<section class="try"><div class="k">今天可以試</div><h2>${esc(tryIt.action)}</h2><p>出自：${esc(tryIt.title)}</p><button type="button" data-jump="${tryIt.id}">看這篇 →</button></section>`:''}
   ${secs}
   ${allRead?`<section class="endcard"><h2>本期讀完了</h2><p>謝謝你。明天早上會有新的一期。</p></section>`:''}
   <section class="ask"><h2>想問什麼？</h2><p>咖啡、餐飲、吧台上遇到的問題都可以問。下一期會回答，所有人都看得到。</p>
