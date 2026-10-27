@@ -2,7 +2,7 @@
 <html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
 <title>cotori</title>
 <meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#171816" media="(prefers-color-scheme: dark)">
@@ -250,6 +250,16 @@ function applyScale(){document.documentElement.style.setProperty('--scale',STEPS
 $('#zIn').onclick=()=>{if(si<STEPS.length-1){si++;applyScale();}};
 $('#zOut').onclick=()=>{if(si>0){si--;applyScale();}};
 applyScale();
+/* two-finger pinch changes the text size instead of zooming the page, so the top and bottom bars stay put */
+let pd=null;
+const dist=t=>Math.hypot(t[0].clientX-t[1].clientX,t[0].clientY-t[1].clientY);
+['gesturestart','gesturechange','gestureend'].forEach(n=>document.addEventListener(n,e=>e.preventDefault()));
+document.addEventListener('touchstart',e=>{pd=e.touches.length===2?dist(e.touches):null},{passive:true});
+document.addEventListener('touchmove',e=>{ if(e.touches.length!==2) return; e.preventDefault(); if(!pd){pd=dist(e.touches);return}
+  const r=dist(e.touches)/pd;
+  if(r>1.18&&si<STEPS.length-1){si++;applyScale();pd=dist(e.touches)}
+  else if(r<.85&&si>0){si--;applyScale();pd=dist(e.touches)} },{passive:false});
+document.addEventListener('touchend',e=>{if(e.touches.length<2) pd=null},{passive:true});
 
 /* outbox: kept on the phone, sent when online. Reading events carry no name. */
 const ANON=['read','open_skip','open_source','save'];
@@ -416,7 +426,7 @@ function tidy(){ for(const id of Object.keys(S.saved)){const fresh=D.items.find(
 async function load(){ const r=await fetch('data.json?v='+Date.now(),{cache:'no-store'}); D=await r.json(); tidy(); render(); if(!S.name) openSheet(true); flush(); }
 load().catch(()=>{$('#main').innerHTML='<p class="empty"><b>暫時打不開</b>請確認網路後再往下拉重新整理。</p>'});
 let y0=null,pulled=0,busy=false; const ptr=$('#ptr');
-addEventListener('touchstart',e=>{ if(scrollY<=0&&!busy&&$('#scrim').hidden) y0=e.touches[0].clientY; else y0=null; },{passive:true});
+addEventListener('touchstart',e=>{ if(scrollY<=0&&!busy&&$('#scrim').hidden) y0=e.touches.length===1?e.touches[0].clientY:null; else y0=null; },{passive:true});
 addEventListener('touchmove',e=>{ if(y0==null) return; pulled=Math.max(0,Math.min(110,(e.touches[0].clientY-y0)*.5)); ptr.style.transition='none'; ptr.style.height=pulled+'px'; ptr.classList.toggle('flap',pulled>60); },{passive:true});
 addEventListener('touchend',async()=>{ if(y0==null) return; y0=null; ptr.style.transition='';
   if(pulled>60){busy=true; ptr.style.height='64px'; ptr.classList.add('flap'); try{await load()}catch(e){toast('重新整理失敗，稍後再試')}
