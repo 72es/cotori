@@ -424,7 +424,11 @@ function tidy(){ for(const id of Object.keys(S.saved)){const fresh=D.items.find(
   const keep=new Set(D.items.map(i=>i.id).concat(Object.keys(S.saved))); for(const k of Object.keys(S.read)) if(!keep.has(k)) delete S.read[k]; ls.set('k-read',S.read); }
 
 /* load & pull to refresh */
-async function load(){ const r=await fetch('data.json?v='+Date.now(),{cache:'no-store'}); D=await r.json(); tidy(); render(); if(!S.name) openSheet(true); flush(); }
+/* a category added later is switched on for everyone who already picked their categories */
+function newSecs(){ const ids=D.sections.map(x=>x.id); const known=ls.get('k-known',['industry','science','fun','food','skip']);
+  if(S.secs){const add=ids.filter(id=>!known.includes(id)&&!S.secs.includes(id)); if(add.length){S.secs=S.secs.concat(add);ls.set('k-secs',S.secs);}}
+  ls.set('k-known',ids); }
+async function load(){ const r=await fetch('data.json?v='+Date.now(),{cache:'no-store'}); D=await r.json(); newSecs(); tidy(); render(); if(!S.name) openSheet(true); flush(); }
 load().catch(()=>{$('#main').innerHTML='<p class="empty"><b>暫時打不開</b>請確認網路後再往下拉重新整理。</p>'});
 let y0=null,pulled=0,busy=false; const ptr=$('#ptr');
 addEventListener('touchstart',e=>{ if(scrollY<=0&&!busy&&$('#scrim').hidden) y0=e.touches.length===1?e.touches[0].clientY:null; else y0=null; },{passive:true});
