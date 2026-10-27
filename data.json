@@ -464,7 +464,9 @@
      "t": "2024 戴維斯浸泡式研究",
      "u": "https://www.nature.com/articles/s41598-024-69867-6"
     }
-   ]
+   ],
+   "sid": "mvqop591cichy",
+   "date": "2026-10-28"
   },
   {
    "id": "q-1028-2",
@@ -480,7 +482,9 @@
      "t": "Barista Magazine：精品羅布斯塔",
      "u": "https://www.baristamagazine.com/exploring-speciality-robusta-category/"
     }
-   ]
+   ],
+   "sid": "mvqxuhshtj1i0",
+   "date": "2026-10-28"
   },
   {
    "id": "q-1028-3",
@@ -500,7 +504,9 @@
      "t": "DCN 週報（ECF 指引）",
      "u": "https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/"
     }
-   ]
+   ],
+   "sid": "mvqxidp8de70l",
+   "date": "2026-10-28"
   },
   {
    "id": "q-1028-4",
@@ -512,13 +518,17 @@
      "t": "食力：台灣咖啡國際競標 Top 20",
      "u": "https://www.foodnext.net/news/newsnow/paper/6111195216"
     }
-   ]
+   ],
+   "sid": "mvqfrvafrgbhg",
+   "date": "2026-10-28"
   },
   {
    "id": "q-1028-5",
    "name": "許恬恬",
    "q": "想知道台灣和國際藝術、設計的新聞、展覽、專欄和評論，可以新增一個藝術設計的分類嗎？",
-   "a": "謝謝提議！cotori 目前專注在咖啡和餐飲，要不要加「藝術設計」分類，已經轉給 Ben 決定，有結果會在這裡告訴你。"
+   "a": "謝謝提議！cotori 目前專注在咖啡和餐飲，要不要加「藝術設計」分類，已經轉給 Ben 決定，有結果會在這裡告訴你。",
+   "sid": "mvqnobn3c7b7t mvqnqikygeorp",
+   "date": "2026-10-28"
   }
  ],
  "empty_note": {}

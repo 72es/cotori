@@ -1,0 +1,19 @@
+{
+  "note": "cotori 來源清單。RSS 用 Python urllib 抓，User-Agent 用 'Mozilla/5.0 cotori-reader'，不要放 email。部分站回 gzip，要解壓。Google News 只當線索：連結是轉址，要用 WebSearch 找到原始報導再抓全文。",
+  "rss": [
+    {"name": "Perfect Daily Grind", "url": "https://perfectdailygrind.com/feed/", "lang": "en"},
+    {"name": "Daily Coffee News", "url": "https://dailycoffeenews.com/feed/", "lang": "en"},
+    {"name": "Sprudge", "url": "https://sprudge.com/feed", "lang": "en"},
+    {"name": "Barista Magazine", "url": "https://www.baristamagazine.com/feed/", "lang": "en"},
+    {"name": "Fresh Cup", "url": "https://freshcup.com/feed/", "lang": "en", "note": "回應開頭可能有空白，先 strip 再解析"},
+    {"name": "Eater", "url": "https://www.eater.com/rss/index.xml", "lang": "en", "note": "餐飲趨勢，只挑和咖啡館、飲品、餐飲經營有關的"}
+  ],
+  "google_news": [
+    {"name": "台灣咖啡新聞", "url": "https://news.google.com/rss/search?q=%E5%92%96%E5%95%A1+when:2d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"},
+    {"name": "台灣精品咖啡", "url": "https://news.google.com/rss/search?q=%E7%B2%BE%E5%93%81%E5%92%96%E5%95%A1+when:3d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"},
+    {"name": "台灣餐飲", "url": "https://news.google.com/rss/search?q=%E9%A4%90%E9%A3%B2+when:2d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"},
+    {"name": "國際咖啡產業", "url": "https://news.google.com/rss/search?q=coffee+industry+when:2d&hl=en-US&gl=US&ceid=US:en"}
+  ],
+  "fulltext_ok": ["食力 foodnext.net", "capitalethiopia.com", "pmc.ncbi.nlm.nih.gov", "nature.com"],
+  "feedback_sheet": {"title": "kotori 回饋", "drive_file_id": "1vrc2DIsQRhB4A5HmhbhyrMIV0PU8-GpCkrxMpvqvYAU"}
+}
