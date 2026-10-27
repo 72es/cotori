@@ -1,10 +1,10 @@
 {
-  "name": "kotori",
-  "short_name": "kotori",
+  "name": "cotori",
+  "short_name": "cotori",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#faf8f4",
+  "background_color": "#f3eee4",
   "theme_color": "#faf8f4",
   "icons": [
     {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},

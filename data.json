@@ -1,30 +1,39 @@
 {
  "edition": {
-  "id": "2026-10-27-am",
-  "label": "10月27日 週二",
-  "stamp": "第一期・試刊"
+  "id": "2026-10-27",
+  "no": 1,
+  "date": "2026-10-27",
+  "label": "10月27日 週二"
  },
- "lead": "第一期 kotori。讀完每篇按星星，告訴我們有沒有幫助；有想問的寫在最下面，下一期回答。",
+ "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
+ "keys": [
+  "換濾杯也能調酸甜：孔洞平均的濾杯讓酸更清楚，孔洞集中中央的讓甜感更多，換了要重調研磨度。",
+  "嘉義咖啡節紫金級水洗批次，5 公斤標出 20 萬元，每公斤 4 萬元，台灣豆正在建立自己的價格標竿。",
+  "巴西大選後雷亞爾重挫，阿拉比卡期貨回落約 1.5%；但交易所庫存仍是 1999 年以來最低，價格還不容易大跌。",
+  "厭氧、二氧化碳浸漬發酵大約讓杯測分數多 0.5 到 1.25 分；發酵太久，風味會往發酵味和酚類走。",
+  "咖啡處理後被丟掉的羊皮層，衣索比亞團隊用超音波把它變成純度 92% 的纖維素，是產地廢料再利用的新例子。"
+ ],
+ "weekly": null,
  "sections": [
   {
-   "id": "coffee",
-   "name": "咖啡產業",
-   "sub": "行情、台灣與世界、門市"
+   "id": "industry",
+   "name": "產業"
   },
   {
    "id": "science",
-   "name": "咖啡科學",
-   "sub": "烘豆、萃取、處理法、產地"
+   "name": "科學"
   },
   {
-   "id": "dyk",
-   "name": "你知道嗎",
-   "sub": "值得慢慢讀的深度內容"
+   "id": "fun",
+   "name": "有趣"
   },
   {
    "id": "food",
-   "name": "餐飲",
-   "sub": "餐飲業與消費者"
+   "name": "餐飲"
+  },
+  {
+   "id": "skip",
+   "name": "跳過沒差"
   }
  ],
  "items": [
@@ -52,11 +61,12 @@
    ],
    "note": "受訪者是 IMS-Filtri 的品牌大使，IMS 也是 Perfect Daily Grind 的贊助商，屬廠商觀點；原理可信，但不必只用這個品牌驗證。",
    "action": "這週找一支偏酸的單品，用店裡兩種濾杯各調一次，盲測比較。",
-   "link": "https://perfectdailygrind.com/2026/10/espresso-basket-design-extraction/"
+   "link": "https://perfectdailygrind.com/2026/10/espresso-basket-design-extraction/",
+   "pub": "2026-10-27"
   },
   {
    "id": "chiayi-auction",
-   "sec": "coffee",
+   "sec": "industry",
    "hl": "short",
    "title": "嘉義咖啡節紫金級競標：水洗批次 5 公斤 20 萬元標出，每公斤 4 萬元",
    "orig": "嘉義咖啡節競標熱烈 水洗咖啡5公斤20萬元標出",
@@ -80,11 +90,12 @@
      "t": "報新聞：杯測分級與競標說明",
      "u": "https://n.yam.com/Article/20261026837927"
     }
-   ]
+   ],
+   "pub": "2026-10-27"
   },
   {
    "id": "brazil-real-coffee",
-   "sec": "coffee",
+   "sec": "industry",
    "hl": "short",
    "title": "巴西大選後雷亞爾重挫，阿拉比卡期貨回落約 1.5%",
    "orig": "Brazil markets face sell off as Lula stuns investors with election win",
@@ -119,13 +130,14 @@
      "t": "Trading Economics 咖啡報價",
      "u": "https://tradingeconomics.com/commodity/coffee"
     }
-   ]
+   ],
+   "pub": "2026-10-27"
   },
   {
    "id": "dyk-carbonic-maceration",
-   "sec": "dyk",
+   "sec": "fun",
    "hl": "long",
-   "title": "你知道嗎｜二氧化碳浸漬發酵做多久？一篇論文比較了 31°C 和 36°C、2 到 10 天",
+   "title": "二氧化碳浸漬發酵做多久？一篇論文比較了 31°C 和 36°C、2 到 10 天",
    "orig": "Profile of chemical compounds, aroma, and cup quality of arabica coffee from ohmic-heated carbonic maceration",
    "date": "2026/03/19",
    "media": "AIMS Agriculture and Food",
@@ -144,7 +156,8 @@
     "限制：只測兩個溫度、三個時間點；摘要沒有說明杯測分數差異的統計顯著性，也沒有交代重複次數，結論只適用於這套設備和條件。"
    ],
    "note": "你知道嗎專題：題目是「厭氧與二氧化碳浸漬發酵」。這裡整理的是期刊摘要與目錄資訊。",
-   "link": "https://www.aimspress.com/article/doi/10.3934/agrfood.2026009"
+   "link": "https://www.aimspress.com/article/doi/10.3934/agrfood.2026009",
+   "pub": "2026-10-27"
   },
   {
    "id": "coffee-cacao-lab",
@@ -166,7 +179,8 @@
     "背景：2025 年的大規模裁員與經費凍結曾影響夏威夷咖啡產業；美國國際開發署關閉時，資助了全球數十個咖啡計畫。",
     "同期其他研究新聞：衣索比亞研究團隊用超音波把咖啡羊皮層變成高純度纖維素，詳見意外區。"
    ],
-   "link": "https://freshcup.com/coffee-news-club-october-26th/"
+   "link": "https://freshcup.com/coffee-news-club-october-26th/",
+   "pub": "2026-10-27"
   },
   {
    "id": "parchment",
@@ -201,19 +215,98 @@
      "t": "Ethiopian Business Review",
      "u": "https://ethiopianbusinessreview.net/ethiopian-researchers-turn-coffee-waste-into-high-purity-cellulose-using-sound-waves/"
     }
-   ]
+   ],
+   "pub": "2026-10-27"
+  },
+  {
+   "id": "milk-brew",
+   "sec": "food",
+   "title": "牛奶冷萃：一個懷疑論者的病毒飲品實測",
+   "orig": "Milk Brew & Me: A Skeptic’s Journey Through The Viral Coffee Drink",
+   "date": "2026/10/22",
+   "media": "Sprudge",
+   "author": "Jenn Chen",
+   "tier": "T2",
+   "read": 5,
+   "summary": "牛奶冷萃（milk brew）在日本流行已久，現在紅到美國：不用水，直接用牛奶或植物奶冷泡咖啡。作者是台裔美國人，乳糖不耐又不愛冷萃，實測後的結論是「可以接受」：口感像更厚實、沒有濃縮刺激感的冰拿鐵，喜歡冰拿鐵的人應該會喜歡。",
+   "why": "牛奶冷萃在日本流行已久，現在紅到美國。台灣客人熟悉冷泡茶和奶茶，接受度可能更高。作者的失敗經驗（濾紙太慢、泡太久會澀、一定要冷藏）都是試做前要先知道的。",
+   "detail": [
+    "奶脂會包覆咖啡粉，萃取時間要比一般冷萃長，過程中要邊試喝。",
+    "失敗經驗：V60 濾紙流速太慢；直接浸泡 16 小時過萃又澀；太厚的布茶包完全泡不出味道。",
+    "比較成功的做法：Morgan Eckroth 的無乳糖牛奶配方，再多泡幾小時；改用金屬或網狀濾器。",
+    "起點配方：京都 Kurasu 的版本。",
+    "食安：作者強調不要用熱牛奶悶蒸，全程冷藏。",
+    "植物奶：試了夏威夷豆奶和黑芝麻奶，黑芝麻奶太濃稠，抓不住咖啡味。"
+   ],
+   "link": "https://sprudge.com/milk-brew-me-a-skeptics-journey-through-the-viral-coffee-drink-1308095.html",
+   "pub": "2026-10-27"
+  },
+  {
+   "id": "foodpanda",
+   "sec": "food",
+   "title": "Grab 併 foodpanda 破局，專家示警台灣外送市場 4 大隱憂",
+   "orig": "台灣外送市場恐失衡！Grab併foodpanda破局 專家示警4大危機",
+   "date": "2026/10/25",
+   "media": "FTNN 新聞網（轉述 ETtoday）",
+   "author": "林欣愉",
+   "tier": "T3",
+   "read": 3,
+   "summary": "公平會 10/21 否決 Grab 以 6 億美元（約新台幣 193 億元）收購 foodpanda 台灣業務，主因是 Uber 與 Grab 之間有股權、董事和商業合作關係。中華獨立董事協會創會理事長駱秉寬指出，市場仍有 4 大隱憂：平台競爭誘因減弱、foodpanda 可能縮減投資、Uber 的全球收購布局，以及新業者難以進場。",
+   "why": "外送平台的抽成和補貼，直接影響門市外送的利潤。foodpanda 前景不明的這段期間，兩個平台給店家的條件可能會變，值得留意。",
+   "detail": [
+    "Uber 持有 foodpanda 母公司 Delivery Hero 約 24.77% 表決權股份，另以衍生性商品取得約 11.74% 經濟權益，合計約 36.51%。",
+    "駱秉寬強調這兩項不等於實際持股，公平會仍要查投票安排、董事提名和否決權。",
+    "他擔心即使市場保有兩個品牌，如果利益連動，價格、商家抽成、外送員報酬的競爭仍可能減弱。",
+    "他建議公平會採取 5 項措施，包括查明跨國平台的持股與控制權、持續監測市場競爭。"
+   ],
+   "note": "FTNN 轉述 ETtoday 的報導，屬二手轉述。",
+   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%81%A3%E5%A4%96%E9%80%81%E5%B8%82%E5%A0%B4%E6%81%90%E5%A4%B1%E8%A1%A1-grab%E4%BD%B5foodpanda%E7%A0%B4%E5%B1%80-%E5%B0%88%E5%AE%B6%E7%A4%BA%E8%AD%A64%E5%A4%A7%E5%8D%B1%E6%A9%9F-085000528.html",
+   "pub": "2026-10-27"
+  },
+  {
+   "id": "delonghi",
+   "sec": "skip",
+   "title": "De'Longhi 把 La Marzocco、Eversys 的持股提高到 88%",
+   "orig": "De’Longhi Boosts Ownership of La Marzocco and Eversys Business to 88%",
+   "date": "2026/10/23",
+   "media": "Daily Coffee News",
+   "author": "DCN 編輯部",
+   "tier": "T2",
+   "read": 3,
+   "summary": "De'Longhi 以 6.625 億歐元，買下關係企業 DLI 持有的 26.46% 股權，對專業咖啡事業部（La Marzocco、Eversys）的持股從約 61% 提高到 88%。截至 6 月的 12 個月，這個事業部營收 5.69 億歐元、年增 38%，調整後 EBITDA 1.72 億歐元，預期 2026 年營收破 6 億歐元。",
+   "why": "La Marzocco 和 Eversys 的生意越做越大，代表咖啡館願意花錢買穩定出杯和省人力的設備。這是整個產業的設備趨勢。",
+   "detail": [
+    "估值不一致：DCN 寫事業部股權價值約 25 億歐元，PDG 寫 23.6 億歐元，以 De'Longhi 官方公告為準。",
+    "歷程：2017 年買下 Eversys 40%，2021 年買下其餘 60%；2024 年 2 月與 La Marzocco 併入同一事業部，品牌各自保留。",
+    "2023 年底估值約 12.8 億歐元，兩年多接近翻倍。",
+    "人事：Guido Bernardinelli 主掌事業部，Lorenzo Carboni 任 La Marzocco 執行長。"
+   ],
+   "link": "https://dailycoffeenews.com/2026/10/23/delonghi-boosts-ownership-of-la-marzocco-and-eversys-business-to-88/",
+   "pub": "2026-10-27"
+  },
+  {
+   "id": "dcn-weekly",
+   "sec": "skip",
+   "title": "咖啡產業週報：戰爭衝擊航運，歐盟法規恐排擠衣索比亞小農",
+   "orig": "Weekly Coffee News: New 20-Kilo Roasters + War Impacting Coffee Trade",
+   "date": "2026/10/23",
+   "media": "Daily Coffee News",
+   "author": "DCN 編輯部",
+   "tier": "T2",
+   "read": 4,
+   "summary": "瑞士咖啡貿易商因航運中斷、戰爭和運費上漲，開始改走替代航線並加大庫存，年會調查中「戰爭」是首要擔憂。另一份 ODI 報告警告，歐盟零毀林法規（EUDR）的溯源與文件要求，可能讓衣索比亞小農被排除在歐洲市場之外。",
+   "why": "幾則產業短訊：戰爭讓咖啡海運變慢變貴、歐盟法規可能讓衣索比亞小農賣不進歐洲、Blue Bottle 紐約店員組工會。都是會慢慢影響生豆供應和咖啡館經營的事。",
+   "detail": [
+    "Mill City 首批 20 公斤 M 系列烘豆機 10/9 出貨，30 公斤機型預計 2027 年 1 月開始製造。",
+    "Blue Bottle 紐約世貿中心店員工宣布籌組工會，訴求薪資、排班不穩定和懲處方式。",
+    "Blueprint Coffee 把關稅退款，以 5% 折扣碼回饋顧客。",
+    "歐洲咖啡聯盟發布海運貨櫃處理指引：清潔、濕度、氣味、裝載方式。",
+    "Compass Coffee 創辦人訴訟和解；公司資產今年已賣給 Caffè Nero。"
+   ],
+   "link": "https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/",
+   "pub": "2026-10-27"
   }
  ],
  "qa": [],
- "empty_note": {
-  "food": "這期沒有夠格的餐飲新聞，下一期開始補上。"
- },
- "foot": "每天早上更新一次。內容是依原文整理的繁中摘要，數字以原文為準。",
- "keys": [
-  "換濾杯也能調酸甜：孔洞平均的濾杯讓酸更清楚，孔洞集中中央的讓甜感更多，換了要重調研磨度。",
-  "嘉義咖啡節紫金級水洗批次，5 公斤標出 20 萬元，每公斤 4 萬元，台灣豆正在建立自己的價格標竿。",
-  "巴西大選後雷亞爾重挫，阿拉比卡期貨回落約 1.5%；但交易所庫存仍是 1999 年以來最低，價格還不容易大跌。",
-  "厭氧、二氧化碳浸漬發酵大約讓杯測分數多 0.5 到 1.25 分；發酵太久，風味會往發酵味和酚類走。",
-  "咖啡處理後被丟掉的羊皮層，衣索比亞團隊用超音波把它變成純度 92% 的纖維素，是產地廢料再利用的新例子。"
- ]
+ "empty_note": {}
 }

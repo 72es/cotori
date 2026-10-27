@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>kotori</title>
+<title>cotori</title>
 <meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#171816" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="kotori">
+<meta name="apple-mobile-web-app-title" content="cotori">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" href="icon-192.png">
@@ -17,98 +17,117 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
 <style>
-/* Layout: one relaxed reading column (≈40em), soft cards on a warm paper ground, generous spacing. Same type family and sizes as Varys; only colour and layout differ. Text sizes are rem so A−/A+ scales everything but the tab bar. */
+/* Layout: a calm, title-first reading list (≈40em) on warm paper; tap a title to open the full card. Header (logo, size, categories) is frozen; tab bar fixed. Same type family and sizes as Varys. */
 :root{
-  --paper:#faf8f4; --card:#ffffff; --ink:#2a2b28; --ink-2:#55574f; --ink-3:#86887e;
+  --paper:#faf8f4; --card:#ffffff; --ink:#2a2b28; --ink-2:#55574f; --ink-3:#8b8d84; --ink-read:#adafa6;
   --rule:#e8e4dc; --wash:#f2efe8;
   --accent:#5f7356; --accent-ink:#ffffff; --accent-wash:#e9eee3;
-  --sun:#c9893b; --sun-wash:#f7ecdc; --ok:#5f7356;
-  --star:#d9d4c9; --star-on:#c9893b;
-  --bar:rgba(250,248,244,.88); --shadow:0 1px 2px rgba(60,55,40,.04),0 6px 24px rgba(60,55,40,.06);
+  --sun:#c9893b; --sun-ink:#ffffff; --sun-wash:#f7ecdc;
+  --star:#dcd6ca; --star-on:#c9893b;
+  --bar:rgba(250,248,244,.9); --shadow:0 1px 2px rgba(60,55,40,.04),0 6px 24px rgba(60,55,40,.06);
   --sans:"Noto Sans TC","PingFang TC","Heiti TC",system-ui,sans-serif;
   --col:40em; --scale:1; color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --paper:#171816; --card:#1f201d; --ink:#ecebe6; --ink-2:#bdbcb3; --ink-3:#8e8e85;
+  --paper:#171816; --card:#1f201d; --ink:#ecebe6; --ink-2:#bdbcb3; --ink-3:#8e8e85; --ink-read:#64655f;
   --rule:#2e2f2b; --wash:#242521;
   --accent:#a9c09b; --accent-ink:#171816; --accent-wash:#27302a;
-  --sun:#e0ad6b; --sun-wash:#33291c; --ok:#a9c09b; --star:#3a3b36; --star-on:#e0ad6b;
-  --bar:rgba(23,24,22,.88); --shadow:0 1px 2px rgba(0,0,0,.2),0 6px 24px rgba(0,0,0,.25); color-scheme:dark}}
+  --sun:#e0ad6b; --sun-ink:#171816; --sun-wash:#33291c; --star:#3a3b36; --star-on:#e0ad6b;
+  --bar:rgba(23,24,22,.9); --shadow:0 1px 2px rgba(0,0,0,.2),0 6px 24px rgba(0,0,0,.25); color-scheme:dark}}
 :root[data-theme="dark"]{
-  --paper:#171816; --card:#1f201d; --ink:#ecebe6; --ink-2:#bdbcb3; --ink-3:#8e8e85;
+  --paper:#171816; --card:#1f201d; --ink:#ecebe6; --ink-2:#bdbcb3; --ink-3:#8e8e85; --ink-read:#64655f;
   --rule:#2e2f2b; --wash:#242521;
   --accent:#a9c09b; --accent-ink:#171816; --accent-wash:#27302a;
-  --sun:#e0ad6b; --sun-wash:#33291c; --ok:#a9c09b; --star:#3a3b36; --star-on:#e0ad6b;
-  --bar:rgba(23,24,22,.88); --shadow:0 1px 2px rgba(0,0,0,.2),0 6px 24px rgba(0,0,0,.25); color-scheme:dark}
+  --sun:#e0ad6b; --sun-ink:#171816; --sun-wash:#33291c; --star:#3a3b36; --star-on:#e0ad6b;
+  --bar:rgba(23,24,22,.9); --shadow:0 1px 2px rgba(0,0,0,.2),0 6px 24px rgba(0,0,0,.25); color-scheme:dark}
 
 html{font-size:calc(16px * var(--scale));-webkit-text-size-adjust:100%}
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:1rem;line-height:1.75;letter-spacing:.01em;-webkit-font-smoothing:antialiased;line-break:strict;
-  padding:env(safe-area-inset-top,0px) max(16px,env(safe-area-inset-right,0px)) calc(96px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+  padding:env(safe-area-inset-top,0px) max(16px,env(safe-area-inset-right,0px)) calc(96px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));overscroll-behavior-y:contain}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--paper)}
 a{color:inherit}
 button,input,textarea{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 [hidden]{display:none!important}
 h1,h2,h3{text-wrap:pretty;margin:0}
+.bird{fill:none;stroke:currentColor;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
 
-/* header */
+/* frozen header — px sizes so A−/A+ never makes it taller */
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bar);backdrop-filter:saturate(1.4) blur(16px);-webkit-backdrop-filter:saturate(1.4) blur(16px);
   margin:0 calc(-1 * max(16px,env(safe-area-inset-right,0px))) 0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));
-  padding:10px max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px))}
-.top-in{max-width:var(--col);margin:0 auto;display:flex;align-items:center;gap:10px}
-.mark{font-weight:500;font-size:26px;letter-spacing:.02em;line-height:1;color:var(--ink);flex:1}
+  padding:10px max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--rule)}
+.top-in{max-width:var(--col);margin:0 auto}
+.brandrow{display:flex;align-items:center;gap:10px}
+.logo{display:flex;align-items:center;gap:6px;flex:1;color:var(--ink)}
+.logo svg{width:34px;height:26px}
+.logo b{font-weight:500;font-size:25px;letter-spacing:.02em;line-height:1}
 .scaler{display:inline-flex;border:1px solid var(--rule);border-radius:999px;overflow:hidden;font-size:14px;background:var(--card)}
 .scaler button{border:0;background:none;min-width:40px;min-height:34px;cursor:pointer;font-weight:700}
 .scaler button:disabled{opacity:.35}
 .scaler output{display:grid;place-items:center;min-width:44px;font-size:12px;color:var(--ink-3);border-inline:1px solid var(--rule);font-variant-numeric:tabular-nums}
 .icon-btn{border:1px solid var(--rule);background:var(--card);border-radius:999px;width:36px;height:36px;display:grid;place-items:center;cursor:pointer;flex:none}
 .icon-btn svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 0;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chips a{flex:none;text-decoration:none;font-size:14px;padding:5px 14px;border-radius:999px;background:var(--wash);color:var(--ink-2);line-height:1.6}
+.chips a.on{background:var(--accent);color:var(--accent-ink)}
 
 main{max-width:var(--col);margin:0 auto}
 
-/* greeting */
-.hello{padding-block:28px 8px}
-.hello .date{font-size:.8125rem;color:var(--ink-3);letter-spacing:.06em}
-.hello h1{font-size:1.625rem;font-weight:900;line-height:1.4;margin:6px 0 4px}
-.hello .meta{font-size:.9375rem;color:var(--ink-2)}
+/* pull to refresh */
+.ptr{height:0;overflow:hidden;display:grid;place-items:center;color:var(--accent);transition:height .2s}
+.ptr svg{width:40px;height:32px}
+.ptr .w2{display:none}
+.ptr.flap .w1{animation:f1 .36s steps(1) infinite}.ptr.flap .w2{display:inline;animation:f2 .36s steps(1) infinite}
+@keyframes f1{0%{opacity:1}50%{opacity:0}}@keyframes f2{0%{opacity:0}50%{opacity:1}}
+
+/* intro */
+.intro{padding-block:24px 4px}
+.intro .date{font-size:.8125rem;color:var(--ink-3);letter-spacing:.06em}
+.intro h1{font-size:1.625rem;font-weight:900;line-height:1.4;margin:4px 0 8px}
+.intro p{margin:0;font-size:1rem;line-height:1.85;color:var(--ink-2)}
 .notice{margin-top:14px;padding:12px 16px;border-radius:14px;background:var(--sun-wash);color:var(--ink);font-size:.9375rem;display:flex;gap:10px;align-items:center;cursor:pointer;border:0;width:100%;text-align:left}
-.notice b{color:var(--sun)}
-.lead{font-size:1.0625rem;line-height:1.9;color:var(--ink-2);margin:18px 0 0}
-
-.chips{display:flex;gap:8px;overflow-x:auto;padding:18px 0 4px;scrollbar-width:none}
-.chips::-webkit-scrollbar{display:none}
-.chips a{flex:none;text-decoration:none;font-size:.875rem;padding:6px 14px;border-radius:999px;background:var(--wash);color:var(--ink-2)}
-.chips a.on{background:var(--accent);color:var(--accent-ink)}
-
-/* today-try */
-.keys{margin-top:22px;padding:20px 20px 16px;border-radius:20px;background:var(--accent-wash)}
-.keys .k{font-size:.75rem;font-weight:700;letter-spacing:.14em;color:var(--accent)}
+.box{margin-top:20px;padding:18px 20px 14px;border-radius:20px;background:var(--accent-wash)}
+.box .k{font-size:.75rem;font-weight:700;letter-spacing:.14em;color:var(--accent)}
 .keys ol{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:10px;counter-reset:k}
 .keys li{display:grid;grid-template-columns:1.5rem 1fr;font-size:1rem;line-height:1.75;counter-increment:k}
 .keys li::before{content:counter(k);font-size:.8125rem;font-weight:700;color:var(--accent);padding-top:.25em}
+.weekly{background:var(--sun-wash)}
+.weekly .k{color:var(--sun)}
+.weekly .list{margin-top:6px}
 
-/* sections & stories */
-.sec{padding-top:40px;scroll-margin-top:80px}
-.sec-h{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:14px}
-.sec-h .no{font-size:.75rem;font-weight:700;color:var(--accent);letter-spacing:.12em}
+/* sections and title rows */
+.sec{padding-top:30px;scroll-margin-top:110px}
+.sec-h{display:flex;align-items:baseline;gap:10px;margin-bottom:6px}
 .sec-h h2{font-size:1.375rem;font-weight:900}
-.sec-h span{font-size:.8125rem;color:var(--ink-3)}
-.sec-empty{padding:18px 20px;border-radius:16px;background:var(--wash);color:var(--ink-3);font-size:.9375rem}
-.story{background:var(--card);border-radius:20px;box-shadow:var(--shadow);padding:24px 22px;margin-bottom:18px;scroll-margin-top:80px;position:relative}
-.story.read::after{content:"讀過";position:absolute;top:18px;right:20px;font-size:.75rem;color:var(--ok);font-weight:700}
-.tagrow{display:flex;gap:8px;flex-wrap:wrap;font-size:.75rem;color:var(--ink-3)}
-.tag{padding:2px 10px;border-radius:999px;background:var(--wash);font-weight:500}
-.story h3{font-weight:900;font-size:clamp(1.375rem,2.6vw,1.6875rem);line-height:1.45;margin:12px 0 6px;letter-spacing:-.005em}
+.sec-h .c{font-size:.8125rem;color:var(--ink-3)}
+.sec-empty{padding:14px 0;color:var(--ink-3);font-size:.9375rem}
+.list{display:grid}
+.row{border-top:1px solid var(--rule)}
+.row:first-child{border-top:0}
+.rt{all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:flex-start;gap:12px;width:100%;padding:14px 2px;-webkit-tap-highlight-color:transparent}
+.rt:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:8px}
+.rt .t{flex:1;min-width:0;font-size:1.0625rem;font-weight:700;line-height:1.6;color:var(--ink)}
+.row.read .rt .t{color:var(--ink-read);font-weight:500}
+.rt .mins{flex:none;font-size:.75rem;color:var(--ink-3);padding-top:.3em;font-variant-numeric:tabular-nums;white-space:nowrap}
+.row.read .rt .mins{visibility:hidden}
+.mk{flex:none;width:11px;height:16px;margin-top:.35em;color:var(--sun)}
+.row.open .rt{padding-bottom:6px}
+
+/* expanded card */
+.card{background:var(--card);border-radius:18px;box-shadow:var(--shadow);padding:18px 18px 16px;margin:0 0 16px;position:relative}
+.card .flag{position:absolute;top:-1px;right:18px;width:14px;height:22px;color:var(--sun)}
+.byline{font-size:.8125rem;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:2px 12px;margin:0 0 12px}
+.byline .src{font-weight:700;color:var(--ink-2);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;cursor:pointer;flex-basis:100%}
+.byline .src.full{display:block}
 .orig{font-size:.875rem;color:var(--ink-3);margin:0 0 10px;line-height:1.5}
-.byline{font-size:.8125rem;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:4px 12px;margin:8px 0 16px}
-.byline .src{font-weight:700;color:var(--ink-2)}
+.prose{font-size:1.0625rem;line-height:1.9;margin:0 0 14px}
+.why{border-radius:14px;background:var(--accent-wash);padding:12px 14px;margin:0 0 14px;font-size:1rem;line-height:1.85}
+.why .owl{float:left;font-size:1.5rem;line-height:1;margin:.12em .35em 0 0}
+.why::after{content:"";display:block;clear:both}
+.act{border-radius:14px;background:var(--sun-wash);padding:12px 14px;margin:0 0 14px;font-size:.9375rem;font-weight:700}
 .act .tl{color:var(--sun);margin-right:6px}
-.why b{font-size:1.125rem!important;letter-spacing:0!important}
-.prose{font-size:1.0625rem;line-height:1.9;margin:0 0 16px}
-.why{border-radius:14px;background:var(--accent-wash);padding:14px 16px;margin:0 0 14px;font-size:1rem;line-height:1.85}
-.why b{display:block;font-size:.75rem;letter-spacing:.12em;color:var(--accent);margin-bottom:2px}
-.act{border-radius:14px;background:var(--sun-wash);padding:12px 16px;margin:0 0 14px;font-size:.9375rem;font-weight:700}
 .note{font-size:.8125rem;color:var(--ink-3);margin:8px 0 0}
 details.more{border-top:1px dashed var(--rule);margin-top:6px}
 details.more summary{cursor:pointer;list-style:none;padding:12px 0;font-size:.9375rem;font-weight:700;display:flex;justify-content:space-between;align-items:center;min-height:44px}
@@ -117,96 +136,113 @@ details.more summary::after{content:"＋";font-weight:400;color:var(--ink-3)}
 details.more[open] summary::after{content:"－"}
 details.more ul{margin:0 0 12px;padding-left:1.1em;display:grid;gap:10px;font-size:1rem;line-height:1.85}
 .watch{font-size:.9375rem;color:var(--ink-2);margin:0 0 8px}
-
-.fb{margin-top:16px;padding-top:16px;border-top:1px dashed var(--rule);display:grid;gap:10px}
-.row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:.875rem}
+.fb{margin-top:14px;padding-top:14px;border-top:1px dashed var(--rule);display:grid;gap:10px}
+.line{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:.875rem}
 .link-out{text-decoration:none;font-weight:700;border-bottom:1.5px solid var(--ink);padding-bottom:1px}
+.savebtn{margin-left:auto;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--rule);background:var(--card);border-radius:999px;padding:6px 14px;min-height:38px;cursor:pointer;font-size:.875rem;font-weight:700}
+.savebtn svg{width:11px;height:15px}
+.savebtn[aria-pressed="true"]{background:var(--sun);border-color:var(--sun);color:var(--sun-ink)}
 .stars{display:flex;align-items:center}
-.stars .l{font-size:.8125rem;color:var(--ink-3);margin-right:4px}
+.stars .l{font-size:.875rem;color:var(--ink-2);margin-right:4px;font-weight:700}
 .star{border:0;background:none;padding:0;min-width:38px;min-height:44px;font-size:26px;line-height:1;color:var(--star);cursor:pointer;transition:color .15s,transform .15s}
 .star.on{color:var(--star-on)}
 .star:active{transform:scale(1.2)}
-.st-t{font-size:.8125rem;color:var(--ink-3);margin-left:6px}
+.wk-s{flex:none;font-size:.75rem;color:var(--sun);padding-top:.3em;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
 textarea{width:100%;min-height:46px;resize:vertical;border:1px solid var(--rule);border-radius:12px;background:var(--paper);padding:10px 12px;font-size:.9375rem;line-height:1.6}
 textarea::placeholder{color:var(--ink-3)}
 .btn{border:1px solid var(--rule);background:var(--card);border-radius:999px;padding:8px 16px;min-height:40px;cursor:pointer;font-size:.875rem;font-weight:700}
 .btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
-.sent{font-size:.75rem;color:var(--ok)}
+.sent{font-size:.75rem;color:var(--accent)}
 
-/* end card, ask box, qa */
-.endcard{margin-top:28px;padding:28px 22px;border-radius:20px;background:var(--accent);color:var(--accent-ink);text-align:left}
-.endcard h2{font-size:1.25rem;font-weight:900;margin-bottom:6px}
-.endcard p{margin:0;opacity:.9}
-.ask{margin-top:28px;padding:22px;border-radius:20px;background:var(--card);box-shadow:var(--shadow);display:grid;gap:10px}
+.ask{margin-top:32px;padding:22px;border-radius:20px;background:var(--card);box-shadow:var(--shadow);display:grid;gap:10px}
 .ask h2{font-size:1.1875rem;font-weight:900}
-.ask p{margin:0;font-size:.9375rem;color:var(--ink-2)}
-.foot{font-size:.75rem;color:var(--ink-3);padding-block:28px}
-.view-h{font-size:1.625rem;font-weight:900;padding-top:28px}
-.view-sub{color:var(--ink-2);font-size:.9375rem;margin:6px 0 18px}
-.qa{background:var(--card);border-radius:20px;box-shadow:var(--shadow);padding:22px;margin-bottom:16px}
+.ask p{margin:0;font-size:.9375rem;color:var(--ink-2);line-height:1.8}
+.foot{font-size:.75rem;color:var(--ink-3);padding-block:28px;line-height:1.8}
+.view-h{font-size:1.5rem;font-weight:900;padding-top:22px}
+.view-sub{color:var(--ink-2);font-size:.9375rem;margin:6px 0 4px}
+.qa{background:var(--card);border-radius:20px;box-shadow:var(--shadow);padding:20px;margin-top:16px}
 .qa .who{font-size:.8125rem;color:var(--accent);font-weight:700}
 .qa .q{font-size:1.0625rem;font-weight:700;line-height:1.6;margin:4px 0 10px}
 .qa .a{font-size:1rem;line-height:1.85;color:var(--ink-2)}
-.qa.mine{outline:2px solid var(--sun-wash)}
-.empty{padding:36px 0;color:var(--ink-3);font-size:.9375rem}
+.qa.mine{box-shadow:var(--shadow),inset 0 0 0 2px var(--sun-wash)}
+.empty{padding:32px 0;color:var(--ink-3);font-size:.9375rem;line-height:1.8}
 .empty b{display:block;font-size:1.125rem;color:var(--ink);margin-bottom:4px}
 
-/* sheet (onboarding & settings) */
 .scrim{position:fixed;inset:0;z-index:50;background:rgba(30,28,22,.35);display:grid;align-items:end;justify-items:center}
 .sheet{width:min(560px,100%);max-height:92vh;overflow:auto;overflow-x:hidden;grid-template-columns:minmax(0,1fr);background:var(--paper);border-radius:24px 24px 0 0;
   padding:26px max(22px,env(safe-area-inset-right,0px)) calc(26px + env(safe-area-inset-bottom,0px)) max(22px,env(safe-area-inset-left,0px));display:grid;gap:16px}
 @media (min-width:700px){.scrim{align-items:center}.sheet{border-radius:24px}}
 .sheet h2{font-size:1.5rem;font-weight:900}
 .sheet p{margin:0;color:var(--ink-2)}
-.sheet label.f{display:grid;gap:6px;font-size:.875rem;font-weight:700}
+.sheet label.f{display:grid;gap:6px;font-size:.875rem;font-weight:700;min-width:0}
 .sheet input[type=text]{min-width:0;width:100%;border:1px solid var(--rule);border-radius:12px;background:var(--card);padding:12px 14px;font-size:1.0625rem}
 .picks{display:grid;gap:8px}
 .pick{display:flex;gap:12px;align-items:center;padding:12px 14px;border-radius:14px;background:var(--card);border:1px solid var(--rule);cursor:pointer}
 .pick input{width:20px;height:20px;accent-color:var(--accent)}
-.pick span small{display:block;color:var(--ink-3);font-size:.8125rem}
-
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:999px;font-size:14px;z-index:60}
 
-/* tab bar (fixed px) */
+/* tab bar (fixed px, never scaled) */
 .tabbar{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--bar);backdrop-filter:saturate(1.4) blur(16px);-webkit-backdrop-filter:saturate(1.4) blur(16px);border-top:1px solid var(--rule);
   padding:0 max(8px,env(safe-area-inset-right,0px)) env(safe-area-inset-bottom,0px) max(8px,env(safe-area-inset-left,0px))}
-.tabbar nav{max-width:420px;margin:0 auto;display:grid;grid-template-columns:repeat(2,1fr)}
-.tab{border:0;background:none;cursor:pointer;display:grid;justify-items:center;gap:2px;padding:8px 0 6px;font-size:12px;line-height:1.3;color:var(--ink-3);min-height:58px;position:relative}
-.tab svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.tabbar nav{max-width:520px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr)}
+.tab{border:0;background:none;cursor:pointer;display:grid;place-items:center;gap:2px;padding:8px 0 6px;font-size:12px;line-height:1.3;color:var(--ink-3);min-height:58px;position:relative}
+.tab svg{width:26px;height:24px}
+.tab .ic{stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.tab .q{font-size:20px;line-height:24px;filter:grayscale(1);opacity:.55}
 .tab[aria-selected="true"]{color:var(--ink);font-weight:700}
-.dot{position:absolute;top:7px;left:calc(50% + 9px);width:8px;height:8px;border-radius:50%;background:var(--sun)}
-@media (prefers-reduced-motion:no-preference){.story,.qa{animation:in .35s ease-out both}@keyframes in{from{opacity:.001;transform:translateY(6px)}to{opacity:1;transform:none}}}
+.tab[aria-selected="true"] .q{filter:none;opacity:1}
+.badge{position:absolute;top:4px;left:calc(50% + 10px);background:var(--sun);color:var(--sun-ink);font-size:10px;font-weight:700;border-radius:999px;padding:0 5px;min-width:16px;line-height:16px;text-align:center}
+.dot{position:absolute;top:8px;left:calc(50% + 10px);width:8px;height:8px;border-radius:50%;background:var(--sun)}
+@media (prefers-reduced-motion:no-preference){.card{animation:in .25s ease-out both}@keyframes in{from{opacity:.001;transform:translateY(-4px)}to{opacity:1;transform:none}}}
 </style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="bird" viewBox="0 3 64 48"><path d="M8 36 L30 31 L50 39 L28 45 Z"/><path d="M30 31 L34 7 L41 33"/><path d="M41 33 L54 18 L59 20"/><path d="M8 36 L3 27 L17 34"/><path d="M28 45 L30 31"/></symbol>
+  <symbol id="bird2" viewBox="0 3 64 48"><path d="M8 36 L30 31 L50 39 L28 45 Z"/><path d="M30 31 L33 50 L41 33"/><path d="M41 33 L54 18 L59 20"/><path d="M8 36 L3 27 L17 34"/></symbol>
+  <symbol id="mark" viewBox="0 0 11 16"><path d="M0 0 H11 V16 L5.5 11.5 L0 16 Z" fill="currentColor"/></symbol>
+</svg>
+
 <header class="top"><div class="top-in">
-  <div class="mark">kotori</div>
-  <div class="scaler" role="group" aria-label="字級"><button type="button" id="zOut" aria-label="縮小字級">A−</button><output id="zVal">100%</output><button type="button" id="zIn" aria-label="放大字級">A+</button></div>
-  <button class="icon-btn" type="button" id="openSet" aria-label="設定"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></button>
+  <div class="brandrow">
+    <div class="logo"><svg class="bird" aria-hidden="true"><use href="#bird"/></svg><b>cotori</b></div>
+    <div class="scaler" role="group" aria-label="字級"><button type="button" id="zOut" aria-label="縮小字級">A−</button><output id="zVal">100%</output><button type="button" id="zIn" aria-label="放大字級">A+</button></div>
+    <button class="icon-btn" type="button" id="openSet" aria-label="設定"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></button>
+  </div>
+  <nav class="chips" id="chips" aria-label="分類"></nav>
 </div></header>
 
-<main id="main"><p class="empty"><b>正在打開這一期…</b></p></main>
+<div class="ptr" id="ptr" aria-hidden="true"><svg class="bird w1"><use href="#bird"/></svg><svg class="bird w2"><use href="#bird2"/></svg></div>
+<main id="main"><p class="empty"><b>正在打開…</b></p></main>
 
 <div class="toast" id="toast" hidden></div>
 <div class="scrim" id="scrim" hidden><div class="sheet" id="sheet" role="dialog" aria-modal="true"></div></div>
 
 <div class="tabbar"><nav role="tablist" aria-label="檢視">
-  <button class="tab" role="tab" data-view="today" aria-selected="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>本期</button>
-  <button class="tab" role="tab" data-view="qa" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M9 9.5a3 3 0 1 1 3 3v1M12 15.5v.01"/></svg>大家問<i class="dot" id="qaDot" hidden></i></button>
+  <button class="tab" role="tab" data-view="home" aria-selected="true" aria-label="本期"><svg class="bird"><use href="#bird"/></svg><span class="badge" id="unread" hidden></span></button>
+  <button class="tab" role="tab" data-view="older" aria-selected="false"><svg viewBox="0 0 24 24"><g class="ic"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></g></svg>3 天前</button>
+  <button class="tab" role="tab" data-view="saved" aria-selected="false"><svg viewBox="0 0 24 24"><path class="ic" d="M7 4h10v16l-5-4-5 4z"/></svg>收藏</button>
+  <button class="tab" role="tab" data-view="qa" aria-selected="false" aria-label="大家問"><span class="q">❓</span><i class="dot" id="qaDot" hidden></i></button>
 </nav></div>
 
 <script>
-// 回饋送到 Google 試算表的網址（Apps Script 部署後填入）
+// 回饋送到 Google 試算表的網址
 const FEEDBACK_URL = 'https://script.google.com/macros/s/AKfycbxthCyDDZmKU-yw5LyLroFL4pBnCrmg8xPOhjiL16ceJFZ9eQCfEfdwroraGX44tanE/exec';
+const SKIP_MAX = 5, HOME_DAYS = 3, KEEP_DAYS = 30;
 
 (function(){
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const ls={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-const ST=['','沒幫助','幫助不大','普通','有幫助','非常有幫助'];
-let D=null; const S={name:ls.get('k-name',''),secs:ls.get('k-secs',null),fb:ls.get('k-fb',{}),read:ls.get('k-read',{}),asked:ls.get('k-asked',[]),view:'today'};
+let D=null;
+const S={name:ls.get('k-name',''),secs:ls.get('k-secs',null),fb:ls.get('k-fb',{}),read:ls.get('k-read',{}),saved:ls.get('k-saved',{}),asked:ls.get('k-asked',[]),open:{},view:'home'};
 
-/* font scale, remembered on this device */
+/* dates in Taipei */
+const tpe=d=>new Date(new Date(d).toLocaleString('en-US',{timeZone:'Asia/Taipei'}));
+function today(){const t=tpe(Date.now());return Date.UTC(t.getFullYear(),t.getMonth(),t.getDate())}
+const age=it=>Math.round((today()-Date.parse((it.pub||it.date||'').replace(/\//g,'-')+'T00:00:00Z'))/864e5);
+
+/* font scale */
 const STEPS=[.875,1,1.125,1.25,1.375,1.5,1.75];
 let si=STEPS.indexOf(Number(ls.get('k-scale',1))); if(si<0) si=1;
 function applyScale(){document.documentElement.style.setProperty('--scale',STEPS[si]);$('#zVal').textContent=Math.round(STEPS[si]*100)+'%';$('#zOut').disabled=si===0;$('#zIn').disabled=si===STEPS.length-1;ls.set('k-scale',STEPS[si]);}
@@ -214,138 +250,177 @@ $('#zIn').onclick=()=>{if(si<STEPS.length-1){si++;applyScale();}};
 $('#zOut').onclick=()=>{if(si>0){si--;applyScale();}};
 applyScale();
 
-/* feedback queue: saved on the phone first, sent when online */
-function queue(rec){const q=ls.get('k-queue',[]);q.push(Object.assign({sid:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:S.name,edition:D?D.edition.id:'',ts:new Date().toISOString()},rec));ls.set('k-queue',q);flush();}
+/* outbox: kept on the phone, sent when online. Reading events carry no name. */
+const ANON=['read','open_skip','open_source','save'];
+function send(rec){const base={sid:Date.now().toString(36)+Math.random().toString(36).slice(2,7),edition:D?D.edition.id:''};
+  if(!ANON.includes(rec.type)) base.name=S.name;
+  const q=ls.get('k-queue',[]);q.push(Object.assign(base,rec));ls.set('k-queue',q.slice(-300));flush();}
 let flushing=false;
-async function flush(){
-  if(flushing||!FEEDBACK_URL||!navigator.onLine) return; flushing=true;
+async function flush(){ if(flushing||!FEEDBACK_URL||!navigator.onLine) return; flushing=true;
   let q=ls.get('k-queue',[]);
-  while(q.length){const r=q[0];
-    try{await fetch(FEEDBACK_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(r)});}catch(e){break}
+  while(q.length){try{await fetch(FEEDBACK_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(q[0])});}catch(e){break}
     q.shift();ls.set('k-queue',q);}
-  flushing=false;
-}
+  flushing=false; }
 addEventListener('online',flush);
 
-/* render */
-const greet=()=>{const h=new Date().getHours();return h<11?'早安':h<18?'午安':'晚安'};
-function visibleSecs(){return D.sections.filter(s=>!S.secs||S.secs.includes(s.id))}
-function visibleItems(){const ids=visibleSecs().map(s=>s.id);return D.items.filter(i=>ids.includes(i.sec))}
-function storyHTML(it){
-  const f=S.fb[it.id]||{}; const rd=S.read[it.id];
+/* lists */
+const secOn=id=>!S.secs||S.secs.includes(id);
+const byId=id=>(D.items.find(i=>i.id===id))||S.saved[id];
+const sortNew=a=>a.slice().sort((x,y)=>String(y.pub||y.date).localeCompare(String(x.pub||x.date)));
+function homeItems(){const r=D.items.filter(i=>age(i)<HOME_DAYS);
+  const skip=sortNew(r.filter(i=>i.sec==='skip')).slice(0,SKIP_MAX);return r.filter(i=>i.sec!=='skip').concat(skip)}
+const olderItems=()=>D.items.filter(i=>{const a=age(i);return a>=HOME_DAYS&&a<=KEEP_DAYS&&!S.saved[i.id]});
+const savedItems=()=>Object.keys(S.saved).map(id=>D.items.find(i=>i.id===id)||S.saved[id]);
+const unreadCount=()=>homeItems().filter(i=>i.sec!=='skip'&&secOn(i.sec)&&!S.read[i.id]).length;
+
+function rowHTML(it,extra){
+  const rd=!!S.read[it.id], sv=!!S.saved[it.id], op=!!S.open[it.id];
+  return `<div class="row ${rd?'read':''} ${op?'open':''}" data-row="${esc(it.id)}">
+  <button class="rt" type="button" data-toggle="${esc(it.id)}" aria-expanded="${op}"><span class="t">${esc(it.title)}</span>${extra||''}${sv?'<svg class="mk" aria-label="已收藏"><use href="#mark"/></svg>':''}<span class="mins">${it.read} 分</span></button>
+  ${op?cardHTML(it):''}</div>`;
+}
+function cardHTML(it){
+  const f=S.fb[it.id]||{}; const sv=!!S.saved[it.id];
   const orig=/[㐀-鿿]/.test(it.orig||'')?'':(it.orig?`<p class="orig">${esc(it.orig)}</p>`:'');
-  const det=(it.detail||[]).length?`<details class="more"><summary>再多讀一點・${it.detail.length} 個重點</summary><ul>${it.detail.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>${it.watch?`<p class="watch">${esc(it.watch)}</p>`:''}</details>`:'';
-  const extra=(it.extra_links||[]).map(l=>`<a class="link-out" href="${esc(l.u)}" target="_blank" rel="noopener">${esc(l.t)} ↗</a>`).join('');
-  const stars=[1,2,3,4,5].map(n=>`<button type="button" class="star ${f.stars>=n?'on':''}" data-star="${it.id}" data-n="${n}" aria-label="${n} 顆星：${ST[n]}" aria-pressed="${f.stars===n}">★</button>`).join('');
-  return `<article class="story ${rd?'read':''}" id="s-${it.id}" data-id="${it.id}">
-  <h3>${esc(it.title)}</h3>${orig}
-  <div class="byline"><span class="src">${esc(it.media)}${it.author?'・'+esc(it.author):''}</span><span>約 ${it.read} 分鐘</span><span>${esc(it.date)}</span></div>
+  const det=(it.detail||[]).length?`<details class="more"><summary>${it.detail.length} 個重點</summary><ul>${it.detail.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>${it.watch?`<p class="watch">${esc(it.watch)}</p>`:''}</details>`:'';
+  const extra=(it.extra_links||[]).map(l=>`<a class="link-out" href="${esc(l.u)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">${esc(l.t)} ↗</a>`).join('');
+  const stars=[1,2,3,4,5].map(n=>`<button type="button" class="star ${f.stars>=n?'on':''}" data-star="${esc(it.id)}" data-n="${n}" aria-label="${n} 顆星" aria-pressed="${f.stars===n}">★</button>`).join('');
+  return `<article class="card" data-id="${esc(it.id)}">${sv?'<svg class="flag" aria-hidden="true"><use href="#mark"/></svg>':''}
+  ${orig}<div class="byline"><span class="src" data-clamp>${esc(it.media)}${it.author?'・'+esc(it.author):''}</span><span>約 ${it.read} 分鐘</span><span>${esc(it.date)}</span></div>
   <p class="prose">${esc(it.summary)}</p>
-  <div class="why"><b aria-label="跟我們的關係">🦉</b>${esc(it.why)}</div>
+  <div class="why"><span class="owl" aria-label="跟我們的關係">🦉</span>${esc(it.why)}</div>
   ${it.action?`<div class="act"><span class="tl">試試看</span>${esc(it.action)}</div>`:''}
-  ${det}
-  ${it.note?`<p class="note">${esc(it.note)}</p>`:''}
+  ${det}${it.note?`<p class="note">${esc(it.note)}</p>`:''}
   <div class="fb">
-    <div class="row"><a class="link-out" href="${esc(it.link)}" target="_blank" rel="noopener">讀原文 ↗</a>${extra}</div>
-    <div class="stars" role="group" aria-label="這篇對你有幫助嗎"><span class="l">有幫助嗎</span>${stars}<span class="st-t">${f.stars?ST[f.stars]:''}</span></div>
-    <textarea id="n-${it.id}" rows="1" placeholder="想說的、想問的，寫在這裡（選填）">${esc(f.note||'')}</textarea>
-    <div class="row"><button class="btn" type="button" data-send="${it.id}">送出</button><span class="sent" id="sn-${it.id}">${f.noteSent?'已送出':''}</span></div>
+    <div class="line"><a class="link-out" href="${esc(it.link)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">讀原文 ↗</a>${extra}
+      <button class="savebtn" type="button" data-save="${esc(it.id)}" aria-pressed="${sv}"><svg aria-hidden="true"><use href="#mark"/></svg>${sv?'已收藏':'收藏'}</button></div>
+    <div class="stars" role="group" aria-label="值得閱讀？"><span class="l">值得閱讀？</span>${stars}</div>
+    <textarea class="nbox" rows="1" placeholder="內容讀得慣嗎？想知道更多什麼？">${esc(f.note||'')}</textarea>
+    <div class="line"><button class="btn" type="button" data-send="${esc(it.id)}">送出</button><span class="sent">${f.noteSent?'已送出':''}</span></div>
   </div></article>`;
 }
-function todayHTML(){
-  const its=visibleItems(); const mins=its.reduce((a,i)=>a+(i.read||0),0);
-  const unreadQA=(D.qa||[]).filter(q=>S.name&&q.name===S.name&&!ls.get('k-qa-seen',[]).includes(q.id));
-  const allRead=its.length&&its.every(i=>S.read[i.id]);
-  const secs=visibleSecs().map((s,n)=>{const list=its.filter(i=>i.sec===s.id);
-    const body=list.length?list.map(storyHTML).join(''):`<div class="sec-empty">${esc((D.empty_note||{})[s.id]||'這期這一區沒有新內容。')}</div>`;
-    return `<section class="sec" id="sec-${s.id}"><div class="sec-h"><span class="no">No.${String(n+1).padStart(2,'0')}</span><h2>${esc(s.name)}</h2><span>${esc(s.sub)}</span></div>${body}</section>`}).join('');
-  return `<section class="hello"><div class="date">${esc(D.edition.label)}・${esc(D.edition.stamp||'')}</div>
-    <h1>${greet()}${S.name?'，'+esc(S.name):''}</h1>
-    <div class="meta">今天 ${its.length} 篇・約 ${mins} 分鐘</div>
-    ${unreadQA.length?`<button class="notice" type="button" data-go="qa"><b>●</b>你的問題有回答了，去看看</button>`:''}
-    ${D.lead?`<p class="lead">${esc(D.lead)}</p>`:''}</section>
-  ${(D.keys||[]).length?`<section class="keys"><div class="k">本期重點整理</div><ol>${D.keys.map(k=>`<li>${esc(k)}</li>`).join('')}</ol></section>`:''}
-  <nav class="chips" id="chips">${visibleSecs().map(s=>`<a href="#sec-${s.id}" data-sec="${s.id}">${esc(s.name)}</a>`).join('')}</nav>
-  ${secs}
-  ${allRead?`<section class="endcard"><h2>本期讀完了</h2><p>謝謝你。明天早上會有新的一期。</p></section>`:''}
-  <section class="ask"><h2>想問什麼？</h2><p>咖啡、餐飲、吧台上遇到的問題都可以問。下一期會回答，所有人都看得到。</p>
-    <textarea id="askBox" rows="2" placeholder="例如：淺焙豆做冰美式，怎麼讓它不要那麼酸？"></textarea>
-    <div class="row"><button class="btn primary" type="button" id="askSend">送出問題</button><span class="sent" id="askSent"></span></div></section>
-  <p class="foot">${esc(D.foot||'')}</p>`;
+function sectionsHTML(items,emptyAll){
+  const secs=D.sections.filter(s=>secOn(s.id));
+  const html=secs.map(s=>{const list=sortNew(items.filter(i=>i.sec===s.id)); if(!list.length) return '';
+    return `<section class="sec" id="sec-${s.id}"><div class="sec-h"><h2>${esc(s.name)}</h2><span class="c">${list.length} 則</span></div><div class="list">${list.map(i=>rowHTML(i)).join('')}</div></section>`}).join('');
+  return html||`<div class="empty">${emptyAll}</div>`;
 }
+function homeHTML(){
+  const its=homeItems(); const unreadQA=(D.qa||[]).filter(q=>S.name&&q.name===S.name&&!ls.get('k-qa-seen',[]).includes(q.id));
+  const wk=D.weekly&&(D.weekly.items||[]).length?`<section class="box weekly"><div class="k">本週好讀</div><div class="list">${D.weekly.items.map(w=>{const it=byId(w.id);return it?rowHTML(it,`<span class="wk-s">★ ${w.stars} / ${w.n}人</span>`):''}).join('')}</div></section>`:'';
+  return `<section class="intro"><div class="date">${esc(D.edition.label)}</div>
+    <h1>${greet()}${S.name?'，'+esc(S.name):''}</h1>
+    <p>${esc((D.intro||'').replace('{n}',D.edition.no))}</p>
+    ${unreadQA.length?`<button class="notice" type="button" data-go="qa">● 你的問題有回答了，去看看</button>`:''}</section>
+  ${wk}
+  ${(D.keys||[]).length?`<section class="box keys"><div class="k">本期重點整理</div><ol>${D.keys.map(k=>`<li>${esc(k)}</li>`).join('')}</ol></section>`:''}
+  ${sectionsHTML(its,'<b>這一期還沒有內容</b>')}
+  <section class="ask"><h2>🙋🏼 我有問題</h2><p>咖啡、餐飲、世間一切，任何想知道的都可以問。下一期會搜集新聞、研究報告來回答，所有人都看得到。</p>
+    <textarea id="askBox" rows="2" placeholder="問吧！其他人也想知道"></textarea>
+    <div class="line"><button class="btn primary" type="button" id="askSend">送出問題</button><span class="sent" id="askSent"></span></div></section>
+  <p class="foot">每天早上 7:30 cotori 會更新一次，搜羅各大咖啡媒體平台與新聞資源，內容是依原文整理的繁中摘要，資訊以原文為準。如有錯誤請不吝回饋修正，共同養成 cotori。</p>`;
+}
+const greet=()=>{const h=tpe(Date.now()).getHours();return h<11?'早安':h<18?'午安':'晚安'};
 function qaHTML(){
-  const qa=D.qa||[];
-  const mine=S.asked.filter(a=>!qa.some(q=>q.text===a.text));
-  return `<h1 class="view-h">大家問</h1><p class="view-sub">大家的提問，每天早上的新一期一起回答。</p>`+
-   (mine.length?`<div class="qa mine"><div class="who">你問的，下一期回答</div>${mine.map(a=>`<p class="q">${esc(a.text)}</p>`).join('')}</div>`:'')+
+  const qa=D.qa||[]; const mine=S.asked.filter(a=>!qa.some(q=>q.q===a.text));
+  return `<h1 class="view-h">大家問</h1><p class="view-sub">大家的提問，每天早上的新一期一起回答，一天最多 5 題，沒答完的隔天繼續。</p>`+
+   (mine.length?`<div class="qa mine"><div class="who">你問的，排隊回答中</div>${mine.map(a=>`<p class="q">${esc(a.text)}</p>`).join('')}</div>`:'')+
    (qa.length?qa.map(q=>`<div class="qa ${S.name&&q.name===S.name?'mine':''}"><div class="who">${esc(q.name||'有人')} 問</div><p class="q">${esc(q.q)}</p><div class="a">${esc(q.a)}</div></div>`).join('')
-   :`<div class="empty"><b>還沒有人提問</b>在「本期」最下面的「想問什麼？」寫下你的問題，下一期就會在這裡回答。</div>`);
+   :`<div class="empty"><b>還沒有人提問</b>在主頁最下面的「我有問題」寫下來，下一期就會在這裡回答。</div>`);
+}
+function chipsHTML(items){
+  const have=new Set(items.map(i=>i.sec));
+  return D.sections.filter(s=>secOn(s.id)&&have.has(s.id)).map(s=>`<a href="#sec-${s.id}" data-sec="${s.id}">${esc(s.name)}</a>`).join('');
 }
 function render(){
-  const m=$('#main'); if(!D) return;
-  m.innerHTML=S.view==='qa'?qaHTML():todayHTML();
+  if(!D) return; const m=$('#main'); let items=[];
+  if(S.view==='home'){items=homeItems();m.innerHTML=homeHTML();}
+  else if(S.view==='older'){items=olderItems();m.innerHTML=`<h1 class="view-h">3 天前</h1><p class="view-sub">4 到 30 天前的文章。收藏的不會出現在這裡，在「收藏」。</p>`+sectionsHTML(items,'<b>還沒有 3 天前的文章</b>');}
+  else if(S.view==='saved'){items=savedItems();m.innerHTML=`<h1 class="view-h">收藏</h1><p class="view-sub">收藏的文章存在這支手機上，取消收藏前都會在。</p>`+sectionsHTML(items,'<b>還沒有收藏</b>點開任何一篇，按「收藏」就會留在這裡。');}
+  else m.innerHTML=qaHTML();
+  $('#chips').innerHTML=S.view==='qa'?'':chipsHTML(items); $('#chips').hidden=S.view==='qa';
   document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected',t.dataset.view===S.view));
-  const unread=(D.qa||[]).some(q=>!ls.get('k-qa-seen',[]).includes(q.id));
-  $('#qaDot').hidden=!unread||S.view==='qa';
-  if(S.view==='qa') ls.set('k-qa-seen',(D.qa||[]).map(q=>q.id));
-  watchRead(); spyChips();
+  badges(); clampSrc(); spyChips(); watchRead();
 }
-
-/* "讀過": a story counts as read after its end has been on screen for a moment, or once rated */
-let ro=null;
-function watchRead(){
-  if(ro) ro.disconnect(); if(!('IntersectionObserver' in window)) return;
-  const timers={};
-  ro=new IntersectionObserver(es=>es.forEach(e=>{const id=e.target.closest('.story').dataset.id;
-    if(e.isIntersecting){timers[id]=setTimeout(()=>markRead(id),1500)}else clearTimeout(timers[id])}),{threshold:1});
-  document.querySelectorAll('.story .fb').forEach(x=>ro.observe(x));
-}
-function markRead(id){ if(S.read[id]) return; S.read[id]=Date.now(); ls.set('k-read',S.read);
-  const el=document.getElementById('s-'+id); if(el) el.classList.add('read');
-  const its=visibleItems(); if(its.length&&its.every(i=>S.read[i.id])&&!document.querySelector('.endcard')){const y=scrollY;render();scrollTo(0,y);} }
+function badges(){const n=unreadCount();const b=$('#unread');b.hidden=!n;b.textContent=n;
+  const qaNew=(D.qa||[]).some(q=>!ls.get('k-qa-seen',[]).includes(q.id)); $('#qaDot').hidden=!qaNew||S.view==='qa';
+  if(S.view==='qa') ls.set('k-qa-seen',(D.qa||[]).map(q=>q.id));}
+function clampSrc(){document.querySelectorAll('.src[data-clamp]').forEach(s=>{if(s.scrollHeight<=s.clientHeight+2){s.removeAttribute('data-clamp');s.style.cursor='auto'}})}
 let co=null;
 function spyChips(){ if(co) co.disconnect(); const secs=[...document.querySelectorAll('.sec')]; if(!secs.length) return;
-  co=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('.chips a').forEach(a=>a.classList.toggle('on',a.dataset.sec===e.target.id.slice(4)))}}),{rootMargin:'-30% 0px -60% 0px'});
+  co=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const id=e.target.id.slice(4);document.querySelectorAll('.chips a').forEach(a=>a.classList.toggle('on',a.dataset.sec===id))}}),{rootMargin:'-35% 0px -55% 0px'});
   secs.forEach(s=>co.observe(s)); }
+
+/* read detection: card open, its end has been on screen, and enough time spent (40% of the estimate, at least 8 s) */
+const openedAt={}; let ro=null;
+function watchRead(){ if(ro) ro.disconnect(); if(!('IntersectionObserver' in window)) return;
+  ro=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting) return; const id=e.target.closest('.card').dataset.id; tryRead(id,true);}),{threshold:.9});
+  document.querySelectorAll('.card .fb').forEach(x=>ro.observe(x)); }
+const seenEnd={};
+function tryRead(id,end){ if(end) seenEnd[id]=true; const it=byId(id); if(!it||S.read[id]||!seenEnd[id]||!openedAt[id]) return;
+  const need=Math.max(8,(it.read||1)*60*0.4)*1000; const spent=Date.now()-openedAt[id];
+  if(spent>=need) markRead(id,Math.round(spent/1000)); else setTimeout(()=>tryRead(id,false),need-spent+200); }
+function markRead(id,secs){ if(S.read[id]) return; S.read[id]=Date.now(); ls.set('k-read',S.read);
+  const it=byId(id); send({type:'read',itemId:id,sec:it?it.sec:'',secs:secs||''});
+  document.querySelectorAll('[data-row="'+CSS.escape(id)+'"]').forEach(r=>r.classList.add('read')); badges(); }
 
 /* onboarding & settings */
 function openSheet(first){
-  const secs=D.sections;
   $('#sheet').innerHTML=`<h2>${first?'歡迎':'設定'}</h2>${first?'<p>每天早上一期，咖啡和餐飲的新知。先告訴我們你是誰，再勾你想看的。</p>':''}
    <label class="f">你的名字<input type="text" id="fName" maxlength="20" placeholder="例如：小明" value="${esc(S.name)}" autocomplete="nickname"></label>
-   <div class="f" style="font-size:.875rem;font-weight:700">想看的內容</div>
-   <div class="picks">${secs.map(s=>`<label class="pick"><input type="checkbox" value="${s.id}" ${!S.secs||S.secs.includes(s.id)?'checked':''}><span>${esc(s.name)}<small>${esc(s.sub)}</small></span></label>`).join('')}</div>
+   <div style="font-size:.875rem;font-weight:700">想看的內容</div>
+   <div class="picks">${D.sections.map(s=>`<label class="pick"><input type="checkbox" value="${s.id}" ${secOn(s.id)?'checked':''}><span>${esc(s.name)}</span></label>`).join('')}</div>
    <button class="btn primary" type="button" id="fSave">${first?'開始讀':'儲存'}</button>
-   ${first?'':'<p style="font-size:.8125rem;color:var(--ink-3)">想放到手機主畫面：iPhone 用 Safari 打開，按「分享」→「加入主畫面」。</p>'}`;
-  $('#scrim').hidden=false; setTimeout(()=>{const n=$('#fName');if(first&&n)n.focus()},50);
+   <p style="font-size:.8125rem;color:var(--ink-3)">放到手機主畫面：iPhone 用 Safari 打開，按「分享」→「加入主畫面」。</p>`;
+  $('#scrim').hidden=false;
   $('#fSave').onclick=()=>{const n=$('#fName').value.trim(); if(!n){$('#fName').focus();toast('請先寫名字');return}
     const picked=[...document.querySelectorAll('.picks input:checked')].map(x=>x.value); if(!picked.length){toast('至少勾一個');return}
-    S.name=n; S.secs=picked; ls.set('k-name',n); ls.set('k-secs',picked); $('#scrim').hidden=true; render(); toast(first?'歡迎，'+n:'已儲存'); flush();};
+    S.name=n;S.secs=picked;ls.set('k-name',n);ls.set('k-secs',picked);$('#scrim').hidden=true;render();toast(first?'歡迎，'+n:'已儲存');flush();};
 }
 $('#openSet').onclick=()=>D&&openSheet(false);
 $('#scrim').addEventListener('click',e=>{if(e.target.id==='scrim'&&S.name)$('#scrim').hidden=true});
 
 /* events */
 document.addEventListener('click',e=>{
-  const st=e.target.closest('[data-star]'); if(st){const id=st.dataset.star,n=Number(st.dataset.n);const it=D.items.find(i=>i.id===id);
+  const tg=e.target.closest('[data-toggle]'); if(tg){const id=tg.dataset.toggle; const row=tg.closest('.row');
+    if(S.open[id]){delete S.open[id]; row.outerHTML=rowHTML(byId(id), row.querySelector('.wk-s')?row.querySelector('.wk-s').outerHTML:'');}
+    else{S.open[id]=1; openedAt[id]=Date.now(); const it=byId(id); if(it&&it.sec==='skip') send({type:'open_skip',itemId:id,sec:'skip'});
+      row.outerHTML=rowHTML(it, row.querySelector('.wk-s')?row.querySelector('.wk-s').outerHTML:'');}
+    clampSrc(); watchRead(); return;}
+  const src=e.target.closest('.src'); if(src&&(src.hasAttribute('data-clamp')||src.classList.contains('full'))){src.classList.toggle('full');return;}
+  const lo=e.target.closest('[data-src]'); if(lo){send({type:'open_source',itemId:lo.dataset.src,sec:(byId(lo.dataset.src)||{}).sec||''});return;}
+  const st=e.target.closest('[data-star]'); if(st){const id=st.dataset.star,n=Number(st.dataset.n);const it=byId(id);
     const f=S.fb[id]=Object.assign({},S.fb[id]); f.stars=f.stars===n?0:n; ls.set('k-fb',S.fb);
-    queue({type:'rating',itemId:id,title:it.title,stars:f.stars||'',text:''}); markRead(id);
-    const art=st.closest('.story'); art.querySelectorAll('.star').forEach(b=>{b.classList.toggle('on',Number(b.dataset.n)<=f.stars);b.setAttribute('aria-pressed',Number(b.dataset.n)===f.stars)}); art.querySelector('.st-t').textContent=f.stars?ST[f.stars]:''; return;}
-  const sd=e.target.closest('[data-send]'); if(sd){const id=sd.dataset.send;const t=$('#n-'+id).value.trim();if(!t){toast('先寫點什麼');return}
-    const it=D.items.find(i=>i.id===id); const f=S.fb[id]=Object.assign({},S.fb[id],{note:t,noteSent:true}); ls.set('k-fb',S.fb);
-    queue({type:'note',itemId:id,title:it.title,stars:f.stars||'',text:t}); $('#sn-'+id).textContent='已送出'; toast('收到了，謝謝'); return;}
+    send({type:'rating',itemId:id,title:it.title,stars:f.stars||'',text:''}); markRead(id);
+    st.closest('.stars').querySelectorAll('.star').forEach(b=>{b.classList.toggle('on',Number(b.dataset.n)<=f.stars);b.setAttribute('aria-pressed',Number(b.dataset.n)===f.stars)}); return;}
+  const sv=e.target.closest('[data-save]'); if(sv){const id=sv.dataset.save; const it=byId(id);
+    if(S.saved[id]){delete S.saved[id];toast('已取消收藏')}else{S.saved[id]=it;send({type:'save',itemId:id,sec:it.sec});toast('已收藏')}
+    ls.set('k-saved',S.saved); const row=sv.closest('.row'); const wk=row.querySelector('.wk-s'); row.outerHTML=rowHTML(byId(id)||it,wk?wk.outerHTML:''); clampSrc(); watchRead(); return;}
+  const sd=e.target.closest('[data-send]'); if(sd){const id=sd.dataset.send;const cd=sd.closest('.card');const t=cd.querySelector('.nbox').value.trim();if(!t){toast('先寫點什麼');return}
+    const it=byId(id); const f=S.fb[id]=Object.assign({},S.fb[id],{note:t,noteSent:true}); ls.set('k-fb',S.fb);
+    send({type:'note',itemId:id,title:it.title,stars:f.stars||'',text:t}); cd.querySelector('.sent').textContent='已送出'; toast('收到了，謝謝'); return;}
   if(e.target.id==='askSend'){const t=$('#askBox').value.trim(); if(!t){toast('先寫下你的問題');return}
-    queue({type:'question',itemId:'',title:'',stars:'',text:t}); S.asked.push({text:t,ts:Date.now()}); ls.set('k-asked',S.asked);
+    send({type:'question',itemId:'',title:'',stars:'',text:t}); S.asked.push({text:t,ts:Date.now()}); ls.set('k-asked',S.asked);
     $('#askBox').value=''; $('#askSent').textContent='已送出，下一期回答'; toast('問題送出了'); return;}
   const tb=e.target.closest('.tab'); if(tb){S.view=tb.dataset.view;render();scrollTo(0,0);return;}
   const go=e.target.closest('[data-go]'); if(go){S.view=go.dataset.go;render();scrollTo(0,0);return;}
-  const j=e.target.closest('[data-jump]'); if(j){const el=$('#s-'+j.dataset.jump); if(el) el.scrollIntoView({behavior:'smooth',block:'start'}); return;}
 });
 function toast(m){const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>t.hidden=true,1800);}
 
-/* boot */
-fetch('data.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(d=>{D=d;render();if(!S.name)openSheet(true);flush();})
- .catch(()=>{$('#main').innerHTML='<p class="empty"><b>暫時打不開這一期</b>請確認網路後重新整理。</p>'});
+/* saved copies refresh, and old unsaved state cleanup */
+function tidy(){ for(const id of Object.keys(S.saved)){const fresh=D.items.find(i=>i.id===id); if(fresh) S.saved[id]=fresh;} ls.set('k-saved',S.saved);
+  const keep=new Set(D.items.map(i=>i.id).concat(Object.keys(S.saved))); for(const k of Object.keys(S.read)) if(!keep.has(k)) delete S.read[k]; ls.set('k-read',S.read); }
+
+/* load & pull to refresh */
+async function load(){ const r=await fetch('data.json?v='+Date.now(),{cache:'no-store'}); D=await r.json(); tidy(); render(); if(!S.name) openSheet(true); flush(); }
+load().catch(()=>{$('#main').innerHTML='<p class="empty"><b>暫時打不開</b>請確認網路後再往下拉重新整理。</p>'});
+let y0=null,pulled=0,busy=false; const ptr=$('#ptr');
+addEventListener('touchstart',e=>{ if(scrollY<=0&&!busy&&$('#scrim').hidden) y0=e.touches[0].clientY; else y0=null; },{passive:true});
+addEventListener('touchmove',e=>{ if(y0==null) return; pulled=Math.max(0,Math.min(110,(e.touches[0].clientY-y0)*.5)); ptr.style.transition='none'; ptr.style.height=pulled+'px'; ptr.classList.toggle('flap',pulled>60); },{passive:true});
+addEventListener('touchend',async()=>{ if(y0==null) return; y0=null; ptr.style.transition='';
+  if(pulled>60){busy=true; ptr.style.height='64px'; ptr.classList.add('flap'); try{await load()}catch(e){toast('重新整理失敗，稍後再試')}
+    setTimeout(()=>{ptr.classList.remove('flap');ptr.style.height='0';busy=false},500);} else {ptr.style.height='0';ptr.classList.remove('flap');}
+  pulled=0; });
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
 })();
 </script>
