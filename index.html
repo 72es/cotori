@@ -139,12 +139,13 @@ details.more ul{margin:0 0 12px;padding-left:1.1em;display:grid;gap:10px;font-si
 .fb{margin-top:14px;padding-top:14px;border-top:1px dashed var(--rule);display:grid;gap:10px}
 .line{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:.875rem}
 .link-out{text-decoration:none;font-weight:700;border-bottom:1.5px solid var(--ink);padding-bottom:1px}
-.savebtn{margin-left:auto;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--rule);background:var(--card);border-radius:999px;padding:6px 14px;min-height:38px;cursor:pointer;font-size:.875rem;font-weight:700}
+.rate{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px}
+.savebtn{margin-left:auto;flex:none;display:inline-flex;align-items:center;gap:5px;border:1px solid var(--rule);background:var(--card);border-radius:999px;padding:5px 12px;min-height:38px;white-space:nowrap;cursor:pointer;font-size:.875rem;font-weight:700}
 .savebtn svg{width:11px;height:15px}
 .savebtn[aria-pressed="true"]{background:var(--sun);border-color:var(--sun);color:var(--sun-ink)}
 .stars{display:flex;align-items:center}
-.stars .l{font-size:.875rem;color:var(--ink-2);margin-right:4px;font-weight:700}
-.star{border:0;background:none;padding:0;min-width:38px;min-height:44px;font-size:26px;line-height:1;color:var(--star);cursor:pointer;transition:color .15s,transform .15s}
+.stars .l{font-size:.875rem;color:var(--ink-2);margin-right:2px;font-weight:700;white-space:nowrap}
+.star{border:0;background:none;padding:0;min-width:30px;min-height:44px;font-size:21px;line-height:1;color:var(--star);cursor:pointer;transition:color .15s,transform .15s}
 .star.on{color:var(--star-on)}
 .star:active{transform:scale(1.2)}
 .wk-s{flex:none;font-size:.75rem;color:var(--sun);padding-top:.3em;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
@@ -292,9 +293,9 @@ function cardHTML(it){
   ${it.action?`<div class="act"><span class="tl">試試看</span>${esc(it.action)}</div>`:''}
   ${det}${it.note?`<p class="note">${esc(it.note)}</p>`:''}
   <div class="fb">
-    <div class="line"><a class="link-out" href="${esc(it.link)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">讀原文 ↗</a>${extra}
+    <div class="line"><a class="link-out" href="${esc(it.link)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">讀原文 ↗</a>${extra}</div>
+    <div class="rate"><div class="stars" role="group" aria-label="值得閱讀？"><span class="l">值得閱讀？</span>${stars}</div>
       <button class="savebtn" type="button" data-save="${esc(it.id)}" aria-pressed="${sv}"><svg aria-hidden="true"><use href="#mark"/></svg>${sv?'已收藏':'收藏'}</button></div>
-    <div class="stars" role="group" aria-label="值得閱讀？"><span class="l">值得閱讀？</span>${stars}</div>
     <textarea class="nbox" rows="1" placeholder="內容讀得慣嗎？想知道更多什麼？">${esc(f.note||'')}</textarea>
     <div class="line"><button class="btn" type="button" data-send="${esc(it.id)}">送出</button><span class="sent">${f.noteSent?'已送出':''}</span></div>
   </div></article>`;
