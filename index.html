@@ -106,6 +106,8 @@ main{max-width:var(--col);margin:0 auto}
 .list{display:grid}
 .row{border-top:1px solid var(--rule)}
 .row:first-child{border-top:0}
+.row{scroll-margin-top:calc(env(safe-area-inset-top,0px) + 118px)}
+.qa-list .row{scroll-margin-top:calc(env(safe-area-inset-top,0px) + 70px)}
 .rt{all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:flex-start;gap:12px;width:100%;padding:14px 2px;-webkit-tap-highlight-color:transparent}
 .rt:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:8px}
 .rt .t{flex:1;min-width:0;font-size:1.0625rem;font-weight:700;line-height:1.6;color:var(--ink)}
@@ -287,7 +289,8 @@ function homeItems(){const r=D.items.filter(i=>age(i)<HOME_DAYS);
   const skip=sortNew(r.filter(i=>i.sec==='skip')).slice(0,SKIP_MAX);return r.filter(i=>i.sec!=='skip').concat(skip)}
 const olderItems=()=>D.items.filter(i=>{const a=age(i);return a>=HOME_DAYS&&a<=KEEP_DAYS&&!S.saved[i.id]});
 const savedItems=()=>Object.keys(S.saved).map(id=>allIt().find(i=>i.id===id)||S.saved[id]);
-const unreadCount=()=>homeItems().filter(i=>i.sec!=='skip'&&secOn(i.sec)&&!S.read[i.id]).length;
+/* 路過 and ARTs are optional reading, so they never count as unread on the home tab */
+const unreadCount=()=>homeItems().filter(i=>i.sec!=='skip'&&i.sec!=='design'&&secOn(i.sec)&&!S.read[i.id]).length;
 
 /* reading time of our own summary (what people actually read), about 400 Chinese characters a minute */
 function sumSecs(it){ const t=[it.summary,it.why,it.action,it.note].concat(it.detail||[]).filter(Boolean).join(''); return t.length*60/400; }
@@ -390,7 +393,9 @@ function tryRead(id,end){ if(end) seenEnd[id]=true; const it=byId(id); if(!it||S
   markRead(id,Math.round((Date.now()-openedAt[id])/1000)); }
 function markRead(id,secs){ if(S.read[id]) return; S.read[id]=Date.now(); ls.set('k-read',S.read);
   const it=byId(id); send({type:'read',itemId:id,sec:it?it.sec:'',secs:secs||''});
-  document.querySelectorAll('[data-row="'+CSS.escape(id)+'"]').forEach(r=>r.classList.add('read')); badges(); }
+  document.querySelectorAll('[data-row="'+CSS.escape(id)+'"]').forEach(r=>r.classList.add('read')); badges(); threadCounts(); }
+/* keep the 'x 未讀' on thread headers in step with what has been read */
+function threadCounts(){ document.querySelectorAll('[data-thread]').forEach(b=>{const k=b.dataset.thread; const list=(D.qa||[]).filter(q=>q.thread===k); const un=list.filter(q=>!S.read[q.id]).length; const m=b.querySelector('.mins'); if(m) m.textContent=list.length+' 題'+(un?' · '+un+' 未讀':'');}); }
 
 /* onboarding & settings */
 function openSheet(first){
@@ -413,8 +418,11 @@ document.addEventListener('click',e=>{
   const th=e.target.closest('[data-thread]'); if(th){const k=th.dataset.thread; const open=th.getAttribute('aria-expanded')==='true'; S.thOpen[k]=!open; render(); return;}
   const tg=e.target.closest('[data-toggle]'); if(tg){const id=tg.dataset.toggle; const row=tg.closest('.row');
     if(S.open[id]){delete S.open[id]; row.outerHTML=rowHTML(byId(id), row.querySelector('.wk-s')?row.querySelector('.wk-s').outerHTML:'');}
-    else{S.open[id]=1; openedAt[id]=Date.now(); const it=byId(id); if(it&&it.sec==='skip') send({type:'open_skip',itemId:id,sec:'skip'});
-      row.outerHTML=rowHTML(it, row.querySelector('.wk-s')?row.querySelector('.wk-s').outerHTML:'');}
+    else{ /* only one article open at a time: close the others first, then bring this title to the top */
+      document.querySelectorAll('.row.open[data-row]').forEach(r=>{const oid=r.dataset.row; delete S.open[oid]; const w=r.querySelector('.rt .wk-s'); r.outerHTML=rowHTML(byId(oid),w?w.outerHTML:'');});
+      S.open={}; S.open[id]=1; openedAt[id]=Date.now(); const it=byId(id); if(it&&it.sec==='skip') send({type:'open_skip',itemId:id,sec:'skip'});
+      const r2=tg.closest('.row')||row; const w=r2.querySelector('.rt .wk-s'); const holder=document.createElement('div'); r2.replaceWith(holder); holder.outerHTML=rowHTML(it,w?w.outerHTML:'');
+      const opened=[...document.querySelectorAll('.row.open[data-row="'+CSS.escape(id)+'"]')][0]; if(opened) opened.scrollIntoView({block:'start'});}
     clampSrc(); watchRead(); return;}
   const src=e.target.closest('.src'); if(src&&(src.hasAttribute('data-clamp')||src.classList.contains('full'))){src.classList.toggle('full');return;}
   const lo=e.target.closest('[data-src]'); if(lo){send({type:'open_source',itemId:lo.dataset.src,sec:(byId(lo.dataset.src)||{}).sec||''});return;}
