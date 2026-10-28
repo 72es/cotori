@@ -42,6 +42,60 @@
  ],
  "items": [
   {
+   "id": "kilo-coffee-dallas",
+   "sec": "skip",
+   "title": "達拉斯新店 Kilo Coffee：冷凍豆庫、每份 15 克，手沖分成三種風味路線",
+   "orig": "Kilo Coffee Weighs Every Detail at New Dallas Cafe",
+   "date": "2026/10/28",
+   "media": "Daily Coffee News",
+   "author": "",
+   "tier": "T2",
+   "read": 4,
+   "summary": "9 月在達拉斯開幕的 Kilo Coffee，把熟豆以單份 15 克分裝進小瓶冷凍保存，目標隨時備有 8 到 10 支單品。慢沖吧台把豆子分成三類：Expressive（特殊後製、風味鮮明）、Refined（稀有或高分批次）、Balanced（熟悉、舒服的單品和配方），讓沒喝過手沖的客人也能從熟悉的開始。",
+   "why": "離我們很遠，但「把手沖菜單分成三種風味路線」是很好借的點子：客人不用看懂產區和處理法，只要選想喝哪一種感覺。",
+   "detail": [
+    "吧台設備：Meticulous 義式機、Weber Workshops EG-1 磨豆機、Orea Z1 濾杯。",
+    "熟豆向 Onyx Coffee Lab 以 5 磅包裝採購，再分裝冷凍。"
+   ],
+   "link": "https://dailycoffeenews.com/2026/10/28/kilo-coffee-weighs-every-detail-at-new-dallas-cafe/",
+   "pub": "2026-10-29"
+  },
+  {
+   "id": "nb-coffee-sneaker",
+   "sec": "skip",
+   "title": "New Balance 和 Todd Snyder 出咖啡色球鞋：Espresso 和 Milk 兩色",
+   "orig": "New Balance And Todd Snyder Team Up For A New Coffee Sneaker",
+   "date": "2026/10/28",
+   "media": "Sprudge",
+   "author": "Zac Cadwalader",
+   "tier": "T3",
+   "read": 2,
+   "summary": "New Balance 和設計師品牌 Todd Snyder 推出「Coffee Pack」，以 T500 網球鞋為底，出 Espresso（深咖啡色毛面麂皮）和 Milk（奶油色麂皮）兩色，售價 130 美元。",
+   "why": "純粹好玩的周邊新聞；咖啡元素越來越常出現在時尚聯名裡。",
+   "detail": [
+    "Nike 在 2021 年也出過同名的「Coffee Pack」系列。"
+   ],
+   "link": "https://sprudge.com/new-balance-and-todd-snyder-team-up-for-a-new-coffee-sneaker-1524009.html",
+   "pub": "2026-10-29"
+  },
+  {
+   "id": "third-wave-water-10",
+   "sec": "skip",
+   "title": "沖煮用礦物質包 Third Wave Water 滿 10 年，和 Onyx 推紀念禮盒",
+   "orig": "Third Wave Water Celebrates A Decade Of Better Coffee",
+   "date": "2026/10/27",
+   "media": "Sprudge（品牌新聞稿）",
+   "author": "",
+   "tier": "T3",
+   "read": 2,
+   "summary": "讓蒸餾水變成沖煮用水的礦物質包 Third Wave Water，2016 年 10 月 27 日在芝加哥上市，今年滿 10 年，推出限量紀念禮盒，內含 Onyx Coffee Lab 的咖啡和四盒不同礦物質配方。",
+   "why": "品牌新聞稿，參考就好。但它提醒一件事：水是沖煮變數之一，店裡的濾水和水質也值得定期檢查。",
+   "detail": [],
+   "note": "這是品牌自己提供的新聞稿。",
+   "link": "https://sprudge.com/third-wave-water-celebrates-a-decade-of-better-coffee-with-limited-edition-anniversary-box-featuring-onyx-coffee-lab-1530132.html",
+   "pub": "2026-10-29"
+  },
+  {
    "id": "milksha-bito-rebrand",
    "sec": "design",
    "title": "迷客夏 20 年最大品牌升級：Bito 重做識別，信義示範店 10/28 開幕",
