@@ -453,13 +453,21 @@ function tidy(){ (D.qa||[]).forEach(q=>q.qa=true); for(const id of Object.keys(S
 function newSecs(){ const ids=D.sections.map(x=>x.id); const known=ls.get('k-known',['industry','science','fun','food','skip']);
   if(S.secs){const add=ids.filter(id=>!known.includes(id)&&!S.secs.includes(id)); if(add.length){S.secs=S.secs.concat(add);ls.set('k-secs',S.secs);}}
   ls.set('k-known',ids); }
+/* the page itself (layout, features) may change too: compare its version tag with the one we started with and reload when it differs */
+let pageTag=null;
+async function tagNow(){ try{const r=await fetch('./index.html?t='+Date.now(),{method:'HEAD',cache:'no-store'}); return r.headers.get('etag')||r.headers.get('last-modified');}catch(e){return null} }
+async function appChanged(){ const t=await tagNow(); return !!(pageTag&&t&&t!==pageTag); }
+tagNow().then(t=>pageTag=t);
+let lastCheck=Date.now();
+document.addEventListener('visibilitychange',async()=>{ if(document.visibilityState!=='visible'||Date.now()-lastCheck<30000) return; lastCheck=Date.now();
+  if(await appChanged()){location.reload();return} load().catch(()=>{}); });
 async function load(){ const r=await fetch('data.json?v='+Date.now(),{cache:'no-store'}); D=await r.json(); newSecs(); tidy(); render(); if(!S.name) openSheet(true); flush(); }
 load().catch(()=>{$('#main').innerHTML='<p class="empty"><b>暫時打不開</b>請確認網路後再往下拉重新整理。</p>'});
 let y0=null,pulled=0,busy=false; const ptr=$('#ptr');
 addEventListener('touchstart',e=>{ if(scrollY<=0&&!busy&&$('#scrim').hidden) y0=e.touches.length===1?e.touches[0].clientY:null; else y0=null; },{passive:true});
 addEventListener('touchmove',e=>{ if(y0==null) return; pulled=Math.max(0,Math.min(110,(e.touches[0].clientY-y0)*.5)); ptr.style.transition='none'; ptr.style.height=pulled+'px'; ptr.classList.toggle('flap',pulled>60); },{passive:true});
 addEventListener('touchend',async()=>{ if(y0==null) return; y0=null; ptr.style.transition='';
-  if(pulled>60){busy=true; ptr.style.height='64px'; ptr.classList.add('flap'); try{await load()}catch(e){toast('重新整理失敗，稍後再試')}
+  if(pulled>60){busy=true; ptr.style.height='64px'; ptr.classList.add('flap'); try{ if(await appChanged()){location.reload();return} await load()}catch(e){toast('重新整理失敗，稍後再試')}
     setTimeout(()=>{ptr.classList.remove('flap');ptr.style.height='0';busy=false},500);} else {ptr.style.height='0';ptr.classList.remove('flap');}
   pulled=0; });
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
