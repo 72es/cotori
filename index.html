@@ -308,7 +308,7 @@ function cardHTML(it){
   ${it.action?`<div class="act"><span class="tl">試試看</span>${esc(it.action)}</div>`:''}
   ${det}${it.note?`<p class="note">${esc(it.note)}</p>`:''}
   <div class="fb">
-    <div class="line"><a class="link-out" href="${esc(it.link)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">讀原文 ↗</a>${it.read?`<span class="omin">原文約 ${it.read} 分鐘</span>`:''}${extra}</div>
+    <div class="line"><a class="link-out" href="${esc(it.link)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">讀原文 ↗</a>${it.read?`<span class="omin">${it.read} 分</span>`:''}${extra}</div>
     <div class="rate"><div class="stars" role="group" aria-label="值得閱讀？"><span class="l">值得閱讀？</span>${stars}</div>
       <button class="savebtn" type="button" data-save="${esc(it.id)}" aria-pressed="${sv}"><svg aria-hidden="true"><use href="#mark"/></svg>${sv?'已收藏':'收藏'}</button></div>
     <textarea class="nbox" rows="1" placeholder="內容讀得慣嗎？想知道更多什麼？">${esc(f.note||'')}</textarea>
@@ -367,15 +367,14 @@ function spyChips(){ if(co) co.disconnect(); const secs=[...document.querySelect
   co=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const id=e.target.id.slice(4);document.querySelectorAll('.chips a').forEach(a=>a.classList.toggle('on',a.dataset.sec===id))}}),{rootMargin:'-35% 0px -55% 0px'});
   secs.forEach(s=>co.observe(s)); }
 
-/* read detection: card open, its end has been on screen, and enough time spent (40% of the estimate, at least 8 s) */
+/* read detection: the card was opened and scrolled to its end */
 const openedAt={}; let ro=null;
 function watchRead(){ if(ro) ro.disconnect(); if(!('IntersectionObserver' in window)) return;
   ro=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting) return; const id=e.target.closest('.card').dataset.id; tryRead(id,true);}),{threshold:.9});
   document.querySelectorAll('.card .fb').forEach(x=>ro.observe(x)); }
 const seenEnd={};
 function tryRead(id,end){ if(end) seenEnd[id]=true; const it=byId(id); if(!it||S.read[id]||!seenEnd[id]||!openedAt[id]) return;
-  const need=Math.max(8,sumSecs(it)*0.4)*1000; const spent=Date.now()-openedAt[id];
-  if(spent>=need) markRead(id,Math.round(spent/1000)); else setTimeout(()=>tryRead(id,false),need-spent+200); }
+  markRead(id,Math.round((Date.now()-openedAt[id])/1000)); }
 function markRead(id,secs){ if(S.read[id]) return; S.read[id]=Date.now(); ls.set('k-read',S.read);
   const it=byId(id); send({type:'read',itemId:id,sec:it?it.sec:'',secs:secs||''});
   document.querySelectorAll('[data-row="'+CSS.escape(id)+'"]').forEach(r=>r.classList.add('read')); badges(); }
