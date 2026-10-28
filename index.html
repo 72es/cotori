@@ -138,6 +138,7 @@ details.more ul{margin:0 0 12px;padding-left:1.1em;display:grid;gap:10px;font-si
 .watch{font-size:.9375rem;color:var(--ink-2);margin:0 0 8px}
 .fb{margin-top:14px;padding-top:14px;border-top:1px dashed var(--rule);display:grid;gap:10px}
 .line{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:.875rem}
+.omin{font-size:.8125rem;color:var(--ink-3);margin-left:-2px}
 .link-out{text-decoration:none;font-weight:700;border-bottom:1.5px solid var(--ink);padding-bottom:1px}
 .rate{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px}
 .savebtn{margin-left:auto;flex:none;display:inline-flex;align-items:center;gap:5px;border:1px solid var(--rule);background:var(--card);border-radius:999px;padding:5px 12px;min-height:38px;white-space:nowrap;cursor:pointer;font-size:.875rem;font-weight:700}
@@ -285,10 +286,13 @@ const olderItems=()=>D.items.filter(i=>{const a=age(i);return a>=HOME_DAYS&&a<=K
 const savedItems=()=>Object.keys(S.saved).map(id=>D.items.find(i=>i.id===id)||S.saved[id]);
 const unreadCount=()=>homeItems().filter(i=>i.sec!=='skip'&&secOn(i.sec)&&!S.read[i.id]).length;
 
+/* reading time of our own summary (what people actually read), about 400 Chinese characters a minute */
+function sumSecs(it){ const t=[it.summary,it.why,it.action,it.note].concat(it.detail||[]).filter(Boolean).join(''); return t.length*60/400; }
+const sumMin=it=>Math.max(1,Math.round(sumSecs(it)/60));
 function rowHTML(it,extra){
   const rd=!!S.read[it.id], sv=!!S.saved[it.id], op=!!S.open[it.id];
   return `<div class="row ${rd?'read':''} ${op?'open':''}" data-row="${esc(it.id)}">
-  <button class="rt" type="button" data-toggle="${esc(it.id)}" aria-expanded="${op}"><span class="t">${esc(it.title)}</span>${extra||''}${sv?'<svg class="mk" aria-label="已收藏"><use href="#mark"/></svg>':''}<span class="mins">${it.read} 分</span></button>
+  <button class="rt" type="button" data-toggle="${esc(it.id)}" aria-expanded="${op}"><span class="t">${esc(it.title)}</span>${extra||''}${sv?'<svg class="mk" aria-label="已收藏"><use href="#mark"/></svg>':''}<span class="mins">${sumMin(it)} 分</span></button>
   ${op?cardHTML(it):''}</div>`;
 }
 function cardHTML(it){
@@ -298,13 +302,13 @@ function cardHTML(it){
   const extra=(it.extra_links||[]).map(l=>`<a class="link-out" href="${esc(l.u)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">${esc(l.t)} ↗</a>`).join('');
   const stars=[1,2,3,4,5].map(n=>`<button type="button" class="star ${f.stars>=n?'on':''}" data-star="${esc(it.id)}" data-n="${n}" aria-label="${n} 顆星" aria-pressed="${f.stars===n}">★</button>`).join('');
   return `<article class="card" data-id="${esc(it.id)}">${sv?'<svg class="flag" aria-hidden="true"><use href="#mark"/></svg>':''}
-  ${orig}<div class="byline"><span class="src" data-clamp>${esc(it.media)}${it.author?'・'+esc(it.author):''}</span><span>約 ${it.read} 分鐘</span><span>${esc(it.date)}</span></div>
+  ${orig}<div class="byline"><span class="src" data-clamp>${esc(it.media)}${it.author?'・'+esc(it.author):''}</span><span>${esc(it.date)}</span></div>
   <p class="prose">${esc(it.summary)}</p>
   <div class="why"><span class="owl" aria-label="跟我們的關係">🦉</span>${esc(it.why)}</div>
   ${it.action?`<div class="act"><span class="tl">試試看</span>${esc(it.action)}</div>`:''}
   ${det}${it.note?`<p class="note">${esc(it.note)}</p>`:''}
   <div class="fb">
-    <div class="line"><a class="link-out" href="${esc(it.link)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">讀原文 ↗</a>${extra}</div>
+    <div class="line"><a class="link-out" href="${esc(it.link)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">讀原文 ↗</a>${it.read?`<span class="omin">原文約 ${it.read} 分鐘</span>`:''}${extra}</div>
     <div class="rate"><div class="stars" role="group" aria-label="值得閱讀？"><span class="l">值得閱讀？</span>${stars}</div>
       <button class="savebtn" type="button" data-save="${esc(it.id)}" aria-pressed="${sv}"><svg aria-hidden="true"><use href="#mark"/></svg>${sv?'已收藏':'收藏'}</button></div>
     <textarea class="nbox" rows="1" placeholder="內容讀得慣嗎？想知道更多什麼？">${esc(f.note||'')}</textarea>
@@ -370,7 +374,7 @@ function watchRead(){ if(ro) ro.disconnect(); if(!('IntersectionObserver' in win
   document.querySelectorAll('.card .fb').forEach(x=>ro.observe(x)); }
 const seenEnd={};
 function tryRead(id,end){ if(end) seenEnd[id]=true; const it=byId(id); if(!it||S.read[id]||!seenEnd[id]||!openedAt[id]) return;
-  const need=Math.max(8,(it.read||1)*60*0.4)*1000; const spent=Date.now()-openedAt[id];
+  const need=Math.max(8,sumSecs(it)*0.4)*1000; const spent=Date.now()-openedAt[id];
   if(spent>=need) markRead(id,Math.round(spent/1000)); else setTimeout(()=>tryRead(id,false),need-spent+200); }
 function markRead(id,secs){ if(S.read[id]) return; S.read[id]=Date.now(); ls.set('k-read',S.read);
   const it=byId(id); send({type:'read',itemId:id,sec:it?it.sec:'',secs:secs||''});
