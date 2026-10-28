@@ -162,11 +162,13 @@ textarea::placeholder{color:var(--ink-3)}
 .foot{font-size:.75rem;color:var(--ink-3);padding-block:28px;line-height:1.8}
 .view-h{font-size:1.5rem;font-weight:900;padding-top:22px}
 .view-sub{color:var(--ink-2);font-size:.9375rem;margin:6px 0 4px}
-.qa{background:var(--card);border-radius:20px;box-shadow:var(--shadow);padding:20px;margin-top:16px}
-.qa .who{font-size:.8125rem;color:var(--accent);font-weight:700}
-.qa .q{font-size:1.0625rem;font-weight:700;line-height:1.6;margin:4px 0 10px}
-.qa .a{font-size:1rem;line-height:1.85;color:var(--ink-2);white-space:pre-line}
-.qa .links{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:12px;font-size:.875rem}
+.pend{margin-top:18px;padding:14px 16px;border-radius:14px;background:var(--sun-wash);font-size:.9375rem}
+.pend .k{font-size:.75rem;font-weight:700;letter-spacing:.1em;color:var(--sun);margin-bottom:4px}
+.pend p{margin:4px 0 0}
+.qa-list{margin-top:18px}
+.thread .th .t{font-weight:900}
+.thread .chev{flex:none;color:var(--ink-3);padding-top:.15em}
+.list.sub{padding-left:14px;border-left:2px solid var(--rule);margin:0 0 10px 4px}
 .qa.mine{box-shadow:var(--shadow),inset 0 0 0 2px var(--sun-wash)}
 .empty{padding:32px 0;color:var(--ink-3);font-size:.9375rem;line-height:1.8}
 .empty b{display:block;font-size:1.125rem;color:var(--ink);margin-bottom:4px}
@@ -225,7 +227,7 @@ textarea::placeholder{color:var(--ink-3)}
   <button class="tab" role="tab" data-view="home" aria-selected="true" aria-label="本期"><svg class="bird"><use href="#bird"/></svg><span class="badge" id="unread" hidden></span></button>
   <button class="tab" role="tab" data-view="older" aria-selected="false"><svg viewBox="0 0 24 24"><g class="ic"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></g></svg>3 天前</button>
   <button class="tab" role="tab" data-view="saved" aria-selected="false"><svg viewBox="0 0 24 24"><path class="ic" d="M7 4h10v16l-5-4-5 4z"/></svg>收藏</button>
-  <button class="tab" role="tab" data-view="qa" aria-selected="false" aria-label="大家問"><span class="q">❓</span><i class="dot" id="qaDot" hidden></i></button>
+  <button class="tab" role="tab" data-view="qa" aria-selected="false" aria-label="大家問"><span class="q">❓</span><span class="badge" id="qaUnread" hidden></span></button>
 </nav></div>
 
 <script>
@@ -238,7 +240,7 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const ls={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 let D=null;
-const S={name:ls.get('k-name',''),secs:ls.get('k-secs',null),fb:ls.get('k-fb',{}),read:ls.get('k-read',{}),saved:ls.get('k-saved',{}),asked:ls.get('k-asked',[]),open:{},view:'home'};
+const S={name:ls.get('k-name',''),secs:ls.get('k-secs',null),fb:ls.get('k-fb',{}),read:ls.get('k-read',{}),saved:ls.get('k-saved',{}),asked:ls.get('k-asked',[]),open:{},thOpen:{},view:'home'};
 
 /* dates in Taipei */
 const tpe=d=>new Date(new Date(d).toLocaleString('en-US',{timeZone:'Asia/Taipei'}));
@@ -267,7 +269,7 @@ document.addEventListener('touchend',e=>{if(e.touches.length<2) pd=null},{passiv
 const ANON=['read','open_skip','open_source','save'];
 function send(rec){const base={sid:Date.now().toString(36)+Math.random().toString(36).slice(2,7),edition:D?D.edition.id:''};
   if(!ANON.includes(rec.type)) base.name=S.name;
-  const q=ls.get('k-queue',[]);q.push(Object.assign(base,rec));ls.set('k-queue',q.slice(-300));flush();}
+  const q=ls.get('k-queue',[]);q.push(Object.assign(base,rec));ls.set('k-queue',q.slice(-300));flush();return base.sid;}
 let flushing=false;
 async function flush(){ if(flushing||!FEEDBACK_URL||!navigator.onLine) return; flushing=true;
   let q=ls.get('k-queue',[]);
@@ -278,12 +280,13 @@ addEventListener('online',flush);
 
 /* lists */
 const secOn=id=>!S.secs||S.secs.includes(id);
-const byId=id=>(D.items.find(i=>i.id===id))||S.saved[id];
+const allIt=()=>D.items.concat(D.qa||[]);
+const byId=id=>allIt().find(i=>i.id===id)||S.saved[id];
 const sortNew=a=>a.slice().sort((x,y)=>String(y.pub||y.date).localeCompare(String(x.pub||x.date)));
 function homeItems(){const r=D.items.filter(i=>age(i)<HOME_DAYS);
   const skip=sortNew(r.filter(i=>i.sec==='skip')).slice(0,SKIP_MAX);return r.filter(i=>i.sec!=='skip').concat(skip)}
 const olderItems=()=>D.items.filter(i=>{const a=age(i);return a>=HOME_DAYS&&a<=KEEP_DAYS&&!S.saved[i.id]});
-const savedItems=()=>Object.keys(S.saved).map(id=>D.items.find(i=>i.id===id)||S.saved[id]);
+const savedItems=()=>Object.keys(S.saved).map(id=>allIt().find(i=>i.id===id)||S.saved[id]);
 const unreadCount=()=>homeItems().filter(i=>i.sec!=='skip'&&secOn(i.sec)&&!S.read[i.id]).length;
 
 /* reading time of our own summary (what people actually read), about 400 Chinese characters a minute */
@@ -304,11 +307,11 @@ function cardHTML(it){
   return `<article class="card" data-id="${esc(it.id)}">${sv?'<svg class="flag" aria-hidden="true"><use href="#mark"/></svg>':''}
   ${orig}<div class="byline"><span class="src" data-clamp>${esc(it.media)}${it.author?'・'+esc(it.author):''}</span><span>${esc(it.date)}</span></div>
   <p class="prose">${esc(it.summary)}</p>
-  <div class="why"><span class="owl" aria-label="跟我們的關係">🦉</span>${esc(it.why)}</div>
+  <div class="why"><span class="owl" aria-label="${it.qa?'回答':'跟我們的關係'}">🦉</span>${esc(it.why)}</div>
   ${it.action?`<div class="act"><span class="tl">試試看</span>${esc(it.action)}</div>`:''}
   ${det}${it.note?`<p class="note">${esc(it.note)}</p>`:''}
   <div class="fb">
-    <div class="line"><a class="link-out" href="${esc(it.link)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">讀原文 ↗</a>${it.read?`<span class="omin">${it.read} 分</span>`:''}${extra}</div>
+    <div class="line">${it.link?`<a class="link-out" href="${esc(it.link)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">讀原文 ↗</a>`:''}${it.read?`<span class="omin">${it.read} 分</span>`:''}${extra}</div>
     <div class="rate"><div class="stars" role="group" aria-label="值得閱讀？"><span class="l">值得閱讀？</span>${stars}</div>
       <button class="savebtn" type="button" data-save="${esc(it.id)}" aria-pressed="${sv}"><svg aria-hidden="true"><use href="#mark"/></svg>${sv?'已收藏':'收藏'}</button></div>
     <textarea class="nbox" rows="1" placeholder="內容讀得慣嗎？想知道更多什麼？">${esc(f.note||'')}</textarea>
@@ -322,7 +325,7 @@ function sectionsHTML(items,emptyAll){
   return html||`<div class="empty">${emptyAll}</div>`;
 }
 function homeHTML(){
-  const its=homeItems(); const unreadQA=(D.qa||[]).filter(q=>S.name&&q.name===S.name&&!ls.get('k-qa-seen',[]).includes(q.id));
+  const its=homeItems(); const unreadQA=myAnswers().filter(q=>!S.read[q.id]);
   const wk=D.weekly&&(D.weekly.items||[]).length?`<section class="box weekly"><div class="k">本週好讀</div><div class="list">${D.weekly.items.map(w=>{const it=byId(w.id);return it?rowHTML(it,`<span class="wk-s">★ ${w.stars} / ${w.n}人</span>`):''}).join('')}</div></section>`:'';
   return `<section class="intro"><div class="date">${esc(D.edition.label)}</div>
     <h1>${greet()}${S.name?'，'+esc(S.name):''}</h1>
@@ -331,18 +334,29 @@ function homeHTML(){
   ${wk}
   ${(D.keys||[]).length?`<section class="box keys"><div class="k">本期重點整理</div><ol>${D.keys.map(k=>`<li>${esc(k)}</li>`).join('')}</ol></section>`:''}
   ${sectionsHTML(its,'<b>這一期還沒有內容</b>')}
-  <section class="ask"><h2>🙋🏼 我有問題</h2><p>咖啡、餐飲、世間一切，任何想知道的都可以問。下一期會搜集新聞、研究報告來回答，所有人都看得到。</p>
-    <textarea id="askBox" rows="2" placeholder="問吧！其他人也想知道"></textarea>
-    <div class="line"><button class="btn primary" type="button" id="askSend">送出問題</button><span class="sent" id="askSent"></span></div></section>
+  ${askHTML()}
   <p class="foot">每天早上 7:30 cotori 會更新一次，搜羅各大咖啡媒體平台與新聞資源，內容是依原文整理的繁中摘要，資訊以原文為準。如有錯誤請不吝回饋修正，共同養成 cotori。</p>`;
 }
 const greet=()=>{const h=tpe(Date.now()).getHours();return h<11?'早安':h<18?'午安':'晚安'};
+function askHTML(){ return `<section class="ask"><h2>🙋🏼 我有問題</h2><p>咖啡、餐飲、世間一切，任何想知道的都可以問。下一期會搜集新聞、研究報告來回答，所有人都看得到。</p>
+    <textarea id="askBox" rows="2" placeholder="問吧！其他人也想知道"></textarea>
+    <div class="line"><button class="btn primary" type="button" id="askSend">送出問題</button><span class="sent" id="askSent"></span></div></section>`; }
+/* my own questions are matched by the send id kept on this phone; names are never shown */
+const sidsOf=q=>String(q.sid||'').split(/\s+/).filter(Boolean);
+function myAnswers(){ const mine=new Set(S.asked.map(a=>a.sid).filter(Boolean)); return (D.qa||[]).filter(q=>sidsOf(q).some(x=>mine.has(x))); }
 function qaHTML(){
-  const qa=D.qa||[]; const mine=S.asked.filter(a=>!qa.some(q=>q.q===a.text));
-  return `<h1 class="view-h">大家問</h1><p class="view-sub">大家的提問，每天早上的新一期一起回答，一天最多 5 題，沒答完的隔天繼續。</p>`+
-   (mine.length?`<div class="qa mine"><div class="who">你問的，排隊回答中</div>${mine.map(a=>`<p class="q">${esc(a.text)}</p>`).join('')}</div>`:'')+
-   (qa.length?qa.map(q=>`<div class="qa ${S.name&&q.name===S.name?'mine':''}"><div class="who">${esc(q.name||'有人')} 問</div><p class="q">${esc(q.q)}</p><div class="a">${esc(q.a)}</div>${(q.links||[]).length?`<div class="links">${q.links.map(l=>`<a class="link-out" href="${esc(l.u)}" target="_blank" rel="noopener">${esc(l.t)} ↗</a>`).join('')}</div>`:''}</div>`).join('')
-   :`<div class="empty"><b>還沒有人提問</b>在主頁最下面的「我有問題」寫下來，下一期就會在這裡回答。</div>`);
+  const qa=D.qa||[]; const answered=new Set(qa.flatMap(sidsOf));
+  const pending=S.asked.filter(a=>a.sid?!answered.has(a.sid):!qa.some(q=>q.title===a.text));
+  /* newest first; a follow-up thread sits where its newest answer is and folds open/closed */
+  const blocks=[],seen={};
+  for(const q of qa){ if(!q.thread){blocks.push({q});continue}
+    if(!seen[q.thread]){seen[q.thread]={thread:q.thread,list:[]};blocks.push(seen[q.thread]);} seen[q.thread].list.push(q); }
+  const body=blocks.map(b=>{ if(b.q) return rowHTML(b.q);
+    const un=b.list.filter(x=>!S.read[x.id]).length; const open=S.thOpen[b.thread]??un>0;
+    return `<div class="row thread ${open?'open':''}"><button class="rt th" type="button" data-thread="${esc(b.thread)}" aria-expanded="${open}"><span class="t">${esc(b.thread)}</span><span class="mins">${b.list.length} 題${un?` · ${un} 未讀`:''}</span><span class="chev">${open?'－':'＋'}</span></button>${open?`<div class="list sub">${b.list.map(x=>rowHTML(x)).join('')}</div>`:''}</div>`; }).join('');
+  return `<h1 class="view-h">大家問</h1><p class="view-sub">大家的提問，每天早上的新一期一起回答，一天最多 5 題，沒答完的隔天繼續。</p>`+askHTML()+
+   (pending.length?`<div class="pend"><div class="k">你問的，排隊回答中</div>${pending.map(a=>`<p>${esc(a.text)}</p>`).join('')}</div>`:'')+
+   (qa.length?`<div class="list qa-list">${body}</div>`:`<div class="empty"><b>還沒有人提問</b>在上面寫下你的問題，下一期就會在這裡回答。</div>`);
 }
 function chipsHTML(items){
   const have=new Set(items.map(i=>i.sec));
@@ -359,8 +373,7 @@ function render(){
   badges(); clampSrc(); spyChips(); watchRead();
 }
 function badges(){const n=unreadCount();const b=$('#unread');b.hidden=!n;b.textContent=n;
-  const qaNew=(D.qa||[]).some(q=>!ls.get('k-qa-seen',[]).includes(q.id)); $('#qaDot').hidden=!qaNew||S.view==='qa';
-  if(S.view==='qa') ls.set('k-qa-seen',(D.qa||[]).map(q=>q.id));}
+  const qn=(D.qa||[]).filter(q=>!S.read[q.id]).length; const qb=$('#qaUnread'); qb.hidden=!qn; qb.textContent=qn; }
 function clampSrc(){document.querySelectorAll('.src[data-clamp]').forEach(s=>{if(s.scrollHeight<=s.clientHeight+2){s.removeAttribute('data-clamp');s.style.cursor='auto'}})}
 let co=null;
 function spyChips(){ if(co) co.disconnect(); const secs=[...document.querySelectorAll('.sec')]; if(!secs.length) return;
@@ -397,6 +410,7 @@ $('#scrim').addEventListener('click',e=>{if(e.target.id==='scrim'&&S.name)$('#sc
 
 /* events */
 document.addEventListener('click',e=>{
+  const th=e.target.closest('[data-thread]'); if(th){const k=th.dataset.thread; const open=th.getAttribute('aria-expanded')==='true'; S.thOpen[k]=!open; render(); return;}
   const tg=e.target.closest('[data-toggle]'); if(tg){const id=tg.dataset.toggle; const row=tg.closest('.row');
     if(S.open[id]){delete S.open[id]; row.outerHTML=rowHTML(byId(id), row.querySelector('.wk-s')?row.querySelector('.wk-s').outerHTML:'');}
     else{S.open[id]=1; openedAt[id]=Date.now(); const it=byId(id); if(it&&it.sec==='skip') send({type:'open_skip',itemId:id,sec:'skip'});
@@ -415,7 +429,7 @@ document.addEventListener('click',e=>{
     const it=byId(id); const f=S.fb[id]=Object.assign({},S.fb[id],{note:t,noteSent:true}); ls.set('k-fb',S.fb);
     send({type:'note',itemId:id,title:it.title,stars:f.stars||'',text:t}); cd.querySelector('.sent').textContent='已送出'; toast('收到了，謝謝'); return;}
   if(e.target.id==='askSend'){const t=$('#askBox').value.trim(); if(!t){toast('先寫下你的問題');return}
-    send({type:'question',itemId:'',title:'',stars:'',text:t}); S.asked.push({text:t,ts:Date.now()}); ls.set('k-asked',S.asked);
+    const sid=send({type:'question',itemId:'',title:'',stars:'',text:t}); S.asked.push({text:t,ts:Date.now(),sid}); ls.set('k-asked',S.asked);
     $('#askBox').value=''; $('#askSent').textContent='已送出，下一期回答'; toast('問題送出了'); return;}
   const tb=e.target.closest('.tab'); if(tb){S.view=tb.dataset.view;render();scrollTo(0,0);return;}
   const go=e.target.closest('[data-go]'); if(go){S.view=go.dataset.go;render();scrollTo(0,0);return;}
@@ -423,8 +437,8 @@ document.addEventListener('click',e=>{
 function toast(m){const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>t.hidden=true,1800);}
 
 /* saved copies refresh, and old unsaved state cleanup */
-function tidy(){ for(const id of Object.keys(S.saved)){const fresh=D.items.find(i=>i.id===id); if(fresh) S.saved[id]=fresh;} ls.set('k-saved',S.saved);
-  const keep=new Set(D.items.map(i=>i.id).concat(Object.keys(S.saved))); for(const k of Object.keys(S.read)) if(!keep.has(k)) delete S.read[k]; ls.set('k-read',S.read); }
+function tidy(){ (D.qa||[]).forEach(q=>q.qa=true); for(const id of Object.keys(S.saved)){const fresh=allIt().find(i=>i.id===id); if(fresh) S.saved[id]=fresh;} ls.set('k-saved',S.saved);
+  const keep=new Set(allIt().map(i=>i.id).concat(Object.keys(S.saved))); for(const k of Object.keys(S.read)) if(!keep.has(k)) delete S.read[k]; ls.set('k-read',S.read); }
 
 /* load & pull to refresh */
 /* a category added later is switched on for everyone who already picked their categories */
