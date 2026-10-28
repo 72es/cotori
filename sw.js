@@ -1,5 +1,5 @@
 // cotori offline cache: page and data.json always fetched fresh from the network (skipping the 10-minute HTTP cache), last copy used only when offline.
-const V = 'cotori-v6';
+const V = 'cotori-v7';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './apple-touch-icon.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(V).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
