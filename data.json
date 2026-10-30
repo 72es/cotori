@@ -1,17 +1,17 @@
 {
  "edition": {
-  "id": "2026-10-30",
-  "no": 4,
-  "date": "2026-10-30",
-  "label": "10月30日 週五"
+  "id": "2026-10-31",
+  "no": 5,
+  "date": "2026-10-31",
+  "label": "10月31日 週六"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "Bodum 在美召回 590 萬支法式濾壓壺：別用金屬湯匙攪玻璃壺，有裂痕就換。",
-  "台灣星巴克客製化收費上路兩週：去冰補奶加 15 元引發反彈，對照國外咖啡館靠抹茶、特調補毛利。",
-  "厄瓜多基因檢測發現標示為藝伎、Sidra 的苗不一定是本人；磨豆「慢慢餵」會讓同刻度的粉變粗。",
-  "ARTs：內田正泰《人の詩》朋丁展到 11/22，臺北數位藝術節 10/31 開幕首晚開到凌晨 2 點。",
-  "大家問：台灣各地生豆評鑑系列總表、臺灣咖啡分類分級系統詳介，以及不同水溫萃取的論文清單。"
+  "中國茶飲連鎖的咖啡化：古茗咖啡占營收最高 2 成，中國咖啡市場 2030 年估達 728 億美元。",
+  "一杯 200 美元的藝伎、外燴咖啡怎麼報價：高價和活動吧台都在賣「體驗」，不只賣咖啡。",
+  "Blue Bottle 把預設奶改回牛奶；舊金山創意咖啡館 Outset 因欠租兩店全關。",
+  "主打羅布斯塔的英國連鎖 Black Sheep 再簽 20 家店，巴西 conilon 出口年增 70%。",
+  "ARTs：POPUPASIA 十週年 11/12 松菸、SANAA 史上最大建築展 2027 年在綠美圖、Sabine Marcelis 蘇黎世光與色彩展。"
  ],
  "weekly": null,
  "sections": [
@@ -41,6 +41,273 @@
   }
  ],
  "items": [
+  {
+   "id": "china-tea-chains-coffee",
+   "sec": "industry",
+   "title": "中國茶飲連鎖的咖啡化：古茗咖啡占營收最高 2 成，蜜雪冰城約 15%",
+   "orig": "Coffee News Recap, 30 Oct: China’s Pan Wei is the 2026 World Barista Champion, coffee now accounts for up to 20% of sales at China’s leading tea chains & other stories",
+   "date": "2026/10/30",
+   "media": "Perfect Daily Grind（引述 Rabobank 報告）",
+   "author": "",
+   "tier": "T2",
+   "read": 5,
+   "summary": "Perfect Daily Grind 每週新聞回顧引述 Rabobank 新報告：中國兩大茶飲連鎖中，咖啡已占古茗（Goodme）銷售最高約 20%、蜜雪冰城（Mixue）約 15%。報告認為茶和咖啡共享客群、店址和營運模式，加上茶飲市場成熟、單店業績成長放緩，賣咖啡對茶飲品牌很合理。Rabobank 估計中國咖啡市場 2025 年達 369 億美元，是 2020 年 139 億美元的 2.5 倍以上，並預測 2030 年成長到 728 億美元；不過人均消費量仍低於南韓、日本。文中也提到，依 World Coffee Portal，中國按門市數已超過美國，成為全球最大的品牌咖啡館市場，Rabobank 預期中國連鎖會把低價、產品創新和數位點單帶進東南亞。",
+   "why": "台灣手搖飲和咖啡館之間的界線也越來越模糊：手搖店賣咖啡、咖啡館賣抹茶和茶飲。中國的數字提醒我們，同一個客人今天買茶、明天買咖啡，我們真正的競爭對手不只是隔壁咖啡館。吧台可以多想想：客人為什麼要來我們這裡喝，而不是在手搖店順手買一杯？",
+   "detail": [
+    "數字分段看：古茗咖啡占比最高約 20%；蜜雪冰城約 15%。",
+    "市場規模：2020 年 139 億美元 → 2025 年 369 億美元 → 預測 2030 年 728 億美元（Rabobank）。",
+    "中國按門市數已是全球最大品牌咖啡館市場（World Coffee Portal）。",
+    "同一週：中國選手 Pan Wei 在巴拿馬拿下 2026 世界咖啡師大賽冠軍（本刊 10/28 已報導）。"
+   ],
+   "watch": "中國連鎖品牌進入東南亞、甚至台灣的速度。",
+   "note": "這是週報摘要，Rabobank 報告原文這次沒有讀到；數字以 Perfect Daily Grind 轉述為準。",
+   "link": "https://perfectdailygrind.com/2026/10/coffee-news-recap-30-october-2026/",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "black-sheep-robusta-franchise",
+   "sec": "industry",
+   "title": "主打羅布斯塔的英國連鎖 Black Sheep Coffee：最大加盟商再簽 20 家，9 個月簽超過 100 家",
+   "orig": "Black Sheep Coffee’s largest franchisee agrees 20 more stores",
+   "date": "2026/10/30",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 2,
+   "summary": "Perfect Daily Grind 週報指出，總部在格拉斯哥的 SUR Group（Black Sheep Coffee 最大的加盟商）簽下開發協議，要在西約克郡、英格蘭北部和蘇格蘭南部開至少 20 家店，預計五年內創造約 300 個工作機會。報導稱 Black Sheep 是倫敦的「羅布斯塔專家」，過去九個月已簽下超過 100 家新店的協議。",
+   "why": "之前大家問過「精品羅布斯塔在市場上扮演什麼角色」，這則是一個實際例子：在英國，有連鎖品牌以羅布斯塔為品牌特色，還在快速展店。客人如果問「羅布斯塔是不是比較差」，可以說：品質要看種植和處理，國外已有品牌拿它當招牌。",
+   "detail": [
+    "加盟商：SUR Group（格拉斯哥）。",
+    "新協議：至少 20 家店，涵蓋 Northumberland、Cumbria、Dumfries and Galloway 等地。",
+    "預估五年約 300 個工作機會。"
+   ],
+   "note": "週報摘要，未讀到公司公告原文。",
+   "link": "https://perfectdailygrind.com/2026/10/coffee-news-recap-30-october-2026/",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "espirito-santo-conilon-exports",
+   "sec": "industry",
+   "title": "巴西聖埃斯皮里圖州 9 月出口 74.8 萬袋，比去年同期多 55%，主力是 conilon",
+   "orig": "Espírito Santo coffee exports pass 5 million bags as conilon volume reaches third-highest level",
+   "date": "2026/10/28",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 2,
+   "summary": "巴西聖埃斯皮里圖州（Espírito Santo）2026 年 9 月咖啡出口共 74.8 萬袋，比 8 月少 16%、營收少 15%。其中 conilon（巴西的羅布斯塔）65.2 萬袋、阿拉比卡 7.3 萬袋、即溶 2.2 萬袋。但和 2025 年 9 月相比，總出口成長 55%，conilon 增加 70%、阿拉比卡增加 14%，即溶減少 40%。標題指出該州出口已超過 500 萬袋，conilon 量達史上第三高。",
+   "why": "這個州的出口幾乎都是 conilon，代表商業咖啡、即溶和部分義式配方的原料供應正在變多。對我們來說，可以留意配方豆裡的羅布斯塔／conilon 報價會不會比阿拉比卡穩定。",
+   "detail": [
+    "月對月：總量 -16%，營收 -15%。",
+    "年對年：總量 +55%；conilon +70%、阿拉比卡 +14%、即溶 -40%。",
+    "9 月組成：conilon 65.2 萬袋、阿拉比卡 7.3 萬袋、即溶 2.2 萬袋。"
+   ],
+   "note": "週報摘要；「超過 500 萬袋」的統計期間原文摘要沒有寫清楚。",
+   "link": "https://perfectdailygrind.com/2026/10/coffee-news-recap-30-october-2026/",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "simonelli-umami-paper",
+   "sec": "science",
+   "title": "咖啡也有鮮味？Simonelli 發表研究報告，探討鮮味感怎麼形成",
+   "orig": "Simonelli Group publishes second Beyond the Cup paper on umami in coffee",
+   "date": "2026/10/26",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 2,
+   "summary": "義大利咖啡機集團 Simonelli Group 發表「Beyond the Cup」系列第二篇報告〈What if Umami is more than a taste?〉，結合化學、感官分析和後製處理研究，探討咖啡裡類似鮮味（umami）的感受如何形成、如何增強，並把香氣化合物、生化變化和感官知覺連結起來，提出評估杯品質的新方式。",
+   "why": "杯測或跟客人聊風味時，「鹹鮮、湯感、醬油感」常常說不清楚。這份報告想把它變成可以討論的風味方向。發酵處理豆有時會出現這類味道，可以留意是不是被當成缺點。",
+   "detail": [
+    "發表者是設備商 Simonelli Group，不是同儕審查期刊論文。",
+    "方法：化學、感官分析加上後製處理研究。"
+   ],
+   "note": "這次只讀到週報摘要，報告原文沒讀到，具體結論與數據之後再補；屬廠商發表的報告。",
+   "link": "https://perfectdailygrind.com/2026/10/coffee-news-recap-30-october-2026/",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "sey-200-dollar-cup",
+   "sec": "food",
+   "title": "一杯 200 美元：紐約 Sey 推巴拿馬 Finca Sophia 藝伎，每公斤標價 6,325 美元",
+   "orig": "We’re in the Era of the $200 Cup of Coffee",
+   "date": "2026/10/30",
+   "media": "Eater",
+   "author": "",
+   "tier": "T2",
+   "read": 6,
+   "summary": "紐約布魯克林 Bushwick 的 Sey Coffee 推出巴拿馬奇里基高地 Finca Sophia 的稀有藝伎，一杯約 200 美元。Sey 在競標以 44,275 美元買下這批豆，等於每公斤 6,325 美元。品牌策略總監 Doug Cohen 說，莊園經理告訴他今年產量下降約 95%，買下這批豆是支持合作多年的生產者，也是發展「更高層次的咖啡體驗」。他建議空腹、不加東西、慢慢喝，因為冷卻過程中風味會改變。Cohen 反問：為什麼我們接受某些葡萄酒值幾千美元，卻質疑咖啡能有相同價值？Eater 作者則提出另一個問題：如果咖啡應該更貴，誰還喝得起？",
+   "why": "這是精品咖啡定價的極端案例，但背後的說法很實用：價格來自稀有度、和產地的長期關係、加上喝的方式和體驗。我們推高價單品時，也可以學這套說法——說清楚為什麼貴、建議怎麼喝（放涼一點、不加糖奶），而不是只報分數。",
+   "action": "下次推薦店裡最貴的單品時，試著加一句建議喝法：「放涼一點再喝，味道會變。」",
+   "detail": [
+    "競標價 44,275 美元，每公斤 6,325 美元，約每杯 200 美元。",
+    "Finca Sophia 今年產量下降約 95%（莊園經理說法，經 Cohen 轉述）。",
+    "作者提醒高價化與可負擔性的矛盾。"
+   ],
+   "link": "https://www.eater.com/coffee-shops/994101/sey-200-dollar-coffee-finca-sophia",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "coffee-cart-pricing",
+   "sec": "food",
+   "title": "外燴咖啡怎麼報價？美國業者：基本費＋時薪＋車馬費，咖啡反而是最便宜的項目",
+   "orig": "How Coffee Carts and Caterers Price Gigs: 4 Operators Share Their Processes",
+   "date": "2026/10/30",
+   "media": "Fresh Cup",
+   "author": "Garrett Oden",
+   "tier": "T2",
+   "read": 8,
+   "summary": "Fresh Cup 訪問四家美國咖啡外燴業者，談活動咖啡吧怎麼報價。報價平台 Flashquotes 的資料顯示，25,860 筆訂單中，一場活動平均約 1,040 美元，一半落在 765 到 1,700 美元，近七成是平日的企業活動。50 人以下的活動平均每位賓客 38.11 美元，500 人以上平均 9.62 美元，因為交通、架設和撤場成本不論人數都差不多。Goodhart Coffee Catering 創辦人建議的公式是：基本費 300–500 美元（涵蓋 4–6 小時的打包、架設、撤場和清潔）＋每服務小時 150–200 美元＋車馬費。Creature Coffee 執行長說，咖啡常是報價裡最便宜的一行，客人真正買的是人力、設備、保險和把一整座義式吧台搬到現場的物流。Valor Coffee 的負責人分享，第一次接大型企業案時報價太低，反而是客戶提醒他要收足夠的錢。",
+   "why": "店裡如果接過或想接活動、企業下午茶的外燴吧台，這篇的報價邏輯可以直接參考：不要用「一杯幾元」算，要把前後的人力時間、搬運、設備損耗都算進去。",
+   "action": "把上一次外燴或外帶大單的實際工時（含準備、搬運、清潔）記下來，對照當時收費，看有沒有算進去。",
+   "detail": [
+    "報價公式：基本費 300–500 美元 ＋ 每小時 150–200 美元 ＋ 車馬費。",
+    "平均一場約 1,040 美元；一半介於 765–1,700 美元。",
+    "人數規模差很多：50 人以下每人 38.11 美元，500 人以上每人 9.62 美元。",
+    "近七成是平日企業活動。"
+   ],
+   "note": "本文由 Flashquotes 贊助，Goodhart 創辦人也是 Flashquotes 共同創辦人，數據來自該平台。",
+   "link": "https://freshcup.com/how-coffee-carts-and-caterers-price-gigs-4-operators-share-their-processes/",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "outset-coffee-sf-closure",
+   "sec": "food",
+   "title": "舊金山人氣咖啡館 Outset 兩店都關了：欠租遭判賠 20 萬美元、另一店被強制收回",
+   "orig": "Popular San Francisco Coffee Company Closes Both Cafes After Landlord Disputes",
+   "date": "2026/10/30",
+   "media": "Daily Coffee News",
+   "author": "Nick Brown",
+   "tier": "T2",
+   "read": 4,
+   "summary": "開業三年、以榴槤、桂花、柚子等亞洲食材入咖啡飲品聞名的舊金山 Outset Coffee，兩家店都因房東糾紛關門。Valencia 街原始店的房東提告，法院 10 月 7 日對 Outset 和母公司 Fuji Inc. 作出 200,196 美元的缺席判決，包含 166,194 美元損害賠償、21,222 美元利息、10,752 美元律師費和 2,027 美元訴訟費。房東指 Outset 自 2024 年 12 月後沒付房租，到 2025 年 4 月累積約 101,375 美元，店門貼著「因人事異動暫停營業」後便聯絡不上。金融區 90 New Montgomery 店的房東 2025 年 10 月提起遷讓訴訟，指欠租約 121,775 美元，法院 2025 年 12 月 30 日判房東取回，舊金山警長辦公室 2026 年 7 月 29 日完成交還。DCN 表示已聯絡 Outset 經營者，尚未得到回應。",
+   "why": "創意飲品能帶來話題，但店能不能撐下去，還是看租金、人力和現金流。這則提醒大家：門市營運的穩定（人手安排、成本控制）跟菜單創意一樣重要。",
+   "detail": [
+    "原始店：790 Valencia St.，2023 年夏天開業，用 Onyx Coffee Lab 的豆。",
+    "判決金額 200,196 美元（10/7）。",
+    "第二店欠租約 121,775 美元，2026/7/29 交還房東。",
+    "母公司 Fuji Inc. 也擁有水果茶品牌 Zero&。"
+   ],
+   "link": "https://dailycoffeenews.com/2026/10/30/popular-san-francisco-coffee-company-closes-both-cafes-after-landlord-disputes/",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "blue-bottle-dairy-default",
+   "sec": "food",
+   "title": "Blue Bottle 美國門市預設奶改回牛奶，結束 2022 年起的燕麥奶預設",
+   "orig": "Blue Bottle drops oat milk as its default in the US",
+   "date": "2026/10/29",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 1,
+   "summary": "Blue Bottle 把美國門市的預設奶從燕麥奶改回牛奶，撤回 2022 年 5 月起的燕麥奶預設政策。公司表示，決定反映客人偏好改變和對乳製品的需求提高。",
+   "why": "上一期剛提到台灣星巴克換燕麥奶要加錢；國外大品牌則是把預設改回牛奶。「預設奶」直接影響成本、備料量和客人感受，點單時主動問一句「牛奶還是燕麥奶」，可以減少做錯重做。",
+   "detail": [
+    "燕麥奶預設從 2022 年 5 月實施到這次調整。",
+    "理由：客人偏好改變、乳製品需求提高（公司說法）。"
+   ],
+   "note": "週報摘要，未讀到 Blue Bottle 公告原文。",
+   "link": "https://perfectdailygrind.com/2026/10/coffee-news-recap-30-october-2026/",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "sanaa-taichung-2027",
+   "sec": "design",
+   "title": "SANAA 史上最大建築展 2027/1/30 在臺中綠美圖：百件以上模型與攝影，首度公開設計過程",
+   "orig": "",
+   "date": "2026/10/30",
+   "media": "Shopping Design（引述臺中市立美術館）",
+   "author": "",
+   "tier": "T2",
+   "read": 6,
+   "summary": "臺中市立美術館將於 2027 年 1 月 30 日到 5 月 9 日，在 SANAA 自己設計的臺中綠美圖推出《妹島和世＋西沢立衛／SANAA 展「環境與建築」》。報導指這是 SANAA 歷來在世界各地展覽中規模最大的一次，集結超過百件建築模型與攝影作品，並首度公開 SANAA 的設計思考過程、展出大量研究模型。SANAA 由妹島和世與西澤立衛於 1995 年創立，2010 年以金澤 21 世紀美術館等作品獲普立茲克獎；妹島和世是首位獲獎的亞洲女性。綠美圖 2025 年完工，同年獲金點設計獎空間設計類年度最佳設計。",
+   "why": "給做空間設計和品牌的夥伴：「研究模型」是最值得看的部分，能看到一個空間從草稿到完成怎麼一步步推。對店裡也有啟發——SANAA 的「透明、流動、模糊室內外界線」，和咖啡館怎麼處理採光、動線、讓街景進到店裡是同一件事。",
+   "detail": [
+    "展期：2027/1/30–2027/5/9。",
+    "地點：臺中綠美圖（臺中市立美術館）。",
+    "內容：百件以上建築模型與攝影，含研究模型。",
+    "票價與預約方式：報導未提，這次沒查到。",
+    "延伸：上期 ARTs 介紹過西澤立衛在瀨戶內的觀景圓錐。"
+   ],
+   "link": "https://www.shoppingdesign.com.tw/post/view/13904",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "popupasia-10th-songshan",
+   "sec": "design",
+   "title": "POPUPASIA 亞洲手創展十週年 11/12–15 松菸：台日泰 80 多家品牌，陶瓷外帶杯、泰國插畫品牌都來",
+   "orig": "",
+   "date": "2026/10/30",
+   "media": "Shopping Design",
+   "author": "",
+   "tier": "T2",
+   "read": 5,
+   "summary": "POPUPASIA 亞洲手創暨生活展 2026 年 11 月 12 日到 15 日在松山文創園區四、五號倉庫舉辦，主題「EXPO THE WORLD」，集結台灣、日本、泰國等地超過 80 家獨立設計師、職人與生活品牌，並有 7 場手作工作坊。五號倉庫「Local to Local」與日本地方創生團隊 TRUNK DESIGN 合作，呈現日本 14 府縣與台灣各地的工藝；四號倉庫「I AM Asia Craft Fair」與泰國清邁 Jing Jai Market（真心市集）合作。編輯推薦包括：愛知縣瀨戶市陶瓷品牌 Soujuen（双寿園）以外帶咖啡杯為靈感的 LID-CUP 系列（陶瓷杯配矽膠杯蓋與杯套）、大阪八尾市 1951 年創立的金屬廠 FUJITA KINZOKU 的鐵製平底鍋，以及泰國人氣插畫品牌 Chubby Biy Club。",
+   "why": "插畫、品牌設計的夥伴可以看泰國插畫品牌怎麼把一個角色做成公仔、掛飾和 T 恤；喜歡日系陶藝的可以逛五號倉庫。Soujuen 的陶瓷「外帶杯」對我們很有意思：內用杯也可以玩外帶杯的造型，是周邊商品或杯具的靈感。",
+   "action": "想去的人可以排 11/12–15 的休假日，順便看看有沒有適合店裡內用的杯具。",
+   "detail": [
+    "日期：2026/11/12–11/15。",
+    "地點：松山文創園區 四、五號倉庫。",
+    "日本參展 14 府縣：兵庫、大阪、奈良、和歌山、福井、福島、青森、石川、長野、佐賀、愛知、香川、沖繩（原文列出 13 個名稱，與「14 府縣」不一致）。",
+    "票價：有販售「十週年紀念票」，正式票價這次沒查到可靠資料。"
+   ],
+   "link": "https://www.shoppingdesign.com.tw/post/view/13905",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "sabine-marcelis-zurich",
+   "sec": "design",
+   "title": "荷蘭設計師 Sabine Marcelis 首個美術館個展：8 支 2.56 公尺熔岩燈、IKEA 燈具隧道",
+   "orig": "Sabine Marcelis explores light and color in Zurich",
+   "date": "2026/10/30",
+   "media": "designboom",
+   "author": "",
+   "tier": "T2",
+   "read": 6,
+   "summary": "荷蘭設計師 Sabine Marcelis 的首個美術館展覽《Light and Color》在蘇黎世設計博物館（Museum für Gestaltung Zürich）Toni-Areal 館區展出，展期 2026 年 10 月 30 日到 2027 年 4 月 4 日。展覽結合近年代表作和為展場新做的裝置，涵蓋家具、燈具、鏡面和空間介入，探討玻璃、樹脂、石材如何捕捉和改變光線。她和英國熔岩燈廠牌 Mathmos 合作的《Mathmos Lava Columns》，是 8 支各高 2.56 公尺的熔岩燈立在鏡面空間裡，裡面是泡泡糖粉紅色的熔岩；另一區用她和 IKEA 合作的 VARMBLIXT 系列燈具做成可以走進去的隧道。Marcelis 說，她想做的不是傳統回顧展，而是一系列空間體驗，呈現光和顏色在不同尺度、材料上的表現。",
+   "why": "這是「光和顏色本身就是設計材料」的好例子，做空間、品牌視覺的夥伴可以看她怎麼用半透明材質和反射讓物件「變輕」。對店裡：燈光顏色和材質反光，其實決定了客人拍照和停留的感覺。",
+   "detail": [
+    "展期：2026/10/30–2027/4/4。",
+    "地點：瑞士蘇黎世設計博物館 Toni-Areal。",
+    "Mathmos 合作的粉紅 Astro 限量燈 11 月推出。",
+    "IKEA VARMBLIXT 系列約 20 件，以圓形為主要元素。"
+   ],
+   "link": "https://www.designboom.com/design/sabine-marcelis-light-color-exhibition-museum-gestaltung-zurich/",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "la-marzocco-porsche",
+   "sec": "skip",
+   "title": "La Marzocco 和 Porsche 推 911 Carrera RS 聯名義式機，德國限量 150 台",
+   "orig": "La Marzocco And Porsche Team Up For A 911 Carrera RS 2.7 Espresso Machine Collection",
+   "date": "2026/10/30",
+   "media": "Sprudge／Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 2,
+   "summary": "La Marzocco 與 Porsche 推出 911 Carrera RS 2.7 系列限量義式咖啡機，用 Porsche 車色，只透過 Porsche 通路販售；其中一款白配藍只在德國賣，限量 150 台。",
+   "why": "收藏品性質，對吧台工作沒有影響；有人在社群看到可以知道是真的。",
+   "detail": [],
+   "link": "https://sprudge.com/la-marzocco-and-porsche-team-up-for-a-911-carrera-rs-2-7-espresso-machine-collection-1532478.html",
+   "pub": "2026-10-31"
+  },
+  {
+   "id": "tata-starbucks-india-q",
+   "sec": "skip",
+   "title": "印度 Tata 星巴克單季營收成長 15%，505 家店",
+   "orig": "Tata Starbucks India reports its strongest quarter and returns to store growth",
+   "date": "2026/10/27",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 1,
+   "summary": "印度第二大品牌咖啡館經營者 Tata Starbucks 截至 9 月 30 日的季度營收成長 15%，季末在 81 個城市有 505 家店，本季淨增 7 家（含 2 家 Reserve）。",
+   "why": "大型連鎖的財報，離我們的日常工作比較遠。",
+   "detail": [],
+   "link": "https://perfectdailygrind.com/2026/10/coffee-news-recap-30-october-2026/",
+   "pub": "2026-10-31"
+  },
   {
    "id": "bodum-french-press-recall",
    "sec": "industry",
