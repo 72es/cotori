@@ -1,19 +1,27 @@
 {
  "edition": {
-  "id": "2026-11-01",
-  "no": 6,
-  "date": "2026-11-01",
-  "label": "11月1日 週日"
+  "id": "2026-11-02",
+  "no": 7,
+  "date": "2026-11-02",
+  "label": "11月2日 週一"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "第 24 屆台灣咖啡節古坑開幕：170 個品牌，首推中台灣五縣市咖啡地圖，連續兩個週末。",
-  "一杯咖啡的錢誰賺走？咖啡產業稅前淨利多在 5–15%，獲利靠量不靠單價。",
-  "路易莎新品牌 NuMove 續行進駐三鶯線台北大學站，台灣餐飲業 2025 年銷售額破 9,097 億元，漲價潮延續到年底。",
-  "猿田彥咖啡 11/3 進駐東京皇居，成為皇宮內第一家咖啡館。",
-  "ARTs：C-GRAPHIC/TAIPEI 平面設計展到 11/9、Pinkoi 瘋設祭今天最後一天、首屆台中纖維藝術雙年展、中山青年藝術獎展。"
+  "2026 臺灣國際咖啡論壇在古坑談產、製、銷，重點是品質標準和可複製的生產模式；台灣咖啡節 11/7–8 還有第二個週末。",
+  "咖啡放涼風味會變：研究引述甜感約在 44°C 最明顯，手沖可以帶客人分段品嘗。",
+  "春水堂 11/1 起 8 成以上品項漲價、平均約 12%，同時保留平日中杯 85 折。",
+  "澳洲新南威爾斯撤回內用禁用一次性杯，但 2028 年起外帶杯須可回收、店家須接受自備杯。",
+  "ARTs：Adia Millett 台灣首展只到 11/7；另有 Blue Crow 混凝土建築導覽書和 11 月國際必看展。"
  ],
- "weekly": null,
+ "weekly": {
+  "items": [
+   {
+    "id": "basket-acidity-sweetness",
+    "stars": 5.0,
+    "n": 2
+   }
+  ]
+ },
  "sections": [
   {
    "id": "industry",
@@ -41,6 +49,248 @@
   }
  ],
  "items": [
+  {
+   "id": "tw-coffee-forum-2026-yunlin",
+   "sec": "industry",
+   "title": "2026 臺灣國際咖啡論壇古坑登場：產、製、銷三場座談，談「從產地到杯中的溢價」",
+   "orig": "",
+   "date": "2026/10/30",
+   "media": "農業知識入口網（雲林縣政府新聞稿）",
+   "author": "",
+   "tier": "T1",
+   "read": 4,
+   "summary": "「2026臺灣國際咖啡論壇」10 月 30 日在古坑劍湖山渡假大飯店舉行，雲林縣政府以「從產地到杯中的極致溢價」為主軸，分成「產、製、銷」三段。\n\n產：越南 ThyThy Farm 專案經理王氏春貴分享大叻高地的友善耕作與後製；茶及飲料作物改良場副研究員劉千如講「從經驗到標準：打造可複製的精品咖啡生產模式」；嵩岳咖啡創辦人郭亮志參與座談。\n\n製：Ituka Coffee Taiwan 創辦人近藤啓談日本烘焙與臺灣風土；臺灣咖啡產業策略聯盟召集人林哲豪談「從一支好豆到一個強產區：臺灣精品咖啡如何建立品質標準」；古峰咖啡負責人賴彥合座談。\n\n銷：TYPICA 臺灣區總經理川野貴裕談串聯生產者與國際買家；昱信食品負責人賴昱權談「從世界冠軍到市場價值」；劍湖山世界酷咖啡總經理曾慶欑座談。",
+   "why": "這場論壇把台灣咖啡現在最在意的事攤開來講：品質要穩定、要有共同標準，才賣得出好價錢。這和前幾期「大家問」整理的台灣生豆評鑑、TCAGs 分級是同一條線。店裡選台灣豆時，可以多問一句：這支豆有沒有評鑑或分級紀錄、處理法和批次是否穩定，而不只看莊園名氣。",
+   "detail": [
+    "時間地點｜10/30，古坑劍湖山渡假大飯店。",
+    "主軸｜「從產地到杯中的極致溢價」，呼應台灣咖啡節主題「咖了 for world」。",
+    "產｜王氏春貴（越南 ThyThy Farm）、劉千如（茶改場）、郭亮志（嵩岳咖啡）。",
+    "製｜近藤啓（Ituka Coffee Taiwan）、林哲豪（臺灣咖啡產業策略聯盟）、賴彥合（古峰咖啡）。",
+    "銷｜川野貴裕（TYPICA 臺灣）、賴昱權（昱信食品）、曾慶欑（劍湖山世界酷咖啡）。",
+    "接下來｜台灣咖啡節 11/7、11/8 在古坑綠色隧道還有第二個週末（新聞稿明列日期，補正上一期的推算）。"
+   ],
+   "watch": "論壇內容若有簡報或紀錄公開，再整理「可複製生產模式」和「產區品質標準」的具體做法。",
+   "note": "新聞稿只列講題，沒有演講內容摘要；講者實際說了什麼，這次沒查到報導。",
+   "link": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=attention&id=102261",
+   "pub": "2026-11-02"
+  },
+  {
+   "id": "hawaii-coffee-2027-first-auction",
+   "sec": "industry",
+   "title": "夏威夷咖啡協會 2027 年比賽首度加辦競標，正在招募評審",
+   "orig": "Hawaii Coffee Association Seeks Judges for 2027 Competition and Auction",
+   "date": "2026/10/30",
+   "media": "Daily Coffee News",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 1,
+   "summary": "夏威夷咖啡協會（Hawaii Coffee Association）正在招募 2027 年「Best of Hawai‘i Coffee Competition」的評審。這一屆會首度把表現最好的部分批次拿出來競標。初選評審訂在 3 月 5–8 日於 Kona 進行，決選 3 月 15–17 日。",
+   "why": "夏威夷和台灣一樣是高成本、小產量的產區，比賽之後加上競標，是把「得獎」直接換成「價格」的做法。台灣今年也辦了首屆國際競標，兩邊可以對照看：小產區靠比賽＋競標建立價格行情，接下來成交價會是最直接的指標。",
+   "detail": [
+    "比賽｜2027 Best of Hawai‘i Coffee Competition。",
+    "新做法｜首度競標部分高分批次。",
+    "時程｜初選 3/5–8（Kona）、決選 3/15–17。"
+   ],
+   "watch": "競標辦法與成交結果公布後，和台灣咖啡國際競標的價格對照。",
+   "note": "出自 Daily Coffee News 每週新聞彙整的一小段，原文篇幅很短，競標細節尚未公布。",
+   "link": "https://dailycoffeenews.com/2026/10/30/weekly-coffee-news-fao-grant-opportunity-multiple-home-brewer-launches/",
+   "pub": "2026-11-02"
+  },
+  {
+   "id": "coffee-temperature-tracking",
+   "sec": "science",
+   "title": "咖啡變涼，風味也在變：世界盃手沖選手量杯溫帶評審喝，甜感約在 44°C 最明顯",
+   "orig": "Why temperature tracking is now important for baristas",
+   "date": "2026/10/29",
+   "media": "Perfect Daily Grind",
+   "author": "Bhavi",
+   "tier": "T2",
+   "read": 6,
+   "summary": "Perfect Daily Grind 整理：濾泡咖啡端上桌之後，風味會隨著降溫持續改變。愈來愈多世界盃手沖賽（World Brewers Cup）選手帶紅外線溫度計上台，即時量杯面溫度，依溫度帶著評審一段一段喝。\n\n文中引用的研究：2016 年一篇分析 Bourbon Caturra 的研究，苦味、烘焙調與整體強度在 62°C 到 50°C 之間上升，甜感約在 44°C 達到高峰，降到 31°C 時風味轉向甜、巧克力與酸。2018 年一篇研究則發現，香氣在 70°C 到 60.4°C 最強，這個區間苦味也較明顯；酸質在接近 25°C 時比較清楚。\n\n原理：很燙時舌頭不太能精準分辨味道，感受到的多半是香氣；降溫後味蕾才真正開始作用。文章也提到 DiFluid 的紅外線杯溫計 Moment，DiFluid 的 Ben Barnard 說評審如果不知道杯溫、在中溫區評分時咖啡其實還太燙，分數可能不準。",
+   "why": "這是吧台不花錢就能做的服務升級。客人點手沖時，可以提醒「剛端上來香氣最明顯，放涼一點甜感和酸質會跑出來」，讓客人喝完整杯都有東西可以注意。內部試杯時也可以固定在幾個溫度點各喝一口，大家講風味時比較有共同基準。",
+   "action": "這週試杯時，同一杯手沖在剛沖好、約 10 分鐘後、接近室溫時各喝一次，記下風味差異。",
+   "detail": [
+    "比賽現場｜世界盃手沖賽選手用紅外線溫度計量杯面溫度，依溫度引導評審品嘗。",
+    "2016 研究｜苦味與強度在 62–50°C 上升；甜感約 44°C 最高；31°C 轉向甜、巧克力、酸。",
+    "2018 研究｜香氣在 70–60.4°C 最強，苦味也較明顯；酸質在接近 25°C 較清楚。",
+    "原理｜很燙時主要感受到香氣；降溫後味覺才完整作用。",
+    "評分準確度｜評審若在咖啡還太燙時評中溫區，分數可能失準（DiFluid 的 Ben Barnard）。",
+    "現場應用｜部分高端咖啡館、omakase 形式的咖啡服務已開始帶客人依溫度品嘗；訓練中心用來教學。"
+   ],
+   "note": "DiFluid 是 Perfect Daily Grind 的贊助商，文中受訪者也來自 DiFluid，產品介紹部分請當廠商觀點看。兩篇研究原文這次沒有逐一查證，數字以文章引述為準。",
+   "link": "https://perfectdailygrind.com/2026/10/coffee-temperature-tracking-baristas/",
+   "pub": "2026-11-02"
+  },
+  {
+   "id": "chunshuitang-price-hike-2026",
+   "sec": "food",
+   "title": "春水堂 11/1 起 8 成以上品項漲價，平均約 12%：中杯珍奶 200 元、御品牛肉麵 315 元",
+   "orig": "",
+   "date": "2026/11/01",
+   "media": "中國時報；CTWANT（PChome 轉載）",
+   "author": "",
+   "tier": "T2",
+   "read": 2,
+   "summary": "營運春水堂的春水興建公司 11 月 1 日表示，因原物料、人力與整體營運成本持續增加，旗下春水堂自 11 月 1 日起調整售價，涵蓋 8 成以上品項，平均調幅約 12%。\n\n以北區價格為例：中杯珍珠奶茶調到 200 元（漲幅約 5%）；御品牛肉麵調到 315 元（漲幅約 19%）；功夫麵調到 135 元（漲幅約 12%）；頂級烏瓦紅茶凍飲中杯維持 160 元不變。平日中杯飲品不論內用外帶仍有 85 折。實際售價以各門市和官網公告為準。",
+   "why": "上一期整理的 2026 餐飲漲價潮又多一家，而且是茶館龍頭。值得注意的是春水堂的做法：漲價同時保留平日中杯 85 折、部分招牌品項不動，讓客人還有「划算的選擇」。我們之後如果要調價，也可以參考：不是全面同幅度漲，而是挑品項、保留入門選項。客人聊到「最近什麼都在漲」時，這也是具體的例子。",
+   "detail": [
+    "範圍｜8 成以上餐點與飲品，平均調幅約 12%。",
+    "生效｜2026/11/1。",
+    "中杯珍奶｜200 元，漲幅約 5%。",
+    "御品牛肉麵｜315 元，漲幅約 19%。",
+    "功夫麵｜135 元，漲幅約 12%。",
+    "不變｜頂級烏瓦紅茶凍飲中杯 160 元。",
+    "保留優惠｜平日中杯飲品內用外帶 85 折。",
+    "原因｜原物料、人力與營運成本增加（業者說法）。"
+   ],
+   "note": "中時全文需付費，細項價格依 CTWANT 報導；兩家報導的平均調幅與牛肉麵漲幅一致。舊價格報導沒有列出。",
+   "link": "https://www.chinatimes.com/newspapers/20261102000223-260210",
+   "extra_links": [
+    {
+     "t": "CTWANT（PChome 轉載）",
+     "u": "https://news.pchome.com.tw/living/m00361/20261101/index-79351580587265361009.html"
+    }
+   ],
+   "pub": "2026-11-02"
+  },
+  {
+   "id": "nsw-dine-in-cup-mandate-dropped",
+   "sec": "food",
+   "title": "澳洲新南威爾斯撤回「內用禁用一次性杯」：咖啡館反彈後改案，2028 年起外帶杯須可回收",
+   "orig": "Chris Minns: NSW coffee cup ban dumped after cafe outcry",
+   "date": "2026/10/29",
+   "media": "St George & Sutherland Shire Leader",
+   "author": "Murray Trembath",
+   "tier": "T3",
+   "read": 3,
+   "summary": "澳洲新南威爾斯州原本的法案，會禁止咖啡館用一次性杯子供應內用客人，並要求店家自費提供可重複使用的杯子。州環境部長 Penny Sharpe 在 10 月 28 日（週三）宣布修改法案，說「我們聽到了小型商家的意見」。\n\n仍會推動的部分：2028 年起一次性外帶咖啡杯必須可回收，咖啡館和速食店必須接受顧客自備杯外帶。依州政府數字，新南威爾斯每年使用 8 億個一次性杯。\n\n報導訪問 Cronulla 咖啡館 Barefoot on the Beach 的經營者 Rebecca Nelson，她說這條規定「很荒謬」，店裡本來就提供陶瓷杯給想用的客人，也歡迎自備杯；她也注意到州長 Chris Minns 是常客，平常買外帶杯散步。",
+   "why": "台灣也有一次性飲料杯減量規範，這則可以看到「內用強制換杯」對小店的實際壓力在哪：杯子成本、洗杯人力、客人其實想拿著走。我們內用本來就用店杯，比較可以參考的是另一半：接受客人自備杯、外帶杯能不能回收，這些都可能是未來的方向。",
+   "detail": [
+    "撤回｜內用禁用一次性杯、店家自費提供重複使用杯。",
+    "照常推動｜2028 年起外帶杯須可回收；咖啡館與速食店須接受自備杯外帶。",
+    "規模｜新南威爾斯每年約 8 億個一次性杯（州政府數字）。",
+    "政策包｜屬於 NSW Plastics Plan 2.0，麵包封口夾、氣球棒等也將逐步淘汰。",
+    "其他地區｜西澳已推出可回收紙蓋咖啡杯（地方議員說法）。"
+   ],
+   "note": "原文網站部分內容需訂閱，以上為可讀到的段落。",
+   "link": "https://www.theleader.com.au/story/9380432/chris-minns-nsw-coffee-cup-ban-dumped-after-cafe-outcry/",
+   "pub": "2026-11-02"
+  },
+  {
+   "id": "adia-millett-gdm-taipei",
+   "sec": "design",
+   "title": "Adia Millett 台灣首個展《源起源歸》：舊布拼縫成花，花蕊是彈殼，內湖 gdm 展到 11/7",
+   "orig": "Power Unearthed",
+   "date": "2026/11/01",
+   "media": "Harper's BAZAAR Taiwan",
+   "author": "",
+   "tier": "T2",
+   "read": 6,
+   "summary": "非裔美籍藝術家 Adia Millett（1975 年生於好萊塢）在台北 gdm 爍樂畫廊舉辦台灣首個個展《源起源歸》（Power Unearthed）。她以美國南方非裔女性的拼布傳統為基礎，把舊床單、窗簾、外祖母手作的領帶拆開，和不規則幾何色塊拼縫在一起。\n\n展出重點：雙面織品《花羽之力》（Fire Power），正面看是用 1930 年代舊布縫成的花卉掛毯，近看花蕊是擊發過的彈殼，背面則是紅色羽毛組成的立體花海，指向美國 Jim Crow laws 時期非裔族群的歷史。與 Jenny Hurth 合作的大型織品《月方》（Moon Medicine）用手術服與工裝布料重組，閃光照射時會出現月相與反光層；木板繪畫《大地之源》（Earth's Currency）以亮藍底色畫礦脈山體，顏料底下透出美元紙鈔。\n\n她早年入選 MoMA 與 PS1 合辦的《Greater New York》，也曾和 Zendaya、非營利組織 Project Backboard 合作，在西奧克蘭 Lowell Park 把整座籃球場畫成鮮豔色塊。",
+   "why": "這檔展把「顏色、拼貼、材料」玩得很徹底：遠看是漂亮的幾何色塊和花紋，近看才讀到裡面的議題。做插畫、平面或品牌設計的人，可以看她怎麼用材質和正反兩面安排敘事層次。展期只到這週六 11/7，想看要把握。",
+   "action": "想去的人這週安排時間，回來可以分享一件最有感的作品和它的配色。",
+   "detail": [
+    "展期｜即日起至 2026/11/7。",
+    "地點｜gdm 爍樂畫廊（台北市內湖區瑞光路 390 號）。",
+    "媒材｜舊布拼縫、織品、木板繪畫，混入彈殼、羽毛、反光布、美元紙鈔。",
+    "《花羽之力》｜雙面織品：正面花卉、花蕊是彈殼；背面紅羽毛立體花海。",
+    "《月方》《地海星河》｜與 Jenny Hurth 合作的大型織品，延續 Faith Ringgold 以來的女性拼布傳統。",
+    "公共藝術｜與 Zendaya、Project Backboard 合作西奧克蘭籃球場《Taking Flight》。"
+   ],
+   "note": "報導沒寫票價與開放時間，前往前請查 gdm 爍樂畫廊公告。",
+   "link": "https://www.harpersbazaar.com/tw/culture/exhibition/a74300465/adia-millett-tw-exposition-2026/",
+   "pub": "2026-11-02"
+  },
+  {
+   "id": "concrete-new-york-blue-crow",
+   "sec": "design",
+   "title": "Blue Crow Media 新書《Concrete New York》：50 多棟紐約混凝土建築，黑白攝影做成導覽書",
+   "orig": "Concrete New York is the latest Blue Crow guidebook to sculptural architectural design",
+   "date": "2026/11/01",
+   "media": "Wallpaper*",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": "以建築地圖和導覽書聞名的出版社 Blue Crow Media 推出新書《Concrete New York》，收錄紐約五個行政區 50 多件粗獷主義與當代混凝土建築。這個系列先前已出過倫敦、柏林、巴黎和亞洲篇。\n\n作者 Allison C. Meier 選的不只是名作：封面是萊特的古根漢美術館，書裡也有 Pier Luigi Nervi 的喬治華盛頓橋巴士站（1960–63）、Tribeca Synagogue（William N. Breger Associates，1965–67）的緞帶狀外牆、Marcel Breuer 事務所的 Begrisch Hall（1961）等。攝影由 Jason R. Woods 拍攝，全書黑白。這本書也可以搭配出版社先前出的《Concrete New York Map》。",
+   "why": "Blue Crow Media 的書和地圖本身就是很好的編輯設計案例：同一個城市，用「材料」這個主題重新串成路線，再用統一的黑白攝影和版式做出系列感。做品牌、書籍或網站設計的人，可以參考這種「一個主題＋固定視覺語言＝系列」的做法；店裡做城市散步地圖或周邊時也用得上。",
+   "detail": [
+    "出版｜Blue Crow Media，《Concrete New York》。",
+    "內容｜紐約五區 50 多件混凝土建築。",
+    "作者／攝影｜Allison C. Meier／Jason R. Woods（黑白）。",
+    "系列｜已出倫敦、柏林、巴黎、亞洲篇。",
+    "收錄例｜古根漢美術館（封面）、喬治華盛頓橋巴士站、Tribeca Synagogue、Begrisch Hall。",
+    "延伸｜可搭配出版社先前的《Concrete New York Map》。"
+   ],
+   "note": "Wallpaper* 文章含購書聯盟連結；報導沒寫售價與台灣是否有代理。",
+   "link": "https://www.wallpaper.com/architecture/concrete-new-york-is-the-latest-blue-crow-guidebook-to-sculptural-architectural-design",
+   "pub": "2026-11-02"
+  },
+  {
+   "id": "designboom-radar-nov-2026",
+   "sec": "design",
+   "title": "11 月國際必看展：森萬里子回顧、Hella Jongerius 400 件、野口勇 Akari 75 週年",
+   "orig": "designboom radar: exhibitions to see around the world this november",
+   "date": "2026/11/01",
+   "media": "designboom",
+   "author": "",
+   "tier": "T2",
+   "read": 8,
+   "summary": "designboom 每月整理的全球藝術、設計、建築展覽清單，11 月挑幾檔和我們讀者最相關的：\n\n東京森美術館《Mariko Mori: All That Shines》，約 40 件作品回顧森萬里子三十多年創作，包括可以走進去、結合腦波回饋的《Wave UFO》（1999–2002 開發），展到 2027/3/28。\n\n漢堡工藝美術館《Hella Jongerius: Whispering Things》，由 Vitra Design Museum 策劃，400 多件家具、織品、陶瓷與原型，從她為 Vitra、IKEA 做的量產設計到材料與色彩實驗，展到 2027/6/13。\n\n紐約野口勇美術館《No Ordinary Light: Akari at 75》，回顧 1951 年在岐阜誕生的 Akari 紙燈，野口勇後來發展出 200 多種變化，展出約 1985 年的大型 200D 與手稿，11/4 起展到 2027/9/5。\n\n另有巴塞隆納米羅基金會的 Charlotte Perriand 回顧（展到 2027/2/28）、蘇黎世 Sabine Marcelis 用 125 盞 IKEA 圓燈做的 11 公尺光隧道（展到 2027/4/4）、畢爾包古根漢的 Dan Flavin 日光燈作品（11/11 起）、雪梨 Powerhouse Parramatta 11/7 開館等。",
+   "why": "這份清單對做設計的人很實用：Jongerius 的色彩和材質實驗、野口勇 Akari 的燈具設計、Marcelis 把日常燈具變成空間，都和店裡的燈光、陶瓷器皿、空間氛圍直接有關。年底或明年有出國計畫的人，可以先存起來；日本的森萬里子展是離台灣最近的一檔。",
+   "detail": [
+    "東京｜森萬里子《All That Shines》，森美術館，2026/10/31–2027/3/28。",
+    "漢堡｜Hella Jongerius《Whispering Things》，MK&G，2026/10/23–2027/6/13。",
+    "紐約｜野口勇《Akari at 75》，野口勇美術館，2026/11/4–2027/9/5。",
+    "巴塞隆納｜Charlotte Perriand《Free to Rethink the World》，米羅基金會，至 2027/2/28。",
+    "蘇黎世｜Sabine Marcelis《Light and Color》，至 2027/4/4（第 5 期介紹過）。",
+    "畢爾包｜Dan Flavin《Some Light》，古根漢畢爾包，2026/11/11–2027/4/4。",
+    "紐約｜Misha Kahn《All Intensive Purposes》，Friedman Benda，至 2026/12/12。",
+    "雪梨｜Powerhouse Parramatta 11/7 開館，五檔開館展含 Es Devlin 沉浸式裝置。"
+   ],
+   "link": "https://www.designboom.com/art/exhibition-radar-november-2026/",
+   "pub": "2026-11-02"
+  },
+  {
+   "id": "starbucks-tw-1102-bogo",
+   "sec": "skip",
+   "title": "星巴克今天（11/2）好友分享日：限中信 uniopen 聯名卡，大杯同款飲料買一送一",
+   "orig": "",
+   "date": "2026/11/01",
+   "media": "ELLE Taiwan",
+   "author": "",
+   "tier": "T3",
+   "read": 2,
+   "summary": "星巴克 11 月 2 日上午 11 點到晚上 8 點，持中國信託 uniopen 聯名卡在實體門市買兩杯大杯以上、同容量冰熱口味的飲料，第二杯招待。這是 2026/7/1–12/31 每週一的聯名卡優惠，不適用手沖、虹吸、典藏咖啡等，也不適用 APP、外送、行動預點。",
+   "why": "信用卡聯名的例行優惠，不是新政策；放路過是讓大家知道今天附近星巴克可能比較多人，客人提起時知道是什麼。",
+   "detail": [
+    "時間｜11/2 11:00–20:00。",
+    "條件｜中信 uniopen 聯名卡（含感應支付），大杯以上同款兩杯。",
+    "不適用｜典藏咖啡、手沖、虹吸、APP、外送、行動預點等。"
+   ],
+   "link": "https://www.elle.com/tw/life/hot-news/g74304544/starbucks-buyonegetonefree-11/",
+   "pub": "2026-11-02"
+  },
+  {
+   "id": "dcn-weekly-1030",
+   "sec": "skip",
+   "title": "咖啡產業週報：Keurig 推無塑膠鋁箔的壓製咖啡錠機 Alta、De'Longhi 改款全能機",
+   "orig": "Weekly Coffee News: FAO Grant Opportunity + Multiple Home Brewer Launches",
+   "date": "2026/10/30",
+   "media": "Daily Coffee News",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 4,
+   "summary": "Daily Coffee News 本週彙整：Keurig 在美國推出 Alta 沖煮系統，售價 499 美元，搭配外層是植物性塗層、不含塑膠與鋁的壓製咖啡錠 AltaRounds；De'Longhi 推出改款咖啡／義式全能機，美國售價 349.95 美元；聯合國糧農組織（FAO）開放肯亞西部 Mt. Elgon 地區咖啡等自然型企業申請補助，截止 11/9；美國 Rapide Group 簽意向書，擬以 150 萬美元限制股收購一家印尼羅布斯塔貿易商 70% 股權。",
+   "why": "多半是美國家用機和遠方的資本動作，對店裡沒有直接影響。夏威夷比賽首度競標那則另外寫成正刊。",
+   "detail": [
+    "Keurig Alta｜499 美元，咖啡錠不含塑膠與鋁。",
+    "De'Longhi｜改款全能機 349.95 美元。",
+    "FAO｜肯亞西部補助，11/9 截止。",
+    "Rapide｜擬收購印尼羅布斯塔貿易商 70%。"
+   ],
+   "link": "https://dailycoffeenews.com/2026/10/30/weekly-coffee-news-fao-grant-opportunity-multiple-home-brewer-launches/",
+   "pub": "2026-11-02"
+  },
   {
    "id": "tw-coffee-fest-2026-gukeng",
    "sec": "industry",
