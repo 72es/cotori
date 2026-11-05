@@ -216,6 +216,21 @@ textarea::placeholder{color:var(--ink-3)}
 .blk .tb2 b{font-weight:700}
 .why .blk .tb{border-top-color:var(--accent)}
 details.more li b{font-weight:700}
+/* sync: PIN boxes, privacy note */
+.seg{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--rule);border-radius:999px;overflow:hidden}
+.seg button{border:0;background:none;padding:10px 0;font-size:.9375rem;font-weight:700;color:var(--ink-2);cursor:pointer;min-height:44px}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.sheet .fl{display:grid;gap:6px;font-size:.875rem;font-weight:700}
+.sheet .pin{display:flex;gap:10px}
+.sheet .pin input{flex:none;box-sizing:border-box;width:60px;height:60px;padding:0;text-align:center;font-size:1.5rem;font-weight:700;border:1px solid var(--rule);border-radius:14px;background:var(--card);color:var(--ink)}
+.sheet .pin input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-wash)}
+.priv{background:var(--accent-wash);border-radius:14px;padding:12px 14px;font-size:.875rem;line-height:1.75;color:var(--ink-2)}
+.priv b{color:var(--ink)}.priv ul{margin:6px 0 0;padding-left:1.1em}
+.sheet .sm{font-size:.8125rem;color:var(--ink-3)}
+.lk{color:var(--ink-2);text-decoration:underline;font-size:.875rem;background:none;border:0;padding:6px 0;cursor:pointer;justify-self:center}
+.syst{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.875rem;color:var(--ink-2)}
+.syst .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);margin-right:8px}
+.syst .dot.off{background:var(--ink-read)}
 </style>
 </head>
 <body>
@@ -256,9 +271,9 @@ const SKIP_MAX = 5, HOME_DAYS = 3, KEEP_DAYS = 30;
 (function(){
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const ls={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const ls={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){} if(window.__cotoriSyncHook) window.__cotoriSyncHook(k);}};
 let D=null;
-const S={name:ls.get('k-name',''),secs:ls.get('k-secs',null),fb:ls.get('k-fb',{}),read:ls.get('k-read',{}),saved:ls.get('k-saved',{}),asked:ls.get('k-asked',[]),open:{},thOpen:{},view:'home'};
+const S={svt:ls.get('k-svt',{}),svdel:ls.get('k-svdel',{}),prefsT:ls.get('k-prefs-t',0),name:ls.get('k-name',''),secs:ls.get('k-secs',null),fb:ls.get('k-fb',{}),read:ls.get('k-read',{}),saved:ls.get('k-saved',{}),asked:ls.get('k-asked',[]),open:{},thOpen:{},view:'home'};
 
 /* dates in Taipei */
 const tpe=d=>new Date(new Date(d).toLocaleString('en-US',{timeZone:'Asia/Taipei'}));
@@ -427,20 +442,113 @@ function markRead(id,secs){ if(S.read[id]) return; S.read[id]=Date.now(); ls.set
 function threadCounts(){ document.querySelectorAll('[data-thread]').forEach(b=>{const k=b.dataset.thread; const list=(D.qa||[]).filter(q=>q.thread===k); const un=list.filter(q=>!S.read[q.id]).length; const m=b.querySelector('.mins'); if(m) m.textContent=list.length+' 題'+(un?' · '+un+' 未讀':'');}); }
 
 /* onboarding & settings */
-function openSheet(first){
-  $('#sheet').innerHTML=`<h2>${first?'歡迎':'設定'}</h2>${first?'<p>每天早上一期，咖啡和餐飲的新知。先告訴我們你是誰，再勾你想看的。</p>':''}
-   <label class="f">你的名字<input type="text" id="fName" maxlength="20" placeholder="例如：小明" value="${esc(S.name)}" autocomplete="nickname"></label>
-   <div style="font-size:.875rem;font-weight:700">想看的內容</div>
-   <div class="picks">${D.sections.map(s=>`<label class="pick"><input type="checkbox" value="${s.id}" ${secOn(s.id)?'checked':''}><span>${esc(s.name)}</span></label>`).join('')}</div>
-   <button class="btn primary" type="button" id="fSave">${first?'開始讀':'儲存'}</button>
-   <p style="font-size:.8125rem;color:var(--ink-3)">放到手機主畫面：iPhone 用 Safari 打開，按「分享」→「加入主畫面」。</p>`;
-  $('#scrim').hidden=false;
-  $('#fSave').onclick=()=>{const n=$('#fName').value.trim(); if(!n){$('#fName').focus();toast('請先寫名字');return}
-    const picked=[...document.querySelectorAll('.picks input:checked')].map(x=>x.value); if(!picked.length){toast('至少勾一個');return}
-    S.name=n;S.secs=picked;ls.set('k-name',n);ls.set('k-secs',picked);$('#scrim').hidden=true;render();toast(first?'歡迎，'+n:'已儲存');flush();};
+const PRIV=`<div class="priv"><b>同步什麼</b>：已讀、收藏、星評、字級、想看的分類。<ul><li>閱讀統計（讀完、點原文）照舊匿名，跟同步資料分開，不拿來排名或考核。</li><li>之後開的「個人新聞部」只有你看得到；Ben 只看得到部名。</li></ul></div>`;
+const pinHTML=lab=>`<div class="fl">${lab}<div class="pin">${[0,1,2,3].map(i=>`<input type="password" inputmode="numeric" pattern="[0-9]*" maxlength="1" autocomplete="off" aria-label="PIN 第 ${i+1} 碼" data-pin="${i}">`).join('')}</div></div>`;
+function wirePin(){ const ins=[...document.querySelectorAll('[data-pin]')];
+  ins.forEach((el,i)=>{ el.addEventListener('input',()=>{ const v=el.value.replace(/\D/g,''); if(v.length>1){ v.slice(0,4).split('').forEach((c,j)=>{if(ins[j]) ins[j].value=c}); (ins[Math.min(3,v.length)]||el).focus(); return;}
+      el.value=v; if(v&&ins[i+1]) ins[i+1].focus(); });
+    el.addEventListener('keydown',e=>{ if(e.key==='Backspace'&&!el.value&&ins[i-1]){ins[i-1].focus();ins[i-1].value='';} }); }); }
+const getPin=()=>[...document.querySelectorAll('[data-pin]')].map(x=>x.value).join('');
+const picksHTML=()=>`<div style="font-size:.875rem;font-weight:700">想看的內容</div><div class="picks">${D.sections.map(s=>`<label class="pick"><input type="checkbox" value="${s.id}" ${secOn(s.id)?'checked':''}><span>${esc(s.name)}</span></label>`).join('')}</div>`;
+const picked=()=>[...document.querySelectorAll('.picks input:checked')].map(x=>x.value);
+const HOME_TIP='<p class="sm">放到手機主畫面：iPhone 用 Safari 打開，按「分享」→「加入主畫面」。</p>';
+function sheetOpen(html){ $('#sheet').innerHTML=html; $('#scrim').hidden=false; wirePin(); }
+function sheetClose(){ $('#scrim').hidden=true; }
+function setPrefs(secs){ S.secs=secs; S.prefsT=Date.now(); ls.set('k-prefs-t',S.prefsT); ls.set('k-secs',secs); }
+function syncErr(r){ return ({exists:'這個代稱已經有人設定過同步。是你本人的話，選「已經有帳號」輸入 PIN。',badpin:'PIN 不對，再試一次',noone:'找不到這個代稱，確認一下寫法，或選「初次使用」',locked:'PIN 錯太多次，15 分鐘後再試',bad:'代稱和 4 位數 PIN 都要填',net:'連不上，確認網路後再試'})[r&&r.err]||'同步沒成功，稍後再試'; }
+
+/* first open: 初次使用 / 已經有帳號 */
+function openWelcome(mode){ mode=mode||'new';
+  sheetOpen(`<h2>歡迎</h2><p>每天早上一期，咖啡、餐飲和藝術的新知。</p>
+   <div class="seg" role="group"><button type="button" data-mode="new" aria-pressed="${mode==='new'}">初次使用</button><button type="button" data-mode="login" aria-pressed="${mode==='login'}">已經有帳號</button></div>
+   <label class="f">${mode==='new'?'你的名字（也是同步用的代稱）':'你的代稱'}<input type="text" id="fName" maxlength="20" placeholder="例如：小明" value="${esc(S.name)}" autocomplete="nickname"></label>
+   ${pinHTML(mode==='new'?'設一組 PIN（4 位數）':'PIN')}
+   ${mode==='new'?PRIV+picksHTML():'<p class="sm">登入後會把已讀、收藏、星評都帶過來。</p>'}
+   <button class="btn primary" type="button" id="fGo">${mode==='new'?'開始讀':'接著讀'}</button>
+   ${mode==='new'?HOME_TIP:'<p class="sm">忘記 PIN：跟 Ben 說，他幫你重設。</p>'}`);
+  document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{S.name=$('#fName').value.trim();openWelcome(b.dataset.mode)});
+  $('#fGo').onclick=async()=>{ const n=$('#fName').value.trim(), pin=getPin(); if(!n){$('#fName').focus();toast('請先寫名字');return}
+    if(!/^\d{4}$/.test(pin)){toast('PIN 要 4 位數字');return}
+    if(mode==='new'){ const p=picked(); if(!p.length){toast('至少勾一個');return}
+      S.name=n; ls.set('k-name',n); setPrefs(p);
+      const r=await Sync.start('register',n,pin);
+      if(r.ok){sheetClose();render();toast('歡迎，'+n);}
+      else if(r.err==='net'){sheetClose();render();toast('歡迎，'+n+'（同步晚點再設定）');}
+      else toast(syncErr(r));
+    } else { const r=await Sync.start('sync',n,pin); if(r.ok){sheetClose();render();toast('歡迎回來，'+S.name);} else toast(syncErr(r)); }
+    flush(); };
 }
+
+/* already a reader on this phone: set up sync once */
+function openSync(loginMode){
+  sheetOpen(`<h2>${loginMode?'登入並合併':'設定同步'}</h2><p>${loginMode?'這個代稱已經在別台設定過。輸入那組 PIN，兩台的紀錄會合在一起。':'換手機、用電腦也能接著讀。設一組 4 位數 PIN 就好，你在這台的紀錄會一起帶上去。'}</p>
+   <label class="f">你的代稱（就是你的名字）<input type="text" id="fName" maxlength="20" value="${esc(S.name)}" autocomplete="nickname"></label>
+   ${pinHTML(loginMode?'PIN':'設一組 PIN（4 位數）')}
+   ${PRIV}<button class="btn primary" type="button" id="fGo">${loginMode?'登入並合併':'開始同步'}</button>
+   <button class="lk" type="button" id="fLater">先不要，下次再說</button>
+   <p class="sm">忘記 PIN：跟 Ben 說，他幫你重設。</p>`);
+  $('#fLater').onclick=()=>{ls.set('k-sync-later',Date.now());sheetClose();};
+  $('#fGo').onclick=async()=>{ const n=$('#fName').value.trim(), pin=getPin(); if(!n){toast('請先寫名字');return} if(!/^\d{4}$/.test(pin)){toast('PIN 要 4 位數字');return}
+    const r=await Sync.start(loginMode?'sync':'register',n,pin);
+    if(r.ok){sheetClose();render();toast('同步好了');}
+    else if(r.err==='exists'){openSync(true);toast('這個代稱已經設定過，輸入那組 PIN 就能合併');}
+    else toast(syncErr(r)); };
+}
+
+/* settings */
+function openSheet(first){ if(first) return openWelcome('new');
+  const on=Sync.on();
+  sheetOpen(`<h2>設定</h2>
+   ${on?`<div class="fl">你的名字<div style="font-size:1.0625rem;font-weight:500">${esc(S.name)}</div></div>`:`<label class="f">你的名字<input type="text" id="fName" maxlength="20" value="${esc(S.name)}" autocomplete="nickname"></label>`}
+   <div class="syst"><span><span class="dot ${on?'':'off'}"></span>${on?'已同步・'+Sync.when():'這台還沒設定同步'}</span>${on?'<button class="lk" type="button" id="fOut">登出這台</button>':'<button class="lk" type="button" id="fSync">設定同步</button>'}</div>
+   ${picksHTML()}
+   <button class="btn primary" type="button" id="fSave">儲存</button>
+   <p class="sm">${on?'換新裝置：打開 cotori →「已經有帳號」→ 輸入代稱和 PIN。':'設定同步後，換手機、用電腦也能接著讀。'}</p>${HOME_TIP}`);
+  if($('#fSync')) $('#fSync').onclick=()=>openSync(false);
+  if($('#fOut')) $('#fOut').onclick=()=>{ Sync.logout(); };
+  $('#fSave').onclick=()=>{ const n=on?S.name:$('#fName').value.trim(); if(!n){$('#fName').focus();toast('請先寫名字');return}
+    const p=picked(); if(!p.length){toast('至少勾一個');return}
+    S.name=n; ls.set('k-name',n); setPrefs(p); sheetClose(); render(); toast('已儲存'); flush(); };
+}
+
+/* cross-device sync: 代稱 + PIN. The server keeps one bundle per person and merges it with this phone's copy. */
+const Sync=(()=>{ let acct=ls.get('k-sync',null), last=ls.get('k-sync-at',0), timer=null, running=false, again=false, applying=false;
+  const KEYS=['k-read','k-svt','k-svdel','k-fb','k-asked','k-prefs-t'];
+  async function hashOf(name,pin){ const t=new TextEncoder().encode('cotori|'+name.trim().toLowerCase()+'|'+pin);
+    const b=await crypto.subtle.digest('SHA-256',t); return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join(''); }
+  function collect(){ const saved={};
+    Object.keys(S.saved).forEach(id=>saved[id]={t:S.svt[id]||1,it:S.saved[id]});
+    Object.keys(S.svdel).forEach(id=>{ if(!S.saved[id]) saved[id]={t:S.svdel[id],del:1}; });
+    return {v:1,read:S.read,saved,fb:S.fb,asked:S.asked,prefs:S.secs?{secs:S.secs,scale:Number(ls.get('k-scale',1)),t:S.prefsT||1}:null}; }
+  function apply(st){ if(!st) return false; const before=JSON.stringify(collect()); applying=true;
+    try{ S.read=st.read||{}; S.saved={}; S.svt={}; S.svdel={};
+      Object.keys(st.saved||{}).forEach(id=>{const x=st.saved[id]; if(x.del) S.svdel[id]=x.t; else if(x.it){S.saved[id]=x.it; S.svt[id]=x.t;}});
+      S.fb=st.fb||{}; S.asked=st.asked||[];
+      if(st.prefs){ S.secs=st.prefs.secs||S.secs; S.prefsT=st.prefs.t||0; if(st.prefs.scale) ls.set('k-scale',st.prefs.scale); ls.set('k-secs',S.secs); ls.set('k-prefs-t',S.prefsT); }
+      ls.set('k-read',S.read); ls.set('k-saved',S.saved); ls.set('k-svt',S.svt); ls.set('k-svdel',S.svdel); ls.set('k-fb',S.fb); ls.set('k-asked',S.asked);
+    } finally { applying=false; }
+    return JSON.stringify(collect())!==before; }
+  async function call(type,name,h){ if(!FEEDBACK_URL||!navigator.onLine) return {ok:false,err:'net'};
+    try{ const r=await fetch(FEEDBACK_URL,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({type,name,h,state:collect()})}); return await r.json(); }
+    catch(e){ return {ok:false,err:'net'}; } }
+  function done(r){ last=Date.now(); ls.set('k-sync-at',last); if(r.name){S.name=r.name; ls.set('k-name',r.name);} return apply(r.state); }
+  async function start(type,name,pin){ const h=await hashOf(name,pin); const r=await call(type,name,h);
+    if(r.ok){ acct={name:r.name||name,h}; ls.set('k-sync',acct); done(r); applyScaleFromStore(); } return r; }
+  async function run(){ if(!acct) return; if(running){again=true;return} running=true;
+    const r=await call('sync',acct.name,acct.h); running=false;
+    if(r.ok){ const changed=done(r); if(changed){ applyScaleFromStore(); if(!document.querySelector('.row.open')) render(); else syncBadges(); } }
+    else if(r.err==='badpin'||r.err==='noone'){ acct=null; ls.set('k-sync',null); toast(r.err==='noone'?'同步帳號被重設了，請重新設定同步':'PIN 已經改過，請重新登入'); }
+    if(again){again=false; run();} }
+  function sched(ms){ if(!acct) return; clearTimeout(timer); timer=setTimeout(run,ms==null?2500:ms); }
+  window.__cotoriSyncHook=k=>{ if(!applying&&acct&&(KEYS.includes(k)||k==='k-saved'||k==='k-secs'||k==='k-scale')){ if(k==='k-scale'&&!applying){S.prefsT=Date.now();try{localStorage.setItem('k-prefs-t',JSON.stringify(S.prefsT))}catch(e){}} sched(); } };
+  document.addEventListener('visibilitychange',()=>{ if(!acct) return; if(document.visibilityState==='hidden'){clearTimeout(timer); run();} else sched(300); });
+  function when(){ if(!last) return '還沒'; const m=Math.round((Date.now()-last)/60000); return m<1?'剛剛':m<60?m+' 分鐘前':Math.round(m/60)+' 小時前'; }
+  function logout(){ ['k-sync','k-sync-at','k-read','k-saved','k-svt','k-svdel','k-fb','k-asked','k-name','k-secs','k-prefs-t','k-sync-later'].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}}); location.reload(); }
+  return {on:()=>!!acct,start,run,sched,when,logout}; })();
+function applyScaleFromStore(){ const i=STEPS.indexOf(Number(ls.get('k-scale',1))); if(i>=0&&i!==si){si=i;applyScale();} }
+function syncBadges(){ try{ badges(); }catch(e){} }
 $('#openSet').onclick=()=>D&&openSheet(false);
-$('#scrim').addEventListener('click',e=>{if(e.target.id==='scrim'&&S.name)$('#scrim').hidden=true});
+$('#scrim').addEventListener('click',e=>{if(e.target.id==='scrim'&&S.name){ if($('#fLater')) ls.set('k-sync-later',Date.now()); $('#scrim').hidden=true;}});
 
 /* events */
 document.addEventListener('click',e=>{
@@ -456,14 +564,15 @@ document.addEventListener('click',e=>{
   const src=e.target.closest('.src'); if(src&&(src.hasAttribute('data-clamp')||src.classList.contains('full'))){src.classList.toggle('full');return;}
   const lo=e.target.closest('[data-src]'); if(lo){send({type:'open_source',itemId:lo.dataset.src,sec:(byId(lo.dataset.src)||{}).sec||''});return;}
   const st=e.target.closest('[data-star]'); if(st){const id=st.dataset.star,n=Number(st.dataset.n);const it=byId(id);
-    const f=S.fb[id]=Object.assign({},S.fb[id]); f.stars=f.stars===n?0:n; ls.set('k-fb',S.fb);
+    const f=S.fb[id]=Object.assign({},S.fb[id]); f.stars=f.stars===n?0:n; f.t=Date.now(); ls.set('k-fb',S.fb);
     send({type:'rating',itemId:id,title:it.title,stars:f.stars||'',text:''}); markRead(id);
     st.closest('.stars').querySelectorAll('.star').forEach(b=>{b.classList.toggle('on',Number(b.dataset.n)<=f.stars);b.setAttribute('aria-pressed',Number(b.dataset.n)===f.stars)}); return;}
   const sv=e.target.closest('[data-save]'); if(sv){const id=sv.dataset.save; const it=byId(id);
-    if(S.saved[id]){delete S.saved[id];toast('已取消收藏')}else{S.saved[id]=it;send({type:'save',itemId:id,sec:it.sec});toast('已收藏')}
+    if(S.saved[id]){delete S.saved[id];delete S.svt[id];S.svdel[id]=Date.now();toast('已取消收藏')}else{S.saved[id]=it;S.svt[id]=Date.now();delete S.svdel[id];send({type:'save',itemId:id,sec:it.sec});toast('已收藏')}
+    ls.set('k-svt',S.svt);ls.set('k-svdel',S.svdel);
     ls.set('k-saved',S.saved); const row=sv.closest('.row'); const wk=row.querySelector('.wk-s'); row.outerHTML=rowHTML(byId(id)||it,wk?wk.outerHTML:''); clampSrc(); watchRead(); return;}
   const sd=e.target.closest('[data-send]'); if(sd){const id=sd.dataset.send;const cd=sd.closest('.card');const t=cd.querySelector('.nbox').value.trim();if(!t){toast('先寫點什麼');return}
-    const it=byId(id); const f=S.fb[id]=Object.assign({},S.fb[id],{note:t,noteSent:true}); ls.set('k-fb',S.fb);
+    const it=byId(id); const f=S.fb[id]=Object.assign({},S.fb[id],{note:t,noteSent:true,t:Date.now()}); ls.set('k-fb',S.fb);
     send({type:'note',itemId:id,title:it.title,stars:f.stars||'',text:t}); cd.querySelector('.sent').textContent='已送出'; toast('收到了，謝謝'); return;}
   if(e.target.id==='askSend'){const t=$('#askBox').value.trim(); if(!t){toast('先寫下你的問題');return}
     const sid=send({type:'question',itemId:'',title:'',stars:'',text:t}); S.asked.push({text:t,ts:Date.now(),sid}); ls.set('k-asked',S.asked);
@@ -490,7 +599,7 @@ tagNow().then(t=>pageTag=t);
 let lastCheck=Date.now();
 document.addEventListener('visibilitychange',async()=>{ if(document.visibilityState!=='visible'||Date.now()-lastCheck<30000) return; lastCheck=Date.now();
   if(await appChanged()){location.reload();return} load().catch(()=>{}); });
-async function load(){ const r=await fetch('data.json?v='+Date.now(),{cache:'no-store'}); D=await r.json(); newSecs(); tidy(); render(); if(!S.name) openSheet(true); flush(); }
+async function load(){ const r=await fetch('data.json?v='+Date.now(),{cache:'no-store'}); D=await r.json(); newSecs(); tidy(); render(); if(!S.name) openSheet(true); else if(Sync.on()) Sync.sched(0); else if(Date.now()-Number(ls.get('k-sync-later',0))>3*86400000 && $('#scrim').hidden) openSync(false); flush(); }
 load().catch(()=>{$('#main').innerHTML='<p class="empty"><b>暫時打不開</b>請確認網路後再往下拉重新整理。</p>'});
 let y0=null,pulled=0,busy=false; const ptr=$('#ptr');
 addEventListener('touchstart',e=>{ if(scrollY<=0&&!busy&&$('#scrim').hidden) y0=e.touches.length===1?e.touches[0].clientY:null; else y0=null; },{passive:true});
