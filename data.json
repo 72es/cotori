@@ -1,17 +1,17 @@
 {
  "edition": {
-  "id": "2026-11-05",
-  "no": 10,
-  "date": "2026-11-05",
-  "label": "11月5日 週四"
+  "id": "2026-11-06",
+  "no": 11,
+  "date": "2026-11-06",
+  "label": "11月6日 週五"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "春水堂 11/1 起八成以上品項漲約 12%，中杯珍奶 200 元；翰林茶館反向推 40 元限量珍奶。",
-  "美國咖啡館糖漿之爭：客人把整排現成糖漿當紅燈，自製糖漿成了小店賣點。",
-  "日曬從「不乾淨」到搶手：蜜處理每磅多 1–2 美元，但「進階日曬」名稱越來越模糊。",
-  "送禮季別只靠折扣拉新客：幫熟客送得好，收禮的人自然變新客。",
-  "ARTs：11 月看展清單（臺南雙年展、中美館、勤美泡泡樹、朋丁內田正泰）、SOU・SOU×誠品、東京 Alter、溫哥華 Jeju 餐廳空間。"
+  "星巴克關掉波士頓門市後，附近 George Howell 兩家店的特調飲品銷量增 30–35%。",
+  "Kew 研究團隊：羅布斯塔「耐氣候」是迷思，主要產區靠大量灌溉撐著。",
+  "日本 10 月起企業有義務防範奧客騷擾，要設諮詢窗口、保護拒絕奧客的員工。",
+  "大家問：Artisan 和 Cropster 怎麼選；南投仁愛鄉有沒有得獎咖啡。",
+  "ARTs：靉嘔彩虹絹印 11/14 台北開展、泰特現代首檔水墨展、Designart Tokyo 紙盒與森林展。"
  ],
  "weekly": null,
  "sections": [
@@ -41,6 +41,582 @@
   }
  ],
  "items": [
+  {
+   "id": "george-howell-boston-starbucks-closures",
+   "sec": "industry",
+   "title": "星巴克關波士頓門市，George Howell 鄰近兩店特調飲品銷量增 30–35%",
+   "orig": "George Howell Cafes Near Closed Starbucks Stores See Specialty Drink Sales Jump 30% to 35%",
+   "date": "2026/11/05",
+   "media": "Fresh Cup（引述 Inc.）",
+   "author": "Fionn Pooler",
+   "tier": "T2",
+   "read": 2,
+   "summary": [
+    "星巴克執行長 Brian Niccol 推動「Back to Starbucks」復興計畫，在美國持續關閉表現不佳的門市：2025 年 9 月宣布關 400 家，上個月再宣布 250 家。據 Inc. 記者 Nikita Osadchiy、Samuel A. Church 報導，過去一年星巴克在大波士頓地區關了將近 20 家（其中 5 家有工會），波士頓市中心只剩一家。",
+    "獨立咖啡館因此受惠。George Howell Coffee 總裁 Rebecca Fitzgerald 對 Inc. 表示，離已關閉星巴克最近的兩家門市，特調飲品銷量比去年平均增加 30–35%，南瓜香料拿鐵漲得特別多。",
+    "不過其他店家雖然也感覺客流增加，但說很難斷定就是星巴克關店造成的。市中心咖啡店 Espresso Love 的 Thomas McManus 說：「確實看到新面孔，但這也是波士頓人潮的起伏。」星巴克則表示計畫在 2026 會計年度「恢復增加門市數」。"
+   ],
+   "why": "大型連鎖退場時，最先流過來的客人點的往往是他們熟悉的東西，例如南瓜香料拿鐵這類季節調味飲品，而不是單品手沖。如果附近有連鎖店變動，吧台可以先把熟悉款做好、做穩，再慢慢帶客人認識我們的豆子。另外也要注意：店家自己都說很難把成長歸因於競爭者關店，看到業績變化時別太快下結論。",
+   "detail": [
+    "關店規模｜2025/09 宣布 400 家；2026/10 再宣布 250 家。",
+    "波士頓｜一年內關近 20 家（5 家有工會），市中心剩 1 家。",
+    "數字來源｜George Howell 總裁 Rebecca Fitzgerald，比較基準是去年。",
+    "範圍｜只限離關閉星巴克最近的兩家門市、特調飲品。",
+    "星巴克｜計畫 2026 會計年度恢復增加門市數。"
+   ],
+   "note": "Fresh Cup 是摘要轉述 Inc. 的報導；Inc. 原文抓取被擋，未能核對原文。30–35% 是店家自述數字。",
+   "link": "https://freshcup.com/george-howell-cafes-near-closed-starbucks-stores-see-specialty-drink-sales-jump-30-to-35/",
+   "extra_links": [
+    {
+     "t": "Inc. 原始報導",
+     "u": "https://www.inc.com/samuel-a-church/starbucks-is-disappearing-from-downtown-boston-local-coffee-shops-are-cashing-in/91424733"
+    }
+   ],
+   "pub": "2026-11-06"
+  },
+  {
+   "id": "organic-certification-not-black-white-part-1",
+   "sec": "industry",
+   "title": "有機認證值得嗎？哥倫比亞產區：成本高、溢價常到不了農民手上",
+   "orig": "Organic Certification in Coffee: Why the Issue Isn't Black & White (Part One)",
+   "date": "2026/11/05",
+   "media": "Barista Magazine",
+   "author": "Melina Devoney",
+   "tier": "T2",
+   "read": 7,
+   "summary": [
+    "Barista Magazine 兩集專題的第一集，探討咖啡有機認證越來越難拿、生產者和烘豆商開始質疑標章到底多重要。受訪者是美國南卡羅來納州 Methodical Coffee 的生豆與茶採購 Austin Bowers，以及哥倫比亞 Véntola Coffee 的生產者、出口商兼經理 Felipe Trujillo。",
+    "背景：精品不等於有機，有些精品生產者也會用農藥化肥提高產量、防病蟲害，程度因地而異。文中舉例，哥倫比亞慣行農場化學品使用量大；衣索比亞估計約 90% 的咖啡「預設就是有機種植」，但因為缺乏支援與可追溯系統，拿到認證的很少。Austin 強調，非有機的主要問題不是農藥殘留進杯子，而是對環境的影響。",
+    "美國農業部（USDA）有機認證的門檻：",
+    {
+     "list": [
+      "申請前要經過三年轉換期，不得使用合成農藥、除草劑、化肥。",
+      "要找獨立且經認可的第三方驗證機構。",
+      "每年稽核，並可能有未事先通知的抽查；認證名單可在 USDA 資料庫查到，冒用會被罰款。"
+     ]
+    },
+    "反對認證的理由：轉換期產量可能下降、成本上升，有機農場往往需要長期增加人力；而且認證不保證有溢價，因為認證咖啡供給常大於需求，生產者有時只能用一般市價賣。氣候變遷讓病蟲害分布改變，有些生產者寧可用藥保住整片農場，也不想冒險。Véntola 取得有機認證超過 15 年，近年也拿了 Rainforest Alliance 認證，但 Felipe 說：「我們不覺得認證提升了永續性，因為價格沒有變好……感覺是別人拿走了認證的好處，不是農民。」他們會認證，是因為出口商要求；做精品或差異化咖啡反而賣得更好。文中也引用國際糧食政策研究所（IFPRI）研究：2014 年衣索比亞生產者只拿到出口商就永續認證咖啡所獲品質溢價的三分之一。",
+    "替代做法是直接貿易：Methodical 定期拜訪合作生產者（很多沒有有機認證），親眼看土壤復育、生物多樣性、堆肥、乾淨水源、農林混作等做法。Austin 說：「世界上有些最好的咖啡，出自負擔不起認證的農民。」Felipe 也說，要確定農民沒用農藥，最好的方法是直接貿易關係，「我的客戶在這裡待了一整週，可以自己查證」。第二集預告隔天刊出。"
+   ],
+   "why": "客人問「這支有沒有有機」時，可以不只回答有或沒有。很多好豆子沒有認證，原因常是認證費用、稽核和人力負擔，而不是農民用藥；反過來，有標章也不代表農民真的拿到比較好的價格。我們能說清楚的是：這支豆子來自哪個產區、哪位生產者或合作社、是不是長期合作。豆袋和菜單上的產地資訊寫得越完整，越能回答這類問題。",
+   "action": "挑一支店裡的豆子，練習用 30 秒向客人說明它的產地、生產者和處理方式，取代「有機／非有機」的回答。",
+   "detail": [
+    "受訪者｜Austin Bowers（Methodical Coffee 生豆與茶採購）。",
+    "受訪者｜Felipe Trujillo（哥倫比亞 Véntola Coffee 經理）。",
+    "衣索比亞｜約 90% 咖啡天然有機種植，但取得認證者少。",
+    "USDA 門檻｜三年轉換期＋每年稽核＋不預告抽查。",
+    "Véntola｜有機認證 15 年以上，另有 Rainforest Alliance。",
+    "IFPRI｜2014 年衣索比亞農民只拿到出口端認證溢價的 1/3。",
+    "給消費者｜選會標出生產者、年年向同一批農民買豆的烘豆商。"
+   ],
+   "watch": "第二集（Part Two）支持認證的一方怎麼說。",
+   "link": "https://www.baristamagazine.com/organic-certification-in-coffee-why-the-issue-isnt-black-white-part-one/",
+   "pub": "2026-11-06"
+  },
+  {
+   "id": "tainan-world-culinary-asia-hospitality-coffee",
+   "sec": "industry",
+   "title": "台南美食之都世界餐飲藝術挑戰賽：亞洲餐旅奪 24 牌，教師黃詠聰咖啡飲調組最高分",
+   "orig": "",
+   "date": "2026/11/05",
+   "media": "聯合新聞網",
+   "author": "吳淑玲",
+   "tier": "T3",
+   "read": 2,
+   "summary": [
+    "亞洲餐旅職業學校師生參加「2026 台南美食之都世界餐飲藝術挑戰賽」，共拿下 24 面獎牌。教師黃詠聰在咖啡飲調組拿到最高分。",
+    {
+     "table": {
+      "cap": "亞洲餐旅成績",
+      "cols": [
+       "項目",
+       "結果"
+      ],
+      "rows": [
+       [
+        "金牌",
+        "3 面"
+       ],
+       [
+        "銀牌",
+        "13 面"
+       ],
+       [
+        "銅牌",
+        "8 面"
+       ],
+       [
+        "合計",
+        "24 面"
+       ],
+       [
+        "咖啡飲調組",
+        "黃詠聰（教師）最高分"
+       ]
+      ]
+     }
+    },
+    "比賽項目包括現場烹調、藝術果醬畫盤、糖霜餅乾、創意麵包、造型菠蘿麵包、靜態料理展示、台南在地食材、原住民料理、咖啡飲調及傳統調酒。中餐由主任鄭勝忠、烘焙由教師楊文秀指導。",
+    "各報對黃詠聰成績的寫法不太一樣：聯合報、中華日報寫「全場最高分」，ETtoday 寫「該組最高分、奪得冠軍」。依 ETtoday 的寫法推測，應是咖啡飲調組內的最高分，但聯合報內文看不出來，以主辦單位公告為準。"
+   ],
+   "why": "台南本地的餐飲賽有咖啡飲調組，而且拿最高分的是技職學校老師。報導只說評審肯定他的「調製技術和風味掌控」，沒寫作品內容、評分標準或參賽人數，所以比較像一則地方賽事消息。想參考的話，可以留意明年這個比賽的咖啡飲調組簡章，看看適不適合我們的吧台夥伴練手。",
+   "detail": [
+    "賽事｜2026 台南美食之都世界餐飲藝術挑戰賽。",
+    "學校｜亞洲餐旅職業學校，校長林士哲、主任吳家銓。",
+    "咖啡項目｜咖啡飲調組，另有傳統調酒組。",
+    "報導差異｜ETtoday 寫「造型鳳梨麵包」，聯合報、中華日報寫「造型菠蘿麵包」。"
+   ],
+   "note": "報導都是學校提供的得獎消息，沒有咖啡飲調組的參賽人數、評分方式與其他名次。",
+   "link": "https://udn.com/news/story/6885/9858574",
+   "extra_links": [
+    {
+     "t": "ETtoday：亞洲餐旅勇奪3金13銀8銅",
+     "u": "https://www.ettoday.net/news/20261105/3266912.htm"
+    },
+    {
+     "t": "中華日報：世界餐飲藝術賽抱回24面獎牌",
+     "u": "https://www.cdns.com.tw/articles/1485429"
+    }
+   ],
+   "pub": "2026-11-06"
+  },
+  {
+   "id": "kew-robusta-climate-review",
+   "sec": "science",
+   "title": "Kew 研究團隊：羅布斯塔「耐氣候」是迷思，主要產區靠大量灌溉撐著",
+   "orig": "Researchers Challenge the Climate-Resilient Robusta Narrative",
+   "date": "2026/11/05",
+   "media": "Daily Coffee News",
+   "author": "Nick Brown",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "業界常說：氣候變遷讓阿拉比卡越來越難種，耐熱的羅布斯塔（robusta）可以接手撐住全球咖啡產量。英國皇家植物園邱園（Royal Botanic Gardens, Kew）的 Aaron Davis 領軍、與印度 SICC Labs 的 Akshay Dashrath、Kew 研究員 Justin Moat 合寫的一篇文獻回顧直接反駁這個說法，結論是「農場種植的羅布斯塔具有氣候韌性，這種說法是誤導」。論文 8 月 27 日刊在期刊《Sustainable Development》，開放取用。",
+    "他們回顧了超過一個世紀的研究，並新做了非洲野生羅布斯塔周邊的水分分析。野生羅布斯塔演化自熱帶非洲溫暖地區，那裡一年大部分時間土壤都有水；野生族群多分布在除了降雨之外還有河流、濕地、地下水或高地下水位補水的地方。作者認為，只用溫度和雨量做的「氣候適宜度」模型，可能把灌溉農場或天生潮濕的地點誤當成「羅布斯塔耐乾」的證據。",
+    {
+     "table": {
+      "cap": "論文引用的產業數字",
+      "cols": [
+       "項目",
+       "數字"
+      ],
+      "rows": [
+       [
+        "羅布斯塔占全球咖啡貿易",
+        "約 43%"
+       ],
+       [
+        "巴西＋越南占羅布斯塔出口",
+        "約 65%"
+       ],
+       [
+        "巴西聖埃斯皮里圖州北部灌溉比例",
+        "約 90%"
+       ]
+      ]
+     }
+    },
+    "作者指出越南、巴西、印度這些主要產區並不具備「靠天然降雨種羅布斯塔」的條件，因此高度依賴灌溉；再加上遮蔭樹少、合成肥料用量高，與生態、生物多樣性保育和低碳經濟的目標相衝突。",
+    "他們不是叫業界放棄羅布斯塔，而是主張擴種到水分與溫度真正符合它天性的地方，同時改變栽培方式、做以氣候為重點的品種開發；也需要更細的氣候地圖，才能找出哪裡能永續地靠雨水種。研究由英國 Calleva Foundation 與 Amar-Franses Foster-Jenkins Trust 資助，作者聲明無利益衝突。"
+   ],
+   "why": "客人或同事聊到「阿拉比卡以後會不會被羅布斯塔取代」時，這篇是很好的反例：羅布斯塔不是天生耐旱，它原本長在水很多的地方，現在的大產區很多是靠灌溉撐起來的。所以「換成羅布斯塔」不等於「解決氣候問題」，水資源和肥料的成本只是被藏起來。烘豆或選豆時看到「耐氣候」這類行銷說法，可以多問一句：是靠什麼種出來的？",
+   "detail": [
+    "作者｜Aaron Davis（Kew）、Akshay Dashrath（SICC Labs）、Justin Moat（Kew）。",
+    "論文｜The Sustainability of Robusta Coffee Under Global Change—A Review。",
+    "刊登｜2026/08/27，《Sustainable Development》，開放取用。",
+    "核心主張｜野生羅布斯塔偏好河流、濕地、地下水等額外水源的環境。",
+    "模型盲點｜只看溫度、雨量的模型會把灌溉農場誤判成耐乾證據。",
+    "相關研究｜Kew 去年確立 liberica、excelsa 為不同物種；今年提出雜交種名 Coffea × libex。"
+   ],
+   "watch": "作者呼籲的細緻氣候地圖，以及 Kew 對 liberica、excelsa 等其他物種的後續研究。",
+   "link": "https://dailycoffeenews.com/2026/11/05/researchers-challenge-the-climate-resilient-robusta-narrative/",
+   "extra_links": [
+    {
+     "t": "論文原文（Wiley，開放取用）",
+     "u": "https://onlinelibrary.wiley.com/doi/10.1002/sd.71568"
+    }
+   ],
+   "note": "摘要依據 Daily Coffee News 報導；論文標題、作者、刊登日期已用 DOI 登錄資料核對，論文全文未逐字讀過。",
+   "pub": "2026-11-06"
+  },
+  {
+   "id": "drip-coffee-rebound-monterey",
+   "sec": "food",
+   "title": "拉花、調味拿鐵之後，美國黑咖啡回溫：近四分之一人偏好黑咖啡",
+   "orig": "After years of flavored lattes and decorated foam, regular drip coffee makes a rebound.",
+   "date": "2026/11/05",
+   "media": "Monterey County Weekly（引述 Drive Research）",
+   "author": "Dave Faries",
+   "tier": "T3",
+   "read": 2,
+   "summary": "加州地方媒體 Monterey County Weekly 的短文指出，過去幾十年咖啡潮流偏向手工特調、咖啡藝術與產地風土；一年前的報告還顯示滴濾咖啡點單持續下滑，比 2024 年少 3%。但根據消費者研究公司 Drive Research，2026 年至今近四分之一美國人偏好黑咖啡，高於原本的 18%。\n\nDrive 的調查認為經濟壓力是主因，超市端的數據也顯示 Folgers 目前賣得比 Starbucks、Dunkin' 好。但蒙特雷 Six Over Coffee & Company 店主 TJ Ellis 認為咖啡館裡的原因更單純：很多店的特調只比一般咖啡貴一塊美元，客人選滴濾是因為「滴濾咖啡會讓人坐下來好好享受」、「大家想回到生活中比較簡單的事」。文章也說，這不代表客人放棄精品豆，產地、烘焙和風味仍然重要。",
+   "why": "如果黑咖啡真的回溫，批次滴濾（batch brew）就是門市最容易被忽略的強項：出杯快、價格親民，又能展現豆子風味。吧台可以檢查批次滴濾的新鮮度與保溫時間，並準備一兩句介紹今天這壺用的是哪支豆，讓點「一般咖啡」的客人也喝得到我們的用心。",
+   "action": "記錄一週批次滴濾的杯數，跟上個月比，看看我們店裡是不是也有這個趨勢。",
+   "detail": [
+    "調查來源｜Drive Research：2026 年近 1/4 美國人偏好黑咖啡（原 18%）。",
+    "前一年｜滴濾咖啡點單比 2024 年少 3%（文中未註明報告來源）。",
+    "超市端｜Folgers 目前銷量超過 Starbucks、Dunkin'。",
+    "店家觀點｜TJ Ellis（Six Over Coffee & Company，蒙特雷）。"
+   ],
+   "note": "這是地方媒體的短篇趨勢文，主要依據 Drive Research 的消費者調查和單一店家看法，沒有附調查原文連結。今年 3 月 Toast 的點單數據則顯示拿鐵上升、滴濾下滑，兩者衡量的東西不同（偏好調查 vs. 實際點單），不能直接說趨勢已經反轉。",
+   "link": "https://www.montereycountynow.com/eat_drink/chill/after-years-of-flavored-lattes-and-decorated-foam-regular-drip-coffee-makes-a-rebound/article_c2a2f95d-2b49-4dc4-9b3a-93ed7b6872be.html",
+   "extra_links": [
+    {
+     "t": "對照：Toast 報告顯示拿鐵上升、滴濾下滑（DCN，2026/03）",
+     "u": "https://dailycoffeenews.com/2026/03/11/toast-report-shows-lattes-rising-as-drip-coffee-and-cold-brew-slip/"
+    }
+   ],
+   "pub": "2026-11-06"
+  },
+  {
+   "id": "japan-customer-harassment-law",
+   "sec": "food",
+   "title": "日本 10 月起企業有義務防範奧客騷擾：要設諮詢窗口、保護拒絕奧客的員工",
+   "orig": "",
+   "date": "2026/10/01",
+   "media": "公視新聞網（引述 NHK）",
+   "author": "徐家仁",
+   "tier": "T3",
+   "read": 3,
+   "summary": [
+    "日本修正後的《勞動施策綜合推進法》（労働施策総合推進法）在 2026 年 10 月 1 日施行，把防範「顧客騷擾」（日文「カスハラ」，也就是奧客對員工的騷擾）列為企業的義務。這次修法在 2025 年 6 月 11 日公布。",
+    "公視引述 NHK 報導，企業的義務包括：",
+    {
+     "list": [
+      "明確保護堅定拒絕奧客的員工；員工自己處理不了的狀況，要盡量讓其他員工知道、一起處理。",
+      "設立諮詢窗口，給受害員工精神上的照顧與輔導。",
+      "研擬防止再發生的對策。"
+     ]
+    },
+    "什麼算騷擾？NHK 整理專家意見：身體攻擊當然算；只有言語的話，要看說話的態度和是否持續。言語內容跟商品、服務完全無關，或手段是身體、精神上的攻擊，以及威嚇、壓迫性的言語，都算騷擾。NHK 舉了一個例子：一名男子買微波便當請店員加熱，因為外盒變形就對店員拍桌大吼，他受訪時說當時完全不知道這樣已經算騷擾。",
+    "NHK 也引述厚生勞動省「3 年前」的調查：受訪的 7,700 多家企業與機構中，四分之一曾遇過這類騷擾；醫療機構過半最高，其次是餐飲旅館業 46%，汽車出租業 43% 以上。部分航空公司從 2024 年起陸續取消服務人員制服上的名牌。"
+   ],
+   "why": "日本把「保護員工不受奧客騷擾」寫成企業的法律義務，重點不是叫店員忍，而是公司要有制度：誰出面接手、員工可以跟誰說、事後怎麼避免再發生。台灣沒有同樣的法律，但道理一樣。站吧台或門市遇到客人拍桌、吼叫、要求跟商品無關的事，不需要一個人硬撐，可以先請同事或店長接手。日本這套界線（身體攻擊、威嚇、跟服務無關的言語、持續糾纏）也可以拿來當我們自己判斷「客訴」還是「騷擾」的參考。",
+   "action": "店內約定一句暗號或手勢，遇到騷擾型客人時，第二個人馬上過來接手。",
+   "detail": [
+    "法律｜修正《勞動施策綜合推進法》（労働施策総合推進法）。",
+    "公布｜2025 年 6 月 11 日。",
+    "施行｜2026 年 10 月 1 日（部分規定在公布日或 2026 年 4 月 1 日先施行）。",
+    "企業義務｜保護員工、設諮詢窗口、精神照顧、防止再發生。",
+    "餐飲旅館業｜厚生勞動省調查中 46% 遇過顧客騷擾，僅次於醫療機構。"
+   ],
+   "note": "任務線索的標題「奧客鬧事不能只叫店員忍耐！日本新法要求企業保護員工」這次沒找到原報導，改用公視 10/1 引述 NHK 的報導，施行日與公布日用日本法律資訊網站 Keiyaku Watch 核對，兩者一致（2026/10/1）。公視寫成「厚生勞動省新規定」，實際上是修正法律、由厚生勞動省主管。調查的「3 年前」原文沒寫年份。",
+   "link": "https://news.pts.org.tw/article/829537",
+   "extra_links": [
+    {
+     "t": "Keiyaku Watch：労働施策総合推進法改正（日文）",
+     "u": "https://keiyaku-watch.jp/media/hourei/roudou-shisaku-2026/"
+    }
+   ],
+   "pub": "2026-11-06"
+  },
+  {
+   "id": "wowprime-hanlai-q3-2026",
+   "sec": "food",
+   "title": "連鎖餐飲前三季報喜：王品 EPS 14.32 元創新高，漢來美食已賺贏去年全年",
+   "orig": "",
+   "date": "2026/11/06",
+   "media": "工商時報",
+   "author": "姚舜",
+   "tier": "T3",
+   "read": 3,
+   "summary": [
+    "王品（2727）和漢來美食（1268）公布前三季財報，漢來前三季營收創歷史新高，王品則是第三季單季營收 66.1 億元和前三季 EPS 14.32 元創新高，連續四年賺超過一個股本；漢來美食前三季獲利已超過去年全年。",
+    {
+     "table": {
+      "cap": "前三季（累計）",
+      "cols": [
+       "公司",
+       "營收",
+       "年增",
+       "稅後純益",
+       "年增",
+       "EPS"
+      ],
+      "rows": [
+       [
+        "王品",
+        "195.2 億元",
+        "12.71%",
+        "11.9 億元",
+        "19.16%",
+        "14.32 元"
+       ],
+       [
+        "漢來美食",
+        "54.65 億元",
+        "18.36%",
+        "4.73 億元",
+        "45.5%",
+        "11.20 元"
+       ]
+      ]
+     }
+    },
+    {
+     "table": {
+      "cap": "第三季（單季）",
+      "cols": [
+       "公司",
+       "營收",
+       "稅後純益",
+       "年增",
+       "EPS"
+      ],
+      "rows": [
+       [
+        "王品",
+        "66.1 億元（歷史新高）",
+        "3.7 億元",
+        "7.75%",
+        "4.46 元"
+       ],
+       [
+        "漢來美食",
+        "17.89 億元（同期新高）",
+        "0.84 億元",
+        "28.7%",
+        "1.99 元"
+       ]
+      ]
+     }
+    },
+    "王品第三季靠暑假學生聚餐、父親節、七夕和中秋檔期；漢來美食則受惠台中漢神洲際購物廣場開幕與新餐廳展店。",
+    "第四季展望：王品牛排、夏慕尼、石二鍋都有新店計畫，天氣轉涼帶動和牛涮、青花驕、聚日式鍋物、尬鍋等鍋物品牌，加上「王品嚴選」零售的冷凍、常溫鍋物；漢來美食宴會廳尾牙訂單合計近 1.5 萬桌，自助餐「島語」第五店 11 月底前進駐台北大巨蛋 Garden City。報導也提到百貨週年慶與政府普發一萬元現金，法人看好第四季。"
+   ],
+   "why": "大型連鎖今年賺得多，主要靠節慶聚餐、尾牙和展店，也就是「把人聚在一起吃飯」的需求很強。對咖啡館來說，可以注意兩件事：一是年底尾牙、聚餐、耶誕跨年是客人預算比較鬆的時候，門市可以準備團體外帶、禮盒這類方便帶走的品項；二是王品把鍋物做成冷凍、常溫零售商品，餐廳品牌延伸到零售是大集團正在做的事，我們的掛耳包、豆子禮盒也是同一條路。",
+   "detail": [
+    "王品｜連續四年前三季賺逾 1 個股本。",
+    "漢來美食｜前三季獲利已超越去年全年。",
+    "漢來尾牙｜北、高三個宴會廳合計訂單近 1.5 萬桌。",
+    "島語｜全台第五店 11 月底前進駐台北大巨蛋 Garden City。"
+   ],
+   "note": "工商時報紙本日報，網頁標示 2026/11/06 03:00（任務線索寫 11/5）。第四季看好是報導與法人的說法，不是公司財測。報導寫漢來「北、高三個宴會廳」，沒說明分布。",
+   "link": "https://www.ctee.com.tw/news/20261106700279-439901",
+   "pub": "2026-11-06"
+  },
+  {
+   "id": "ay-o-prints-380-780nm-hiro-hiro",
+   "sec": "design",
+   "title": "靉嘔版畫展「380–780nm」11/14 台北開展：20 餘件彩虹絹印",
+   "orig": "",
+   "date": "2026/11/05",
+   "media": "非池中藝術網（Hiro Hiro Art Space 新聞稿）",
+   "author": "",
+   "tier": "T2",
+   "read": 8,
+   "summary": [
+    "台北中正區的 Hiro Hiro Art Space 將在 2026 年 11 月 14 日到 12 月 19 日推出「靉嘔版畫展：380–780nm」，展出日本激浪派（Fluxus）藝術家靉嘔（Ay-O）20 餘件絹印版畫。展名取自人眼可見光的波長範圍（約 380 到 780 奈米），呼應他一輩子用彩虹光譜作畫。這是畫廊 2024 年「虹的激浪狂熱分子」個展之後，再次介紹靉嘔，這次聚焦他產量最多、也最容易收藏的版畫。",
+    "靉嘔本名飯島孝雄，1931 年生於茨城縣，童年在日治時期的台灣念小學校（二年級和五年級），他形容在台灣的時光像一道彩虹。1958 年赴紐約，經小野洋子引薦加入激浪派；1966 年 35 歲代表日本參加第 33 屆威尼斯雙年展，展出可以用手觸摸的《彩虹環境 No.3》（牆上嵌了 65 個《手指盒》）。",
+    "他的方法是「借圖、上彩虹」：不自己發明形象，而是拿既有圖像（北齋、克利等）用光譜色帶重新覆蓋，色帶順著平行線走、有方向性。本展亮點之一是「彩虹克利」系列，以 Paul Klee 的畫為底本重新覆上光譜；另有〈Mr. & Mrs. Rainbow〉、〈RAINBOW HOLE〉、〈伊呂波歌〉、〈孔雀回首〉等。",
+    {
+     "table": {
+      "cap": "展覽資訊",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "展期",
+        "2026/11/14–12/19"
+       ],
+       [
+        "地點",
+        "Hiro Hiro Art Space，台北市中正區紹興南街 10 號"
+       ],
+       [
+        "開放時間",
+        "原文沒寫"
+       ],
+       [
+        "票價",
+        "原文沒寫"
+       ],
+       [
+        "預約",
+        "原文沒寫"
+       ],
+       [
+        "開幕",
+        "原文沒寫（頁面標示 coming soon）"
+       ]
+      ]
+     }
+    }
+   ],
+   "why": "這檔幾乎是一堂「色彩系統」課：靉嘔用固定規則（光譜順序、平行色帶、有方向性）把任何圖像變成自己的風格，同一套規則可以套在北齋、克利、老虎或兔子上。做品牌或插畫的人可以想一想：自己的作品有沒有一條這麼清楚、別人一眼就認得的規則？\n\n絹印的工法也值得看實品：油性油墨一色一版逐色套印，一般 24 色，每色要乾大約三天，〈勸善懲惡〉用了 28 色、28 張網版。看漸層怎麼一格一格疊出來，對做包裝、菜單或海報特別色印刷很有參考價值。展期到 12/19，週末可以排進去，出發前先向畫廊確認開放時間。",
+   "action": "去看展時拍一張色帶交界的特寫，回來試著用同樣的「固定色序」規則重畫一張店內菜單插圖。",
+   "detail": [
+    "藝術家｜靉嘔（Ay-O），本名飯島孝雄，1931 年生於茨城縣。",
+    "台灣淵源｜日治時期在台灣念小學校（二年級、五年級）。",
+    "威尼斯｜1966 年第 33 屆，《彩虹環境 No.3》，牆上 65 個《手指盒》。",
+    "版畫獎｜1970 年〈彩虹北齋〉獲東京國際版畫雙年展東京國立近代美術館賞。",
+    "〈彩虹北齋〉｜版畫師做了 500 個絲網版、耗時一年。",
+    "製作時間｜複雜作品要三到六個月；版畫師和靉嘔對半分印好的作品。",
+    "名字由來｜「靉」取雲氣之意，「嘔」取自沙特《嘔吐》。",
+    "典藏｜大英博物館、史密森尼國立亞洲藝術博物館、東京國立近代美術館等。"
+   ],
+   "note": "資料來自非池中藝術網刊登的畫廊展覽介紹，頁面沒有標示刊登日期，也沒有寫開放時間、票價、預約方式；出發前請先向畫廊確認。〈彩虹北齋〉文中有介紹，但沒說是否在本展展出。 非池中頁面沒有刊登日期，這裡的日期是我們抓到的日期。",
+   "link": "https://artemperor.tw/tidbits/20622",
+   "extra_links": [
+    {
+     "t": "非池中：Hiro Hiro Art Space 展覽頁",
+     "u": "https://artemperor.tw/gallery/exhibitions/867"
+    }
+   ],
+   "pub": "2026-11-06"
+  },
+  {
+   "id": "tate-modern-ink-2027",
+   "sec": "design",
+   "title": "泰特現代首檔水墨展《Ink》2027/4/22 開幕，台港中藝術家同台",
+   "orig": "Ink",
+   "date": "2026/03/16",
+   "media": "Tate 官網；The Art Newspaper；FAD Magazine",
+   "author": "Gareth Harris（The Art Newspaper）",
+   "tier": "T1",
+   "read": 4,
+   "summary": [
+    "倫敦泰特現代美術館（Tate Modern）將在 2027 年 4 月 22 日到 8 月 30 日推出《Ink》，這是 Tate 史上第一次以水墨畫為主題的展覽。展覽在 2026 年 3 月 16 日隨 Tate 2027 年展覽計畫公布。",
+    "展覽約 80 件作品，分成「Life（生命）」、「the Garden（庭園）」、「Breath（氣息）」三個主題。Tate 說，水墨雖然遍及東亞與海外華人社群，這檔展覽聚焦中國大陸、香港和台灣在二十世紀重新發明水墨的關鍵藝術家，追溯他們之間的連結，呈現一個活躍的區域網絡，並挑戰西方現代藝術敘事裡「原創性、表現主義、前衛」這些熟悉的概念。",
+    "目前公布的參展者只有一位：宣傳主圖是台灣畫家袁旃 1999 年的絹本設色作品〈Jadeite Cabbage〉（96 × 170 公分）。完整藝術家名單還沒公布。",
+    {
+     "table": {
+      "cap": "展覽資訊",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "展期",
+        "2027/4/22–8/30"
+       ],
+       [
+        "地點",
+        "Tate Modern，Eyal Ofer Galleries"
+       ],
+       [
+        "開放時間",
+        "週日到週四 10:00–18:00；週五、六 10:00–21:00"
+       ],
+       [
+        "票價",
+        "官網寫「Price to be confirmed」（未定）"
+       ],
+       [
+        "研究支持",
+        "Hyundai Tate Research Centre: Transnational（與 Hyundai Motor 合作）"
+       ]
+      ]
+     }
+    }
+   ],
+   "why": "展還沒開，所以現在沒有評論可讀；但這則值得記下來，因為台灣水墨被放進「二十世紀現代藝術」的主舞台，而不是放在「東方傳統」的角落。Tate 把題目定成生命、庭園、氣息，對做空間或品牌的人是很好的關鍵字：留白、筆墨的呼吸感、跟自然的關係，都是可以轉進店面陳設、包裝或菜單版面的語言。\n\n明年如果有人去倫敦，可以預先排進行程；在台灣，也可以趁這個機會回頭看看袁旃等台灣水墨畫家的作品。",
+   "detail": [
+    "定位｜Tate 第一檔水墨畫專題展（Tate 自稱「first ever」）。",
+    "規模｜約 80 件作品。",
+    "範圍｜中國大陸、香港、台灣的二十世紀藝術家。",
+    "主圖｜袁旃〈Jadeite Cabbage〉，1999，絹本設色，96 × 170 公分。",
+    "同年 Tate Modern｜首檔 Monet 展 2027/2/25–6/27。"
+   ],
+   "watch": "完整參展藝術家名單、票價，以及開幕後 The Art Newspaper、Guardian 等的評論。",
+   "note": "展覽 2027 年 4 月才開幕，目前沒有任何評論，參展名單也還沒公布。Time Out London 的展覽頁顯示「Thursday 10 September 2026」，和 Tate 官網展期不符，以官網為準。",
+   "link": "https://www.tate.org.uk/whats-on/tate-modern/ink",
+   "extra_links": [
+    {
+     "t": "The Art Newspaper：Tate 2027 年展覽計畫",
+     "u": "https://www.theartnewspaper.com/2026/03/16/tate-announces-major-david-hockney-edvard-munch-and-sonia-boyce-exhibitions-for-2027"
+    },
+    {
+     "t": "FAD Magazine：Tate 2027 exhibitions",
+     "u": "https://fadmagazine.com/2026/03/16/tate-2027-exhibitions-hockney-monet-munch/"
+    }
+   ],
+   "pub": "2026-11-06"
+  },
+  {
+   "id": "designart-tokyo-2026-highlights",
+   "sec": "design",
+   "title": "Designart Tokyo 十週年：紙盒個展、森林紙展、油炸紙花器",
+   "orig": "Six standout projects unveiled at Designart Tokyo 2026",
+   "date": "2026/11/05",
+   "media": "Dezeen",
+   "author": "Jane Englefield",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "第十屆 Designart Tokyo 在 10 月 30 日到 11 月 8 日舉行，約 150 個專案、來自 13 個國家的參展者分散在東京各地藝廊和快閃空間。今年主場在銀座的舊東京高速道路（KK Line）原址，現在一部分已改成高架公園；現場也開了 Designart Tokyo 第一家設計選物店，賣 Nendo、Alessi、Ronan Bouroullec、Kwangho Lee 等人的作品。Dezeen 挑了六個亮點，以下整理和平面、品牌、空間最相關的幾個：",
+    {
+     "list": [
+      "Box（21B Studio）：2021 年成立的東京工作室首次個展，在澀谷粗獷主義風格的 Tiers Gallery，展示用各種摺法和切口做出紙盒的可能性。宣傳海報本身是一張可以組裝的平板摺紙，組起來就像 Tiers Gallery 的幾何建築。",
+      "Forest: Perspectives（Oji Holdings × We+）：造紙公司王子控股（Oji Holdings）在銀座辦展，請設計師、木材專家、作家、廚師等九位專業者走進它管理的森林，各自回應。作品包括用落枝削成的湯匙、用類似和紙的製程以樹皮做成的木片；展場以「百科圖鑑式」陳列，由 Toshiya Hayashi 和 Hokuto Ando 創立的 We+ 設計。",
+      "Tempura Object（Cecil Nabenashi）：設計碩士生在東京中城展出「油炸」紙和纖維做成的花器與碗，用自己調配的非食用「麵衣」測試能否成為耐久的表面處理；他說下一步想炸一件衣服。",
+      "Industrial Romanticism：在港區 Axis Gallery（日本第一家設計專門藝廊，1981 年成立），由設計師 Yoshiki Matsuyama、Ryota Yokozeki 邀八家日本大廠的社內設計師做「熟悉產品的想像版原型」，參與者包括 Toto、Fujifilm；Yamaha 的 Ryusuke Baba 用原本會被淘汰的木料做了一台聲音古怪的鋼琴。"
+     ]
+    },
+    "另外兩件是產品類：Nomura 與 Aica Kogyo 合作、一拉就能拆的黏著膠帶 Pulling Apart（仍是原型），以及 Howdunit 能像手風琴一樣拉開的紗布檯燈 Peco Poco。"
+   ],
+   "why": "對平面和品牌工作者，21B Studio 那張「組起來就是展場建築」的摺紙海報最值得記：宣傳品本身就是作品，讓人帶回家還會動手。咖啡館的外帶盒、豆袋或活動傳單也可以這樣想，一張紙摺出店的樣子。\n\nOji Holdings 的展則是品牌溝通的好例子：一家造紙公司不講產品規格，而是邀九種職業的人去它的森林，用湯匙、樹皮紙片說「紙從哪裡來」。做空間的人可以參考 We+ 的圖鑑式陳列，把素材像標本一樣排開，很適合用在店內展示豆子產地或器物。",
+   "action": "試著把下一期活動傳單設計成能摺成小盒子或立牌的一張紙。",
+   "detail": [
+    "展期｜2026/10/30–11/8，東京多處。",
+    "規模｜約 150 個專案、13 個國家。",
+    "主場｜銀座舊東京高速道路（KK Line）原址。",
+    "Box｜21B Studio 首次個展，澀谷 Tiers Gallery。",
+    "Forest｜Oji Holdings 主辦、We+ 陳列設計，九位專業者參與。",
+    "Axis Gallery｜1981 年成立，日本第一家設計專門藝廊。"
+   ],
+   "note": "上一期已介紹的青年設計展 Alter 不在本文六選之列。展期到 11/8，讀者若人在東京只剩最後幾天。",
+   "link": "https://www.dezeen.com/2026/11/05/designart-tokyo-2026-highlights/",
+   "pub": "2026-11-06"
+  },
+  {
+   "id": "simonelli-science-driven-coffee-cup",
+   "sec": "skip",
+   "title": "Simonelli Group 與卡梅里諾大學辦咖啡科學研討會，11/19–20 舉行",
+   "orig": "Simonelli Group unveils Science Driven Coffee Cup programme",
+   "date": "2026/10/02",
+   "media": "Comunicaffè International",
+   "author": "",
+   "tier": "T2",
+   "read": 4,
+   "summary": "義大利咖啡機集團 Simonelli Group 和卡梅里諾大學（University of Camerino）透過合作的 Research & Innovation Coffee Hub（RICH），11 月 19–20 日在 Simonelli Group Campus 舉辦國際研討會「Science Driven Coffee Cup」，主題涵蓋化學、神經科學、AI、感官科學和咖啡技術，例如為什麼換杯子咖啡喝起來會比較甜。主持人包括 SCA 的 Eliana Cossio 和 ZHAW 的 Chahan Yeretzian；講者有 ZHAW Coffee Excellence Center 的 Samo Smrke、Suntory 的 Tomonori Suzuki，ICO 執行長 Vanúsia Nogueira 第二天開場。報名即可參加。",
+   "why": "這是廠商主辦的研討會議程公告，還沒有研究結果可以帶回吧台，所以先不放正刊；等會後有「杯子影響甜感」這類發表內容再追。",
+   "detail": [
+    "日期｜2026/11/19–20。",
+    "主辦｜Simonelli Group × 卡梅里諾大學（RICH）。"
+   ],
+   "note": "Global Coffee Report 原文網頁無法讀取，內容改用 Comunicaffè International 10/2 的議程報導。廠商主辦活動。",
+   "link": "https://www.gcrmag.com/simonelli-group-unveils-science-driven-coffee-cup-programme",
+   "extra_links": [
+    {
+     "t": "Comunicaffè：Science Driven Coffee Cup 2026",
+     "u": "https://www.comunicaffe.com/science-driven-coffee-cup-2026-simonelli-group-and-the-university-of-camerino-explore-the-future-of-coffee-through-science/"
+    }
+   ],
+   "pub": "2026-11-06"
+  },
+  {
+   "id": "matsu-vii-coffee-grounds-incense",
+   "sec": "skip",
+   "title": "連江縣 SBIR 輔導小柒咖啡：老酒酒香咖啡濃縮液加咖啡渣線香禮盒",
+   "orig": "",
+   "date": "2026/11/06",
+   "media": "台灣新聞雲（引述連江縣政府產業發展處）",
+   "author": "陳子榮",
+   "tier": "T3",
+   "read": 2,
+   "summary": "連江縣政府 114 年度 SBIR 計畫輔導小柒企業有限公司（小柒咖啡），推出「馬祖香循之道－老酒酒香咖啡濃縮液×咖啡渣線香零廢禮盒」：濃縮液以隨行萃設計，可冷泡、熱飲或調飲；線香用沖煮後的咖啡渣製成。禮盒已在小柒咖啡門市、南竿各 7-ELEVEN 等實體通路，以及小柒線上購、新光三越 SKM online、高鐵線上購販售。",
+   "why": "這是縣府輔導成果的宣傳稿，沒有製程、風味或銷量細節，所以沒選進正刊。咖啡渣做線香的點子可以記著，跟客人聊咖啡渣再利用時可以舉例。",
+   "detail": [
+    "計畫｜連江縣 114 年度地方產業創新研發推動計畫（SBIR）。"
+   ],
+   "note": "內容來自縣府產業發展處提供的新聞稿。",
+   "link": "https://886.news/archives/370046",
+   "pub": "2026-11-06"
+  },
   {
    "id": "living-income-coffee-producers",
    "sec": "industry",
@@ -2993,6 +3569,197 @@
   }
  ],
  "qa": [
+  {
+   "id": "q-1106-1",
+   "sid": "mw36nvu7aurr9 mw36os50xqomr",
+   "sec": "industry",
+   "thread": "烘豆曲線記錄軟體",
+   "title": "Artisan 與 Cropster 怎麼選？開源免費社群工具 vs 商用訂閱平台",
+   "date": "2026/11/06",
+   "pub": "2026-11-06",
+   "media": "Daily Coffee News、World Coffee Portal、Artisan 官網與 GitHub、Cropster 官網、Barista Hustle 論壇",
+   "author": "",
+   "summary": [
+    "Artisan 和 Cropster 是烘豆師最常提到的兩套曲線記錄軟體，出身完全不同：Artisan 是志工開發的開源軟體，從自組烘豆機的家庭烘豆社群長出來；Cropster 是 2008 年在奧地利成立的商業公司，定位是串起生豆、烘焙、品管到門市的整套平台。",
+    {
+     "table": {
+      "cap": "兩套軟體對照",
+      "cols": [
+       "項目",
+       "Artisan",
+       "Cropster"
+      ],
+      "rows": [
+       [
+        "出身",
+        "2009 年底由 Rafael 在論壇提案，Marko Luther 加入開發，2010 年做出第一版",
+        "2008 年由 Andreas Idl、Norbert Niederhauser、Martin Wiesinger 在奧地利創立"
+       ],
+       [
+        "授權",
+        "開源，GNU AGPL v3（GitHub 授權檔）",
+        "商用軟體，官網有「Try for free」"
+       ],
+       [
+        "價格",
+        "軟體免費；官網有捐款與商店頁",
+        "官網價格頁這次沒讀到，訂閱價格查不到"
+       ],
+       [
+        "支援",
+        "官網寫支援 200 多款烘豆機、50 多種裝置、30 多種語言、4 種作業系統",
+        "官網列出生豆合約、庫存、烘焙與品管、出貨、咖啡館數據等模組"
+       ],
+       [
+        "使用者",
+        "2020 年已超過 3 萬次安裝，七成以上是（小型）商業烘豆",
+        "客戶遍及 100 多國，含 Starbucks、Blue Bottle、Verve 等"
+       ],
+       [
+        "延伸",
+        "Artisan Plus 做生豆庫存與商業報表",
+        "2024 年私募 Verdane 取得多數股權"
+       ]
+      ]
+     }
+    },
+    "發展經歷：Marko Luther 在 Daily Coffee News 專訪說，最早軟體只能用 email 發送、要自己裝開發環境，2011 年左右推出 Windows、macOS、Linux、樹莓派安裝檔後才快速擴散；Rafael 約 2016 年停止烘豆退出，由他接手。曲線上的升溫速率（RoR）功能，受 Jim Galt 與 Ed Bourgeois 的開源硬體 Arduino/TC4 啟發。2020 年的 2.4 版加入烘焙比較、模擬與跨機器轉換曲線的工具。",
+    "Cropster 這邊，World Coffee Portal 報導 2024 年 10 月歐洲私募 Verdane 取得多數股權，金額未公開，資金用來擴大美歐與東亞市場；Cropster 與 Verdane 都在 2023 年取得 B Corp 認證。",
+    "業界評價：Barista Hustle 論壇上，有人說 Artisan「強大又有彈性，但要自己讓它動起來」，Cropster「幾乎開箱即用」，而且對剛起步的烘豆商有特別價格；也有小型有機烘豆商說用 USB 把 Diedrich IR-5 接 Mac 就能用 Artisan 記錄，RoR 下降曲線方便照 Scott Rao 的理論操作。Daily Coffee News 形容 Artisan 外觀「毫不花俏」，維持 DIY 精神。"
+   ],
+   "why": [
+    "結論：小量、願意自己設定的烘豆，Artisan 免費而且功能夠用；要多人協作、雲端存檔、把生豆庫存、品管和門市數據串在一起，才是 Cropster 的強項，代價是訂閱費（實際價格這次沒查到）。",
+    "對我們的實務意義：",
+    {
+     "list": [
+      "先確認烘豆機和溫度計型號在 Artisan 支援清單上，免費就能開始記錄曲線和 RoR。",
+      "Artisan 的支援主要靠社群和郵件群組，作者自己說要大家「參與而不只是使用」，遇到問題要能自己查文件。",
+      "如果之後要做批次追溯、杯測紀錄、生豆庫存，再評估 Cropster 或 Artisan Plus，先拿到官方報價再比。"
+     ]
+    }
+   ],
+   "action": "把現在烘豆機的機型對照 Artisan 官網支援清單，看能不能直接接上記錄。",
+   "detail": [
+    "Artisan 授權｜GNU AGPL v3，原始碼公開，可改可散布",
+    "Artisan 用途外溢｜也被拿來烘可可、測義式機溫度穩定、做發酵實驗、教烘豆課",
+    "Artisan 手冊｜由 Michael Herbert 提供，作者 2013 年開部落格",
+    "Cropster 執行長｜Andreas Idl（2024 年報導）",
+    "Cropster 擴張｜2025 年 10 月收購一家南韓軟體開發商（World Coffee Portal 標題）",
+    "Cropster 使命｜官網寫用平價科技提升咖啡價值鏈的品質、效率與永續",
+    "說法限制｜「業界評價」多為論壇個人意見，不代表普遍調查"
+   ],
+   "note": "Cropster 價格頁、Artisan 的 GitHub 頁面這次程式讀取被擋（404/403），價格查不到；Artisan 授權以 GitHub 上的 LICENSE 檔為準。Perfect Daily Grind、Barista Magazine 的報導這次沒讀到。安裝數、機型數是 2020 年專訪與 2026 年官網的數字，兩者時間不同。",
+   "link": "https://dailycoffeenews.com/?p=113794",
+   "extra_links": [
+    {
+     "t": "Artisan 官網",
+     "u": "https://artisan-scope.org/"
+    },
+    {
+     "t": "Artisan 授權（GitHub LICENSE）",
+     "u": "https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/LICENSE"
+    },
+    {
+     "t": "World Coffee Portal：Verdane 入股 Cropster",
+     "u": "https://www.worldcoffeeportal.com/news/private-equity-firm-verdane-takes-majority-stake-in-coffee-software-developer-cropster/"
+    },
+    {
+     "t": "Cropster 關於我們",
+     "u": "https://www.cropster.com/about/"
+    },
+    {
+     "t": "Barista Hustle 論壇討論",
+     "u": "https://community.baristahustle.com/t/what-roasting-software-does-your-business-use/455"
+    }
+   ]
+  },
+  {
+   "id": "q-1106-2",
+   "sid": "mw36j0f45pqau",
+   "sec": "industry",
+   "thread": "2026 台灣生豆比賽",
+   "title": "南投仁愛鄉有得獎咖啡嗎？農會品牌說拿過特等、銀質獎，但年份和名單這次查不到",
+   "date": "2026/11/06",
+   "pub": "2026-11-06",
+   "media": "經濟日報、工商時報、聯合報",
+   "author": "",
+   "summary": [
+    "先接上一期的「阿朗咖啡」：據墨新聞 10/30 刊出的南投縣政府新聞稿，仁愛鄉農會 2024 年成立「五岳高山精品咖啡品牌推廣小組」，品牌叫「五岳巴萊高山精品咖啡」，報導說近年在南投縣和臺灣咖啡評鑑中獲得特等獎、銀質獎等，農會也和鄉公所合辦咖啡生豆評鑑和全國公開賽。不過新聞稿沒寫是哪一年、哪個比賽、哪支豆、哪位農友，這次查了仁愛鄉、清境、霧社、廬山與南投縣咖啡評鑑相關報導，也沒找到可對上的得獎名單。",
+    "另一個能確認的是：2026 年（115 年）南投縣咖啡評鑑有仁愛鄉的豆子參賽。",
+    "南投縣政府主辦、台灣咖啡品質研究策進協會承辦，共 56 支，來自國姓、埔里、魚池、仁愛、信義、水里、中寮、竹山等產區，依 TCAGs 與國際精品杯測標準評分。報導只點名得獎大戶，沒有列出仁愛鄉的得獎者。",
+    {
+     "table": {
+      "cap": "115 年南投縣咖啡評鑑重點",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "參賽",
+        "56 支：水洗 15、其他處理 26、藝伎 15"
+       ],
+       [
+        "最大贏家",
+        "森悅高峰（國姓鄉）：水洗、其他處理雙特等獎"
+       ],
+       [
+        "向陽台灣咖啡",
+        "藝伎組特等，水洗、其他處理頭等"
+       ],
+       [
+        "精品獎",
+        "28 支獲 TCAGs 優選等級及 80 分以上"
+       ],
+       [
+        "仁愛鄉農會",
+        "以 6 萬元標下森悅高峰水洗組特等獎生豆"
+       ]
+      ]
+     }
+    },
+    "仁愛鄉在這場比賽最明顯的角色反而是「買家」：仁愛鄉農會出價 6 萬元標下國姓鄉莊園的水洗組特等獎。其他三支競標豆由日出印象（3 萬 500 元）、mojocoffee（5 萬元）、迎芳咖啡（7 萬 88 元，全場最高）得標。",
+    "推廣方面，除了農會在埔里開的阿朗咖啡（11/4 那期介紹過：先以埔里為起點建立穩定通路，再往全國拓展），鄉公所也花 5 年籌畫、投入近千萬元，在埔里鎮東興一街開設「Alang聚落｜仁愛・埔里實驗基地」，前店後場展售仁愛、埔里的農特產與文創商品，也當作進部落旅遊的轉運站；這篇報導沒有提到咖啡品項。"
+   ],
+   "why": [
+    "結論：仁愛鄉農會的「五岳巴萊」品牌據縣府新聞稿拿過南投縣和臺灣咖啡評鑑的特等獎、銀質獎，但年份、組別和農友名字這次查不到；可查證的是仁愛鄉豆子有參加 2026 南投縣評鑑。",
+    "對我們的意義：",
+    {
+     "list": [
+      "跟客人介紹仁愛鄉的豆子時，可以說「農會品牌參加過縣內評鑑、自稱拿過特等和銀質」，要講具體得獎紀錄，等拿到縣府公布的名單再說。",
+      "仁愛鄉農會標下的是國姓鄉森悅高峰的特等豆，不是仁愛鄉自產，聊天時別搞混。",
+      "仁愛鄉的推廣主力是農會直收櫻桃做自有品牌，再以埔里的阿朗咖啡、Alang 聚落當據點；想跟產區合作，可以從農會這條線問。"
+     ]
+    },
+    "全國層級（全國精品咖啡豆評鑑、茶改場 TCAGs）的仁愛鄉得獎紀錄，這次沒查到可靠資料，之後再補。"
+   ],
+   "detail": [
+    "評鑑日期｜2026 年 6 月 25 日在埔里福興溫泉遊客中心頒獎暨生豆媒合",
+    "獎項分級｜各組選出特等、頭等、金質、銀質獎",
+    "競標規模｜4 支頂尖豆，共 20 組次買家投標",
+    "Alang 聚落開幕報導｜2025 年 12 月 28 日聯合報",
+    "Alang 聚落地址｜埔里鎮東興一街 23 號",
+    "仁愛鄉長｜江子信（2025 年報導）",
+    "清境農場人潮｜2025 年約 68 萬人次，高山農場類之冠（聯合報引述農場）"
+   ],
+   "watch": "南投縣政府公布的 115 年評鑑完整得獎名單（看有沒有仁愛鄉莊園拿金質、銀質獎）；仁愛鄉農會標下特等豆之後怎麼行銷。",
+   "note": "新聞只列前幾名，金質、銀質獎完整名單這次沒讀到；南投縣政府、農業部、仁愛鄉農會官網這次沒找到相關頁面。五岳巴萊的得獎說法只出自縣府新聞稿，沒找到對應名單。",
+   "link": "https://udn.com/news/story/7325/9590388",
+   "extra_links": [
+    {
+     "t": "墨新聞：仁愛鄉農會阿朗咖啡開幕",
+     "u": "https://mknews.com.tw/2026/10/1011026/"
+    },
+    {
+     "t": "工商時報：南投縣咖啡評鑑結果",
+     "u": "https://wantrich.chinatimes.com/news/20260626900347-420101"
+    },
+    {
+     "t": "聯合報：Alang 聚落插旗埔里",
+     "u": "https://udn.com/news/story/7325/9230686"
+    }
+   ]
+  },
   {
    "id": "q-1030-1",
    "sid": "mvri09ylclz1e mvri1mu3ew1yt",
