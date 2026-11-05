@@ -201,6 +201,21 @@ textarea::placeholder{color:var(--ink-3)}
 .badge{position:absolute;top:4px;left:calc(50% + 10px);background:var(--sun);color:var(--sun-ink);font-size:10px;font-weight:700;border-radius:999px;padding:0 5px;min-width:16px;line-height:16px;text-align:center}
 .dot{position:absolute;top:8px;left:calc(50% + 10px);width:8px;height:8px;border-radius:50%;background:var(--sun)}
 @media (prefers-reduced-motion:no-preference){.card{animation:in .25s ease-out both}@keyframes in{from{opacity:.001;transform:translateY(-4px)}to{opacity:1;transform:none}}}
+/* rich text blocks: paragraphs, lists, tables inside summary / why */
+.blk p{margin:0 0 14px}
+.prose.blk>*:last-child,.why .blk>*:last-child{margin-bottom:0}
+.blk ul.bl{margin:0 0 14px;padding-left:1.15em;display:grid;gap:6px}
+.blk ul.bl li{line-height:1.75}
+.blk .tb{margin:4px 0 16px;border-top:2px solid var(--ink)}
+.blk .tb-cap{font-size:.8125rem;font-weight:700;color:var(--ink-3);margin:8px 0 2px;line-height:1.5}
+.blk .tb-r{padding:9px 0;border-bottom:1px solid var(--rule)}
+.blk .tb-h{margin:0 0 2px;font-weight:700;font-size:1rem;line-height:1.6}
+.blk .tb-c{margin:0;font-size:.9375rem;line-height:1.7;display:grid;grid-template-columns:5.5em 1fr;gap:8px}
+.blk .tb-c span{color:var(--ink-3);font-size:.8125rem;padding-top:.15em}
+.blk .tb2{display:grid;grid-template-columns:minmax(5em,auto) 1fr;column-gap:14px;padding:8px 0;border-bottom:1px solid var(--rule);font-size:.9375rem;line-height:1.7}
+.blk .tb2 b{font-weight:700}
+.why .blk .tb{border-top-color:var(--accent)}
+details.more li b{font-weight:700}
 </style>
 </head>
 <body>
@@ -294,7 +309,20 @@ const savedItems=()=>Object.keys(S.saved).map(id=>allIt().find(i=>i.id===id)||S.
 const unreadCount=()=>homeItems().filter(i=>i.sec!=='skip'&&i.sec!=='design'&&secOn(i.sec)&&!S.read[i.id]).length;
 
 /* reading time of our own summary (what people actually read), about 400 Chinese characters a minute */
-function sumSecs(it){ const t=[it.summary,it.why,it.action,it.note].concat(it.detail||[]).filter(Boolean).join(''); return t.length*60/400; }
+/* text blocks: a string (blank line = new paragraph) or an array of strings / {list:[]} / {table:{cap,cols,rows}} */
+function blocks(v){ if(v==null) return []; if(!Array.isArray(v)) v=[v]; const out=[];
+  v.forEach(b=>{ if(typeof b==='string') String(b).split(/\n\s*\n/).forEach(p=>{p=p.trim(); if(p) out.push(p)}); else if(b) out.push(b); }); return out; }
+function blkText(v){ return blocks(v).map(b=>typeof b==='string'?b:b.list?b.list.join(''):b.table?[b.table.cap||''].concat(b.table.cols||[],...(b.table.rows||[])).join(''):'').join(''); }
+function blkHTML(v){ return blocks(v).map(b=>{
+  if(typeof b==='string') return `<p>${esc(b).replace(/\n/g,'<br>')}</p>`;
+  if(b.list) return `<ul class="bl">${b.list.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
+  if(b.table){ const t=b.table, cols=t.cols||[], cap=t.cap?`<p class="tb-cap">${esc(t.cap)}</p>`:'';
+    const rows=(t.rows||[]).map(r=> cols.length<=2
+      ? `<div class="tb2"><b>${esc(r[0])}</b><span>${esc(r[1]??'')}</span></div>`
+      : `<div class="tb-r"><p class="tb-h">${esc(r[0])}</p>${r.slice(1).map((c,i)=>`<p class="tb-c"><span>${esc(cols[i+1]||'')}</span>${esc(c)}</p>`).join('')}</div>`).join('');
+    return `<div class="tb">${cap}${rows}</div>`; }
+  return ''; }).join(''); }
+function sumSecs(it){ const t=[blkText(it.summary),blkText(it.why),it.action,it.note].concat(it.detail||[]).filter(Boolean).join(''); return t.length*60/400; }
 const sumMin=it=>Math.max(1,Math.round(sumSecs(it)/60));
 function rowHTML(it,extra){
   const rd=!!S.read[it.id], sv=!!S.saved[it.id], op=!!S.open[it.id];
@@ -305,13 +333,13 @@ function rowHTML(it,extra){
 function cardHTML(it){
   const f=S.fb[it.id]||{}; const sv=!!S.saved[it.id];
   const orig=/[㐀-鿿]/.test(it.orig||'')?'':(it.orig?`<p class="orig">${esc(it.orig)}</p>`:'');
-  const det=(it.detail||[]).length?`<details class="more"><summary>${it.detail.length} 個重點</summary><ul>${it.detail.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>${it.watch?`<p class="watch">${esc(it.watch)}</p>`:''}</details>`:'';
+  const det=(it.detail||[]).length?`<details class="more"><summary>${it.detail.length} 個重點</summary><ul>${it.detail.map(x=>{const m=String(x).match(/^([^｜]{1,16})｜([\s\S]*)$/);return m?`<li><b>${esc(m[1])}</b>｜${esc(m[2])}</li>`:`<li>${esc(x)}</li>`}).join('')}</ul>${it.watch?`<p class="watch">${esc(it.watch)}</p>`:''}</details>`:'';
   const extra=(it.extra_links||[]).map(l=>`<a class="link-out" href="${esc(l.u)}" target="_blank" rel="noopener" data-src="${esc(it.id)}">${esc(l.t)} ↗</a>`).join('');
   const stars=[1,2,3,4,5].map(n=>`<button type="button" class="star ${f.stars>=n?'on':''}" data-star="${esc(it.id)}" data-n="${n}" aria-label="${n} 顆星" aria-pressed="${f.stars===n}">★</button>`).join('');
   return `<article class="card" data-id="${esc(it.id)}">${sv?'<svg class="flag" aria-hidden="true"><use href="#mark"/></svg>':''}
   ${orig}<div class="byline"><span class="src" data-clamp>${esc(it.media)}${it.author?'・'+esc(it.author):''}</span><span>${esc(it.date)}</span></div>
-  <p class="prose">${esc(it.summary)}</p>
-  <div class="why"><span class="owl" aria-label="${it.qa?'回答':'跟我們的關係'}">🦉</span>${esc(it.why)}</div>
+  <div class="prose blk">${blkHTML(it.summary)}</div>
+  <div class="why"><span class="owl" aria-label="${it.qa?'回答':'跟我們的關係'}">🦉</span><div class="blk">${blkHTML(it.why)}</div></div>
   ${it.action?`<div class="act"><span class="tl">試試看</span>${esc(it.action)}</div>`:''}
   ${det}${it.note?`<p class="note">${esc(it.note)}</p>`:''}
   <div class="fb">
