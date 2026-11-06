@@ -78,10 +78,8 @@ function doGet() {
 // 不存 PIN 原碼。每日出刊的排程不讀這張表，閱讀統計也不從這裡來。
 // 忘記 PIN：把那個人的整列刪掉，他重新用「初次使用」設定即可（紀錄會從他手機上的那份重新帶上來）。
 const SYNC_SHEET = '同步';
-const SYNC_HEADERS = ['代稱', 'PIN雜湊', '更新時間', '錯誤次數', '鎖定到', '資料1', '資料2', '資料3', '資料4', '資料5', '資料6', '資料7', '資料8'];
+const SYNC_HEADERS = ['代稱', 'PIN雜湊', '更新時間', '資料1', '資料2', '資料3', '資料4', '資料5', '資料6', '資料7', '資料8'];
 const CHUNK = 45000;          // Google 試算表一格最多 5 萬字
-const MAX_FAILS = 8;          // PIN 連錯 8 次，鎖 15 分鐘
-const LOCK_MIN = 15;
 const DAY = 86400000;
 
 function json_(o) {
@@ -113,7 +111,7 @@ function findRow_(sh, k) {
 }
 
 function readBlob_(sh, row) {
-  const cells = sh.getRange(row, 6, 1, 8).getValues()[0].join('');
+  const cells = sh.getRange(row, 4, 1, 8).getValues()[0].join('');
   try { return cells ? JSON.parse(cells) : {}; } catch (e) { return {}; }
 }
 
@@ -122,7 +120,7 @@ function writeBlob_(sh, row, obj) {
   if (s.length > CHUNK * 8) throw new Error('too big');
   const parts = [];
   for (let i = 0; i < 8; i++) parts.push(s.slice(i * CHUNK, (i + 1) * CHUNK));
-  sh.getRange(row, 6, 1, 8).setValues([parts]);
+  sh.getRange(row, 4, 1, 8).setValues([parts]);
   sh.getRange(row, 3).setValue(new Date());
 }
 
@@ -131,28 +129,20 @@ function sync_(d) {
   const h = String(d.h || '');
   if (!k || !/^[0-9a-f]{64}$/.test(h)) return { ok: false, err: 'bad' };
   const sh = sheet_(SYNC_SHEET, SYNC_HEADERS);
-  sh.getRange('A:E').setNumberFormat('@');
+  sh.getRange('A:B').setNumberFormat('@');
   let row = findRow_(sh, k);
   const st = d.state || {};
   if (d.type === 'register') {
     if (row) return { ok: false, err: 'exists' };
-    sh.appendRow([String(d.name).trim().slice(0, 30), hash_(h), new Date(), 0, '']);
+    sh.appendRow([String(d.name).trim().slice(0, 30), hash_(h), new Date()]);
     row = sh.getLastRow();
     const clean = mergeState_({}, st, Date.now());
     writeBlob_(sh, row, clean);
     return { ok: true, state: clean, name: String(d.name).trim().slice(0, 30) };
   }
   if (!row) return { ok: false, err: 'noone' };
-  const meta = sh.getRange(row, 1, 1, 5).getValues()[0];
-  const until = Number(meta[4]) || 0;
-  if (until > Date.now()) return { ok: false, err: 'locked', until: until };
-  if (meta[1] !== hash_(h)) {
-    const fails = (Number(meta[3]) || 0) + 1;
-    sh.getRange(row, 4).setValue(fails >= MAX_FAILS ? 0 : fails);
-    if (fails >= MAX_FAILS) sh.getRange(row, 5).setValue(String(Date.now() + LOCK_MIN * 60000));
-    return { ok: false, err: 'badpin' };
-  }
-  if (Number(meta[3])) sh.getRange(row, 4).setValue(0);
+  const meta = sh.getRange(row, 1, 1, 3).getValues()[0];
+  if (meta[1] !== hash_(h)) return { ok: false, err: 'badpin' };
   const merged = mergeState_(readBlob_(sh, row), st, Date.now());
   writeBlob_(sh, row, merged);
   return { ok: true, state: merged, name: String(meta[0]) };

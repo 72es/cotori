@@ -455,7 +455,7 @@ const HOME_TIP='<p class="sm">放到手機主畫面：iPhone 用 Safari 打開�
 function sheetOpen(html){ $('#sheet').innerHTML=html; $('#scrim').hidden=false; wirePin(); }
 function sheetClose(){ $('#scrim').hidden=true; }
 function setPrefs(secs){ S.secs=secs; S.prefsT=Date.now(); ls.set('k-prefs-t',S.prefsT); ls.set('k-secs',secs); }
-function syncErr(r){ return ({exists:'這個代稱已經有人設定過同步。是你本人的話，選「已經有帳號」輸入 PIN。',badpin:'PIN 不對，再試一次',noone:'找不到這個代稱，確認一下寫法，或選「初次使用」',locked:'PIN 錯太多次，15 分鐘後再試',bad:'代稱和 4 位數 PIN 都要填',net:'連不上，確認網路後再試'})[r&&r.err]||'同步沒成功，稍後再試'; }
+function syncErr(r){ return ({exists:'這個代稱已經有人設定過同步。是你本人的話，選「已經有帳號」輸入 PIN。',badpin:'PIN 不對，再試一次',noone:'找不到這個代稱，確認一下寫法，或選「初次使用」',bad:'代稱和 4 位數 PIN 都要填',net:'連不上，確認網路後再試'})[r&&r.err]||'同步沒成功，稍後再試'; }
 
 /* first open: 初次使用 / 已經有帳號 */
 function openWelcome(mode){ mode=mode||'new';
