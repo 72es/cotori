@@ -1,17 +1,17 @@
 {
  "edition": {
-  "id": "2026-11-06",
-  "no": 11,
-  "date": "2026-11-06",
-  "label": "11月6日 週五"
+  "id": "2026-11-07",
+  "no": 12,
+  "date": "2026-11-07",
+  "label": "11月7日 週六"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "星巴克關掉波士頓門市後，附近 George Howell 兩家店的特調飲品銷量增 30–35%。",
-  "Kew 研究團隊：羅布斯塔「耐氣候」是迷思，主要產區靠大量灌溉撐著。",
-  "日本 10 月起企業有義務防範奧客騷擾，要設諮詢窗口、保護拒絕奧客的員工。",
-  "大家問：Artisan 和 Cropster 怎麼選；南投仁愛鄉有沒有得獎咖啡。",
-  "ARTs：靉嘔彩虹絹印 11/14 台北開展、泰特現代首檔水墨展、Designart Tokyo 紙盒與森林展。"
+  "哥斯大黎加咖啡協會估 2026/27 全球過剩 970 萬袋，但庫存仍低、自家產區估產下修 1–1.5 成。",
+  "Global Coffee Awards 11/18、11/23 在台北 All Day Roasting 和 COJAFT 辦活動，有現場濾沖評審回合。",
+  "有機認證下篇：贊成方說溢價每磅 0.3–0.4 美元，和上篇對照著讀。",
+  "Dutch Bros 明年要開 250 家、Black Rifle 關 12 家店；法國四成咖啡館沒賺錢。",
+  "ARTs：亞洲藝術雙年展今天國美館開展（免費）、林明弘《草圖》、Lavazza 無膠囊咖啡錠、美加關稅衝擊藝術市場。"
  ],
  "weekly": null,
  "sections": [
@@ -41,6 +41,462 @@
   }
  ],
  "items": [
+  {
+   "id": "icafe-surplus-2026-27",
+   "sec": "industry",
+   "title": "哥斯大黎加咖啡協會：2026/27 全球可能過剩 970 萬袋，但自家產區估產卻下修 1–1.5 成",
+   "orig": "Coffee News Recap, 6 Nov: Icafe predicts 9.7 million-bag global surplus in 2026/27",
+   "date": "2026/11/06",
+   "media": "Perfect Daily Grind；Daily Coffee News（引述 CR Hoy、The Tico Times）",
+   "author": "",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "哥斯大黎加咖啡協會（ICAFE）綜合五份預測，估 2026/27 年度全球產量創新高、約 1 億 8,772 萬袋，比上一季多將近 6%；消費約 1 億 7,800 萬袋、增 1.3%。兩者相減，全球約過剩 970 萬袋。這是連續四年短缺（到 2024/25）、2025/26 小幅過剩之後的結果。",
+    {
+     "table": {
+      "cap": "ICAFE 的 2026/27 全球估算",
+      "cols": [
+       "項目",
+       "數字"
+      ],
+      "rows": [
+       [
+        "產量",
+        "約 1 億 8,772 萬袋（年增近 6%）"
+       ],
+       [
+        "消費",
+        "約 1 億 7,800 萬袋（年增 1.3%）"
+       ],
+       [
+        "過剩",
+        "約 970 萬袋"
+       ]
+      ]
+     }
+    },
+    "Perfect Daily Grind 提醒別太快樂觀：前四年短缺加起來約 1,500 萬袋，比去年和今年合計的過剩 1,120 萬袋還多；ICE 阿拉比卡認證庫存也還貼近歷史低點。同一週羅布斯塔期貨跌到 2024 年 3 月以來最低，1 月合約 10/30 收在每公噸 3,204 美元。",
+    "另一方面，Daily Coffee News 引述哥斯大黎加媒體報導：ICAFE 觀察到各產區的收成估計下修 10–15%，原因是聖嬰帶來的不規則降雨和高溫，影響施肥時機，也影響出口生豆的品質和重量。這是「比原先估計少」，不是確定比去年減產。"
+   ],
+   "why": "全球數字變寬鬆，不代表我們買的精品豆會馬上變便宜：庫存還很低，而像哥斯大黎加這樣的精品產區自己在下修。跟客人聊到「咖啡是不是要降價了」，可以說：期貨有回落，但精品豆的價格看的是個別產區和品質，短期別期待太多。",
+   "detail": [
+    "五份預測｜ICAFE 是綜合五份預測得出 970 萬袋，不是自己單一估計。",
+    "庫存｜ICE 阿拉比卡認證庫存仍接近歷史低點。",
+    "羅布斯塔｜1 月合約 10/30 收 3,204 美元／公噸，11/2 收 3,241。",
+    "越南｜10 月出口年增 61%，到 11.4 萬公噸；農業部警告聖嬰可能帶來乾旱。",
+    "印度｜咖啡局把本季產量估計下修到約 38 萬公噸，比原本超過 40 萬少 5% 以上。"
+   ],
+   "watch": "哥斯大黎加正式產量數字、ICE 認證庫存是否回升。",
+   "note": "兩則都是週報摘要，ICAFE 原始報告沒有讀到。",
+   "link": "https://perfectdailygrind.com/2026/11/coffee-news-recap-6-november-2026/",
+   "extra_links": [
+    {
+     "t": "Daily Coffee News 週報（哥斯大黎加估產）",
+     "u": "https://dailycoffeenews.com/2026/11/06/weekly-coffee-news-costa-rica-harvest-concerns-restoring-iconic-coffee-sign/"
+    }
+   ],
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "gca-taipei-popups-nov-2026",
+   "sec": "industry",
+   "title": "Global Coffee Awards 11 月來台北：18 日在 All Day Roasting、23 日在 COJAFT 辦活動",
+   "orig": "Global Coffee Awards to host pop-up events in Hong Kong and Taiwan from 16 to 23 November",
+   "date": "2026/11/06",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 1,
+   "summary": "國際咖啡評比 Global Coffee Awards（GCA）11 月 16 日到 23 日在香港和台灣辦快閃活動。台北有兩場：\n\n11 月 18 日晚上 7 點，在 2026 GCA 亞洲賽冠軍 All Day Roasting Company 辦咖啡交流下午茶；11 月 23 日下午 5 點，在 COJAFT 辦簡報、現場濾沖評審回合和交流。GCA 業務 Emi Rueda 也會在台灣和烘豆商、咖啡從業人員一對一見面。",
+   "why": "這是在台北就能看到國際評比怎麼評濾沖咖啡的機會，烘豆和吧台的夥伴有興趣可以去看「現場評審回合」，了解評審在意什麼。報名方式、是否收費原文沒寫，要去之前先查 GCA 或兩家店的公告。",
+   "detail": [
+    "11/18（三）19:00｜All Day Roasting Company，2026 GCA 亞洲冠軍。",
+    "11/23（一）17:00｜COJAFT：簡報、濾沖評審回合、交流。",
+    "一對一｜GCA 的 Emi Rueda 可約見烘豆商與業者。"
+   ],
+   "note": "原文只有一段活動預告，沒寫報名方式與費用。",
+   "link": "https://perfectdailygrind.com/2026/11/coffee-news-recap-6-november-2026/",
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "organic-certification-part-2",
+   "sec": "industry",
+   "title": "有機認證值得嗎（下）：贊成方說溢價每磅 0.3–0.4 美元，消費者也認得",
+   "orig": "Organic Certification in Coffee, Part Two: A Case for Certification",
+   "date": "2026/11/06",
+   "media": "Barista Magazine",
+   "author": "Melina Devoney",
+   "tier": "T2",
+   "read": 6,
+   "summary": [
+    "上一期介紹了這個系列的上篇：有機認證成本高、溢價常到不了農民手上。下篇換成贊成方的論點。",
+    {
+     "list": [
+      "有法律定義：「天然」「永續採購」「在地種植」沒有統一定義，有機是法規管的，比較不會被漂綠。文中舉例，有大企業自己當認證方、在「再生有機」的名義下仍使用農藥。",
+      "消費者認得：2022 年 Smithsonian 候鳥中心調查，79% 美國咖啡飲用者認得 USDA 有機標章，受訪者願意每包多付 5.76 美元。",
+      "農民多賺：麻州 Jim's Organic Coffee 創辦人 Jim Cannell 說，有機認證咖啡在國際市場通常每磅多 0.30–0.40 美元。",
+      "不容易退回去：沒有認證、只是「本來就沒用藥」的農場，遇到價差大或收成差時，沒有誘因維持有機做法。"
+     ]
+    },
+    "Cannell 也提到，現在咖啡價格高，農民有很強的動機用化肥拉高產量，所以認證溢價更重要。他的話很直接：只寫「永續」、沒有已知認證的東西，他會「用跑的離開」。"
+   ],
+   "why": "上下兩篇一起看，比較完整：認證對消費者是捷徑，對農民是成本也是保障。客人問「有機的比較好喝嗎」時可以說清楚：有機講的是種植方式和環境，不是風味等級；我們選豆看的是杯測品質，認證是另一個維度。",
+   "detail": [
+    "標籤疲勞｜2025 年 IFIC 調查：30% 美國人找「有機」標示，41% 找「天然」。",
+    "辨識度｜2022 年 IFIC：59% 美國人認得有機標章。",
+    "降低門檻｜有些出口商協助小農取得認證、負擔費用；USDA 有成本分攤計畫。",
+    "立場｜受訪的 Jim Cannell 經營 100% 有機咖啡公司，是利害關係人。"
+   ],
+   "note": "受訪者為有機咖啡業者，屬支持方觀點；請和上篇一起讀。",
+   "link": "https://www.baristamagazine.com/organic-certification-in-coffee-part-two-a-case-for-certification/",
+   "extra_links": [
+    {
+     "t": "上篇：Why the Issue Isn't Black & White",
+     "u": "https://www.baristamagazine.com/organic-certification-in-coffee-why-the-issue-isnt-black-white-part-one/"
+    }
+   ],
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "dutch-bros-black-rifle-q3-2026",
+   "sec": "food",
+   "title": "美國連鎖飲品兩樣情：Dutch Bros 營收增近 3 成、明年要開 250 家，Black Rifle 關 12 家店",
+   "orig": "Weekly Coffee News: Costa Rica Harvest Concerns + Restoring Iconic Coffee Sign",
+   "date": "2026/11/06",
+   "media": "Daily Coffee News",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "這週美國兩家咖啡連鎖的第三季財報方向完全相反。",
+    {
+     "table": {
+      "cap": "第三季重點",
+      "cols": [
+       "公司",
+       "營收",
+       "獲利",
+       "門市動作"
+      ],
+      "rows": [
+       [
+        "Dutch Bros（得來速飲品）",
+        "5.498 億美元，年增 29.8%",
+        "淨利 3,720 萬美元（去年 2,730 萬）",
+        "本季開 48 家，總數 1,273；2027 年目標約 250 家"
+       ],
+       [
+        "Black Rifle Coffee",
+        "1.08 億美元，年增 7.3%",
+        "淨損 870 萬美元（去年淨損 120 萬）",
+        "關 12 家直營咖啡店，出售田納西州 Manchester 烘焙廠"
+       ]
+      ]
+     }
+    },
+    "同一份週報也提到：顧問公司 Kearney 調查六國超過 2,500 位咖啡飲用者，71% 的美國受訪者兩年內願意換掉主要用的咖啡機類型，即使他們對現在的設備大多滿意。"
+   ],
+   "why": "Dutch Bros 靠的是得來速、甜味飲品和快速出杯，成長很快；Black Rifle 營收還在長，卻收掉實體咖啡店、把烘焙外包。對小店的提醒是：實體店要賺錢，靠的是動線、出杯速度和回頭客，不是品牌聲量。",
+   "detail": [
+    "Dutch Bros｜本季開 48 家，總數 1,273 家。",
+    "Black Rifle｜烘焙廠賣給一家製造合作夥伴。",
+    "Kearney｜受訪者對現有咖啡機滿意度高，但 71% 美國人願意換類型。"
+   ],
+   "link": "https://dailycoffeenews.com/2026/11/06/weekly-coffee-news-costa-rica-harvest-concerns-restoring-iconic-coffee-sign/",
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "france-cafe-market-xerfi",
+   "sec": "food",
+   "title": "法國咖啡館市場調查：4 成業者沒賺錢，兩年內可能飽和",
+   "orig": "Starbucks and Columbus Café retain lead in French coffee shop market",
+   "date": "2026/11/03",
+   "media": "Perfect Daily Grind（引述 Xerfi）",
+   "author": "",
+   "tier": "T2",
+   "read": 1,
+   "summary": "法國研究機構 Xerfi 的調查發現，法國咖啡館業者有 40% 沒有獲利，並警告兩年內市場可能飽和。星巴克和法國本土連鎖 Columbus Café 各有超過 250 家門市，仍是龍頭；新進者包括 Dunkin'（13 家）和中國的庫迪咖啡（Cotti Coffee，28 家）。\n\n同一週，Yum China 旗下平價咖啡 KCOFFEE 接近 5,000 家，今年門市數翻倍；Caffè Nero 也宣布和塔塔集團的零售子公司 Trent 合作，第一家印度門市開在孟買。",
+   "why": "法國是傳統咖啡館文化很深的地方，連鎖和新品牌一起擠進來後，四成業者不賺錢。台灣的情況類似：超商、連鎖、平價品牌都在搶同一杯咖啡。小店要想清楚自己被記住的理由，是豆子、空間、餐點還是人。",
+   "detail": [
+    "龍頭｜星巴克、Columbus Café 各超過 250 家。",
+    "新進｜Dunkin' 13 家、庫迪 28 家。",
+    "KCOFFEE｜接近 5,000 家，今年翻倍。"
+   ],
+   "note": "只讀到 Perfect Daily Grind 的摘要，Xerfi 報告原文未讀，40% 的定義（如何算沒獲利）不清楚。",
+   "link": "https://perfectdailygrind.com/2026/11/coffee-news-recap-6-november-2026/",
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "harry-styles-10-dollar-cappuccino",
+   "sec": "fun",
+   "title": "哈利・史泰爾斯嫌紐約卡布奇諾要 10 美元，Sprudge：其實大約 6 美元",
+   "orig": "Harry Styles Thinks Your Cappuccino Costs Too Much",
+   "date": "2026/11/06",
+   "media": "Sprudge",
+   "author": "Zac Cadwalader",
+   "tier": "T3",
+   "read": 4,
+   "summary": "歌手哈利・史泰爾斯（Harry Styles）在紐約麥迪遜廣場花園駐唱期間，對台下說紐約最可怕的是咖啡價格：「是卡布奇諾欸，不可能 10 美元」，還說萬聖節最可怕的就是咖啡因飲料的價格。路透、紐約郵報等媒體都報了。\n\nSprudge 主編 Zac Cadwalader 寫了一篇吐槽評論：問了住紐約的編輯 Liz Clayton，紐約卡布奇諾行情大約 6 美元上下，要喝到兩位數得特別挑店或加價。他也把話題拉回來：咖啡漲價是事實，但真正該被善待的是長期拿不到合理價格的農民，和住不起自己工作城市的咖啡師；如果 10 美元的卡布奇諾能讓他們領到生活工資，「那就這樣吧」。",
+   "why": "客人抱怨咖啡變貴時，這是個輕鬆的切入點：名人也在抱怨，但價格背後有生豆、房租和人力。可以順口提到我們的價格和豆子來源，不用防衛，講事實就好。",
+   "detail": [
+    "原話｜「It's a cappuccino. It can't be $10」。",
+    "紐約行情｜Sprudge 編輯說大約 6 美元上下。",
+    "作者自己｜點 8 美元的手沖，再加幾塊小費。"
+   ],
+   "note": "這是評論文章，語氣很嗆；10 美元是史泰爾斯的說法，6 美元是 Sprudge 編輯的估計，都不是統計數字。",
+   "link": "https://sprudge.com/harry-styles-thinks-your-cappuccino-costs-too-much-1557656.html",
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "nepal-ilam-tea",
+   "sec": "fun",
+   "title": "大吉嶺隔壁的尼泊爾伊拉姆茶：小農種、沒有地理標示，正在走精品茶路線",
+   "orig": "Nepal's Ilam Tea Is Ready To Tell Its Own Story",
+   "date": "2026/11/06",
+   "media": "Fresh Cup",
+   "author": "Ridhi Agrawal",
+   "tier": "T2",
+   "read": 7,
+   "summary": [
+    "伊拉姆（Ilam）在尼泊爾東部喜馬拉雅山麓，是尼泊爾最大的條形茶（orthodox）產區，離印度大吉嶺只有 46 英里，氣候很像。差別在產業結構：伊拉姆的茶大多是 1–2 英畝的小農種；大吉嶺有 87 個以上的茶園，受地理標示（GI）保護，只有當地的茶能叫「大吉嶺茶」。伊拉姆沒有這層保護，拿不到名字帶來的溢價。",
+    "尼泊爾的茶超過 86% 出口到印度。文章介紹幾個想讓伊拉姆茶「說自己故事」的人：",
+    {
+     "list": [
+      "加拿大的 Bhaskar Dahal：2020 年創立 Nepal Hills Tea，每週六在農夫市集用保溫瓶請人試喝烏龍、紅茶、白茶、綠茶，邊講農民的故事。",
+      "伊拉姆的 Hari Gurung：2010 年開 Ilam Tea House，賣 30 多種季節精品茶，來訪可以試喝至少 15 種。",
+      "Jasbire Tea House 的 Grishma Subba：做試飲和講座；她兒子 Karma Subba 認為伊拉姆最需要的是地理標示。"
+     ]
+    },
+    "品質有得獎紀錄：伊拉姆白茶拿過 2024 年美國 World Tea Expo 的 World's Best Tea，2025 年澳洲 Gold Leaf Award 也有伊拉姆白茶得金。"
+   ],
+   "why": "這個故事和精品咖啡很像：產地名字值錢，沒名字的好產區就得靠試喝和說故事建立回頭客。我們介紹豆子時也是同一件事，讓客人記住產區和農民，比記住風味描述更長久。",
+   "detail": [
+    "歷史｜1863 年中國皇帝贈茶種給尼泊爾首相，種在伊拉姆。",
+    "茶區｜1982 年劃定 Jhapa、Ilam 等五區為茶區。",
+    "咖啡｜Nepal Tea Collective 和尼泊爾咖啡品牌在伊拉姆開了咖啡館。"
+   ],
+   "link": "https://freshcup.com/nepals-ilam-tea-is-ready-to-tell-its-own-story/",
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "mahlkonig-ek-omnia-us",
+   "sec": "industry",
+   "title": "Mahlkönig EK Omnia 在美國上市：EK43 的 98mm 刀盤，可存 10 組配方自動調刻度",
+   "orig": "Mahlkönig EK Omnia launches in US",
+   "date": "2026/11/02",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 1,
+   "summary": [
+    "Mahlkönig 新磨豆機 EK Omnia 在 Dallas Coffee Fest 2026 首次在美國亮相後正式上市。它沿用經典 EK43 的設計和 98mm 鑄鋼刀盤，多了三種模式：",
+    {
+     "list": [
+      "Classic：傳統手動轉刻度。",
+      "Time：定時研磨出粉，用在義式定量。",
+      "Library：最多存 10 組配方，自動調整刀盤距離並定量出粉。"
+     ]
+    }
+   ],
+   "why": "EK43 是很多店的手沖、單品磨豆主力，最大的麻煩是換豆、換用途時要手動轉刻度、靠記憶。Library 模式如果真能自動回到存好的刀距，對一台磨豆機同時負責多支豆的吧台很實用。實際精準度和價格還要看後續評測。",
+   "detail": [
+    "刀盤｜98mm 鑄鋼，沿用 EK43。",
+    "首發｜Dallas Coffee Fest 2026。"
+   ],
+   "note": "只讀到週報摘要，未見價格與台灣代理資訊。",
+   "link": "https://perfectdailygrind.com/2026/11/coffee-news-recap-6-november-2026/",
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "asian-art-biennial-2026-coweaving",
+   "sec": "design",
+   "title": "亞洲藝術雙年展今天在國美館開展：以太魯閣族「共織」為題，30 組藝術家，免費",
+   "orig": "",
+   "date": "2026/11/04",
+   "media": "美麗佳人 Marie Claire",
+   "author": "Haremi Huang",
+   "tier": "T3",
+   "read": 6,
+   "summary": [
+    "國立臺灣美術館第十屆「2026 亞洲藝術雙年展：Mrahul Tminun・共織・Co-Weaving」11 月 7 日開展。策展人呂佩怡，集結 30 組來自台灣、印尼、泰國、日本、印度、菲律賓、香港、越南、烏茲別克、澳洲等地的藝術家與團體。",
+    "主題來自太魯閣族語：「Tminun」是編織，「Mrahul」是群眾聚集，取自部落婦女在廣場一起織布聊天的情景。本屆特別關注女性、原住民族和酷兒觀點，媒材從傳統編織、刺繡、繪畫到錄像和大型裝置，作品還會延伸到大廳、走廊、美術街和戶外。",
+    {
+     "table": {
+      "cap": "展覽資訊",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "展期",
+        "2026/11/7–2027/2/28"
+       ],
+       [
+        "地點",
+        "國立臺灣美術館（臺中市西區五權西路一段 2 號）"
+       ],
+       [
+        "時間",
+        "週二至週五 9:00–17:00；週六、日 9:00–18:00；週一休館"
+       ],
+       [
+        "票價",
+        "免費；部分工作坊可能要先報名"
+       ]
+      ]
+     }
+    },
+    "值得看的作品：太魯閣族藝術家林介文在大廳展出〈晒海〉〈織山〉和新作〈曝地〉；排灣族藝術家武玉玲（Aluaiy KAUMAKAN）帶來十多年的《拓印計畫》，用灰燼和植物汁液拓印舊大社部落的器物和家屋紋理；澳洲的 Helen Grace 與泰國的 Phaptawan Suwannakudt 合作錄像加屏風裝置〈直到我們再度相見〉；印尼團體 GUDSKUL 用遊戲、卡牌和對話把展場變成交流空間。"
+   ],
+   "why": "對做平面、品牌和空間的人，這檔很適合看「紋理和材料怎麼說故事」：拓印、編織、屏風都是把圖案和空間結合的方式。免費、展期到明年 2 月，排一個休假去台中就能看完。店裡的布料、包材、牆面圖案，也能從這些在地紋樣找靈感。",
+   "detail": [
+    "第十屆｜亞雙創辦於 2007 年，國美館每兩年舉辦一次。",
+    "林介文〈織山〉｜2024，太魯閣傳統編織、拼貼繃畫，800×500 公分。",
+    "互動｜有桌遊、刺繡工作坊、演出和共學活動。"
+   ],
+   "action": "休假想看展的夥伴，可以把國美館亞雙和同在台中的中美館真鍋大度個展排在同一天。",
+   "note": "美麗佳人為整理型報導；活動報名請以國美館官網為準。",
+   "link": "https://www.marieclaire.com.tw/lifestyle/art/96797",
+   "extra_links": [
+    {
+     "t": "美麗佳人 11 月展覽 15 選",
+     "u": "https://www.marieclaire.com.tw/lifestyle/art/96853"
+    }
+   ],
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "michael-lin-sketches-miaobei",
+   "sec": "design",
+   "title": "林明弘《草圖》特展在苗北藝文中心：看花布大圖案誕生前的草稿與線稿，免費到 12/27",
+   "orig": "",
+   "date": "2026/11/05",
+   "media": "美麗佳人 Marie Claire",
+   "author": "Haremi Huang",
+   "tier": "T3",
+   "read": 2,
+   "summary": [
+    "以鮮豔花布圖案聞名國際的台灣藝術家林明弘（Michael Lin），作品常鋪滿美術館牆面、地板甚至整棟建築。苗北藝文中心的《草圖—林明弘特展》精選他三十多年的創作，但不照年代回顧，而是聚焦作品誕生前的思考：前期草稿、製作線稿、攝影紀錄等。",
+    "策展的理由很實際：林明弘很多大型裝置和原本的建築綁在一起，搬不到別的場地，所以改用草圖和紀錄，讓觀眾看見平常不公開的創作過程。",
+    {
+     "table": {
+      "cap": "展覽資訊",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "展期",
+        "2026/10/2–12/27"
+       ],
+       [
+        "地點",
+        "苗北藝文中心 B1 展覽室、1 樓演藝廳大廳（苗栗縣竹南鎮公園路 206 號）"
+       ],
+       [
+        "時間",
+        "依苗北藝文中心公告"
+       ],
+       [
+        "票價",
+        "免費"
+       ]
+      ]
+     }
+    }
+   ],
+   "why": "做插畫、圖案和品牌的人最該看：從一張草圖到覆蓋整個空間的大圖案，中間的放大、配色、重複單元怎麼推敲，這裡看得到。對店裡也有啟發：牆面或包材的圖案，先畫小草圖測試比例和重複，再決定放多大。",
+   "detail": [
+    "看點｜草稿、線稿、攝影紀錄，不是完成作品回顧。",
+    "交通｜竹南，搭火車可到。"
+   ],
+   "link": "https://www.marieclaire.com.tw/lifestyle/art/96853",
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "lavazza-tabli-seoul-design-award",
+   "sec": "design",
+   "title": "Lavazza 的「無膠囊」咖啡錠 Tablì，拿下首爾設計獎 designboom 特別獎第三名",
+   "orig": "Lavazza Tablì wins designboom special prize third place at Seoul Design Award",
+   "date": "2026/11/06",
+   "media": "designboom",
+   "author": "",
+   "tier": "T2",
+   "read": 4,
+   "summary": "Lavazza 的 Tablì 是一套不用膠囊的單杯咖啡系統：咖啡做成一片完全由咖啡組成的「錠」，沒有塑膠、鋁、添加物或塗層，用完只剩有機廢棄物。團隊另外設計了相容的機器、包裝、配件和連線系統；機器用消費後回收塑膠製作，也考慮可維修和低耗能。這件作品拿到 2026 首爾設計獎的 designboom 特別獎第三名。\n\nLavazza 在參賽資料引用德國環保團體 Deutsche Umwelthilfe 的數字：全球每年約用掉 200 億顆咖啡膠囊，光德國就約 34 億顆、每年約 1 萬 3,500 公噸廢棄物。設計團隊由 Florian Seidl 帶領，成員有 Angelica Rella、Marco Rotundo、Nicola Bettoni。",
+   "why": "這是「把包裝設計掉」的案例：問題不在包裝做得多環保，而是乾脆不要包裝。同一週 Keurig 也推出無塑膠、無鋁的壓縮咖啡錠系統 Keurig Alta，看得出大品牌都在往這個方向走。我們的外帶杯、濾掛包裝，也可以從「哪一層其實可以拿掉」開始想。",
+   "detail": [
+    "獎項｜Seoul Design Award 2026，designboom Special Prize 第三名。",
+    "Keurig Alta｜11/5 推出，用 AltaRounds 壓縮咖啡錠，可做熱、冰咖啡、義式和拿鐵（Perfect Daily Grind 週報）。"
+   ],
+   "note": "designboom 頁面標示為 FEATURED，屬合作推廣性質；膠囊數字是 Lavazza 引用的第三方數據。沖煮品質原文未提及。",
+   "link": "https://www.designboom.com/design/lavazza-tabli-wins-designboom-special-prize-third-place-at-seoul-design-award/",
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "canada-art-market-us-tariffs",
+   "sec": "design",
+   "title": "美加貿易戰打到藝術市場：美國對加拿大畫作課 50% 關稅，畫廊退出邁阿密藝博會",
+   "orig": "Canadian art market takes hit from trade war with US",
+   "date": "2026/11/06",
+   "media": "The Art Newspaper",
+   "author": "",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "美國自 8 月 22 日起，對從加拿大進口的多種品項課 50% 關稅，包含畫作、素描、雕塑、版畫、粉彩、拼貼等；含羽毛、骨、角等動物材料的品項也在其中，特別衝擊原住民藝術家。加拿大 9 月初反制，對多項美國進口品課稅，包括不少藝術創作和運輸用的材料。",
+    "加拿大畫商協會（ADAC）執行長 Mackenzie Sinclair 說，加拿大約三分之二的文化出口去美國：2023 年文化產品出口 271 億加幣，其中 181 億加幣到美國。",
+    {
+     "list": [
+      "溫哥華和多倫多的 Macaulay & Co Fine Art：原住民畫家 Lawrence Paul Yuxweluptun 約 10% 的銷售來自美國買家，現在轉向澳洲和歐洲，並取消 12 月邁阿密藝術週的參展，「風險太大」。",
+      "溫哥華 Equinox Gallery：美國買家原本約占 15% 銷售，老闆 Andy Sylvester 估計會「降到零」。"
+     ]
+    },
+    "Sinclair 的說法是：對美國藏家，價格大幅提高後可能延後購買，或改買美國藝術家的作品，加拿大畫廊因此直接失去競爭力。"
+   ],
+   "why": "這則讓人看到藝術品也是「貨」：關稅、運費、藝博會的成本，都會改變畫廊帶誰出去、賣給誰。對關注畫廊和拍賣的夥伴，這是理解一級市場為什麼開始往亞洲、澳洲找買家的背景。",
+   "detail": [
+    "生效｜美國 50% 關稅自 8/22 起。",
+    "加拿大反制｜9 月初，部分材料與印刷品 50%。"
+   ],
+   "link": "https://www.theartnewspaper.com/2026/11/06/canadian-art-market-takes-hit-from-trade-war-with-us",
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "coffee-dementia-jama-resurfaced",
+   "sec": "skip",
+   "title": "週報又提到「含咖啡因咖啡和較低失智風險有關」：這是今年 2 月的 JAMA 研究",
+   "orig": "Moderate caffeinated coffee consumption linked to lower dementia risk",
+   "date": "2026/11/04",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 1,
+   "summary": "Perfect Daily Grind 本週週報列入哈佛團隊在 JAMA 發表的研究：追蹤 131,821 人、最長 43 年，含咖啡因咖啡喝較多的人失智發生率較低，低咖啡因咖啡沒有統計上顯著的關聯。",
+   "why": "沒選進正刊：哈佛公報今年 2 月就發布過這份研究，不是新消息；而且是觀察性研究，只能說「有關聯」，不能說咖啡能預防失智。客人問起時記得這個分寸。",
+   "detail": [],
+   "link": "https://news.harvard.edu/gazette/story/2026/02/drinking-2-3-cups-of-coffee-a-day-tied-to-lower-dementia-risk",
+   "pub": "2026-11-07"
+  },
+  {
+   "id": "caffe-nero-india-trent",
+   "sec": "skip",
+   "title": "英國連鎖 Caffè Nero 和塔塔集團旗下 Trent 合作進印度，首店在孟買",
+   "orig": "Caffè Nero to enter India with Trent Limited",
+   "date": "2026/11/06",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 1,
+   "summary": "倫敦的 Caffè Nero 將透過塔塔集團零售子公司 Trent 進入印度，第一家開在孟買，之後會搭配 Trent 的其他零售通路展店。塔塔集團另外透過其他子公司經營印度星巴克。",
+   "why": "沒選進正刊：大型連鎖的跨國授權合作，離我們的日常工作很遠。",
+   "detail": [],
+   "link": "https://perfectdailygrind.com/2026/11/coffee-news-recap-6-november-2026/",
+   "pub": "2026-11-07"
+  },
   {
    "id": "george-howell-boston-starbucks-closures",
    "sec": "industry",
