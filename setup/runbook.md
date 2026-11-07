@@ -44,6 +44,9 @@ Google Drive `read_file_content`，file id 見 sources.json（試算表名稱「
 ## 4. 抓新內容
 - RSS：用 Python urllib 抓 sources.json 的 `rss` 和 `google_news`，只留上一期 `edition.date` 之後的文章。User-Agent 用 `Mozilla/5.0 cotori-reader`，不要放 email。有些站回 gzip，要解壓；Fresh Cup 回應開頭有空白，要 strip。
 - 全文：WebFetch 對多數咖啡媒體會被擋，改用 Python urllib 抓 HTML 再取文字。Google News 的連結是轉址，只當線索，用 WebSearch 找原始報導，再抓全文。
+- WebFetch 只讀「有來源」的網址：網址必須出現在 WebSearch 結果裡（或使用者直接給的）。自己拼的網址、首頁、Python 從 RSS 抓到的網址交給 WebFetch 會被擋（錯誤訊息是 PROVENANCE_REQUIRED／等不到核准，這不是權限設定問題，排程本來就是自動核准）。
+- 所以 Python 讀不到的文章，固定照這個順序補救：① 用 WebSearch 搜文章標題或關鍵字（例如「阮柏遠 臺北美術獎」），② 拿搜尋結果裡的那個網址去 WebFetch。交給 subagent 時，也要把搜尋結果裡的完整網址給它，不要只給首頁或標題。
+- 網站本身擋自動程式的（回 403、302 轉址空白頁，例如 Shopping Design、Artnet）：不要偽裝 User-Agent 或繞過防護，改用 WebSearch 找其他媒體、主辦單位或官方新聞稿的報導。
 - 讀不到全文的，只能寫標題和確定的事實，並在 `note` 註明。
 
 ## 5. 選稿
