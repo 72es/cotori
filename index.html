@@ -183,9 +183,12 @@ textarea::placeholder{color:var(--ink-3)}
 .sheet p{margin:0;color:var(--ink-2)}
 .sheet label.f{display:grid;gap:6px;font-size:.875rem;font-weight:700;min-width:0}
 .sheet input[type=text]{min-width:0;width:100%;border:1px solid var(--rule);border-radius:12px;background:var(--card);padding:12px 14px;font-size:1.0625rem}
-.picks{display:grid;gap:8px}
-.pick{display:flex;gap:12px;align-items:center;padding:12px 14px;border-radius:14px;background:var(--card);border:1px solid var(--rule);cursor:pointer}
-.pick input{width:20px;height:20px;accent-color:var(--accent)}
+.picks{display:flex;flex-wrap:wrap;gap:8px}
+.pick{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;border-radius:999px;background:var(--card);border:1px solid var(--rule);cursor:pointer;font-size:.9375rem;font-weight:700;color:var(--ink-3);user-select:none}
+.pick:has(input:checked){background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.pick:has(input:checked) span::before{content:"✓ "}
+.pick:has(input:focus-visible){outline:2px solid var(--accent);outline-offset:2px}
+.pick input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:999px;font-size:14px;z-index:60}
 
 /* tab bar (fixed px, never scaled) */
@@ -225,7 +228,7 @@ details.more li b{font-weight:700}
 .sheet .pin input{flex:none;box-sizing:border-box;width:60px;height:60px;padding:0;text-align:center;font-size:1.5rem;font-weight:700;border:1px solid var(--rule);border-radius:14px;background:var(--card);color:var(--ink)}
 .sheet .pin input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-wash)}
 .priv{background:var(--accent-wash);border-radius:14px;padding:12px 14px;font-size:.875rem;line-height:1.75;color:var(--ink-2)}
-.priv b{color:var(--ink)}.priv ul{margin:6px 0 0;padding-left:1.1em}
+.priv b{color:var(--ink)}.priv p{margin:0}.priv p+p{margin-top:6px}.priv ul{margin:6px 0 0;padding-left:1.1em}
 .sheet .sm{font-size:.8125rem;color:var(--ink-3)}
 .lk{color:var(--ink-2);text-decoration:underline;font-size:.875rem;background:none;border:0;padding:6px 0;cursor:pointer;justify-self:center}
 .syst{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.875rem;color:var(--ink-2)}
@@ -442,7 +445,7 @@ function markRead(id,secs){ if(S.read[id]) return; S.read[id]=Date.now(); ls.set
 function threadCounts(){ document.querySelectorAll('[data-thread]').forEach(b=>{const k=b.dataset.thread; const list=(D.qa||[]).filter(q=>q.thread===k); const un=list.filter(q=>!S.read[q.id]).length; const m=b.querySelector('.mins'); if(m) m.textContent=list.length+' 題'+(un?' · '+un+' 未讀':'');}); }
 
 /* onboarding & settings */
-const PRIV=`<div class="priv"><b>跨裝置同步</b>：閱讀習慣和紀錄可同步到所有裝置。<ul><li>不記名閱讀統計將用於優化新聞篩選使用。同步紀錄資料，僅限個人使用。</li><li>「個人新聞部」將根據你的回饋來發展只屬於自己的新聞閱讀喜好。</li></ul></div>`;
+const PRIV=`<div class="priv"><p><b>跨裝置同步</b>：閱讀習慣和紀錄可同步到所有裝置。</p><p><b>不記名統計</b>：閱讀統計不記名，只用來挑選更合適的新聞。</p><p><b>一起養成</b>：你的評分、回饋和提問，會讓 cotori 越來越會找新聞、寫摘要。</p><p><b>只有你看得到</b>：閱讀紀錄只在你的帳號下同步，別人看不到。</p></div>`;
 const pinHTML=lab=>`<div class="fl">${lab}<div class="pin">${[0,1,2,3].map(i=>`<input type="password" inputmode="numeric" pattern="[0-9]*" maxlength="1" autocomplete="off" aria-label="密碼第 ${i+1} 碼" data-pin="${i}">`).join('')}</div></div>`;
 function wirePin(){ const ins=[...document.querySelectorAll('[data-pin]')];
   ins.forEach((el,i)=>{ el.addEventListener('input',()=>{ const v=el.value.replace(/\D/g,''); if(v.length>1){ v.slice(0,4).split('').forEach((c,j)=>{if(ins[j]) ins[j].value=c}); (ins[Math.min(3,v.length)]||el).focus(); return;}
