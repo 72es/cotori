@@ -102,5 +102,55 @@
       "url": "https://news.google.com/rss/search?q=%E8%A8%AD%E8%A8%88+%E5%B1%95+when:3d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
     }
   ],
-  "design_note": "典藏 ARTouch、非池中藝術網的 RSS 會擋（403），從 Google News 找到題目後，改抓其他媒體轉載或用 WebSearch 找原文。"
+  "design_note": "典藏 ARTouch、非池中藝術網的 RSS 會擋（403），從 Google News 找到題目後，改抓其他媒體轉載或用 WebSearch 找原文。",
+  "official_sources": [
+    {
+      "name": "臺北市立美術館（北美館）",
+      "url": "https://www.tfam.museum/",
+      "type": "art"
+    },
+    {
+      "name": "國立臺灣美術館（國美館）",
+      "url": "https://www.ntmofa.gov.tw/",
+      "type": "art"
+    },
+    {
+      "name": "高雄市立美術館（高美館）",
+      "url": "https://www.kmfa.gov.tw/",
+      "type": "art",
+      "note": "首頁內容很少，可能是動態載入；讀不到就用 WebSearch 找新聞稿"
+    },
+    {
+      "name": "臺南市美術館（南美館）",
+      "url": "https://www.tnam.museum/",
+      "type": "art"
+    },
+    {
+      "name": "台北當代藝術館（MOCA Taipei）",
+      "url": "https://www.mocataipei.org.tw/",
+      "type": "art"
+    },
+    {
+      "name": "新北市立鶯歌陶瓷博物館",
+      "url": "https://www.ceramics.ntpc.gov.tw/",
+      "type": "ceramics"
+    },
+    {
+      "name": "臺灣設計研究院（TDRI）",
+      "url": "https://www.tdri.org.tw/",
+      "type": "design"
+    },
+    {
+      "name": "國家表演藝術中心（兩廳院等）",
+      "url": "https://www.npac-ntch.org/",
+      "type": "performing"
+    },
+    {
+      "name": "中央社 文化",
+      "url": "https://www.cna.com.tw/list/acul.aspx",
+      "type": "news"
+    }
+  ],
+  "official_note": "展覽、得獎、活動消息優先查第一手來源（美術館、主辦單位新聞稿），資料比媒體轉述準。Python 直接抓得到的已列在 official_sources（2026/11/7 測試）。抓不到的：臺中市立美術館（SSL 憑證驗證失敗，不可關掉驗證）、文化部（403）、國家漫畫博物館（連線失敗），改用 WebSearch 找它們的新聞稿或其他媒體報導。",
+  "syndication_note": "原始媒體擋自動程式時（例如 Shopping Design、Artnet、遠見），用 WebSearch 搜文章標題，找 Yahoo 新聞（tw.news.yahoo.com）、LINE TODAY 或其他媒體的轉載版本；用轉載版時 media 寫「轉載平台（原刊 X）」，並確認內容和原文標題、日期一致。"
 }
