@@ -100,6 +100,36 @@
     {
       "name": "Google News 台灣設計展",
       "url": "https://news.google.com/rss/search?q=%E8%A8%AD%E8%A8%88+%E5%B1%95+when:3d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+    },
+    {
+      "name": "Creative Boom",
+      "url": "https://www.creativeboom.com/feed/",
+      "lang": "en",
+      "note": "平面、插畫、字體、品牌與設計工作室專訪；RSS 含全文。補 Dezeen／designboom 偏建築與產品的缺口"
+    },
+    {
+      "name": "中央社 文化",
+      "url": "https://feeds.feedburner.com/rsscna/culture",
+      "lang": "zh",
+      "note": "台灣藝文、文學獎、出版、展覽；文章頁讀得到"
+    },
+    {
+      "name": "Hyperallergic",
+      "url": "https://hyperallergic.com/feed/",
+      "lang": "en",
+      "note": "藝術評論與展評；RSS 含全文。偏美國、政治議題多，只挑展評、評論和藝術家相關"
+    },
+    {
+      "name": "Colossal",
+      "url": "https://www.thisiscolossal.com/feed/",
+      "lang": "en",
+      "note": "插畫、工藝、陶藝、裝置；量少，RSS 含部分全文"
+    },
+    {
+      "name": "Spoon & Tamago",
+      "url": "https://www.spoon-tamago.com/feed/",
+      "lang": "en",
+      "note": "日本設計、包裝、藝術與文化。文章頁會擋（403），只當題目線索，用 WebSearch 找其他報導或官方來源"
     }
   ],
   "design_note": "典藏 ARTouch、非池中藝術網的 RSS 會擋（403），從 Google News 找到題目後，改抓其他媒體轉載或用 WebSearch 找原文。",
@@ -152,5 +182,6 @@
     }
   ],
   "official_note": "展覽、得獎、活動消息優先查第一手來源（美術館、主辦單位新聞稿），資料比媒體轉述準。Python 直接抓得到的已列在 official_sources（2026/11/7 測試）。抓不到的：臺中市立美術館（SSL 憑證驗證失敗，不可關掉驗證）、文化部（403）、國家漫畫博物館（連線失敗），改用 WebSearch 找它們的新聞稿或其他媒體報導。",
-  "syndication_note": "原始媒體擋自動程式時（例如 Shopping Design、Artnet、遠見），用 WebSearch 搜文章標題，找 Yahoo 新聞（tw.news.yahoo.com）、LINE TODAY 或其他媒體的轉載版本；用轉載版時 media 寫「轉載平台（原刊 X）」，並確認內容和原文標題、日期一致。"
+  "syndication_note": "原始媒體擋自動程式時（例如 Shopping Design、Artnet、遠見），用 WebSearch 搜文章標題，找 Yahoo 新聞（tw.news.yahoo.com）、LINE TODAY 或其他媒體的轉載版本；用轉載版時 media 寫「轉載平台（原刊 X）」，並確認內容和原文標題、日期一致。",
+  "design_rss_review": "2026/11/7 評估後未加入：ARTnews（和 Art Newspaper、Artnet 重複）、VERSE（業配與品牌活動稿多）、遠見（文章頁讀不到內容、題材偏一般時事）、中央社生活與經濟日報（和 Google News 重複、雜訊多）、Coffee Review（咖啡評分，不是新聞）。典藏 ARTouch（RSS 空白）、非池中（403）、Shopping Design（只有標題、文章頁擋）等待 Ben 決定是否訂電子報。"
 }
