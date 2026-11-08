@@ -96,6 +96,7 @@ main{max-width:var(--col);margin:0 auto}
 .weekly{background:var(--sun-wash)}
 .weekly .k{color:var(--sun)}
 .weekly .list{margin-top:6px}
+.weekly .wk-note{margin:4px 0 0;font-size:.875rem;line-height:1.7;color:var(--ink-2)}
 
 /* sections and title rows */
 .sec{padding-top:30px;scroll-margin-top:110px}
@@ -376,7 +377,7 @@ function sectionsHTML(items,emptyAll){
 }
 function homeHTML(){
   const its=homeItems(); const unreadQA=myAnswers().filter(q=>!S.read[q.id]);
-  const wk=D.weekly&&(D.weekly.items||[]).length?`<section class="box weekly"><div class="k">本週好讀</div><div class="list">${D.weekly.items.map(w=>{const it=byId(w.id);return it?rowHTML(it,`<span class="wk-s">★ ${w.stars} / ${w.n}人</span>`):''}).join('')}</div></section>`:'';
+  const wk=D.weekly&&(D.weekly.items||[]).length?`<section class="box weekly"><div class="k">${esc(D.weekly.title||'本週好讀')}</div>${D.weekly.note?`<p class="wk-note">${esc(D.weekly.note)}</p>`:''}<div class="list">${D.weekly.items.map(w=>{const it=byId(w.id);return it?rowHTML(it,w.stars?`<span class="wk-s">★ ${w.stars} / ${w.n}人</span>`:''):''}).join('')}</div></section>`:'';
   return `<section class="intro"><div class="date">${esc(D.edition.label)}</div>
     <h1>${greet()}${S.name?'，'+esc(S.name):''}</h1>
     <p>${esc((D.intro||'').replace('{n}',D.edition.no))}</p>
