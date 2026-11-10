@@ -1,48 +1,19 @@
 {
  "edition": {
-  "id": "2026-11-08",
-  "no": 13,
-  "date": "2026-11-08",
-  "label": "11月9日–10日 停刊"
+  "id": "2026-11-11",
+  "no": 14,
+  "date": "2026-11-11",
+  "label": "11月11日 週三"
  },
- "intro": "本週一、二（11/9、11/10）停刊，週三（11/11）恢復出刊。這兩天先送上「雙周精選」：過去兩週大家評分高、收藏多、讀得久的文章，加上值得補讀的問答，沒讀到的剛好補看。",
+ "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "首屆國際二次發酵咖啡競賽在台南：20 支盲測、2 支鑽石獎，帶水蜜桃果醬和烏龍茶香。",
-  "台灣咖啡節古坑登場、170 多家業者；游啟明提醒台灣精品豆要穩住品質、愛惜商譽。",
-  "飲料糖漿大廠環泰遭爆料用廢水，食藥署查兩廠紀錄目前未見異常；店裡可順手確認糖漿供應商。",
-  "高價吃到飽持續展店：漢來、饗賓前三季營收都增一成以上，但單店投資上億、缺人是最大限制。",
-  "ARTs：臺北美術獎得獎展、臺史博《萬相天后》、洛杉磯迷你書展《Small Print》、卑南木雕家哈古獲認定人間國寶。"
+  "金車進口的 20 公噸印尼咖啡生豆驗出殺蟲劑加保利，邊境退運；咖啡生豆的標準是「不得檢出」。",
+  "沖煮水研究：影響風味的是碳酸氫根（鹼度），鈣鎂硬度幾乎沒差，300 mg/L 時酸質從 12.0 掉到 2.9。",
+  "大型買家「永續咖啡」比例首度下滑到 69%，主因是 JDE Peet's 改用自家盡職調查標準。",
+  "卡夫亨氏以 6.5 億美元賣掉麥斯威爾等北美咖啡品牌；聖路易烘豆商把關稅退款還給客人。",
+  "ARTs：臺南《被消逝的臺灣美術與設計》、泰特 Bell & Grant 雙人展、Adobe 開放 AI 代理、法國設計師 Julien Gobled。"
  ],
- "weekly": {
-  "title": "雙周精選",
-  "note": "10/27–11/8 精選 8 篇",
-  "items": [
-   {
-    "id": "basket-acidity-sweetness"
-   },
-   {
-    "id": "q-1030-1"
-   },
-   {
-    "id": "q-1030-2"
-   },
-   {
-    "id": "pourover-rescue"
-   },
-   {
-    "id": "slow-feeding-grind"
-   },
-   {
-    "id": "kenya-flavor-map"
-   },
-   {
-    "id": "diedrich-dr140"
-   },
-   {
-    "id": "q-1106-1"
-   }
-  ]
- },
+ "weekly": null,
  "sections": [
   {
    "id": "industry",
@@ -70,6 +41,495 @@
   }
  ],
  "items": [
+  {
+   "id": "kingcar-indonesia-green-beans-carbaryl",
+   "sec": "industry",
+   "title": "金車進口印尼咖啡生豆驗出殺蟲劑加保利，20 公噸邊境退運",
+   "orig": "",
+   "date": "2026/11/10",
+   "media": "中央社、知新聞",
+   "author": "沈佩瑤（中央社）、劉沛妘（知新聞）",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "食藥署 11/10 公布最新邊境檢驗不合格名單：一批約 20 公噸、由金車股份有限公司報驗的印尼咖啡生豆，檢出殺蟲劑加保利 0.02 ppm。同一批名單裡還有中國進口大閘蟹戴奧辛超標。",
+    {
+     "table": {
+      "cap": "這次的處置",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "檢出",
+        "加保利 0.02 ppm"
+       ],
+       [
+        "規定",
+        "咖啡生豆「不得檢出」，要低於檢測方法定量極限 0.02 ppm"
+       ],
+       [
+        "處置",
+        "整批退運或銷毀"
+       ],
+       [
+        "後續",
+        "金車在邊境改為加強抽批查驗，抽驗比例 20%–50%"
+       ]
+      ]
+     }
+    },
+    "金車聲明說，這批原料沒有完成通關，已在入關前全數退運，沒有進入任何生產流程或產品；被問到會不會影響伯朗咖啡供應，業者回應不影響。食藥署北區管理中心主任劉芳銘說明了上述標準。"
+   ],
+   "why": "重點是「不得檢出」：台灣對咖啡生豆的加保利殘留標準是零容忍，檢出值剛好落在定量極限 0.02 ppm 就不合格。這批沒進市面，客人問起可以直接說「邊境擋下、退運了」。對我們來說，這提醒進生豆時可以留意進口商有沒有邊境檢驗紀錄，特別是同產地近期有沒有被加強抽驗。",
+   "detail": [
+    "報驗業者｜金車股份有限公司，產地印尼。",
+    "標準依據｜《農藥殘留容許量標準》。",
+    "供應影響｜業者說不影響伯朗咖啡供應。"
+   ],
+   "watch": "食藥署後續是否對印尼咖啡生豆擴大抽驗。",
+   "link": "https://www.cna.com.tw/news/ahel/202611100058.aspx",
+   "extra_links": [
+    {
+     "t": "知新聞（含金車聲明）",
+     "u": "https://www.knews.com.tw/news/98A6197EFF53C7FBBDD161CBB152543E"
+    }
+   ],
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "gcp-sustainable-purchases-2025",
+   "sec": "industry",
+   "title": "大型買家的「永續咖啡」比例首度下滑：從 75% 掉到 69%，主因是 JDE Peet's 改變採購做法",
+   "orig": "GCP Reports Drop in Sustainable Purchasing Among Large Green Coffee Buyers",
+   "date": "2026/11/10",
+   "media": "Daily Coffee News",
+   "author": "Nick Brown",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "非營利組織全球咖啡平台（GCP）公布《Sustainable Coffee Purchases Report 2025》：14 家大型烘豆商與零售商在 2025 年買的生豆，約 69.3% 符合 GCP 認可的永續基準，低於前一年的 75.36%。這是報告多年來第一次下滑，雖然參與公司反而變多。",
+    {
+     "table": {
+      "cap": "幾個關鍵數字",
+      "cols": [
+       "項目",
+       "2024",
+       "2025"
+      ],
+      "rows": [
+       [
+        "符合永續基準比例",
+        "75.36%",
+        "69.3%"
+       ],
+       [
+        "永續計畫採購量",
+        "174 萬公噸",
+        "158 萬公噸（-8.9%）"
+       ],
+       [
+        "總採購量（含一般豆）",
+        "—",
+        "約 229 萬公噸（減少不到 1%）"
+       ],
+       [
+        "JDE Peet's 符合比例",
+        "72.94%",
+        "47.04%"
+       ]
+      ]
+     }
+    },
+    "GCP 說下滑「主要受一家大公司採購做法改變影響」。JDE Peet's 在報告中表示，它把負責任採購從「認證、驗證」轉向以人權與環境盡職調查（HREDD）為主的風險管理；照它自己的方法，2025 年有 88.8% 生豆是負責任採購。",
+    "2025 年新加入的有 Lidl、NewCoffee、Ringtons，參與公司增為 14 家；可列入的永續計畫也從 26 個增為 30 個。GCP 也提醒，參與者和計畫都在變，逐年比較並不單純。"
+   ],
+   "why": "「永續豆」的數字不只取決於農場，也取決於大公司用哪一套方法算。同一家 JDE Peet's，換一種標準就從 47% 變 88.8%。之後看到「百分之幾永續採購」的宣傳，可以先問一句：用的是認證，還是公司自己的盡職調查？",
+   "detail": [
+    "下滑原因｜GCP 指向一家大公司改變採購方式。",
+    "下滑類別｜多在「第二方保證系統」，也就是企業自家驗證計畫。",
+    "報告頻率｜GCP 自 2018 年起幾乎每年發布。"
+   ],
+   "link": "https://dailycoffeenews.com/2026/11/10/gcp-reports-drop-in-sustainable-purchasing-among-large-green-coffee-buyers/",
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "kraft-heinz-sells-maxwell-house",
+   "sec": "industry",
+   "title": "卡夫亨氏把麥斯威爾等北美咖啡品牌賣給私募基金，交易 6.5 億美元",
+   "orig": "Kraft Heinz Sells Maxwell House and Other Coffee Brands to Private Equity",
+   "date": "2026/11/10",
+   "media": "Fresh Cup",
+   "author": "Fionn Pooler",
+   "tier": "T2",
+   "read": 2,
+   "summary": [
+    "卡夫亨氏（Kraft Heinz）要把北美咖啡事業賣給私募基金 One Rock Capital Partners，交易估值 6.5 億美元，預計 2027 年年中完成。品牌包括 Maxwell House（麥斯威爾）、Sanka、Tassimo 和 Gevalia；卡夫亨氏保留 30% 股份。",
+    "這不是第一次想賣：2019 年它曾請瑞士信貸「評估選項」，當時 CNBC 報導出售可能值 30 億美元。公司沒公布咖啡部門營收，獨立分析師估 2025 年約 8.6 億美元；有分析指出它在 2021 年約占美國咖啡銷售近 12%。One Rock 說會加碼投資品牌組合。"
+   ],
+   "why": "6.5 億美元和 2019 年傳出的 30 億美元差很多，說明超市罐裝、膠囊這類老牌咖啡的估值一路下修。消費者的錢正往現煮、精品和便宜研磨粉兩頭跑，中間的老品牌最辛苦，這跟上週 Keurig 財報看到的趨勢是同一件事。",
+   "detail": [
+    "買方｜One Rock Capital Partners。",
+    "保留股份｜卡夫亨氏留 30%。",
+    "預計完成｜2027 年年中。"
+   ],
+   "link": "https://freshcup.com/kraft-heinz-sells-maxwell-house-and-other-coffee-brands-to-private-equity/",
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "blueprint-tariff-refund-coupons",
+   "sec": "industry",
+   "title": "美國關稅退款到手，聖路易烘豆商 Blueprint 把錢用折價券還給客人",
+   "orig": "Midwest Roaster Returning Tariffs to Partners, Customers",
+   "date": "2026/11/09",
+   "media": "Barista Magazine",
+   "author": "Chris Ryan",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "文章交代背景：2025 年 8 月美國對 90 多國的新關稅生效，生豆成本大漲；同年 11 月政府宣布咖啡豁免；2026 年 2 月美國最高法院裁定這批關稅違憲，政府須退款。",
+    "聖路易的 Blueprint Coffee（3 家咖啡吧）當初對批發夥伴、網站和門市都漲了價，退款下來後決定不留著補開銷，而是依客人受影響的方式退回：",
+    {
+     "list": [
+      "門市熟客：2026 年消費最高的一群收到約 2,000 張高額折價券，第二群收到面額略低的券",
+      "批發與網站客戶：先給 5% 折扣碼，接下來打算提高到 10%"
+     ]
+    },
+    "烘豆部總監 Nora Brady 說，他們認為一般消費者承擔了關稅的主要成本，把退款還回去是「最合乎道德」的做法；公司本來就每年兩次向批發夥伴公開價格評估與調整。"
+   ],
+   "why": "漲價的理由講清楚，退價時也照同一套邏輯還回去，這是很好的信任管理。我們不受美國關稅影響，但生豆、牛奶、紙杯漲跌時，可以學這種「漲有說明、降有回饋」的做法，熟客感受得到。",
+   "detail": [
+    "分層回饋｜依消費金額與購買管道設計不同折價券。",
+    "說法｜CFO Mike Marquard：退回方式要和當初漲價一樣審慎。"
+   ],
+   "note": "關稅時間線依 Barista Magazine 原文；原文寫「咖啡出口豁免」，照上下文應指進口生豆豁免。",
+   "link": "https://www.baristamagazine.com/midwest-roaster-returning-tariffs-to-partners-customers/",
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "bicarbonate-not-hardness-brew-water",
+   "sec": "science",
+   "title": "沖煮水的關鍵是碳酸氫根，不是硬度：哥本哈根大學研究，鈣鎂幾乎不影響風味",
+   "orig": "How Bicarbonate, Not Water Hardness, May Be the Key to Better-Tasting Coffee",
+   "date": "2026/11/10",
+   "media": "Barista Magazine（引述 Journal of Food Science）",
+   "author": "Bhavi Patel",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "哥本哈根大學團隊在《Journal of Food Science》發表研究：用超純水沖哥倫比亞 Kachalu 咖啡，再分別加入鈣、鎂和碳酸氫根，濃度從 SCA 建議範圍內一路加到遠超範圍，由 10 位受訓評審做感官評分，並量沖煮液 pH。",
+    {
+     "table": {
+      "cap": "主要結果",
+      "cols": [
+       "加入的離子",
+       "對風味的影響"
+      ],
+      "rows": [
+       [
+        "鈣（到 264 mg/L）",
+        "和超純水沖的在各項屬性上沒有統計差異"
+       ],
+       [
+        "鎂",
+        "同樣看不出影響"
+       ],
+       [
+        "碳酸氫根 300 mg/L",
+        "酸質 12.0→2.9、果香 10.2→2.4（15 公分量表），苦味和烘焙味上升；pH 4.88→5.53"
+       ],
+       [
+        "碳酸氫根 120 mg/L",
+        "評審已經嘗得出差別"
+       ]
+      ]
+     }
+    },
+    "鈣加上碳酸氫根一起時，影響比單加碳酸氫根小；實測碳酸氫根比預期低，和碳酸鈣在沖煮前沉澱的推論一致。研究限制：只用一支中焙豆，也沒量萃取率，淺焙可能反應不同。"
+   ],
+   "why": "店裡調水、選濾水器時，最該先看的是「鹼度（碳酸氫根）」，而不是硬度。鹼度高會把酸質和果香壓掉，淺焙豆特別吃虧。作者也提醒，很多硬度範圍其實是為了保護機器（防結垢），不是為了風味。",
+   "action": "用水質測試劑量一次店裡沖煮水的鹼度，和濾芯更換前後比較。",
+   "detail": [
+    "豆子｜哥倫比亞 Kachalu，中焙。",
+    "評審｜10 位受訓評審，另有未受訓者做篩選測試。",
+    "實務建議｜先測鹼度，維持在適中範圍。"
+   ],
+   "note": "這次讀的是 Barista Magazine 的整理，沒有讀到期刊原文。",
+   "link": "https://www.baristamagazine.com/salt-of-the-earth-soul-of-the-cup-why-bicarbonate-not-hardness-runs-your-brew-water/",
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "osu-green-coffee-flavor-chemistry",
+   "sec": "science",
+   "title": "還沒烘就知道好不好喝？俄亥俄州立大學用化學分析，從生豆預測風味",
+   "orig": "Researchers Are Turning To Chemistry To Predict Flavor In Green Coffee",
+   "date": "2026/11/09",
+   "media": "Sprudge",
+   "author": "Zac Cadwalader",
+   "tier": "T2",
+   "read": 2,
+   "summary": "選育新品種要同時顧抗逆、產量和杯品，但新雜交品種要等烘焙後才知道好不好喝，可能要等上五年。俄亥俄州立大學有一個美國國務院資助的多年期計畫：先分析世界各地的熟豆樣本，找出哪些化合物對應哪些風味，再回頭在生豆裡找這些化合物的「前驅物」，希望讓育種者能快速篩選上千個樣本。計畫離完成還有好幾年。",
+   "why": "這和上個月介紹的美國國務院資助咖啡與可可實驗室是同一條線：氣候壓力下，產地需要更快選出「抗得住又好喝」的品種。對我們短期沒影響，但可以知道未來新品種的風味，可能先被化學數據篩過一輪。",
+   "detail": [
+    "主持單位｜俄亥俄州立大學。",
+    "資助｜美國國務院。",
+    "現況｜研究進行中，還沒有成果。"
+   ],
+   "link": "https://sprudge.com/researchers-are-turning-to-chemistry-to-predict-flavor-in-green-coffee-1567039.html",
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "brazil-regenerative-coffee-economics",
+   "sec": "science",
+   "title": "巴西 7 座再生農業咖啡園：成本低於州基準、產量高於全國平均，但樣本小不能推論",
+   "orig": "Brazil Study Field-Tests the Economics of Regenerative Coffee",
+   "date": "2026/11/09",
+   "media": "Daily Coffee News",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "GCP 巴西分部研究米納斯吉拉斯州（南米納斯、喜拉朵）7 座已採用再生農業的阿拉比卡農場：4 座以機械為主、3 座以人工為主，做法包括有機土壤資材、非合成肥料、維持覆蓋作物等。",
+    {
+     "table": {
+      "cap": "和基準比較（每袋 60 公斤）",
+      "cols": [
+       "項目",
+       "7 座農場",
+       "基準"
+      ],
+      "rows": [
+       [
+        "實際營運成本",
+        "R$488.41–745.61（約 94.87–144.83 美元）",
+        "CONAB 2025 年 3 月州基準 R$768.80"
+       ],
+       [
+        "平均產量",
+        "每公頃 45 袋",
+        "CONAB 2025 全國平均 30.4 袋（含阿拉比卡與羅布斯塔）"
+       ]
+      ]
+     }
+    },
+    "研究自己也說，樣本小、不具代表性，結果不能推到整個巴西或其他國家，也沒有證明是再生做法「造成」了這些結果。GCP 巴西計畫主任 Pedro Ronca 說，不同組合都能有競爭力，前提是因地制宜、持續執行並有技術輔導。"
+   ],
+   "why": "「友善環境就會賠錢」不一定成立，至少這 7 座沒有。跟客人介紹再生農業豆時，可以說有案例顯示成本與產量不輸慣行，但別說成「已證實更賺」。",
+   "detail": [
+    "研究單位｜Global Coffee Platform 巴西分部。",
+    "產區｜南米納斯、喜拉朵（Cerrado Mineiro）。"
+   ],
+   "link": "https://dailycoffeenews.com/2026/11/09/brazil-study-field-tests-the-economics-of-regenerative-coffee/",
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "coffee-packaging-trends-2027",
+   "sec": "food",
+   "title": "豆袋設計風向轉了：極簡牛皮紙退場，2027 年流行大膽配色、觸感材質和鐵罐",
+   "orig": "From texture to tins: Coffee packaging trends to watch in 2027",
+   "date": "2026/11/10",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 8,
+   "summary": [
+    "包材商 MTPak Coffee 辦了一場 2026 包裝趨勢線上講座，請來英國 Coaltown Coffee Roasters 創意總監 Nick Haimes、紐約 Variety Coffee Roasters 負責人 Mark Brei，加上 MTPak 創辦人 Mark Zhou 的觀察，整理出三個方向：",
+    {
+     "list": [
+      "極簡不再是預設：Z 世代偏好鮮豔色彩、插畫、密集字體、霧面與亮面對比；客人更常拍照分享好看的袋子",
+      "起訂量變低：數位印刷讓小烘豆商也做得起特殊材質與印刷",
+      "限量豆用盒、筒、鐵罐，凸顯稀有感"
+     ]
+    },
+    "案例：Coaltown 2013 年創立於威爾斯前礦業小鎮 Ammanford，2023 年十週年改版，整套識別只用一款有 16 個字重的字體 Successor，再加一個取自礦工反光外套的「Purpose Orange」。Variety 2008 年在布魯克林 Williamsburg 開業，現在在紐約有 10 多家店，2027 年初要推新設計。",
+    "文章建議用四個 C 檢驗設計：顧客（customer）、成本（cost）、便利（convenience）、溝通（communication）。"
+   ],
+   "why": "豆袋是放在櫃台上、會被帶回家拍照的廣告。我們做零售豆或節慶禮盒時，可以想想：品牌有沒有一個從在地歷史長出來的顏色或字體？限量豆是否值得換成罐裝或盒裝？",
+   "detail": [
+    "Mark Zhou 觀察｜越來越多新客戶直接帶完整插畫來，而不只是 logo 檔。",
+    "Coaltown 字體｜Successor，16 個字重。"
+   ],
+   "note": "MTPak 是包材廠商，文章觀點含廠商立場。",
+   "link": "https://perfectdailygrind.com/2026/11/coffee-packaging-trends-2027/",
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "tainan-vanished-taiwan-art-design",
+   "sec": "design",
+   "title": "《被消逝的臺灣美術與設計》在臺南：林磐聳策展，從繪葉書、海報、書刊封面找回前輩藝術家的設計作品",
+   "orig": "",
+   "date": "2026/11/09",
+   "media": "樂樸森新聞網、Bella 儂儂",
+   "author": "",
+   "tier": "T3",
+   "read": 5,
+   "summary": [
+    "臺南國家美術館（籌備處）推出特展《被消逝的臺灣美術與設計》，策展人是 2018 年 DFA 亞洲最具影響力全場大獎、2025 年金點設計獎得主林磐聳。展覽以 1895 到 1960 年的美術與設計史料為基礎，標題寫展出臺日藝術家近 500 件作品，用繪畫、海報、繪葉書（明信片）、書刊和設計文獻互相對照。",
+    {
+     "table": {
+      "cap": "展覽單元",
+      "cols": [
+       "單元",
+       "看什麼"
+      ],
+      "rows": [
+       [
+        "立於土地、本於人民",
+        "玉山、阿里山、太魯閣等地景與原住民、漢人生活，怎麼變成臺灣的視覺符號；鹽月桃甫、顏水龍、林玉山等"
+       ],
+       [
+        "用於功能、美於形式",
+        "1905 年始政 10 周年紀念繪葉書、觀光／茶葉／糖業宣傳海報、書刊封面與插圖；石川欽一郎水彩對照《臺灣時報》封面、林玉山繪畫對照《動物分類掛圖》"
+       ],
+       [
+        "成於文化",
+        "《民俗臺灣》、西川滿與立石鐵臣、宮田彌太郎合作的限量書刊，到 1960 年代《文星》《現代文學》《劇場》雜誌封面"
+       ]
+      ]
+     }
+    },
+    "策展的特色是「反向追索」：很多早期畫作已散佚，當年的印刷品反而保存了藝術家的創作線索。這檔展覽是 2026 臺南藝術雙年展「迴圈．超展開」七條迴圈之一的「被消逝的迴圈」，雙年展期 2026/10/31 到 2027/3/1。"
+   ],
+   "why": "對做平面、插畫、品牌的人，這是一次看「臺灣設計史前傳」的機會：前輩畫家同時在做封面、海報和廣告，美術和應用設計本來就沒分那麼開。茶葉、糖業海報和觀光繪葉書，也很適合當店裡節慶海報、包裝的在地視覺參考。",
+   "detail": [
+    "策展人｜林磐聳。",
+    "年代｜1895–1960 年代。",
+    "展期｜雙年展 2026/10/31–2027/3/1；本展單獨展期這次沒查到。",
+    "地點與票價｜報導沒寫確切展館地址與本展票價，雙年展有販售「藝術護照」，請以南美館與雙年展官方資訊為準。"
+   ],
+   "note": "報導稱「臺南美術雙年展」，Bella 稱「臺南藝術雙年展」，以官方名稱為準；這次沒讀到官方展覽頁。",
+   "link": "https://www.lepersonnews.com.tw/%E8%87%BA%E5%8D%97%E5%9C%8B%E5%AE%B6%E7%BE%8E%E8%A1%93%E9%A4%A8%E3%80%8C%E8%A2%AB%E6%B6%88%E9%80%9D%E7%9A%84%E8%87%BA%E7%81%A3%E7%BE%8E%E8%A1%93%E8%88%87%E8%A8%AD%E8%A8%88%E3%80%8D%E7%99%BB%E5%A0%B4/",
+   "extra_links": [
+    {
+     "t": "Bella 儂儂：臺南藝術雙年展攻略",
+     "u": "https://www.bella.tw/articles/movies&culture/60058/2026-tainan-art-biennale-unfolding-circuits-guide"
+    }
+   ],
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "adobe-max-2026-mcp-agents",
+   "sec": "design",
+   "title": "Adobe MAX 2026：Photoshop、Illustrator 開放外部 AI 代理接入，圖層仍可編輯",
+   "orig": "Bring your own agent: Adobe opens Creative Cloud to outside AI",
+   "date": "2026/11/10",
+   "media": "Creative Boom",
+   "author": "",
+   "tier": "T2",
+   "read": 6,
+   "summary": [
+    "Adobe 在邁阿密海灘的 MAX 2026 宣布，Creative Cloud 將原生支援 MCP（Model Context Protocol，讓 AI 代理接上軟體、使用其工具的開放標準）。先預覽 Photoshop、Illustrator、Premiere、After Effects：使用者可以把自己選的 AI 代理接到桌面軟體，直接處理原生專案檔。Adobe 強調圖層、向量、時間軸都保持可編輯，人隨時可以接手修。MCP 整合預計 2027 年初開放私人測試。",
+    {
+     "list": [
+      "Photoshop Relight：拍完後在 3D 空間加最多 3 個光源，近乎即時更新",
+      "Photoshop Convert to Text Layers（測試版）：把扁平 JPEG 裡的字辨識出來，比對 Adobe Fonts 的 35,000 款字體，重建成可編輯的向量文字",
+      "Lightroom 新增 Glow、一鍵去瑕疵，以及 Open Eyes（測試版）修正閉眼",
+      "收購 Topaz Labs 後，加入放大、銳化、降噪和 HDR 模型"
+     ]
+    },
+    "Adobe 總裁兼候任執行長 Anil Chakravarthy 說，不想碰 AI 的人，Adobe 也會繼續投資精準工具。"
+   ],
+   "why": "對平面與品牌設計工作者，最實用的可能是「圖片轉可編輯文字」：客戶只給一張舊海報或菜單照片時，可以省下找字體、重打字的時間。AI 代理接入則代表重複性的排版、批次輸出可能交給代理，但要看 2027 年測試後實際表現。",
+   "detail": [
+    "MCP 預覽軟體｜Photoshop、Illustrator、Premiere、After Effects。",
+    "時程｜MCP 整合 2027 年初私人測試。",
+    "Relight 等｜文中說本週有三項 Photoshop 測試功能正式上線。"
+   ],
+   "note": "Creative Boom 記者在現場報導；功能細節以 Adobe 官方公告為準。",
+   "link": "https://www.creativeboom.com/news/adobe-max-2026-all-the-big-announcements/",
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "tate-bell-grant-inside-bloomsbury",
+   "sec": "design",
+   "title": "泰特英國館睽違 27 年再辦布魯姆斯伯里雙人展：Vanessa Bell 與 Duncan Grant，含 Omega 工坊設計",
+   "orig": "Tate Britain spotlights Bloomsbury artists Vanessa Bell and Duncan Grant for the first time since 1999",
+   "date": "2026/11/10",
+   "media": "The Art Newspaper、Tate 新聞稿",
+   "author": "",
+   "tier": "T1",
+   "read": 6,
+   "summary": [
+    "倫敦泰特英國館（Tate Britain）11/12 開幕《Vanessa Bell & Duncan Grant: Inside Bloomsbury》，展出兩位布魯姆斯伯里團體畫家五十年的創作夥伴關係，是 1999 年以來泰特第一次以他們為主題辦展。策展人 Thomas Kennedy 說，整整一代觀眾沒在泰特看過他們的展。",
+    "展覽從兩人的肖像與自畫像，看他們受 1910 年 Roger Fry「馬奈與後印象派」展影響後，對大膽色彩、簡化形狀和律動線條的實驗。重點之一是 1913 年成立的 Omega 工坊：模糊純藝術和裝飾藝術的界線，兩人參與的設計用在陶瓷、扇子、燈座、椅子、桌子和衣櫃上。",
+    "The Art Newspaper 也回顧 1999 年那次展覽的評價很差，有評論直接罵「三流」；這次策展人想重新翻案。"
+   ],
+   "why": "Omega 工坊就是「畫家跨做家具、陶瓷、織品」的早期品牌案例，和今天臺南那檔《被消逝的臺灣美術與設計》剛好呼應：美術和日常設計本來就一起長大。對空間、品牌工作者，可以看他們怎麼把同一套色彩和筆觸延伸到整個生活物件。",
+   "detail": [
+    "展期｜2026/11/12–2027/4/11。",
+    "地點｜倫敦 Tate Britain，每日 10:00–18:00。",
+    "票價｜官網售票；會員免費；16–25 歲加入 Tate Collective 每檔 5 英鎊。",
+    "專書｜精裝 45 英鎊、平裝 32 英鎊。"
+   ],
+   "link": "https://www.theartnewspaper.com/2026/11/10/tate-britain-to-spotlight-bloomsbury-artists-vanessa-bell-and-duncan-grant-for-the-first-time-since-1999",
+   "extra_links": [
+    {
+     "t": "Tate 新聞稿",
+     "u": "https://www.tate.org.uk/press/press-releases/vanessa-bell--duncan-grant-inside-bloomsbury"
+    }
+   ],
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "julien-gobled-graphic-design",
+   "sec": "design",
+   "title": "法國設計師 Julien Gobled：怪臉、扭曲字體和意外，把平面設計當藝術做",
+   "orig": "With freaky faces, warped type and happy accidents, Julien Gobled is tearing up the graphic design rulebook",
+   "date": "2026/11/10",
+   "media": "Creative Boom",
+   "author": "",
+   "tier": "T2",
+   "read": 6,
+   "summary": [
+    "住在法國勒阿弗爾（Le Havre）的藝術家兼設計師 Julien Gobled，作品把字體和圖像融成一整個圖像世界：怪異的娃娃臉、噴槍感的曲線、鮮豔色塊，和像被影印很多次的變形照片。文字有時傳達資訊，有時手繪成跟旁邊頁面一樣的形狀，有時扭曲成視錯覺。",
+    "他先念純藝術，後來在設計公司上班同時接案，現在完全獨立。他說自己「越來越像藝術家而不是設計師」；以前想控制每個步驟，近年學會退一步、相信過程，接受作品往意料外的方向走。即使沒有委託案，他也固定每天 9 點到 6 點工作，靈感來自書、檔案、網路文化和日常影像。",
+    "近作是和 Fidèle Éditions、Éditions Biceps 合出的作品集《Derrière le soleil》，花兩年完成，編輯設計由 Jean-Philippe Bretin 負責。"
+   ],
+   "why": "這篇最值得帶走的是工作方法：固定時段做「沒有客戶的研究」，讓實驗累積成自己的視覺語言。對接案的插畫、平面設計師，這是把個人風格養出來的一種方式。",
+   "detail": [
+    "背景｜純藝術出身，設計公司與接案後轉為獨立。",
+    "興趣｜記憶、被遺忘或錯置的東西，以破碎形式回來的影像。"
+   ],
+   "link": "https://www.creativeboom.com/inspiration/with-freaky-faces-warped-type-and-happy-accidents-julien-gobled-is-tearing-up-the-graphic-design-rulebook/",
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "nexra-nm1-comandante-motor",
+   "sec": "skip",
+   "title": "Nexra NM1 上 Kickstarter：把 Comandante C40 手搖磨豆機改成電動，每分鐘 60 轉",
+   "orig": "Turn Your Comandante C40 Electric With The Nexra NM1",
+   "date": "2026/11/10",
+   "media": "Sprudge",
+   "author": "Zac Cadwalader",
+   "tier": "T2",
+   "read": 2,
+   "summary": "副廠配件 Nexra NM1 在 Kickstarter 募資，裝在 Comandante C40 上取代上蓋和搖把，以每分鐘 60 轉的「手磨速度」轉動刀盤。",
+   "why": "路過理由：家用小眾配件，還在募資階段，對店裡出杯沒影響。",
+   "detail": [
+    "狀態｜Kickstarter 募資中。"
+   ],
+   "link": "https://sprudge.com/turn-your-comandante-c40-electric-with-the-nexra-nm1-1585573.html",
+   "pub": "2026-11-11"
+  },
+  {
+   "id": "sprudge-weekly-roaster-picks",
+   "sec": "skip",
+   "title": "Sprudge 每週推薦豆單（標題借用 Harry Styles）：Flying Pumas 藝伎等",
+   "orig": "Coffees So Good Even Harry Styles Doesn't Mind Paying",
+   "date": "2026/11/08",
+   "media": "Sprudge",
+   "author": "",
+   "tier": "T3",
+   "read": 3,
+   "summary": "Sprudge 每週請廣告合作的烘豆商推薦豆子，這週有巴拿馬 Flying Pumas 藝伎蜜處理（Klatch Coffee）、Devoción 節慶綜合豆等。",
+   "why": "路過理由：豆單來自廣告合作烘豆商，屬推廣性質；標題的名人只是話題。",
+   "detail": [
+    "性質｜廣告合作夥伴推薦。"
+   ],
+   "link": "https://sprudge.com/coffees-so-good-even-harry-styles-doesnt-mind-paying-1574465.html",
+   "pub": "2026-11-11"
+  },
   {
    "id": "second-fermentation-contest-tainan-2026",
    "sec": "science",
