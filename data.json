@@ -1,17 +1,17 @@
 {
  "edition": {
-  "id": "2026-11-11",
-  "no": 14,
-  "date": "2026-11-11",
-  "label": "11月11日 週三"
+  "id": "2026-11-12",
+  "no": 15,
+  "date": "2026-11-12",
+  "label": "11月12日 週四"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "金車進口的 20 公噸印尼咖啡生豆驗出殺蟲劑加保利，邊境退運；咖啡生豆的標準是「不得檢出」。",
-  "沖煮水研究：影響風味的是碳酸氫根（鹼度），鈣鎂硬度幾乎沒差，300 mg/L 時酸質從 12.0 掉到 2.9。",
-  "大型買家「永續咖啡」比例首度下滑到 69%，主因是 JDE Peet's 改用自家盡職調查標準。",
-  "卡夫亨氏以 6.5 億美元賣掉麥斯威爾等北美咖啡品牌；聖路易烘豆商把關稅退款還給客人。",
-  "ARTs：臺南《被消逝的臺灣美術與設計》、泰特 Bell & Grant 雙人展、Adobe 開放 AI 代理、法國設計師 Julien Gobled。"
+  "英國連鎖 Black Sheep 約 150 家店、羅布斯塔占咖啡銷售約 85%，精品羅布斯塔做成連鎖的實例。",
+  "發酵時數從 8 小時拉到 740 小時，但研究顯示越久不一定越高分，買豆要問溫度、氧氣和乾燥。",
+  "台灣國際咖啡展明天（11/13）起在南港 1 館，到 11/16，最後一天 17:00 結束。",
+  "獨立咖啡館約六成撐不過 5 年：缺的常是經營指導；向別家學，學待客不要只抄裝潢。",
+  "ARTs：故宮南院漁樂圖特展、Koto 的 Giffgaff 箭頭識別、希爾瑪・阿夫・克林特抽象油畫 11/19 上拍。"
  ],
  "weekly": null,
  "sections": [
@@ -41,6 +41,519 @@
   }
  ],
  "items": [
+  {
+   "id": "black-sheep-robusta-85pct",
+   "sec": "industry",
+   "title": "英國連鎖 Black Sheep 押注精品羅布斯塔：約 150 家店，羅布斯塔占咖啡銷售約 85%",
+   "orig": "Specialty Robusta and Mastering Seasonal Launches w/ Gabriel Shohet of Black Sheep Coffee",
+   "date": "2026/11/11",
+   "media": "Fresh Cup",
+   "author": "Garrett Oden",
+   "tier": "T2",
+   "read": 12,
+   "summary": [
+    "Fresh Cup 的 Coffee Think Tank 播客訪問 Black Sheep Coffee 共同創辦人 Gabriel Shohet。Black Sheep 2013 年由 Shohet 和 Eirik Holth 創立，一開始就在英國街頭市集賣 100% 精品級羅布斯塔，當時羅布斯塔在精品圈「幾乎是髒話」。",
+    {
+     "table": {
+      "cap": "Black Sheep 現況（Shohet 自述）",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "門市",
+        "約 150 家，分布英國、中東、美國"
+       ],
+       [
+        "招牌",
+        "robusta revival 濃縮，羅布斯塔約占咖啡銷售 85%"
+       ],
+       [
+        "展店",
+        "先用約 50 家直營店驗證模式，再開放加盟"
+       ],
+       [
+        "季節菜單",
+        "比其他高成長連鎖更早推香蕉、焙茶等口味"
+       ]
+      ]
+     }
+    },
+    "訪談談到：以前的羅布斯塔為什麼大多難喝、照精品阿拉比卡的方式處理後有什麼不同，以及為什麼羅布斯塔適合加奶的飲品，做濾杯就沒那麼好。Shohet 也說曾想把自家豆子放上英國的杯測桌和其他品牌、冠軍咖啡師一起比，卻被拒絕；最後說服他們的是街上客人的反應，不是咖啡圈的認可。Fresh Cup 團隊在奧斯汀門市喝到的 robusta revival，描述是厚重、順口，有巧克力和核桃調性。"
+   ],
+   "why": "這則接續先前「精品羅布斯塔」的問答：Black Sheep 是把精品羅布斯塔做成連鎖的實例，數字和說法都來自創辦人本人，屬於業者觀點。對吧台的啟發是「用途」：羅布斯塔放進拿鐵、牛奶飲品比做手沖更合理。客人問「羅布斯塔是不是比較差」時，可以說品質取決於處理方式，也看用在什麼飲品。",
+   "action": "有機會拿到精品級羅布斯塔時，和平常的拿鐵配方並排試一次，比較厚度和奶感。",
+   "detail": [
+    "新品測試｜他主張不要跟風競品上新品，要自己真的喜歡才推。",
+    "設備｜奧斯汀門市用 Eversys 全自動義式機出杯。"
+   ],
+   "note": "85%、150 家等數字是 Shohet 在訪談中的說法，沒有財報佐證。",
+   "link": "https://freshcup.com/specialty-robusta-and-mastering-seasonal-launches-w-gabriel-shohet-of-black-sheep-coffee/",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "taiwan-intl-coffee-show-2026",
+   "sec": "industry",
+   "title": "台灣國際咖啡展 11/13–16 南港展覽館 1 館：同場有創意飲品賽和拉花、世界盃沖煮冠軍秀",
+   "orig": "",
+   "date": "2026/11/12",
+   "media": "展昭國際（主辦單位官網）",
+   "author": "",
+   "tier": "T1",
+   "read": 3,
+   "summary": [
+    "2026 台灣國際咖啡展明天開幕。以下以主辦單位展昭國際官網為準：",
+    {
+     "table": {
+      "cap": "展覽資訊",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "日期",
+        "11/13（五）–11/16（一）"
+       ],
+       [
+        "時間",
+        "10:00–18:00，最後一天 17:00 結束"
+       ],
+       [
+        "地點",
+        "台北南港展覽館 1 館（經貿二路 1 號）"
+       ],
+       [
+        "票務",
+        "現場售票"
+       ],
+       [
+        "同場活動",
+        "台灣咖啡師創意飲品競賽、台灣拉花與世界盃沖煮冠軍表演"
+       ],
+       [
+        "同期展",
+        "台灣國際茶業博覽會、台灣國際食品加工設備展、台北國際酒展"
+       ]
+      ]
+     }
+    },
+    "官網展品分類包括咖啡設備、咖啡原物料、濾掛與即溶、茶飲、吧台與廚房設備、烘焙甜點冰品設備、包材等。官網另外提醒：穿拖鞋不能入場，寵物除導盲犬外不能進場。"
+   ],
+   "why": "這是一年一次能一口氣看完磨豆機、義式機、包材和新豆商的場合。想看設備或找包材的同事，可以先挑好要逛的攤位類別；週一最後一天 17:00 就收，安排休假時要注意。",
+   "action": "去逛的人拍下有興趣的包材或小設備，回來放在群組一起討論。",
+   "detail": [
+    "入場提醒｜不能穿拖鞋。",
+    "外國買主｜要先線上登記取得 QR Code，每天一組。"
+   ],
+   "note": "媒體報導的參展家數、攤位數這次沒有在官網核對到，所以沒寫。",
+   "link": "https://www.chanchao.com.tw/coffee/en/visitor.asp",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "longer-fermentation-96-740-hours",
+   "sec": "science",
+   "title": "發酵從 8 小時拉到 740 小時：研究顯示時間越長不一定越高分，買豆該問溫度和氧氣",
+   "orig": "96 to 740 hours: The push for longer coffee fermentation",
+   "date": "2026/11/11",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 7,
+   "summary": [
+    "過去產地普遍把發酵控制在 8 小時左右，在哥倫比亞超過 20 小時就算「延長發酵」。現在精品菜單上常見發酵好幾天、甚至好幾週的批次。生產成本和價格波動是主因：長發酵不用大筆投資設備，就可能做出特殊風味、拿到高分和好價錢。",
+    {
+     "table": {
+      "cap": "文中的長發酵案例",
+      "cols": [
+       "案例",
+       "做法"
+      ],
+      "rows": [
+       [
+        "2026 德國咖啡師冠軍 Felix Hohlmann 比賽豆",
+        "哥倫比亞薇拉的藝伎：氧化 48 小時＋厭氧 48 小時＋密封水槽 72 小時，共 168 小時"
+       ],
+       [
+        "Finca San Luis（托利馬，2022）",
+        "整顆果實封袋 36 小時、日曬 4 天，再回袋發酵 29 天，共 740 小時"
+       ],
+       [
+        "印度 Kalledevarapura 莊園",
+        "720 小時黑蜜處理，晚收的 Chandragiri（SLN 13）果實"
+       ]
+      ]
+     }
+    },
+    "研究結果並不支持「越久越好」：",
+    {
+     "list": [
+      "Cenicafé 2025 年在《Foods》發表的試驗，Castillo 品種發酵到 192 小時，時間對杯測分數沒有顯著影響；72 小時後生豆物理品質反而下降，密封槽、96 小時以內的組合整體最好。",
+      "巴西研究的杯測分數在 185.5 小時達到高峰 83.24 分，200 小時以後下降。",
+      "超過 96 小時的研究本來就很少。"
+     ]
+    },
+    "風險也高：控制不好會出現醋酸、酒精味，整批報銷。740 小時那批剛做好時喝起來像巴薩米克醋和橄欖，要放好幾個月風味才穩定。處理顧問 Lucia Solis 認為，溫度、氧氣、用水、整顆果實還是去皮，都比時數重要；長發酵有時只是因為曬床不夠，先把豆子放在密封袋裡等。"
+   ],
+   "why": "菜單或豆袋上寫「發酵 300 小時」不等於比較好喝，也不能拿不同批次的時數互比。客人被長時數吸引時，可以把重點帶回杯中的風味；店裡挑豆時，跟進口商要的是溫度、氧氣、添加物、乾燥和熟成時間這些細節。",
+   "detail": [
+    "遮味｜長發酵也被用來蓋過 Castillo、Colombia 等抗病品種的植物味、金屬味。",
+    "時數灌水｜270 小時的共發酵加上前段密封，實際約 330 小時；部分乾燥期間的微生物活性也低很多。",
+    "可重現性｜同樣的五天處理換一座莊園做，喝起來就變平淡。",
+    "買家建議｜Solis 建議買家不論結果都承諾收購，和生產者分擔實驗風險。"
+   ],
+   "link": "https://perfectdailygrind.com/2026/11/the-push-for-longer-coffee-fermentation/",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "graphene-membrane-decaf-after-brew",
+   "sec": "science",
+   "title": "煮好再去咖啡因：澳洲團隊用氧化石墨烯膜過濾，咖啡因減少約 47%，還在早期階段",
+   "orig": "Researchers Make Membrane That Decaffeinates Liquid Coffee",
+   "date": "2026/11/11",
+   "media": "Daily Coffee News（引述 Journal of Membrane Science）",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "新南威爾斯大學（UNSW）Yihan Tian 領導、和日本岡山大學合作的研究，9 月發表在《Journal of Membrane Science》。一般低因是在生豆階段用水、二氧化碳或溶劑去咖啡因；這個方法是直接過濾「已經沖好」的咖啡。",
+    "團隊用多層氧化石墨烯做膜，加入鈣離子和海藻來源的海藻酸鈉調整通道大小，讓咖啡因被攔下、其他成分留在液體裡。",
+    {
+     "table": {
+      "cap": "實驗條件與結果",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "樣本",
+        "市售冷凍乾燥即溶咖啡稀釋液，每次 100 毫升"
+       ],
+       [
+        "過濾",
+        "室溫、真空，24 小時"
+       ],
+       [
+        "咖啡因",
+        "每毫克咖啡固形物 24.64 → 12.95 微克，減少 47.4%"
+       ],
+       [
+        "其他成分",
+        "葫蘆巴鹼等仍測得到，但多項濃度也下降"
+       ],
+       [
+        "風味",
+        "沒有做感官測試"
+       ]
+      ]
+     }
+    },
+    "作者自己說這是「早期展示」，在真實咖啡中的通量仍然偏低；過濾速度、堵塞、清洗重複使用和成本都還要研究。"
+   ],
+   "why": "目前離店裡用得到還很遠：過濾要 24 小時，也不知道會不會變難喝。客人問「有沒有煮好再去咖啡因的東西」，可以說有研究，但還在實驗室；2022 年西雅圖一家新創推過類似的濾包，現在網站已經關了。低因需求還是要靠好的低因生豆。",
+   "detail": [
+    "過去案例｜西雅圖 Decafino 2022 年宣稱 8 分鐘去除最多 80% 咖啡因，現況不明。",
+    "作者提醒｜膜的表現「不能只看單一指標」。"
+   ],
+   "link": "https://dailycoffeenews.com/2026/11/11/researchers-make-membrane-that-decaffeinates-liquid-coffee/",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "coffee-futures-fund-cafe-owners",
+   "sec": "food",
+   "title": "獨立咖啡館約六成撐不過 5 年：Coffee Futures Fund 說缺的不是好咖啡，是經營指導",
+   "orig": "Who’s Teaching Coffee Shop Owners How to Succeed?",
+   "date": "2026/11/11",
+   "media": "Barista Magazine",
+   "author": "",
+   "tier": "T2",
+   "read": 6,
+   "summary": [
+    "Barista Magazine 介紹 Coffee Futures Fund（CFF）。創辦人 Akshat Khandelwal 引用的數字是：大約每 10 家獨立咖啡館有 6 家撐不過前 5 年，原因多半不是咖啡或服務不好，而是在關鍵時刻沒有有經驗的人可以問。",
+    "他的說法是，精品咖啡 30 年來很會教人煮咖啡、杯測、烘豆，卻沒教老闆怎麼經營：開店前要準備多少資金、何時聘第一位店長、要不要簽第二家店的租約、怎麼讓團隊不靠老闆也能運作。CFF 提供導師輔導、社群、教育課程，部分個案也會投資，目標是讓獨立咖啡館長期存活的機率加倍。",
+    {
+     "list": [
+      "開一家精品咖啡館在美國含裝修、設備、周轉金，約需 10 萬到 30 萬美元。",
+      "Khandelwal 說最常見的障礙是「對頭三年沒有誠實的想像」；他開店前拜訪多位老闆，大多數人給的建議是「不要開」。",
+      "他認為網路影片可以教觀念，卻無法告訴你「你的狀況正不正常、漏了什麼、接下來會怎樣」。"
+     ]
+    }
+   ],
+   "why": "這篇講的是吧台以外的那一半工作。對想要哪天自己開店、或想往店長走的同事，值得想想：排班、成本、團隊交接這些事，平常在店裡就看得到、學得到。不懂的地方直接問，比自己摸索快。",
+   "detail": [
+    "CFF 定位｜認為經營指導和資金一樣有價值，不只是投資基金。",
+    "數字來源｜「六成五年內收」是 Khandelwal 的說法，文中沒列出研究出處。"
+   ],
+   "note": "文章介紹單一組織，內容以創辦人觀點為主。",
+   "link": "https://www.baristamagazine.com/whos-teaching-coffee-shop-owners-how-to-succeed/",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "borrow-ideas-not-the-look",
+   "sec": "food",
+   "title": "向別家咖啡館學什麼？學待客和思路，不要只抄裝潢和菜單",
+   "orig": "Smart Cafe Operators Know How to Borrow Ideas from Competitors",
+   "date": "2026/11/11",
+   "media": "Fresh Cup",
+   "author": "Julie Hanell",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "Fresh Cup 的 Operator Notes 專欄，作者是電子報 The Coffee Dispatch 的創辦人 Julie Hanell。她提到今年一項研究分析了第三波咖啡館越長越像的現象（裸磚、回收木、黑板、古董家具），認為照抄外觀或配方，卻不懂原店為什麼成功，很容易失敗。",
+    {
+     "list": [
+      "先研究再借：在喜歡的店坐一整天，記下每個細節，是音樂、店員打招呼的方式，還是托盤、杯子的材質。",
+      "借待客：外觀最容易抄，溫度最難抄；招呼和道別不用錢，可以教給現有團隊。",
+      "文化菜單別硬搬：她在印度輔導的連鎖常引進歐式甜點，例如巧克力可頌，當地客人不一定買單。",
+      "每個選擇都指向同一個概念：例如森林主題的店把集點卡印在可以種的種子紙上。"
+     ]
+    },
+    "她的結論是：值得留下的點子，是你說得出為什麼要做的那些，客人也會覺得真誠。"
+   ],
+   "why": "對門市最實用的是「借待客」這條：去別家店喝咖啡時，留意他們怎麼招呼、怎麼送客、怎麼介紹豆子，比拍裝潢更有用。回店裡分享時，順便說說為什麼那個做法適合或不適合我們。",
+   "action": "下次去別家店，記下一個讓你舒服的待客細節，回來跟大家說。",
+   "detail": [
+    "延伸閱讀｜同一專欄另一篇主張：配方一定會被抄，但有故事的飲品抄不走。"
+   ],
+   "link": "https://freshcup.com/smart-cafe-operators-know-how-to-borrow-ideas-from-competitors/",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "seven-weird-things-coffee-body",
+   "sec": "fun",
+   "title": "咖啡在身體裡的 7 件怪事：低因也會讓人想上廁所、配餐喝會影響鐵吸收",
+   "orig": "Seven of the Weirdest Things Coffee Does to Your Body",
+   "date": "2026/11/11",
+   "media": "Daily Coffee News（作者 Emma Beckett）",
+   "author": "Emma Beckett",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "咖啡不只是咖啡因溶在熱水裡，裡面有數百種生物活性物質，有些效果連低因也有。文章整理的 7 件事：",
+    {
+     "list": [
+      "想上廁所：一項研究中約十分之三的人喝完不久就有便意，一般和低因都會，所以不只是咖啡因；加的牛奶乳糖、部分代糖也可能有影響。",
+      "胃食道逆流、眼壓、耳朵：可能讓部分人逆流加重；青光眼或高眼壓者喝咖啡因眼壓可能暫時升高；偏頭痛方面，適量能緩解，太多或突然減量反而可能誘發。",
+      "和藥物互相影響：會降低甲狀腺藥 levothyroxine、骨鬆藥 alendronate 的吸收；抗生素 ciprofloxacin 會讓咖啡因代謝變慢。",
+      "膽固醇：咖啡醇（cafestol）和咖啡白醇（kahweol）會提高總膽固醇和 LDL，但短期試驗也看到脂蛋白(a)下降，整體對心血管的意義還不清楚。",
+      "腸道菌：部分綠原酸和梅納反應產物會到大腸被細菌分解，但證據還不足以稱咖啡為益生元。",
+      "鐵吸收：配餐喝咖啡會大幅降低植物性非血基質鐵的吸收，主因是多酚，不是咖啡因。",
+      "啟動消化：一般和低因咖啡都會刺激胰臟分泌胰蛋白酶。"
+     ]
+    }
+   ],
+   "why": "這些都是客人很常問的閒聊題，文章幫我們把「確定的」和「還不確定的」分開了。回答時避免給醫療建議：例如有客人說正在吃甲狀腺藥，可以建議他問醫師或藥師怎麼錯開喝咖啡的時間，而不是自己下結論。",
+   "detail": [
+    "低因也一樣｜便意和胰蛋白酶分泌，一般和低因都會。"
+   ],
+   "note": "這是科普整理文，原文沒有逐點附上研究出處，各點細節需另外查證。",
+   "link": "https://dailycoffeenews.com/2026/11/11/seven-of-the-weirdest-things-coffee-does-to-your-body/",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "cosmopolis-coffee-portland",
+   "sec": "food",
+   "title": "波特蘭新店 Cosmopolis Coffee：接手 12 年老店的 460 平方英尺小空間，墨西哥陶磚吧台",
+   "orig": "A World of Influences Converges at Cosmopolis Coffee in Portland",
+   "date": "2026/11/11",
+   "media": "Daily Coffee News",
+   "author": "Howard Bryman",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "美國波特蘭 Irvington 社區南端開了新店 Cosmopolis Coffee，位置原本是經營超過 12 年的 Saint Simon Coffee，6 月收掉 Broadway 店。空間約 460 平方英尺（約 13 坪），重新裝修得明亮許多：吧台正面貼墨西哥製的陶磚，搭配陶土吊燈、兩面窗、白牆白磚，吧台後方是白色 La Marzocco Linea。",
+    "創辦人 Conor Carrigan 的烘豆生意 2023 年從網路起家，後來進農夫市集，現在在 Buckman Coffee Factory 共享烘豆廠用 10 公斤 Proaster 烘全部的豆子。他說要做一家「以咖啡為主」的店，既是社區的店，也讓全市的人來試自家豆。他也和顧問一起做杯測與品管。"
+   ],
+   "why": "小坪數、共享烘豆廠、先網路和市集再開實體店，是很典型的小品牌成長路徑。對我們的參考是空間：一個材質（陶磚）加一個色系（白），就能讓小店有辨識度。",
+   "detail": [
+    "烘豆路徑｜先在 Curate Coffee Collective 共享烘豆廠，該廠收掉後換到其他共享設施，現在在 Buckman。"
+   ],
+   "link": "https://dailycoffeenews.com/2026/11/11/a-world-of-influences-converges-at-cosmopolis-coffee-in-portland/",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "npm-south-fishing-joy-2026",
+   "sec": "design",
+   "title": "故宮南院「漁樂圖—知漁之樂特展」：元唐棣、明唐寅國寶，26 組件展到 2027/2/14",
+   "orig": "",
+   "date": "2026/11/11",
+   "media": "中央社",
+   "author": "蔡智明",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "故宮南院（嘉義縣太保）推出「漁樂圖—知漁之樂特展」，共展出 26 組件國寶與院藏作品，展期到 2027 年 2 月 14 日。策展人是故宮書畫文獻處邱士華，展覽分成兩條脈絡：",
+    {
+     "table": {
+      "cap": "兩大主題與代表作",
+      "cols": [
+       "主題",
+       "代表作"
+      ],
+      "rows": [
+       [
+        "漁家生活之樂",
+        "元 唐棣〈霜浦歸漁圖〉：尺幅巨大，樹有李成、郭熙一路的蟹爪枝，山石用雲頭皴，畫三個漁夫談笑前行"
+       ],
+       [
+        "文人漁隱之樂",
+        "明 唐寅〈溪山漁隱〉山水長卷：文人在秋天水岸划船、對飲、吹笛、垂釣"
+       ]
+      ]
+     }
+    },
+    "邱士華說明，歷代畫家畫的是心中理想的漁人生活：江湖上撒網的小船、蘆葦深處垂釣的孤高漁父，以及漁暇時移舟相聚的宴飲。"
+   ],
+   "why": "週末到南部可以排進行程；想看古畫怎麼處理大尺幅構圖、長卷敘事，這檔很適合。〈溪山漁隱〉一路展開的「生活場景」，也是做插畫、店內長幅牆面或菜單插圖時可以參考的敘事方式。",
+   "detail": [
+    "展期｜即日起至 2027/2/14。",
+    "地點｜故宮南院。",
+    "票價與開放時間｜這次沒查到，請以故宮南院官網為準。"
+   ],
+   "link": "https://www.cna.com.tw/news/acul/202611110067.aspx",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "koto-giffgaff-signpost-rebrand",
+   "sec": "design",
+   "title": "Koto 為英國電信 Giffgaff 改品牌：把最後一個 f 做成箭頭，加入酸綠色和自訂字體 Giffsans",
+   "orig": "Koto points Giffgaff towards its next chapter with a signpost-led rebrand",
+   "date": "2026/11/11",
+   "media": "Creative Boom",
+   "author": "",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "英國行動電信 Giffgaff（會員超過 400 萬、2021 年起屬於 Virgin Media O2，仍自認是挑戰者品牌）請全球設計公司 Koto 改版。核心概念是「路標」：幫會員決定下一步。",
+    {
+     "table": {
+      "cap": "改版重點",
+      "cols": [
+       "元素",
+       "做法"
+      ],
+      "rows": [
+       [
+        "字標",
+        "最後一個 f 收尾成尖角，變成小箭頭；同一個形狀用在整套系統，指向價格、優惠"
+       ],
+       [
+        "色彩",
+        "原本的黑白加上酸綠色，避開電信業常見的藍、紅、紫"
+       ],
+       [
+        "字體",
+        "自訂 Giffsans：高、窄、有衝擊力的無襯線字，另有 gg 連字呼應舊標誌"
+       ],
+       [
+        "攝影",
+        "不用精修圖庫照，改用閃光燈、像隨手拍的 TikTok 感"
+       ],
+       [
+        "實體物",
+        "綠色封箱膠帶印「Your Next Move」，貼在牛皮紙箱上"
+       ]
+      ]
+     }
+    },
+    "網站和 App 建在 Giffgaff 既有的設計 token 上，可以直接開發，不是只停在提案簡報。新識別正逐步上線網站、App 和電子郵件，即將到來的黑色星期五活動是第一次大考驗。"
+   ],
+   "why": "這是「一個簡單符號貫穿整套識別」的好案例：箭頭同時是字標的一部分、版面上的指引、包裝膠帶上的圖案。對品牌設計的啟發是，好的識別元素要能在數位介面和實體物上都派得上用場；店裡的杯套、封口貼、菜單指標也可以這樣想。",
+   "detail": [
+    "改版難題｜改太多會失去原本個性，改太少又沒意義。",
+    "創意總監｜Koto 的 Joe Ling。",
+    "合作｜Koto 會持續負責 Giffgaff 的品牌策略與識別。"
+   ],
+   "link": "https://www.creativeboom.com/news/koto-points-giffgaff-towards-its-next-chapter-with-an-arrow-led-rebrand/",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "hilma-af-klint-ser-iii-no5-bukowskis",
+   "sec": "design",
+   "title": "希爾瑪・阿夫・克林特的抽象油畫罕見上拍：11/19 斯德哥爾摩 Bukowskis，估價 600–800 萬瑞典克朗",
+   "orig": "Hilma af Klint painting could break artist's record next month in Stockholm",
+   "date": "2026/10/20",
+   "media": "The Art Newspaper",
+   "author": "",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "瑞典抽象先驅希爾瑪・阿夫・克林特（Hilma af Klint，1862–1944）的〈Ser III No. 5〉將在 11 月 19 日由斯德哥爾摩拍賣行 Bukowskis 拍出，估價 600 萬到 800 萬瑞典克朗（約 60 萬到 80 萬美元）。",
+    {
+     "table": {
+      "cap": "作品資料",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "年代",
+        "1920 年 1 月"
+       ],
+       [
+        "媒材尺寸",
+        "畫布油彩與石墨，38.5×29 公分"
+       ],
+       [
+        "來歷",
+        "1995 年基金會釋出，同一位私人藏家持有至今"
+       ],
+       [
+        "展歷",
+        "1986 年洛杉磯郡立美術館《The Spiritual in Art》"
+       ],
+       [
+        "目前紀錄",
+        "16 萬 5,825 美元（1931 年水彩〈The Power of the Spleen〉，2019 年）"
+       ]
+      ]
+     }
+    },
+    "阿夫・克林特的抽象作品由她姪子 1972 年成立的基金會嚴格控管，幾乎不進市場。Bukowskis 藝術部門主管 Louise Wrede 說，過去只有兩件抽象油畫上過拍賣，都在三十多年前。1920 年初她在幾個月內畫了 85 件幾何抽象，3 月突然停筆去研究歌德的色彩理論。2018 年古根漢的回顧展吸引超過 60 萬人次，是該館史上參觀人數最多的展覽，她的聲望從此大幅上升。"
+   ],
+   "why": "稀有供給遇上 2018 年後的高人氣，是觀察抽象藝術市場的好題目：11/19 落槌價會不會打破紀錄，值得追。對創作者來說，她 1920 年那批三角、圓、矩形的組合，也是看幾何抽象怎麼用少量元素做出變化的範例。",
+   "watch": "11/19 Bukowskis 拍賣結果，是否打破 16 萬 5,825 美元的作者紀錄。",
+   "note": "Artnet 11/10 也報導這場拍賣，但網站擋自動程式，這裡以 The Art Newspaper 10/20 的報導為準。",
+   "link": "https://theartnewspaper.com/2026/10/20/hilma-after-klint-painting-expected-to-make-800000-at-auction-in-stockholm",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "artnet-kalshi-prediction-markets",
+   "sec": "skip",
+   "title": "Artnet 和預測市場平台 Kalshi 合作，推出藝術產業的預測市場",
+   "orig": "Artnet and Kalshi Partner on Art Industry Prediction Markets",
+   "date": "2026/11/11",
+   "media": "Artnet News；Hyperallergic",
+   "author": "",
+   "tier": "T3",
+   "read": 3,
+   "summary": "Artnet 宣布和 Kalshi 合作，推出以藝術產業為題的預測市場。Hyperallergic 以評論口吻批評這項合作。",
+   "why": "對藝術市場是新玩法，但跟店裡工作和創作都沒有直接關係，先放路過。",
+   "detail": [],
+   "note": "Artnet 擋自動程式，只根據兩家媒體的標題與摘要，細節未讀到全文。",
+   "link": "https://news.artnet.com/market/artnet-kalshi-partner-art-prediction-markets-2832366",
+   "pub": "2026-11-12"
+  },
+  {
+   "id": "art-basel-paris-2026-compensation",
+   "sec": "skip",
+   "title": "巴黎 Art Basel 因抗議提前閉幕，主辦方給參展畫廊 20% 折扣補償",
+   "orig": "Art Basel Paris to Give Galleries a 20% Discount After Early Closure",
+   "date": "2026/11/11",
+   "media": "Hyperallergic；The Art Newspaper；Artnet News",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": "三家藝術媒體同天報導：今年巴黎 Art Basel 因抗議活動提前閉幕，主辦方決定補償參展畫廊；Hyperallergic 的標題寫明是 20% 折扣。",
+   "why": "藝博會營運的新聞，對我們的工作和看展安排沒有影響，先放路過。",
+   "detail": [],
+   "note": "只根據各家標題與摘要，補償細節沒有讀全文核對。",
+   "link": "https://hyperallergic.com/art-basel-paris-to-give-galleries-a-20-discount-after-early-closure/",
+   "pub": "2026-11-12"
+  },
   {
    "id": "kingcar-indonesia-green-beans-carbaryl",
    "sec": "industry",
