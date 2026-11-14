@@ -1,17 +1,17 @@
 {
  "edition": {
-  "id": "2026-11-14",
-  "no": 17,
-  "date": "2026-11-14",
-  "label": "11月14日 週六"
+  "id": "2026-11-15",
+  "no": 18,
+  "date": "2026-11-15",
+  "label": "11月15日 週日"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "ICE 公制阿拉比卡期貨首批成交 48 口；舊「C」合約 2028 年 3 月最後到期，哥倫比亞擬對生豆課 19% 加值稅。",
-  "巴西 10 月出口 532 萬袋，創 1990 年有紀錄以來單月新高。",
-  "餐飲業被食材、人力、租金三面夾擊：10 月外食費年增 3.01%，西堤、悟饕跟進調價。",
-  "星巴克咖啡師季度獎金首發：北美近 8 成符合資格者拿到 300 美元。",
-  "ARTs：梅原真《風土有光》高雄開展、北師美術館台日工藝展《共流》、墨爾本 43㎡ 站立咖啡吧的空間設計。"
+  "茶改場 TCAGs 第三屆咖啡評鑑頒獎：145 支國產咖啡參加，127 支獲等級，最高「特選」6 支。",
+  "大家問：精品羅布斯塔追蹤（國外品牌 Nguyen Coffee Supply、CQI Fine Robusta 與卡內弗拉風味輪研究），以及肯亞風味地圖何時公開。",
+  "美國「減咖啡因」需求升溫：無咖啡因即飲咖啡銷售額增 25.7%，副黃嘌呤、茶胺酸成新配方。",
+  "杜紫宸評路易莎：從拚店數改拚單店獲利；俄亥俄咖啡館由兩位資深店長接手。",
+  "ARTs：勤美術館《After the Rain》、國美館比爾．豐塔納聲音個展、Arudeko 羊毛再生紙、Paris Photo 數位區評論。"
  ],
  "weekly": null,
  "sections": [
@@ -41,6 +41,700 @@
   }
  ],
  "items": [
+  {
+   "id": "tcags-2026-tea-coffee-awards-su-tsung-chen",
+   "sec": "industry",
+   "title": "茶改場 TCAGs 咖啡評鑑頒獎：第三屆 145 支國產咖啡參加、127 支獲等級，場長蘇宗振期許走向國際",
+   "orig": "",
+   "date": "2026/11/14",
+   "media": "蕃新聞（勁報）",
+   "author": "胡美慧",
+   "tier": "T3",
+   "read": 3,
+   "summary": [
+    "蕃新聞轉載勁報報導：農業部茶及飲料作物改良場（茶改場）場長蘇宗振在 2026 台灣國際茶業博覽會與台灣國際咖啡展的頒獎場合，感謝得獎茶農、咖啡農是「台灣茶與咖啡產業最重要的力量」，期許他們對產品有信心，穩固國內市場也勇於挑戰國際。報導提到茶的 TAGs 和咖啡的 TCAGs 以科學化方式取代過去較主觀的品評，但沒有列出結果。",
+    "咖啡部分的評鑑是茶改場 2023 年建立的「臺灣咖啡分類分級」（TCAGs）。依中央社 10 月 1 日報導，第三屆於 9 月 16–18 日評鑑，預定 11 月在南港展覽館頒獎：",
+    {
+     "table": {
+      "cap": "第三屆 TCAGs 結果（中央社）",
+      "cols": [
+       "處理法",
+       "特選",
+       "精選",
+       "優選"
+      ],
+      "rows": [
+       [
+        "水洗",
+        "1",
+        "22",
+        "40"
+       ],
+       [
+        "其他處理法",
+        "5",
+        "15",
+        "44"
+       ]
+      ]
+     }
+    },
+    "參加者：145 支國產咖啡，來自 16 縣市、50 多個鄉鎮區，114 位農友。評審有來自日本、韓國、越南、德國、緬甸、泰國的 9 位國際評審，以及從 35 位杯測人員中選出的 6 位國內評審。屏東、嘉義、台南、台中、南投、雲林、彰化 7 縣市已導入 TCAGs。"
+   ],
+   "why": "TCAGs 的「特選／精選／優選」會越來越常出現在國產咖啡的標示上。客人問台灣咖啡好不好，可以說這是茶改場的分級制度，有國際評審參與；今年 145 支有 127 支拿到等級，最高的「特選」只有 6 支。",
+   "detail": [
+    "獲等級總數｜127 支（依中央社分組數字加總）",
+    "頒獎場合｜2026 台灣國際茶業博覽會與台灣國際咖啡展"
+   ],
+   "note": "蕃新聞原文沒有評鑑屆次與得獎結果；結果數字取自中央社 2026/10/1 報導。茶類 TAGs 本屆結果未查到。中央社寫頒獎在「臺灣國際茶酒咖啡展」，勁報寫「台灣國際茶業博覽會與台灣國際咖啡展」，名稱不一致。",
+   "link": "https://n.yam.com/Article/20261113450365",
+   "extra_links": [
+    {
+     "t": "中央社：第三屆TCAGs評鑑揭曉",
+     "u": "https://www.cna.com.tw/news/newsworld/20261001n003.aspx"
+    }
+   ],
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "dcn-weekly-uk-coffee-certificate-ico-oct-2026",
+   "sec": "industry",
+   "title": "美國肯塔基大學開咖啡科學證書課程；ICO 10 月綜合價每磅 2.6126 美元，微跌 0.3%",
+   "orig": "Weekly Coffee News: New Coffee Education Certificate + ICO Price Edges Down",
+   "date": "2026/11/13",
+   "media": "Daily Coffee News",
+   "author": "",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "Daily Coffee News 每週產業快訊，這週和咖啡館比較相關的是兩則：咖啡教育證書和國際咖啡組織（ICO）的月價格。",
+    "University of Kentucky 推出 12 學分的大學部「咖啡科學與文化」證書，2027 年春季課程已開放登記。學生要修兩門核心課「Not Just Coffee」「Coffee Sensory Science」，再選兩門選修。",
+    {
+     "table": {
+      "cap": "ICO 2026 年 10 月均價（每磅）",
+      "cols": [
+       "項目",
+       "價格與變化"
+      ],
+      "rows": [
+       [
+        "綜合價",
+        "2.6126 美元，比 9 月跌 0.3%"
+       ],
+       [
+        "阿拉比卡",
+        "ICO 追蹤的三個阿拉比卡組別都上漲"
+       ],
+       [
+        "羅布斯塔",
+        "1.6419 美元，跌 2%"
+       ]
+      ]
+     }
+    },
+    "同一期還有：La Marzocco 與 Eversys 的母公司 De'Longhi 第三季營收 9.449 億歐元、年增 7.7%，專業設備部門營收成長超過 35%；新的全球咖啡館評比 Sublime 100 預計 2027 年 7 月 7 日在巴塞隆納公布首屆 100 家名單。"
+   ],
+   "why": "國際生豆價格這個月大致持平，綜合價只小跌，阿拉比卡還在漲，進貨成本短期不會明顯鬆動。客人問「咖啡豆是不是變便宜了」，可以說國際價格大致持平，跌的主要是羅布斯塔，精品店用的阿拉比卡還在漲。",
+   "detail": [
+    "De'Longhi 淨利｜8,450 萬歐元，年增 19%",
+    "Sublime 100｜四個類別各 25 家，創辦人包括前 World's 50 Best 的 Roger Betriu、Mark Sansom",
+    "GCP 報告｜14 家大買家 2025 年約 69% 生豆符合永續基準，前一年 75%"
+   ],
+   "watch": "ICO 11 月月報，看阿拉比卡漲勢是否延續。",
+   "note": "網頁為前端渲染，內容經網站公開的 WordPress 文章介面讀取全文。",
+   "link": "https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/",
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "freshcup-caldas-forest-coffee-reforest",
+   "sec": "industry",
+   "title": "哥倫比亞 Caldas 產區：出口商 Forest Coffee 以每磅加價 40 美分、送遮蔭樹苗拉小農進精品市場，拍賣最高逾 20 美元",
+   "orig": "Seeds of Change in Colombia’s Caldas Department",
+   "date": "",
+   "media": "Fresh Cup",
+   "author": "",
+   "tier": "T2",
+   "read": 7,
+   "summary": [
+    "Caldas 是哥倫比亞產量大省，依哥倫比亞咖啡生產者協會（FNC）資料約占全國每年 1,370 萬袋的 7–9%，但多數進商業調和豆，只標「Coffee of Colombia」。農民 Yeraldin Castro Labachuco 照精品方式採收處理了一年，賣給合作社卻還是拿一般商品價。FNC 和 Tolima 政府每年辦拍賣，Caldas 沒有。",
+    "出口商 Forest Coffee 共同創辦人 Shady Bayter 把 Reforest 計畫帶到 Caldas，目標是替烘豆夥伴找豆，並恢復更多樣的生態。",
+    {
+     "list": [
+      "價格：在商品價之上每磅加價 40 美分。",
+      "樹苗：發原生樹苗，常見的是 Inga edulis（當地叫 guamo），長得快、能遮蔭又透光，還能固氮。",
+      "收購方式：直接收整顆咖啡果實，自家處理，農民省下處理的時間和人力。參與農民超過 200 位。",
+      "通路：自己在北美和歐洲設進口公司，直接賣給烘豆商。"
+     ]
+    },
+    "2026 年 9 月在 Manizales 辦拍賣，北美、歐洲、阿聯的烘豆商到場。Bayter 說部分批次每磅賣超過 20 美元，約是傳統通路的 6 倍。Labachuco 的高分批次由巴黎烘豆商 Tanat 買下。"
+   ],
+   "why": "這是「產區有潛力但沒通路」的典型例子，也說明為什麼同一國家的豆子價差很大。介紹哥倫比亞豆時，可以多講一句產區（Huila、Tolima、Caldas）和收購方式，而不只是「哥倫比亞」。",
+   "detail": [
+    "氣候｜World Coffee Research 指 2050 年適合種阿拉比卡的土地可能減少多達 50%",
+    "處理法｜Forest Coffee 以 96 小時厭氧發酵與加味（infused）咖啡聞名",
+    "價值留存｜有經濟學者估計全球咖啡營收留在產地的不到 10%"
+   ],
+   "note": "文章主要是 Forest Coffee 自身說法，拍賣價格與倍數為業者陳述；頁面未讀到發布日期與作者，照片由 Michael Butterworth 提供。",
+   "link": "https://freshcup.com/seeds-of-change-in-colombias-caldas-department/",
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "hoffmann-origin-videos-pity-valueless",
+   "sec": "industry",
+   "title": "James Hoffmann 赴秘魯拍產地片：浪漫畫面「不是全部真相」，賣慘也沒有用",
+   "orig": "James Hoffmann just told the coffee industry that origin videos are \"disingenuous\" — and \"your pity is valueless\"",
+   "date": "2026/11/13",
+   "media": "Boing Boing",
+   "author": "Jason Weisberger",
+   "tier": "T3",
+   "read": 3,
+   "summary": [
+    "咖啡 YouTuber James Hoffmann 到秘魯，拍了一支談「產地影片」的影片。Boing Boing 整理他的看法：產業常見的產地影片大概兩種。",
+    {
+     "list": [
+      "浪漫型：陡峭山坡、鳥、陽光。他認為這說的故事「not the whole truth」（不是全部真相）。",
+      "同情型：例如沾滿泥土的手捧著咖啡果實，想引起觀眾的情緒，他認為那不是好的情緒；標題引的「your pity is valueless」（你的同情沒有價值）就是這個批評。"
+     ]
+    },
+    "影片最後他問：我們該怎麼看產地的影像，從中拿到有意義、有用的東西？他也坦白說不知道自己有沒有答案。"
+   ],
+   "why": "我們跟客人介紹豆子時，也常不自覺用這兩種說法：「高山小農、風景很美」或「農民很辛苦」。可以試著換成具體資訊：產區、處理法、價格是怎麼談的、誰買的，比起營造情緒更站得住腳。",
+   "action": "挑一支目前的單品，寫一段不用「辛苦」「純樸」這類字眼的產地介紹。",
+   "note": "Boing Boing 主站讀不到，內容來自其 Substack 版本的公開前段（後段需訂閱）；原始影片為 YouTube，未取得影片標題。媒體標題中的「disingenuous」未在可讀內容中看到原話出處。",
+   "link": "https://boingboing.net/2026/11/13/james-hoffmann-coffee-origin-videos.html",
+   "extra_links": [
+    {
+     "t": "Boing Boing Substack 版",
+     "u": "https://premium.boingboing.net/p/james-hoffmann-on-the-coffee-industrys"
+    },
+    {
+     "t": "YouTube 原影片",
+     "u": "https://www.youtube.com/watch?v=AOnMAk5lBkg"
+    }
+   ],
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "us-decaf-paraxanthine-theanine-trend-2026",
+   "sec": "science",
+   "title": "美國人開始「減咖啡因」：無咖啡因即飲咖啡銷售額增 25.7%，副黃嘌呤、茶胺酸成新配方",
+   "orig": "",
+   "date": "2026/11/14",
+   "media": "食力 foodNEXT（引述 Food Dive）",
+   "author": "編輯部",
+   "tier": "T2",
+   "read": 7,
+   "summary": [
+    "食力整理 Food Dive 報導：美國消費者繼減少喝酒之後，也開始重新檢視咖啡因。市場研究機構 SPINS 的 Scott Dicker 把酒精比喻為夜間的刺激來源、咖啡因是白天的刺激來源，兩者都在被重新評估。原因包括「有意識消費」：更多人看成分標示，智慧手錶、智慧戒指也讓人更在意睡眠。",
+    {
+     "table": {
+      "cap": "SPINS 過去一年數據",
+      "cols": [
+       "品類",
+       "銷售額"
+      ],
+      "rows": [
+       [
+        "無咖啡因咖啡豆與研磨咖啡",
+        "+5.3%"
+       ],
+       [
+        "無咖啡因即飲咖啡",
+        "+25.7%"
+       ]
+      ]
+     }
+    },
+    "但兩類的銷售件數都下滑，Dicker 認為和價格變動有關，所以不能直接說買的人變多了。",
+    {
+     "list": [
+      "Lowkey Coffee：Adriana Gindlesperger 2026 年創立，賣無糖的黑咖啡與香草無咖啡因冷萃，主打瑞士水處理法（不用有機溶劑）。",
+      "Update：能量飲料，2022 年上市、2026 年重新推出，Kim Kardashian 擔任共同創辦人，以咖啡因在肝臟代謝出的副黃嘌呤為主成分，主打較不易顫抖焦躁。",
+      "Pure Leaf、Folgers 等成熟品牌也在部分產品加入茶胺酸。"
+     ]
+    },
+    "食力也提醒：副黃嘌呤「比較不焦躁」是品牌主張，不能直接等同更安全；茶胺酸單獨使用也不能推論有咖啡因的提神效果。Food Dive 沒有提供副黃嘌呤或茶胺酸飲品的市場規模數據。Dicker 認為這些新品類短期內不會取代主流咖啡和能量飲料。"
+   ],
+   "why": "「下午想喝咖啡但怕睡不著」是吧台每天會遇到的需求。無咖啡因的重點是時段：早上一般咖啡、下午換低因或無咖啡因，讓客人不用放棄咖啡習慣。點單時可以主動提一句下午有低因選項；跟客人解釋時也要記得，去咖啡因的咖啡仍可能有少量咖啡因，不是完全零。",
+   "action": "下午 3 點後點單時，試著主動告訴客人店裡的低因或無咖啡因選項，記錄一週有多少人改點。",
+   "detail": [
+    "瑞士水處理法｜用水、咖啡萃取液、活性碳過濾去除大部分咖啡因",
+    "副黃嘌呤｜Paraxanthine，咖啡因的主要代謝物之一",
+    "茶胺酸｜L-Theanine，茶葉中的胺基酸，研究多看壓力與注意力"
+   ],
+   "note": "美國市場數據，趨勢主要是研究人員與品牌觀察，不代表美國整體咖啡因攝取量已下降。",
+   "link": "https://www.foodnext.net/science/additives/nutritionaladditive/paper/6611209069",
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "trucillo-waterless-roasting-air-cooling-2026",
+   "sec": "science",
+   "title": "義大利 Trucillo 的「無水」烘焙：烘豆、冷卻、清潔全程不用水，製程用水 0 立方公尺",
+   "orig": "2026.07.21 Bilancio di Sostenibilità (Sustainability Report, ENG)",
+   "date": "2026/07/21",
+   "media": "Caffè Trucillo 永續報告（Il Sole 24 ORE 11/14 報導）",
+   "author": "",
+   "tier": "T1",
+   "read": 5,
+   "summary": [
+    "義大利薩雷諾（Salerno）的烘豆商 Caffè Trucillo（Cesare Trucillo S.p.A.）所說的「waterless／無水」流程，根據公司 2026 年 7 月發布的永續報告英文版，指的是：烘焙與冷卻階段不用水，改用空氣系統冷卻；設備清潔與消毒也不用水，因此不產生工業廢水。報告沒有提到用水處理排煙；排煙是經「授權的系統」收集處理並定期監測。",
+    {
+     "table": {
+      "cap": "Trucillo 2025 年取水",
+      "cols": [
+       "項目",
+       "數量"
+      ],
+      "rows": [
+       [
+        "總取水",
+        "1,406 m³"
+       ],
+       [
+        "衛生設施",
+        "720 m³"
+       ],
+       [
+        "綠地維護",
+        "686 m³"
+       ],
+       [
+        "生產製程",
+        "0 m³"
+       ]
+      ]
+     }
+    },
+    "報告引用歐盟食品飲料乳品業最佳可行技術參考文件（FDM BREF），一般烘豆廠在冷卻或排煙處理系統的用水平均約每噸熟豆 1.5–2.5 立方公尺；Trucillo 的製程用水強度是每噸 0 立方公尺。公司也指出，廠區所在地依 WRI Aqueduct 屬於高或極高缺水壓力地區。",
+    "背景補充：咖啡烘焙常見的「水」用途有兩種，一是出爐時噴水急冷（water quench），二是部分排煙處理設備用水。Trucillo 的說法是兩者都靠空氣與乾式系統處理。"
+   ],
+   "why": "這則的意義在於幫我們理解大型烘豆廠怎麼談「永續」：用水量、廢水、排煙都能變成可量化的指標。客人如果問「烘豆環不環保」，可以說明冷卻方式（風冷或噴水）會影響用水，也會影響豆子含水率與保存，這是烘豆廠之間真實的差異。",
+   "detail": [
+    "報告數字寫法｜原文「1.406 m³」是義大利式千分位，即 1,406 立方公尺（720＋686）",
+    "水冷 vs 風冷｜噴水急冷會讓熟豆吸回少量水分，風冷則不會",
+    "品管設備｜報告提到新增水活性分析儀、樣品烘豆機與熟豆色度計"
+   ],
+   "note": "Il Sole 24 ORE 2026/11/14 原文這次沒讀到（搜尋找不到可讀版本），本則依 Trucillo 官方永續報告撰寫；Il Sole 是否有報告以外的新資訊（例如新設備、投資金額），這次沒查到可靠資料，之後再補。資料來自公司自述，未經第三方查核。",
+   "link": "https://www.trucillo.it/wp-content/uploads/2026/07/2026.07.21_Bilancio-Sostenibilita_ENG.pdf",
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "louisa-next-step-du-tzu-chen-opinion",
+   "sec": "food",
+   "title": "評論：上半年營收 15.7 億、淨利僅 660 萬，杜紫宸建議路易莎學瑞幸、MANNER、星巴克，從拚店數改拚單店獲利",
+   "orig": "",
+   "date": "2026/11/15",
+   "media": "風傳媒",
+   "author": "杜紫宸",
+   "tier": "T3",
+   "read": 5,
+   "summary": [
+    "這是商業發展研究院創院副院長杜紫宸的評論文章，以下是他的觀點。",
+    "他先拆解中國三大咖啡品牌：瑞幸賣效率（線上點餐、會員數據、集中採購、密集取餐店，讓咖啡變成高頻平價日常飲品）；MANNER 賣品質（小坪數、專業咖啡師、平實價格，證明價格戰中客人仍願為好風味多付一點）；星巴克賣體驗（第三空間），但在外帶化、重視性價比的市場裡，品牌溢價受到考驗。",
+    {
+     "table": {
+      "cap": "文中引用的路易莎經營數字",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "上半年營收",
+        "約 15.7 億元，創新高"
+       ],
+       [
+        "稅後淨利",
+        "660 萬元，較去年同期減少逾五成"
+       ],
+       [
+        "過去一年",
+        "新增約 50 家直營店；約 20 億元購置不動產自建中央工廠"
+       ],
+       [
+        "營業費用",
+        "增加約 1.17 億元，超過毛利約 1 億元的增幅"
+       ],
+       [
+        "非咖啡營收",
+        "原預期過半，實際約三成"
+       ]
+      ]
+     }
+    },
+    "他指出路易莎的難題不是展店而是獲利，集團獲利支柱反而是健身房事業。董事長黃銘賢 10 月初坦言展店過快、過度依賴外部經理人，月底又說「沒有開太快」，並把獲利下滑視為建構「AI 餐飲平台」的學費。",
+    "他給的三個方向：",
+    {
+     "list": [
+      "學 MANNER：回到咖啡本身，升級選豆、烘焙、萃取和咖啡師培訓。",
+      "學瑞幸：串起會員、銷量、庫存、人力數據，用 AI 預測銷量、備料和排班；成效要看單店生產力、回購率和營業利益率。",
+      "學星巴克：依商圈把門市分成效率型、生活型、體驗型，讓租金和服務成本對上營收潛力。他舉白霧時光單店營收是路易莎的七到八倍為例。"
+     ]
+    },
+    "結論是：黃銘賢已暫停新品牌、集中資源在路易莎、白霧時光和健身房，方向正確；下一步應把同店獲利、自由現金流、投資資本報酬率放在營收和店數之前，追求「更具紀律的成長」。"
+   ],
+   "why": "這篇雖然講大連鎖，但「效率、品質、體驗」三條路其實就是每家咖啡館的定位選擇。我們不可能拚效率和價格，能拚的是一杯值得喝的咖啡和讓人想坐下來的空間。文中「看單店獲利而不是看規模」的提醒也適用小店：新品、活動做了之後，要回頭看有沒有真的賺到。",
+   "detail": [
+    "作者身分｜商業發展研究院創院副院長",
+    "多品牌綜效｜他認為要建立在共享後台、降低邊際成本上，否則品牌愈多組織愈臃腫"
+   ],
+   "note": "評論文章，屬作者個人觀點；路易莎財務數字為作者引用，文中未註明出處。網頁發布時間標示為 2026/11/15 06:30，與題目給的 11/14 不同，以網頁為準。",
+   "link": "https://www.storm.mg/article/11180316",
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "denizen-coffee-managers-buy-branch-street-cafe",
+   "sec": "food",
+   "title": "俄亥俄咖啡館由兩位資深店長接手：Branch Street 門市改名 Denizen，原烘豆商轉做批發供貨",
+   "orig": "Ohio’s Branch Street Cafe Becomes Denizen as Managers Take Ownership",
+   "date": "2026/11/13",
+   "media": "Daily Coffee News",
+   "author": "Nick Brown",
+   "tier": "T2",
+   "read": 3,
+   "summary": "美國俄亥俄州 Boardman 的 Branch Street Coffee Roasters 咖啡館，由兩位長期員工 Troy Metzger 與 Joshua Mitchell 於 11 月 6 日正式接手，改名 Denizen Coffee。交接前雙方花了大約一年規劃接班，交易金額未公開。\n\n創辦人 Matthew 與 Kristin Campbell 夫婦會保留 Branch Street 品牌，在 Glenwood 的生產基地繼續做批發烘豆；Denizen 成為他們的批發客戶，店裡繼續用 Branch Street 的豆子，也在門市和網路賣零售豆。Matthew Campbell 說，因為他另外經營的義式咖啡機銷售維修事業 Invoke Coffee Equipment 越來越忙，才主動問兩位店長有沒有意願接手。\n\n除了店名，其他幾乎不變：原班員工、原菜單，Branch Street 的禮物卡和集點也照樣能用。這家店 2015 年開業，2019 年曾被 Food & Wine 評為俄亥俄州「最好的咖啡」。",
+   "why": "這是一個「員工接班」的實際例子：老闆把門市交給做了多年的店長，自己專心烘豆批發，雙方變成供應商和客戶。對我們來說，重點在交接時刻意讓客人感覺不到斷層：員工、菜單、禮物卡、集點全部延續。平常把標準和待客流程做扎實，就是門市能被信任交棒的本錢。",
+   "detail": [
+    "接手者資歷｜Metzger 在店超過 10 年，Mitchell 6 年，兩人共同管理日常營運約 3 年",
+    "接班規劃｜約一年，11 月 6 日正式交接",
+    "新地址｜1393 Boardman-Canfield Rd, Boardman, Ohio",
+    "烘豆評價｜Branch Street 的豆子常在 Coffee Review 拿高分"
+   ],
+   "link": "https://dailycoffeenews.com/2026/11/13/ohios-branch-street-cafe-becomes-denizen-as-managers-take-ownership/",
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "nantou-guoxing-mountzan-ponkan-specialty-coffee",
+   "sec": "food",
+   "title": "南投國姓三代果園「山間良物」：自產砂糖橘、國姓精品咖啡加上選物，第三代烘豆拿下國姓烘焙賽第四名",
+   "orig": "",
+   "date": "2026/11/14",
+   "media": "蕃新聞（ENN 台灣電報）",
+   "author": "旅遊中心／綜合報導",
+   "tier": "T3",
+   "read": 5,
+   "summary": [
+    "南投國姓鄉的「山間良物」是從家族農園延伸出的咖啡廳兼生活品牌，2012 年成立，黑色鐵皮加玻璃的建築看得到山景，店裡賣咖啡甜點，也陳列自產砂糖橘、國姓咖啡和南投農產。",
+    {
+     "table": {
+      "cap": "三代經營",
+      "cols": [
+       "世代",
+       "做什麼"
+      ],
+      "rows": [
+       [
+        "第一代 郭先進",
+        "中部具規模的山蕉種植者，面積一度達 30 公頃"
+       ],
+       [
+        "第二代 郭翰霖",
+        "溫室瓜果、蘭花、馬拉巴栗、萬年青等"
+       ],
+       [
+        "第三代 郭大維",
+        "品牌設計背景、11 年公部門產業推廣經驗；把農產從拍賣市場轉向線上預購、門市與熟客直購"
+       ]
+      ]
+     }
+    },
+    "咖啡部分，農場種鐵比卡、紅波旁、SL34、藝伎，從種植、後製、烘焙到沖煮都自己做。郭大維在「2026 年南投國姓全國咖啡烘焙賽」拿下第四名。",
+    "砂糖橘則延伸成果醬、限量砂糖橘司康和磅蛋糕，還和信義鄉農會釀酒師林三隆合作推出砂糖橘蒸餾酒「橘神」，入選農糧署「2025 臺灣醞釀國產水果酒徵選」16 款優質酒品。文章提到一株砂糖橘從定植到穩定結果約需六年。"
+   ],
+   "why": "這是「產地咖啡館」的做法：自己的豆子、自己的水果、做成甜點和伴手禮，延長產季的銷售。我們可以留意當季國產水果入甜點或特調的可能，跟客人聊台灣咖啡時，國姓產區和這種從種到沖都自己來的農園也是好話題。",
+   "action": "砂糖橘產季將到，可以試做一款柑橘調性的季節甜點或搭配淺焙豆的推薦組合。",
+   "detail": [
+    "地址｜南投縣國姓鄉乾溝村1鄰中西巷 7-3 號",
+    "營業時間｜10:00–18:00，週一至三公休",
+    "其他選品｜國姓橄欖、梅子、蜂蜜，日月潭紅茶"
+   ],
+   "note": "報導屬店家介紹性質，口吻接近品牌宣傳。文中砂糖橘產季寫法前後不一：一處說「12 月至 2 月初」，另一處說「11 月至隔年 1 月」，以店家公告為準。",
+   "link": "https://n.yam.com/Article/20261114454355",
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "fantasia-coffee-tea-milpitas-closes-after-30-years",
+   "sec": "food",
+   "title": "灣區老牌珍奶店夢咖啡密爾比達店近 30 年後歇業，同商場已是喜茶、一芳、UME Tea 的天下",
+   "orig": "",
+   "date": "2026/11/14",
+   "media": "世界新聞網",
+   "author": "龔玥",
+   "tier": "T3",
+   "read": 3,
+   "summary": "加州南灣密爾比達（Milpitas）Milpitas Square 商場裡的夢咖啡（Fantasia Coffee & Tea），已在上個月結束營業。這家店 1997 年進駐，是商場早期的飲品店之一，在珍珠奶茶還不普及時就賣台式奶茶、咖啡和水果冰沙，經營近 30 年。業者公告感謝顧客，也特別感謝長期工作的員工；品牌沒有退出灣區，庫比蒂諾（Cupertino）分店繼續營業。\n\n報導指出，同一個商場現在有 UME Tea、一芳水果茶、喜茶等新式手搖品牌，主打水果茶、芝士奶蓋和創意茶飲，熱門時段常排隊，年輕客群明顯轉向。老顧客則說，這家店承載的是年輕時約會的回憶。",
+   "why": "標題說「不敵新興飲品」，但內文其實沒有業者說明歇業原因，競爭只是記者的觀察，讀的時候要分清楚。對我們有參考價值的是：老店靠回憶留住熟客，但新客群會被新鮮的品項和話題帶走。定期檢視菜單有沒有跟上客人口味，比單靠情懷可靠。",
+   "detail": [
+    "商場規模｜Milpitas Square 聚集超過 60 家商戶",
+    "歇業時間｜報導日期 11 月 14 日，稱「上月」結束營業"
+   ],
+   "note": "原文未引述業者說明歇業原因，「不敵新興飲品」是報導的推論。",
+   "link": "https://www.worldjournal.com/wj/story/121368/9878427",
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "cmp-after-the-rain-aa-murakami-2026",
+   "sec": "design",
+   "title": "勤美術館《After the Rain》開展：A.A. Murakami 泡泡霧氣森林首度來台，展到 3/1，全票 350 元",
+   "orig": "",
+   "date": "2026/10/27",
+   "media": "Bella 儂儂（引述 勤美術館）；KLOOK 售票頁",
+   "author": "Billy",
+   "tier": "T3",
+   "read": 5,
+   "summary": [
+    "台中勤美術館冬季特展《After the Rain》（雨後）11 月 14 日開幕，是藝術雙人組 Azusa Murakami 與 Alexander Groves 首度來台展出。展覽以「雨後，新自然生成中」為主軸，首度完整呈現兩人的兩條創作線：偏設計與材料實驗的 Studio Swine，以及 2020 年成立、做當代藝術的 A.A. Murakami。",
+    "焦點作品是《New Spring》：白色樹狀雕塑枝頭落下帶霧氣的泡泡，一碰就化成薄霧。另有《Sunsets in a Shell》、《New Nature》等作品。兩人先前參加東京《六本木交叉口 2025》展出，這次是首度來台。",
+    {
+     "table": {
+      "cap": "參觀資訊",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "展期",
+        "2026/11/14（六）–2027/3/1（一）"
+       ],
+       [
+        "地點",
+        "勤美術館，台中市西區館前路 79 號（草悟道）"
+       ],
+       [
+        "開放時間",
+        "週二至週日 10:00–18:00，17:00 停止售票與換票；週一休館（KLOOK）"
+       ],
+       [
+        "全票",
+        "新台幣 350 元"
+       ],
+       [
+        "早鳥票",
+        "299 元加贈明信片組，已於 11/13 23:59 截止"
+       ],
+       [
+        "購票",
+        "KLOOK 線上預購，指定日期入場、限當日使用；另有半票、雙人票、聖誕村通行票等票種"
+       ]
+      ]
+     }
+    },
+    "建議預留 1 到 2 小時。是否能拍照、用閃光燈或腳架，以勤美術館現場公告為準。"
+   ],
+   "why": "週末想看「拍起來好看、又有東西可學」的展，這檔很適合。Studio Swine 以設計與材料實驗為主，對做包裝、空間或品牌的人，可以觀察他們怎麼把霧、泡泡、光這類「會消失的材料」變成作品的記憶點。回到咖啡館，可以想想：店裡有沒有一個像蒸氣、光影、香氣這樣的瞬間，能成為客人記得的畫面。",
+   "action": "去看展時拍下三個「材料或光影處理」的細節，回來討論哪一個能用在店內陳列或季節菜單視覺。",
+   "detail": [
+    "建築｜勤美術館由隈研吾設計，外觀由逾千根木構件排列",
+    "藝術家｜Azusa Murakami、Alexander Groves（Studio Swine／A.A. Murakami）",
+    "休館注意｜閉展日 3/1 是週一；一般週一休館"
+   ],
+   "note": "勤美術館官網 cmp.tw 本次連線失敗，未能直接核對；展期、地點、全票 350 元出自 Bella 引述勤美術館提供資料，展期與 KLOOK 官方售票頁一致。KLOOK 頁面票價以外幣換算顯示，半票等新台幣金額未能確認，請以現場或官網為準。題目提到的 La Vie、蕃新聞報導本次未讀到。",
+   "link": "https://www.bella.tw/articles/design&gadget/60753/taichung-cmp-inspiration-new-exhibition-after-the-rain",
+   "extra_links": [
+    {
+     "t": "KLOOK：After the Rain 售票頁",
+     "u": "https://www.klook.com/activity/240021-after-the-rain/"
+    }
+   ],
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "ntmofa-bill-fontana-imaginary-acoustic-visions-taiwan",
+   "sec": "design",
+   "title": "國美館比爾．豐塔納個展開幕：用聲音雕塑重組阿里山、鹿港、台北101，免費看到明年 2/14",
+   "orig": "Imaginary Acoustic Visions of Taiwan: Hearing with My Eyes, Seeing with My Ears",
+   "date": "2026/11/14",
+   "media": "國立臺灣美術館（新聞稿、活動頁）",
+   "author": "",
+   "tier": "T1",
+   "read": 6,
+   "summary": [
+    "國美館 11 月 14 日推出美國聲音藝術先驅比爾．豐塔納（Bill Fontana）個展「聲築幻影．臺灣：以眼傾聽，以耳凝視」。作品源自他 2026 年春天在國美館的駐館研究：走訪阿里山、鹿港廟宇、陽明山小油坑、內雙溪、石岡壩、淡江大橋、台北101，用麥克風、水下聽音器和貼在結構表面的震動感測器，錄下聽得見的聲音和建築、地景內部的震動，再搭配多重曝光影像，組成沉浸式聲音雕塑。",
+    "豐塔納 1947 年生於美國克里夫蘭，現居舊金山，1968 年曾師從 John Cage，作品曾在龐畢度中心、泰特現代美術館展出。國美館去年與龐畢度中心合辦「無序樂章：聲音藝術之旅」時他是參展藝術家，因此促成這次駐館。開幕當天他與台灣聲音藝術家王榆鈞演出 1974 年作品《幻影單簧管》（Phantom Clarinets）。",
+    {
+     "table": {
+      "cap": "參觀資訊（國美館官網）",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "展期",
+        "2026/11/14–2027/2/14"
+       ],
+       [
+        "地點",
+        "國立臺灣美術館 U-108 SPACE（台中）"
+       ],
+       [
+        "票價",
+        "免費"
+       ],
+       [
+        "開館",
+        "週二至週五 09:00–17:00，週六日 09:00–18:00；週一休館"
+       ],
+       [
+        "作品播放",
+        "09:10 起，週二至五到 16:45、週六日到 17:45，可自由進出"
+       ],
+       [
+        "預約",
+        "官網未寫需預約；免費、可自由進出"
+       ]
+      ]
+     }
+    },
+    {
+     "table": {
+      "cap": "7 個段落（循環播放，總長 3 小時 42 分 8 秒）",
+      "cols": [
+       "地點",
+       "長度"
+      ],
+      "rows": [
+       [
+        "阿里山",
+        "26 分 18 秒"
+       ],
+       [
+        "鹿港",
+        "36 分 38 秒"
+       ],
+       [
+        "淡江大橋",
+        "34 分 46 秒"
+       ],
+       [
+        "石岡水壩",
+        "22 分 22 秒"
+       ],
+       [
+        "台北101",
+        "46 分 44 秒"
+       ],
+       [
+        "內雙溪",
+        "21 分 37 秒"
+       ],
+       [
+        "小油坑",
+        "33 分 06 秒"
+       ]
+      ]
+     }
+    }
+   ],
+   "why": "免費、在台中、可以待很久，是很好的週末行程。對做空間、品牌的人，這檔展提醒的是「聲音也是設計」：同樣的空間，聲音不同，感受就不同。咖啡館的背景音樂、磨豆機、蒸汽管、門口的車聲，其實都是客人體驗的一部分。看完可以回頭聽聽店裡一天不同時段的聲景。",
+   "action": "挑一個離峰時段，大家安靜聽店裡 3 分鐘，記下最吵和最舒服的聲音，討論要不要調整音樂音量或設備位置。",
+   "detail": [
+    "拍照｜可拍照錄影，不可用閃光燈、腳架，錄影 1 分鐘內",
+    "入場限制｜除一般輪椅外，嬰兒車、電動輪椅暫不開放",
+    "身體提醒｜沉浸式聲光、燈光昏暗，感官敏感者斟酌",
+    "贊助｜紀慧能藝術文化基金會；C-LAB、Meyer Sound 技術協力"
+   ],
+   "note": "「免費、可自由進出」依國美館官網「時間/票價」頁（票價：免費）與本展活動頁（可自由進出）；開幕日活動需報名，已結束。",
+   "link": "https://www.ntmofa.gov.tw/News_Content.aspx?n=1383&s=265212",
+   "extra_links": [
+    {
+     "t": "國美館活動頁：參觀須知與播放時間",
+     "u": "https://event.culture.tw/mocweb/reg/NTMOFA/Detail.init.ctr?actId=60168"
+    },
+    {
+     "t": "國美館：時間/票價",
+     "u": "https://www.ntmofa.gov.tw/cp.aspx?n=1420"
+    }
+   ],
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "arudeko-bianni-waste-wool-paper-material",
+   "sec": "design",
+   "title": "墨西哥 Arudeko 用地毯剩下的羊毛織進再生紙，做出半透光材料 Bianni，可做燈罩、屏風",
+   "orig": "Arudeko transforms discarded wool into paper-like material",
+   "date": "2026/11/14",
+   "media": "Dezeen",
+   "author": "Anna Skrebels",
+   "tier": "T2",
+   "read": 3,
+   "summary": "墨西哥設計工作室 Arudeko 開發出 Bianni，一種像紙的織物：原料是 Oaxaca 州 Teotitlán del Valle 當地織工做手工地毯、抱枕剩下的彩色羊毛。工匠先用踏板織布機織入染色羊毛，再用棉線把當地造紙師傅做的再生紙條織進去，成品半透光、可彎折，可做燈罩、床頭板、隔間屏風、壁飾。\n\n共同創辦人兼執行長 Denisse Arnaiz 說，紙被織起來後，光線會透出藏在紙裡的顏色，這種半透光特性讓他們決定先做燈具。材料只用天然原料、不加添加物，羊毛也替紙帶來防火性；製程盡量減少用水與二氧化碳排放，並在地生產。",
+   "why": "對做空間和包裝的人，這是「把在地剩料變成品牌故事」的好例子：材料本身就說明了產地、工藝和永續。咖啡館也有自己的剩料，例如麻布豆袋、咖啡渣、紙杯套。燈罩、隔屏、菜單封面這些需要透光或質感的地方，都可以想想能不能用在地合作的再生材料。",
+   "action": "把店裡用完的麻布生豆袋整理一批，問問附近的手作或設計工作者有沒有合作做燈罩或桌墊的可能。",
+   "detail": [
+    "名稱｜Bianni",
+    "原料｜地毯、抱枕剩餘羊毛＋再生紙條＋棉線"
+   ],
+   "note": "Dezeen 文章未提售價或量產規格。",
+   "link": "https://www.dezeen.com/2026/11/14/arudeko-bianni-waste-wool-paper-material/",
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "paris-photo-2026-digital-sector-soft-photography",
+   "sec": "design",
+   "title": "Paris Photo 數位區觀察：AI、CGI、拍立得並陳，評論者提議用「soft photography」稱呼新影像",
+   "orig": "Paris Photo’s digital sector offers ‘soft photography’ and vital context",
+   "date": "2026/11/13",
+   "media": "The Art Newspaper",
+   "author": "Sarp Kerem Yavuz",
+   "tier": "T2",
+   "read": 7,
+   "summary": [
+    "第 29 屆 Paris Photo 在巴黎大皇宮舉行到 11 月 15 日。第四屆數位區有 12 家參展單位，由 Fotomuseum Winterthur 的 Marco De Mutiis 策劃（前三屆是 Nina Roehrs）。同時有洛桑藝術大學 ECAL 主辦的教育展覽與講座「Soft Photography」，討論 AI 與 CGI 在攝影裡的位置。",
+    "這是作者每月的科技與藝術專欄，屬評論。他的觀察是：數位區有 AI 生成影像，但也有大量類比作品甚至物影照片，讓人懷疑是否真需要獨立分區。他點名的亮點：",
+    {
+     "list": [
+      "Alejandro Cartagena（Carmen Araujo Arte）：用拾得照片手工剪成馬賽克拼貼，模仿生成式 AI「收集像素」的方式，提出作者權問題",
+      "Adrea Orejarena 與 Caleb Stein《American Glitch》（Palo Gallery）：3m × 3m 玻璃立方體內七頻道投影，介於《雙峰》和監視器畫面之間",
+      "Yumo Wu（Licheng Ling Projects）：AI 與暗房手法交錯，技術退到影像之後；她在歐洲的首次個展",
+      "Vincent Fournier《Flora Incognita》（Au Cube）：用 Houdini 做的 CGI 虛構植物，配木框金牌，像 18、19 世紀植物圖鑑",
+      "François Hallard（Ruttkowski 68）：大幅拍立得花卉，展名「Conversations avec Claude」被觀眾以為跟 AI 有關，藝術家只好加註「(Monet) not IA」"
+     ]
+    },
+    "作者認為「lens-based」已不足以區分相機拍的和電腦生成的影像，「synthetic photography」聽起來不好，暫時最好的說法是「soft photography」。"
+   ],
+   "why": "對做插畫、品牌視覺的人，這篇值得看的是「AI 時代怎麼標示與敘述作品」：觀眾會先懷疑是不是 AI，手法說明就成了作品的一部分。Fournier 把 CGI 包裝成古典植物圖鑑的做法，也可以借來想菜單或包裝插畫：用框、標牌、字體，替數位圖像加上一層可信的脈絡。",
+   "detail": [
+    "展會｜Paris Photo 第 29 屆，大皇宮，到 11/15",
+    "作者｜藝術家、研究者，Contemporary Istanbul Foundation 藝術總監",
+    "對照｜作者也批評 Art Basel 的 Zero 10 區「數位藝術」定義過寬"
+   ],
+   "note": "評論文章，觀點屬作者個人；人名與藝廊名保留原文。",
+   "link": "https://www.theartnewspaper.com/2026/11/13/paris-photo-art-fair-digital-art-sector",
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "barista-mag-insider-48-kenya-flavor-map",
+   "sec": "skip",
+   "title": "Barista Magazine 產業快訊：肯亞風味地圖、石墨烯除咖啡因濾膜、Kraft Heinz 6.5 億美元賣咖啡事業",
+   "orig": "The Insider: Headlines from the Coffee Industry",
+   "date": "2026/11/13",
+   "media": "Barista Magazine",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": "四則短訊：肯亞產業界要用 34 個郡約 500 支樣品建國家風味地圖，11 月 14–16 日在奈洛比辦杯測、目標 300 人參加，結果免費公開；研究團隊用氧化石墨烯濾膜讓沖好的咖啡咖啡因濃度降低近 50%，仍在早期階段；Kraft Heinz 以 6.5 億美元把北美咖啡事業（Maxwell House 等）賣給 One Rock Capital Partners；多倫多數家咖啡館過去一年因租金與成本上漲歇業。",
+   "why": "風味地圖結果公開後，可以拿來對照我們肯亞豆的產區描述。",
+   "link": "https://www.baristamagazine.com/the-insider-headlines-from-the-coffee-industry-48/",
+   "pub": "2026-11-15"
+  },
+  {
+   "id": "bacha-coffee-taipei-101-opening",
+   "sec": "skip",
+   "title": "路過：摩洛哥品牌 Bacha Coffee 在台北 101 開店，主打逾 200 款阿拉比卡豆秤重賣",
+   "orig": "",
+   "date": "2026/11/14",
+   "media": "TVBS 女人我最大",
+   "author": "女大編輯部",
+   "tier": "T3",
+   "read": 3,
+   "summary": "1910 年創立於摩洛哥馬拉喀什的 Bacha Coffee（夿萐咖啡）在台北 101 購物中心 5 樓開店，約 34 坪，有 14 席咖啡吧座位和外帶服務。賣點是來自 35 個產區、逾 200 款 100% 阿拉比卡咖啡，可秤重購買並依沖煮方式研磨；開幕限定品是「明太子馬鈴薯三星蔥可頌」。文章內容與圖片多為品牌提供，屬開幕新聞稿性質。",
+   "why": "客人可能會問起。這家的特色是「大量品項、精品店式陳列和送禮包裝」，跟我們強調的新鮮烘焙、少量精選是不同路線。",
+   "note": "內容與圖片均為品牌提供，業配感強；文章未列飲品價格。網頁發布時間 2026/11/14，與題目給的 11/13 不同。",
+   "link": "https://woman.tvbs.com.tw/lifestyle/68473",
+   "pub": "2026-11-15"
+  },
   {
    "id": "ice-metric-arabica-first-trades",
    "sec": "industry",
@@ -6605,6 +7299,184 @@
   }
  ],
  "qa": [
+  {
+   "id": "q-1115-1",
+   "sid": "mwfy1s7zjumwt",
+   "sec": "industry",
+   "thread": "精品羅布斯塔",
+   "title": "精品羅布斯塔追蹤：台灣有消費者回饋嗎？國外誰做成功？研究怎麼說？",
+   "date": "2026/11/15",
+   "pub": "2026-11-15",
+   "media": "SCA News、Coffee Review、Loring、台灣英文新聞、Kaffeemacher",
+   "author": "",
+   "summary": [
+    "這次依追問的三個方向整理：台灣社群與消費者回饋、國外成功品牌、研究與打破迷思。上期寫過的 Black Sheep Coffee（英國，約 150 家店，羅布斯塔占咖啡銷售約 85%）不再重複。",
+    "① 台灣社群與消費者回饋：這次沒查到可靠資料，之後再補。搜尋「精品羅布斯塔 台灣」「Fine Robusta 台灣」等關鍵字，找不到台灣咖啡館推出精品羅布斯塔、或消費者評價的可查證報導；台灣國際咖啡展是否有羅布斯塔攤位或講座，也沒查到。Threads、論壇的零星貼文無法查證，不引用。找得到的台灣媒體內容是轉述國際趨勢：台灣英文新聞 2025/12/7〈阿拉比卡產區受氣候衝擊 廉價咖啡迎升級契機〉，其中聖保羅咖啡師觀察到許多消費者偏好口感醇厚、餘韻帶苦的咖啡，羅布斯塔符合這項需求——這是巴西的觀察，不是台灣。",
+    "② 國外品牌：Nguyen Coffee Supply（紐約布魯克林，越南裔創辦人 Sahra Nguyen）。",
+    {
+     "list": [
+      "招牌豆 Truegrit 是 100% 羅布斯塔（圓豆），產自越南林同省大叻附近小農。",
+      "Coffee Review 2025 年 6 月評分 85 分：香氣有乾薄荷、肉桂、焦糖爆米花，杯中「苦甜」、口感順但偏薄；評論者喜歡香氣與品牌故事，但認為杯中偏乾、偏草本。估價 12 盎司 16 美元。",
+      "做法與轉變（Loring 專訪）：先用「越南咖啡」當入口，再介紹羅布斯塔；把討論從「品種好壞」轉到「品質取決於生產與社會經濟條件」；主張不是要取代阿拉比卡，而是增加多樣性，並讓農民改善作物與收入。",
+      "通路：Whole Foods、Thrive Market、亞洲超市 Weee! 都有 Truegrit 商品頁（搜尋結果可見，未逐一核對價格）。"
+     ]
+    },
+    "同篇台灣英文新聞也提到產地端的轉變：巴西羅布斯塔合作社 Cooabriel 表示要提升品質，需採用阿拉比卡已普遍使用的採後處理技術；巴西聖埃斯皮里圖州計畫在 2032 年前把特種羅布斯塔年產量從 1 萬袋提升到 150 萬袋（每袋 60 公斤）。SCA 的 Kim Ionescu 說，豆種不應是定義精品咖啡的唯一標準。",
+    "③ 研究與打破迷思：",
+    {
+     "table": {
+      "cap": "羅布斯塔評鑑與研究",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "Fine Robusta 分級",
+        "CQI 體系，80 分以上稱 Fine，90–100 為 Outstanding；Q Robusta Grader 課程一週、三天內要通過 20 項感官考試（Kaffeemacher）"
+       ],
+       [
+        "杯測差異",
+        "不只看酸甜，也評鹹與苦的平衡；鉀含量較高可能帶微鹹，鹹味低、有酸質是加分"
+       ],
+       [
+        "卡內弗拉風味輪",
+        "Fabiana Carvalho 等人，Scientific Reports 2025；103 個描述詞，67 支樣本來自 13 國，49 位杯測師"
+       ],
+       [
+        "風味輪發現",
+        "得分最高類別：烘焙、甜、果香、可可；新增橡木桶、雪松、小豆蔻、蘭姆酒、番茄、醬油、椰子水、菇類等"
+       ],
+       [
+        "消費者端",
+        "引述美國 NCA 調查：「烘焙」「甜」「巧克力」最影響購買意願，正是風味輪最突出的類別"
+       ],
+       [
+        "氣候",
+        "2022 年研究指巴西超過 75% 最適合種阿拉比卡的區域未來可能不再適合（台灣英文新聞轉述）"
+       ]
+      ]
+     }
+    },
+    "關於咖啡因含量、具體風味化學成分數據，這次沒有讀到原始論文數字，之後再補。"
+   ],
+   "why": [
+    "結論：國外已有品牌靠「故事＋入門路線」把羅布斯塔賣進主流通路，學界也開始幫它建立自己的評分與風味語言；但台灣目前查不到可靠的消費者回饋，還是早期。",
+    "對吧台和選豆：評羅布斯塔不要拿阿拉比卡的標準看「酸不夠」，要看苦甜、鹹酸平衡、有沒有馬鈴薯、穀物、橡膠這類負面味。Truegrit 的 85 分也提醒我們：香氣好不代表杯中好，進豆前要自己杯測。",
+    "跟客人介紹：可以學 Nguyen 的方式，先從客人熟悉的越南咖啡、濃郁巧克力感切入，再說「這是精品等級的羅布斯塔」；用烘焙、甜、可可這類詞，比講品種更容易讓人想試。"
+   ],
+   "detail": [
+    "評鑑新制｜CVA 新評鑑方法 2025 年 10 月起適用阿拉比卡與羅布斯塔（Kaffeemacher）",
+    "風味輪取得｜可在 The Coffee Sensorium 網站免費下載",
+    "評審差異｜歐洲進口端杯測師對低等級豆比巴西出口端寬鬆",
+    "Truegrit 數據｜Agtron 70/91；香氣 8、酸質結構 6、醇厚 7",
+    "評論矛盾｜Coffee Review 表格寫淺焙、結論寫中焙，原文前後不一"
+   ],
+   "note": "Loring 為烘豆機廠商網站，專訪偏正面；Kaffeemacher 網頁署名日期 2017 與內文 2025 資訊不一致。台灣部分與咖啡因、化學數據未查到可靠來源。",
+   "link": "https://sca.coffee/sca-news/25/issue-25-insight-canephora-flavour-wheel",
+   "extra_links": [
+    {
+     "t": "Coffee Review：Truegrit 100% Robusta 評分",
+     "u": "https://www.coffeereview.com/review/true-grit-100-robusta/"
+    },
+    {
+     "t": "Loring：Sahra Nguyen and the Robusta Paradigm",
+     "u": "https://loring.com/sahra-nguyen-and-the-robusta-paradigm/"
+    },
+    {
+     "t": "台灣英文新聞：阿拉比卡產區受氣候衝擊 廉價咖啡迎升級契機",
+     "u": "https://www.taiwannews.com.tw/zh/news/6259966"
+    },
+    {
+     "t": "Kaffeemacher：Fine Robusta and Q Robusta grading",
+     "u": "https://kaffeemacher.de/en/blogs/kaffeewissen/fine-robusta-and-q-robusta-grading"
+    },
+    {
+     "t": "Whole Foods：Truegrit Robusta",
+     "u": "https://www.wholefoodsmarket.com/grocery/product/truegrit-robusta-b084tzdg5w"
+    }
+   ]
+  },
+  {
+   "id": "q-1115-2",
+   "sid": "mwfxyc6i0npa2",
+   "sec": "industry",
+   "thread": "肯亞風味地圖",
+   "title": "肯亞咖啡風味地圖公開了嗎？在哪裡看、現在可以怎麼用？",
+   "date": "2026/11/15",
+   "pub": "2026-11-15",
+   "media": "Daily Coffee News、The Standard（肯亞）",
+   "author": "",
+   "summary": [
+    "Kenya Coffee Flavor & Origin Expo 於 11/14–16 在奈洛比 Shamba Events Centre 舉行，杯測集中在 11/15–16。截至 11/15 撰稿時，搜尋不到展後發表的結果或各郡風味描述；完整地圖還沒公開。",
+    "Daily Coffee News（11/4）說，這次杯測的資料將用來製作公開的「肯亞咖啡風味地圖集（Kenya Coffee Flavor Atlas）」，預定 2027 年發布，內容包括各產區風味輪廓、視覺化地圖與感官資料庫，可免費下載使用。肯亞 The Standard（11/9）則說，展覽的主要產出是「技術資料與證據」，作為之後製作國家風味地圖的依據。",
+    {
+     "table": {
+      "cap": "目前已知的方法與時程",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "杯測師",
+        "招募 300 位肯亞與國際專業杯測師（The Standard：超過 300 位）"
+       ],
+       [
+        "樣品數",
+        "DCN：超過 500 支；The Standard：約 700 支盲測編碼樣品"
+       ],
+       [
+        "範圍",
+        "34 個咖啡產郡"
+       ],
+       [
+        "杯測日",
+        "2026/11/15–16"
+       ],
+       [
+        "地圖發布",
+        "預定 2027 年，免費下載"
+       ]
+      ]
+     }
+    },
+    {
+     "table": {
+      "cap": "主辦與合作單位（兩家媒體寫法不同）",
+      "cols": [
+       "來源",
+       "說法"
+      ],
+      "rows": [
+       [
+        "DCN",
+        "肯亞咖啡局（Coffee Board of Kenya）、FAO 肯亞辦公室、Kenya Coffee Platform 主辦；技術夥伴 Torch Coffee"
+       ],
+       [
+        "The Standard",
+        "FAO 與 UNIDO 主導，與肯亞政府及產業合作；瑞典駐奈洛比大使館透過 SDG 多方信託基金出資"
+       ]
+      ]
+     }
+    },
+    "樣品數兩家媒體說法不一（500 多 vs 約 700），Barista Magazine（11/12）寫約 500 支；正式數字要等主辦單位發表。技術夥伴 Torch Coffee 先前在 2021–2024 年做過中國雲南的產區風味地圖，那些地圖已公開，可以參考肯亞版之後大概的呈現方式。"
+   ],
+   "why": "結論：地圖還沒出來，各郡風味表格這次沒查到可靠資料，之後再補；正式版預定 2027 年。\n\n現在可以先做的：把店裡肯亞豆的郡別（例如 Nyeri 等標示）、品種、處理法和我們自己的杯測描述整理成一張表，等官方地圖發布後直接對照，看我們的描述跟 300 位杯測師的共識差多少。介紹肯亞豆時，也可以先跟客人說「肯亞正在做全國 34 郡的風味地圖」，產地故事比較有新意。",
+   "detail": [
+    "雲南前例｜Torch 2021–2024 雲南風味地圖已公開，可先看格式",
+    "國內市場｜AFA：肯亞咖啡店從 2019 年 231 家增至 2023 年 791 家",
+    "國內消費｜UNIDO 的 Henry Kinyua：國內只喝掉約 5% 產量"
+   ],
+   "note": "肯亞農業與食品局（AFA）咖啡局官網這次沒查到關於地圖的公告；FAO 有發布活動公告（DCN 引述），本次未讀原文。展後結果可能在幾天內發表，之後追蹤補上。",
+   "link": "https://dailycoffeenews.com/2026/11/04/hundreds-of-cuppers-to-help-build-a-kenya-coffee-flavor-atlas/",
+   "extra_links": [
+    {
+     "t": "The Standard：肯亞將在首屆活動繪製咖啡風味地圖",
+     "u": "https://www.standardmedia.co.ke/business/article/2001561874/kenya-to-map-its-coffee-flavours-at-inaugural-continental-event"
+    }
+   ]
+  },
   {
    "id": "q-1106-1",
    "sid": "mw36nvu7aurr9 mw36os50xqomr",
