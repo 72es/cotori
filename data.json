@@ -1,17 +1,17 @@
 {
  "edition": {
-  "id": "2026-11-16",
-  "no": 19,
-  "date": "2026-11-16",
-  "label": "11月16日 週一"
+  "id": "2026-11-17",
+  "no": 20,
+  "date": "2026-11-17",
+  "label": "11月17日 週二"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "台灣國際咖啡展南港收尾：42 萬元的阿里山特等獎豆、東帝汶冠軍豆亮相，國產館 34 家莊園參展。",
-  "GCP 報告：大型買家的永續咖啡採購比例從 75% 降到 69%，多年來首次下滑。",
-  "延續上期「慢速多巴胺」：丹麥膠囊研究看咖啡怎麼讓腸道動起來，芬蘭 2,264 人研究看咖啡與內臟脂肪。",
-  "星巴克今天起連 4 天星送禮買一送一；全台餐飲業的食用油荒，從中聯停工一路說清楚。",
-  "ARTs：Koto 幫 Giffgaff 改版的品牌案例、Adobe MAX 開放外部 AI 代理，以及劉梓潔《再生》獲金典獎年度大獎。"
+  "首屆亞太百大咖啡館公布：台灣 11 家入榜和日本並列，台北 Noon 拿下第 5 名。",
+  "星巴克天母店封插座只留 3 個掀論戰：插座、座位時間、加價項目，是客人很在意的空間政策。",
+  "阿拉比卡期貨跌到 6 月以來最低；另一邊，美國強迫勞動進口禁令開始擴及咖啡。",
+  "英國 50 萬人追蹤 13 年：每天 2–3 杯咖啡和心房顫動風險低 11% 有關；德國羽扇豆「咖啡」零咖啡因回潮。",
+  "ARTs：Dezeen 年度設計頒給 V&A 東倉庫指標系統、Studio Kiln 沒有臉的品牌角色、許家維吉隆坡個展，加上一篇 Tate Le Parc 展評。"
  ],
  "weekly": {
   "items": [
@@ -50,6 +50,535 @@
   }
  ],
  "items": [
+  {
+   "id": "apac-100-best-coffee-shops-2026-taiwan-11",
+   "sec": "food",
+   "title": "首屆亞太百大咖啡館公布：台灣 11 家入榜，台北 Noon 第 5 名",
+   "orig": "Asia Pacific’s 100 Best Coffee Shops 2026",
+   "date": "2026/11/12",
+   "media": "DanielFoodDiary",
+   "author": "",
+   "tier": "T3",
+   "read": 5,
+   "summary": [
+    "「World’s 100 Best Coffee Shops」今年首度推出亞太區榜單，在首爾 World Coffee Forum 公布，和今年 2 月的全球百大是分開的兩份榜。第 1 名是新加坡 Apartment Coffee（它在全球榜排第 6），第 2 名雪梨 Only Coffee Project，第 3 名大阪 Ult Coffee。",
+    "國家入榜數：澳洲 18 家最多、南韓 13 家，日本和台灣各 11 家。",
+    {
+     "table": {
+      "cap": "台灣入榜的 11 家",
+      "cols": [
+       "名次",
+       "店名（城市）"
+      ],
+      "rows": [
+       [
+        "5",
+        "Noon（台北）"
+       ],
+       [
+        "19",
+        "Moonshine Coffee Roasters（台北）"
+       ],
+       [
+        "32",
+        "Cafe Sole（台北）"
+       ],
+       [
+        "34",
+        "KEEP Coffee Roastery（高雄）"
+       ],
+       [
+        "42",
+        "Ninety Plus Flagship Store（台北）"
+       ],
+       [
+        "45",
+        "Tomorrow Coffee Roasters（台中）"
+       ],
+       [
+        "53",
+        "VWI（台北）"
+       ],
+       [
+        "60",
+        "Coffee Sind（台北）"
+       ],
+       [
+        "67",
+        "The Factory Mojocoffee（台中）"
+       ],
+       [
+        "70",
+        "Coffee Stopover Black（台中）"
+       ],
+       [
+        "85",
+        "Project Ember by Mojocoffee（台中）"
+       ]
+      ]
+     }
+    }
+   ],
+   "why": "台灣 11 家和日本並列，台北 6 家、台中 4 家、高雄 1 家，台中的密度特別高（Mojocoffee 一個品牌就有兩家）。客人聊到「台灣哪裡有好咖啡館」時，這份名單是現成的話題；同事出去喝咖啡做功課，也可以從裡面挑，看看別人的出杯流程、菜單和空間怎麼安排。",
+   "action": "排休時挑一家沒去過的榜上咖啡館，回來在群組分享一個值得學的細節（出杯、動線或菜單寫法）。",
+   "detail": [
+    "榜單性質｜首屆亞太區榜，與 2 月的全球百大是不同名單",
+    "發表場合｜首爾 World Coffee Forum",
+    "新加坡｜共 6 家入榜，含第 1 名"
+   ],
+   "note": "名單取自新加坡美食部落格 DanielFoodDiary 的整理；官方網站台灣頁有列店名但抓不到名次，名次以該文為準。台灣媒體（Taster 一週餐飲大小事）也有報導，未讀到全文。",
+   "link": "https://danielfooddiary.com/2026/11/12/asiapacifics100best/",
+   "extra_links": [
+    {
+     "t": "官方網站：台灣入榜店家",
+     "u": "https://theworlds100bestcoffeeshops.com/asia-pacific-100-best-coffee-shops/taiwan/"
+    }
+   ],
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "starbucks-tw-outlets-sealed-tianmu",
+   "sec": "food",
+   "title": "星巴克天母店封掉 8 個插座只留 3 個，網路吵翻：咖啡館該不該提供充電？",
+   "orig": "",
+   "date": "2026/11/13",
+   "media": "中時新聞網（工商時報網站）；TVBS",
+   "author": "方翊倩（中時新聞網）",
+   "tier": "T3",
+   "read": 3,
+   "summary": [
+    "一名網友在 Threads 發文，說在星巴克天母新光三越店發現座位下方的插座被封起來，「這麼大一家店只有 3 個插座可以用，其他 8 個全封」，並說「要不是為了充電，我幹嘛來喝 100 多元的美式」，貼文引發討論。",
+    "留言兩派都有：不滿的人說「充電加 15 元？」、擔心以後內用限時；也有人認為帶筆電一坐大半天的客人占用座位和電力，封插座合理。TVBS 提到，這波討論前，星巴克才因補奶、加風味醬要加價 15 元的新制引起反彈。",
+    "插座問題今年 5 月就討論過。當時統一集團董事長羅智先被問到部分門市停用插座，他說咖啡廳除了飲品也是讓顧客感受氛圍的場所，國外有些咖啡廳鼓勵顧客放下手機，需要充電辦公的人可以找其他空間。"
+   ],
+   "why": "這則是很好的「空間政策」案例：插座、座位時間、加價項目，客人在意的程度常常超過一杯咖啡的價格。我們如果要調整這類規則，先想清楚目的（翻桌、氛圍還是電費），並在現場用清楚、友善的方式告知，比默默封掉更不容易引起反感。被客人問到時，照店裡實際規定回答就好，不必評論別家。",
+   "detail": [
+    "事件門市｜星巴克天母新光三越店（網友貼文）",
+    "官方說法｜報導未見星巴克針對這次貼文的回應",
+    "相關新制｜補奶、加風味醬加價 15 元（TVBS）"
+   ],
+   "note": "兩篇報導的資訊都來自網友貼文和 5 月的記者會發言；星巴克是否全面調整插座政策，報導沒有說明。",
+   "link": "https://www.ctee.com.tw/news/20261113700666-430503",
+   "extra_links": [
+    {
+     "t": "TVBS：座位插座封到剩 3 個",
+     "u": "https://news.tvbs.com.tw/life/4050469"
+    }
+   ],
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "arabica-four-month-low-brazil-supply",
+   "sec": "industry",
+   "title": "阿拉比卡期貨跌到 6 月以來最低：巴西出口創 10 月新高、ICE 庫存一年多最高",
+   "orig": "Arabica Coffee Prices Fall to Four-Month Low on Improving Brazilian Supply Outlook",
+   "date": "2026/11/16",
+   "media": "Fresh Cup（引述 Global Coffee Report）",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "上週阿拉比卡期貨跌到 6 月以來最低。原因是巴西出口增加，加上 ICE（洲際交易所）監管倉庫的庫存上升。",
+    {
+     "list": [
+      "巴西上個月出口量是歷年 10 月最高，背後是豐收，其中羅布斯塔產量創紀錄。",
+      "交割進來的咖啡把 ICE 庫存推到一年多來最高；等待分級的咖啡也是 8 個月來最高。",
+      "幾週前彭博社還報導庫存是 1999 年以來最低，當時巴西農民賣給私人買家賺更多，不想交到交易所。",
+      "魯拉意外連任後巴西幣大跌，美元計價的出口對農民更有利。"
+     ]
+    },
+    "市場已經開始看巴西下一季：巴西應用經濟高等研究中心（CEPEA）說作物發育「正面」但仍擔心天氣，「市場預期是大豐收，但不是紀錄級」。"
+   ],
+   "why": "這是國際期貨，不會馬上反映到我們的生豆報價，進口商的合約和匯率都有時間差。但方向值得知道：供給面轉鬆，若持續下去，明年採購談價會比今年好一點。跟客人聊「咖啡是不是又要漲」時，可以說最近國際行情其實在往下走。",
+   "detail": [
+    "價格數字｜Fresh Cup 摘要沒有寫出具體價位",
+    "延續報導｜第 17 期寫過巴西 10 月出口創新高"
+   ],
+   "watch": "巴西下一季天氣與 CEPEA 的產量評估。",
+   "note": "讀的是 Fresh Cup 週報摘要，Global Coffee Report 原文未讀。",
+   "link": "https://freshcup.com/coffee-news-club-november-16th/",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "forced-labor-import-bans-coffee-hrdd",
+   "sec": "industry",
+   "title": "強迫勞動進口禁令擴及咖啡：美國今年首度對咖啡下禁令，歐盟明年全面上路",
+   "orig": "Forced Labor Import Bans Are Reaching the Coffee Sector. Are Companies Ready?",
+   "date": "2026/11/16",
+   "media": "Daily Coffee News",
+   "author": "Quinn Kepes",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "這是一篇專欄。作者指出，美國海關及邊境保護局（CBP）今年稍早發出第一個針對咖啡產業的強迫勞動進口禁令；歐盟強迫勞動法規（EUFLR）明年全面生效。很多國家也在立「人權盡職調查」（HRDD）法，要求企業找出並處理供應鏈裡的人權風險。",
+    "對貿易商、烘豆商和品牌的風險：被認定和強迫勞動有關的貨會在邊境被扣，造成斷貨、延遲、法律成本和商譽損失。要申訴，就得拿出「這批貨不是強迫勞動生產」的可信證據，等到貨被扣才開始建制度已經太晚。",
+    "作者認為常見做法有盲點：",
+    {
+     "list": [
+      "媒體掃描、認證、稽核和供應商自評，常抓不到偏遠產區的問題。",
+      "稽核很少在工人能安心說話的場合深度訪談。",
+      "應該盯住具體指標：欺騙招募、強迫加班、債務綑綁、扣薪、扣證件。"
+     ]
+    },
+    "他也提醒買家檢視自己的採購行為（價格、交期、產量要求）是不是讓產地風險更高。"
+   ],
+   "why": "台灣小店不會直接碰到美國或歐盟海關，但生豆供應鏈是同一條：大進口商為了出口歐美市場會開始要求產地文件，成本和溯源資訊可能慢慢反映到我們拿到的豆子。客人問「你們的豆子有沒有剝削問題」時，誠實說我們知道的溯源資訊就好，不要誇大。",
+   "detail": [
+    "作者身分｜非營利組織 Verité 研究主管",
+    "工具資源｜文末提到 Verité 參與的開放工具包"
+   ],
+   "watch": "歐盟強迫勞動法規明年生效後的實際執行。",
+   "note": "作者任職的 Verité 開發了文中推薦的工具包，DCN 編按已揭露這層關係。巴西供應商涉奴工、雀巢合作夥伴面臨聽證的新聞（民視）也在同一波討論中，這次未讀到全文。",
+   "link": "https://dailycoffeenews.com/2026/11/16/forced-labor-import-bans-are-reaching-the-coffee-sector-are-companies-ready/",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "blueprint-coffee-tariff-refunds-customers",
+   "sec": "industry",
+   "title": "美國關稅被判違法後開始退款，Blueprint Coffee 把退款變成折扣回饋常客",
+   "orig": "Midwest Roaster Returning Tariffs to Partners, Customers",
+   "date": "2026/11/16",
+   "media": "Fresh Cup（引述 Barista Magazine）",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "川普 2025 年 4 月起對多數進口品課關稅，咖啡每批 10–50% 不等，很多烘豆商和咖啡館因此漲價。這些關稅今年 2 月被最高法院判定無效，CBP 4 月開始退還約 1,660 億美元的關稅，部分進口商把退款轉給客戶。",
+    "密蘇里州的 Blueprint Coffee 10 月底宣布把收到的退款回饋顧客：",
+    {
+     "list": [
+      "官網批發與零售客人用 5% 折扣碼，直到退款池用完；批發和網購後來提高到 10%。",
+      "約 2,000 張較高額的優惠券寄給 2026 年消費最多的常客，第二級再給消費次多的一群。"
+     ]
+    },
+    "另一個做法是進口商 Royal Coffee：7 月時在自家咖啡館 The Crown 暫時調降飲品價格。Blueprint 的 Nora Brady 說：「我們相信一般消費者承受了關稅最大的衝擊。」"
+   ],
+   "why": "成本下降時怎麼處理，和漲價一樣考驗品牌。Blueprint 的做法是把一次性的退款做成「回饋最常來的人」，而不是全面降價，這對常客經營有參考價值。我們雖然沒有關稅退款，但遇到季節性成本變動時，也可以想想怎麼讓熟客感受到。",
+   "detail": [
+    "Blueprint｜在聖路易有 3 家咖啡館",
+    "退款規模｜CBP 退還約 1,660 億美元（全品項）"
+   ],
+   "note": "讀的是 Fresh Cup 週報摘要，Barista Magazine 原文未讀。",
+   "link": "https://freshcup.com/coffee-news-club-november-16th/",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "coffee-afib-uk-biobank-2-3-cups",
+   "sec": "science",
+   "title": "英國 50 萬人追蹤 13 年：每天 2–3 杯咖啡，心房顫動風險低 11%",
+   "orig": "",
+   "date": "2026/11/16",
+   "media": "Fresh Cup（引述 Food & Nutrition Research 論文）",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "心房顫動（AFib）是最常見的心律不整，全球約 3,300 萬人有這個問題，會增加中風和失智的風險。",
+    "中國研究團隊分析英國生物資料庫（UK Biobank）近 50 萬名參與者、13 年的資料，比對每天喝咖啡、喝茶的量和 AFib 診斷，論文發表在《Food & Nutrition Research》。",
+    {
+     "table": {
+      "cap": "研究結果",
+      "cols": [
+       "項目",
+       "結果"
+      ],
+      "rows": [
+       [
+        "有喝咖啡 vs 不喝",
+        "喝咖啡的人 AFib 風險整體較低"
+       ],
+       [
+        "每天 2–3 杯咖啡",
+        "風險低 11%（降幅最大）"
+       ],
+       [
+        "每天 2–3 杯茶",
+        "風險低 5%"
+       ]
+      ]
+     }
+    },
+    "這是觀察性研究，飲用量是自己填報的，只能說「相關」不能說「因果」。研究者推測和咖啡裡的生物活性成分有關，還需要更多研究。"
+   ],
+   "why": "客人常問「心臟不好能不能喝咖啡」。這類大型研究的方向是：適量咖啡（每天 2–3 杯）和較低的心律不整風險有關，不是越多越好，也不能拿來取代醫囑。吧台回答時可以說「目前大型研究看起來適量沒有壞處」，有疾病或在吃藥的客人，還是請他們問自己的醫師。",
+   "detail": [
+    "研究型態｜觀察性、自填問卷",
+    "延伸｜Fresh Cup 8 月報導過一杯咖啡與 AFib 復發的研究"
+   ],
+   "note": "讀的是 Fresh Cup 週報摘要，論文原文未讀；摘要沒有寫出論文作者與發表日期。",
+   "link": "https://freshcup.com/coffee-news-club-november-16th/",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "roasteries-as-community-spaces-little-waves",
+   "sec": "food",
+   "title": "烘豆廠變成社區空間：杯測、座位品飲、比賽都搬進來，前提是動線和安全先規劃好",
+   "orig": "How roasters are using their spaces to build community",
+   "date": "2026/11/16",
+   "media": "Perfect Daily Grind",
+   "author": "Bhavi Patel",
+   "tier": "T2",
+   "read": 7,
+   "summary": [
+    "越來越多烘豆廠開門辦公開杯測、座位式品飲、吧台訓練、比賽和活動，把原本只放烘豆機、生豆和包裝線的後場，變成生產者、同業、批發客戶和在地客人交流的地方。",
+    "文章以美國北卡羅來納州達勒姆的 Little Waves Coffee Roasters 為例：",
+    {
+     "list": [
+      "新烘豆廠用品牌色布置牆面與地板，連客製的 IMF RM 60 烘豆機都漆成粉紅色，暱稱「粉紅大象」。",
+      "生豆可直接從料倉投料，不必搬袋、手舀，共同創辦人說這對身體長期負擔差很多。",
+      "已邀請哥倫比亞生產者 Edwin Noreña 來分享，也辦過讓園藝志工品嚐稀有咖啡物種的活動。",
+      "第二期要蓋種咖啡樹的溫室，之後可能開咖啡館，甚至做新批發夥伴的育成空間。"
+     ]
+    },
+    "文章強調：歡迎訪客的前提是效率和安全，通風、消防、排煙、噪音、熱源，以及訪客區和作業區要清楚分開。"
+   ],
+   "why": "我們在店裡辦杯測或小型講座時，道理一樣：先想好客人走哪裡、哪裡不能進、熱源和磨豆機怎麼隔開，再談氛圍。把「看得到烘豆、喝得到產地故事」做成體驗，是小店能和連鎖拉開差距的地方。",
+   "action": "列出店裡如果辦一場 10 人杯測，客人動線、站位和需要暫停的作業各是什麼。",
+   "detail": [
+    "市場背景｜美國 NCA：47% 成人前一天喝過精品咖啡",
+    "英國烘豆商｜Allegra 估計超過 700 家",
+    "RM 60 產能｜約 69 公斤、約 9 分鐘一批（店家說法）"
+   ],
+   "note": "IMF Roasters 是 Perfect Daily Grind 的贊助商，文中設備描述偏廠商觀點。",
+   "link": "https://perfectdailygrind.com/2026/11/roasters-spaces-build-community/",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "lupine-coffee-kein-kaffee-loffee",
+   "sec": "fun",
+   "title": "沒有咖啡豆的「咖啡」：德國羽扇豆咖啡回潮，零咖啡因、幾乎不酸",
+   "orig": "Bean-less in Berlin: Lupine Coffee Gets Its Second Win",
+   "date": "2026/11/16",
+   "media": "Barista Magazine",
+   "author": "Bhavi Patel",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "羽扇豆（lupine）是豆科植物，種子用較低溫、較長時間烘焙後，可以沖成像咖啡的飲品。德國和阿爾卑斯一帶喝了一百多年，文獻最早紀錄是 1897 年；拿破崙大陸封鎖（1806–1812）和戰後咖啡短缺時，菊苣、羽扇豆這類替代品都曾大量出現。",
+    {
+     "table": {
+      "cap": "羽扇豆咖啡速覽",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "咖啡因",
+        "完全沒有"
+       ],
+       [
+        "風味",
+        "烤麵包、穀物，中焙有牛軋糖、烤花生調性，幾乎無酸"
+       ],
+       [
+        "營養",
+        "種子約 40% 蛋白質，但沖出來不是蛋白飲；無麩質"
+       ],
+       [
+        "沖煮",
+        "遇水膨脹比咖啡多，用粉量要少很多；通常不必填壓"
+       ],
+       [
+        "品牌",
+        "德國 Loffee（2024 年成立）、美國 Kein Kaffee"
+       ]
+      ]
+     }
+    },
+    "野生羽扇豆有毒又苦，1926 年開始育種，才有現在用來做咖啡的「甜羽扇豆」。Kein Kaffee 德文意思就是「不是咖啡」，號稱美國第一個羽扇豆咖啡品牌。"
+   ],
+   "why": "晚上想喝熱飲又怕睡不著、或怕酸的客人，是這類替代飲品的潛在對象。作者的建議值得記住：把它當成獨立的飲品來介紹，不要說成「低因咖啡」，並清楚標示過敏原（作者特別提醒這點，細節以產品標示為準）。",
+   "detail": [
+    "分類｜Barista Magazine 的「咖啡替代品」系列",
+    "前一篇｜同系列介紹過北美原生的含咖啡因植物 yaupon"
+   ],
+   "link": "https://www.baristamagazine.com/bean-less-in-berlin-lupine-coffee-gets-its-second-win/",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "dezeen-awards-2026-va-east-wayfinding",
+   "sec": "design",
+   "title": "Dezeen Awards 2026 年度設計：V&A 東倉庫的指標系統，向 Z 世代 App 取經",
+   "orig": "Dezeen Awards 2026 design project of the year winner named",
+   "date": "2026/11/16",
+   "media": "Dezeen",
+   "author": "",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "Dezeen Awards 2026 在倫敦公布 16 個設計類別得主，年度設計大獎由倫敦哈克尼的設計工作室 Fieldwork Facility 拿下，作品是 V&A East Storehouse（V&A 東倉庫）的圖像識別與指標系統，同時也獲得年度平面設計。",
+    "V&A East Storehouse 是 V&A 的典藏庫房，收藏約 25 萬件歷史上的藝術、工藝與設計物件。設計團隊的課題是帶訪客在庫房裡找路，特別是平常覺得博物館「不是為我開的」年輕、多元族群，所以他們的靈感來源是 Z 世代常用的 App 和服務。",
+    "評審說這套指標「示範了指標系統不只是指方向，還能定義識別、塑造體驗、建立場所感」，稱讚它「清楚、自信、克制」；也因為展品會更換，指標、說明牌可以有效率地更新，呼應博物館不拘形式的調性。",
+    "其他得獎包括 Allen Kaufmann Architekten 的 Dado 桌櫃系列（年度家具），入圍對手還有樹脂燈具、載貨量像小貨車的電動貨運自行車、用細菌強化的低碳地磚等。"
+   ],
+   "why": "給做品牌、平面和空間的同事：這是「指標就是品牌」的好案例，識別系統直接長在空間裡，而且設計成可以更新。對店裡也有啟發，菜單板、季節品項牌、店內告示如果有一套能替換的系統，每次換季就不用重做、整體也不會越貼越亂。",
+   "detail": [
+    "得獎者｜Fieldwork Facility（倫敦哈克尼）",
+    "雙料｜年度設計＋年度平面設計",
+    "典藏量｜約 25 萬件藝術、工藝與設計物件"
+   ],
+   "link": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-design-project-of-the-year-winner-va-east-storehouse/",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "studio-kiln-reset-ester-faceless-mascot",
+   "sec": "design",
+   "title": "沒有臉的吉祥物：Studio Kiln 為減重 App Reset 做出會散開又重組的積木角色",
+   "orig": "Studio Kiln builds a shape-shifting character for weight loss app Reset",
+   "date": "2026/11/16",
+   "media": "Creative Boom",
+   "author": "Tom May",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "2019 年上線的減重 App Reset 主打不逐一算熱量，先判斷使用者的代謝類型再調整建議。這次品牌改版交給英國康瓦耳起家、現在兩地跑（康瓦耳與倫敦）的設計工作室 Studio Kiln。",
+    "新識別的核心是角色 Ester：",
+    {
+     "list": [
+      "由柔和圓角的 3D 積木組成：一個像頭的形狀、單一圓眼、一顆漂浮的小點和兩隻粗腿，合起來是 Reset 的「R」。",
+      "沒有臉，不笑也不皺眉，完全靠動作表達：積木翻滾、散開、重組，表現猶豫、鼓勵和小小的成功。",
+      "五種代謝類型（The Burner、The Restorer、The Chameleon、The Explorer、The Rebounder）各有一個顏色版本：芥末黃、赤陶、鼠尾草綠、粉藍、淡紫。"
+     ]
+    },
+    "工作室說目標是讓減重「不像一套要遵守的規則，而是可以變成自己的事」。作者 Tom May 認為，在越來越多產品用擬人角色換取信任的時候，保持抽象反而讓使用者能投射自己的感受。"
+   ],
+   "why": "給做插畫、角色和品牌的同事：這是「用動態取代表情」的角色設計，一個字母造型同時是 logo、角色和動畫系統。在減重這種敏感題材上，刻意不畫臉避免說教，是值得記下來的判斷。店裡如果要做角色或貼圖，也可以想想角色要「說什麼」、哪些情緒不該由它來說。",
+   "detail": [
+    "設計方｜Studio Kiln（Falmouth 起家）",
+    "角色名｜Ester，新聞資料寫偏好使用 they 代稱",
+    "評論觀點｜作者認為抽象角色比擬人角色更適合這個情境"
+   ],
+   "link": "https://www.creativeboom.com/news/studio-kiln-builds-a-shape-shifting-character-for-weight-loss-app-reset/",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "hsu-chia-wei-ilham-gallery-malaysia",
+   "sec": "design",
+   "title": "許家維東南亞首檔大型個展 11/22 在吉隆坡伊爾罕美術館開幕，8 部錄像結合 VR 與 AI",
+   "orig": "",
+   "date": "2026/11/16",
+   "media": "中央社",
+   "author": "王寶兒",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "文化部駐馬來西亞代表處文化組和馬來西亞伊爾罕美術館（ILHAM Gallery）合作，推出台灣藝術家許家維第一檔東南亞大型個展「那些在時間流變中，始終不明的」，22 日開幕。",
+    {
+     "table": {
+      "cap": "展覽資訊",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "展名",
+        "那些在時間流變中，始終不明的"
+       ],
+       [
+        "地點",
+        "馬來西亞 伊爾罕美術館（ILHAM Gallery）"
+       ],
+       [
+        "開幕",
+        "11 月 22 日"
+       ],
+       [
+        "作品",
+        "8 部錄像作品"
+       ],
+       [
+        "策展人",
+        "Patrick Flores（佛洛雷斯）"
+       ]
+      ]
+     }
+    },
+    "作品聚焦東南亞與台灣共享的地緣歷史與記憶，結合錄像裝置、虛擬實境、3D 掃描與人工智慧，重構北泰國、殖民時期印尼、馬來亞（今馬來西亞與新加坡）以及台灣的歷史場景。",
+    "策展人 Patrick Flores 曾任 2019 年新加坡雙年展藝術總監、2015 年威尼斯雙年展菲律賓館策展人。許家維得過第 15 屆台新藝術獎年度大獎、第 10 屆荷蘭 Eye 藝術與電影獎。伊爾罕美術館 2023 年曾和台灣合作張徐展個展。"
+   ],
+   "why": "許家維是把錄像、VR、3D 掃描和 AI 用在歷史敘事上的代表藝術家，對關注數位藝術的同事，這是看「新技術怎麼服務內容」的好例子。人在吉隆坡或近期會去的同事可以安排；在台灣的，可以先從他過去的作品和台新獎資料認識。",
+   "detail": [
+    "展期結束日｜報導未寫，這次沒查到",
+    "票價｜報導未寫，這次沒查到"
+   ],
+   "note": "中央社依駐馬來西亞代表處文化組新聞稿撰寫；展期、票價未在報導中提及，伊爾罕美術館官網這次沒有核對。",
+   "link": "https://www.cna.com.tw/news/acul/202611160250.aspx",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "hyperallergic-julio-le-parc-tate-review",
+   "sec": "design",
+   "title": "藝評：Tate Modern 的 Julio Le Parc 回顧展，把反體制的互動藝術變成 IG 打卡？",
+   "orig": "Tate Turns Julio Le Parc Into Instagram Art",
+   "date": "2026/11/16",
+   "media": "Hyperallergic",
+   "author": "",
+   "tier": "T2",
+   "read": 6,
+   "summary": [
+    "Hyperallergic 的展評，評倫敦 Tate Modern 的「Julio Le Parc: Light. Colour. Action.」。Le Parc 今年稍早以 97 歲辭世，展覽是在他生前「與藝術家密切對話」下發展的。",
+    "1968 年社會動盪前夕，Le Parc 在巴黎做了最早的〈遊戲室〉（Game Rooms）：裝了彈簧的座椅、高低不平的地磚、可以用手轉的圖紋圓盤，讓觀眾的身體經驗失衡。對他和共同創立的團體 GRAV（Groupe de Recherche d’Art Visuel）來說，這不只是好玩，而是要打破美術館階級化、被動的觀看方式，進一步喚起館外的政治意識。",
+    "展覽重建了一間〈遊戲室〉。Tate Modern 代理館長 Catherine Wood 在專刊前言說，在沉浸式、互動展覽大受歡迎的時候辦這檔回顧「格外有意義也很迫切」。評論標題的質疑是：當今天的美術館體驗早就不「被動」，互動本身已經是賣點，Le Parc 原本的批判性還剩多少。"
+   ],
+   "why": "這是本期的「藝術評論」：它問的是近年最流行的展覽型態，沉浸、互動、適合拍照，是不是把原本帶有批判的作品變成打卡背景。台灣也有很多沉浸式展，下次看展可以帶著這個問題：這件作品要我「做什麼」，做完之後我想到了什麼。",
+   "detail": [
+    "藝術家｜Julio Le Parc，今年辭世，享年 97 歲",
+    "團體｜GRAV，視覺藝術研究團體",
+    "展覽｜Tate Modern（倫敦）"
+   ],
+   "note": "Hyperallergic 全文需付費，只讀到開頭兩段；評論的完整論點與展期、票價這次沒讀到，標題的疑問句是依原文標題改寫。",
+   "link": "https://hyperallergic.com/tate-turns-julio-le-parc-into-instagram-art/",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "sprudge-gut-physiology-copenhagen-repeat",
+   "sec": "skip",
+   "title": "Sprudge 報導咖啡改變腸道生理：就是上期寫過的哥本哈根膠囊研究",
+   "orig": "Drinking Coffee May Actually Change Your Gut Physiology",
+   "date": "2026/11/16",
+   "media": "Sprudge",
+   "author": "Zac Cadwalader",
+   "tier": "T2",
+   "read": 2,
+   "summary": "Sprudge 報導哥本哈根大學的研究：61 名健康成人參加 9 天觀察試驗，其中 50 人吞下測量腸道 pH、溫度、壓力的「SmartPill」膠囊，常喝咖啡的人小腸 pH 明顯較低、結腸收縮較多。",
+   "why": "這是第 19 期「咖啡與腸道」寫過的同一篇研究，Sprudge 今天才跟上，沒有新資訊，所以列在路過。想看完整內容請回翻上一期。",
+   "link": "https://sprudge.com/drinking-coffee-may-actually-change-your-gut-physiology-1601728.html",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "biopouches-small-moq-press-release",
+   "sec": "skip",
+   "title": "包材廠 BioPouches 新聞稿：咖啡品牌改成小量多款下單，多數詢價不到 5,000 個",
+   "orig": "BioPouches Expands Flexible Coffee Packaging Solutions As Brands Shift Toward Smaller Production Runs",
+   "date": "2026/11/16",
+   "media": "Sprudge（新聞稿）",
+   "author": "",
+   "tier": "T3",
+   "read": 3,
+   "summary": "中國製造、在加拿大與澳洲設倉的包材廠 BioPouches 說，新詢價多數在 5,000 個以下，客人常同時下兩三款設計；季節包裝會提前 3–4 個月準備。它舉例：簡單站立袋 1,000 個時 0.58 美元，10,000 個時每個 0.10 美元。",
+   "why": "小量客製包材確實是趨勢（台灣咖啡展上也有紙杯廠主打 1,000 只起訂），但這篇是廠商自己的新聞稿，價格寫法也不清楚（1,000 個是單價還是總價沒交代），不當成行情參考，列在路過。",
+   "note": "廠商新聞稿。",
+   "link": "https://sprudge.com/biopouches-expands-flexible-coffee-packaging-solutions-as-brands-shift-toward-smaller-production-runs-1625594.html",
+   "pub": "2026-11-17"
+  },
+  {
+   "id": "sothebys-van-gogh-restitution-claim",
+   "sec": "skip",
+   "title": "紐約拍賣週：蘇富比估價 1.8 億美元的梵谷遭猶太家族後人要求撤拍",
+   "orig": "Restitution Claim on $180M Van Gogh Shakes Up Sotheby's Marquee Week",
+   "date": "2026/11/16",
+   "media": "Hyperallergic",
+   "author": "",
+   "tier": "T2",
+   "read": 2,
+   "summary": "一個知名猶太出版家族的後人要求蘇富比撤下本週紐約重點拍賣的一幅梵谷，主張當年家族成員是在納粹對移民猶太人攜帶財物的限制下被迫出售。蘇富比估價創紀錄的 1.8 億美元，並向 Hyperallergic 證實仍會在 11 月 18 日（週三）上拍，說已對作品來源做過廣泛研究。",
+   "why": "拍賣市場的大新聞，但結果要等週三開拍才知道，報導也沒寫出作品名稱，所以先列在路過；拍賣結果出來、有完整資訊時再考慮寫成正刊。",
+   "note": "Hyperallergic 全文需付費，只讀到前三段。",
+   "link": "https://hyperallergic.com/restitution-claim-on-180m-van-gogh-shakes-up-sothebys-marquee-week/",
+   "pub": "2026-11-17"
+  },
   {
    "id": "taiwan-coffee-expo-2026-alishan-420k-timor-leste",
    "sec": "industry",
