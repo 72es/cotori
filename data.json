@@ -1,17 +1,17 @@
 {
  "edition": {
-  "id": "2026-11-18",
-  "no": 21,
-  "date": "2026-11-18",
-  "label": "11月18日 週三"
+  "id": "2026-11-19",
+  "no": 22,
+  "date": "2026-11-19",
+  "label": "11月19日 週四"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "瓦城 5 品牌 11/24 起漲價，平均約 3.6%；連鎖餐飲調價潮還在延續。",
-  "咖啡和帕金森氏症的關係可能看基因：代謝咖啡因快的人風險較低，代謝慢的人每天 5 杯以上反而較高。",
-  "冬季茶飲兩個方向：sticky chai 直接跟牛奶蒸，焙茶在美國菜單占比升到約 4%。",
-  "ARTs：金點設計展松菸開展到明年 4 月、高美館《視線轉位》、紐約秋拍草間彌生創紀錄。",
-  "大家問：喝多咖啡會肚子餓嗎？目前研究多半是短時間內比較不餓，沒有可靠證據說會更餓。"
+  "Fair Trade USA 跟進國際公平貿易，水洗阿拉比卡最低價每磅從 1.40 調到 2 美元，2027/2/1 起。",
+  "肯亞風味地圖續報：約 300 位杯測師盲測約 500 支樣品，2027 年出免費開放版，還會加入土壤與氣候分析。",
+  "美國 FDA 撤銷部分二氯甲烷用途，但低咖啡因咖啡的溶劑禁用申請還在審查。",
+  "咖啡節兩檔：高雄這週末 11/21–22 凹子底；台北 12/3–6 圓山花博，早鳥票 11/22 截止。",
+  "ARTs：Adobe MAX 後插畫家和設計師談 AI 的害怕與「風格保護」、Elenor Kopka 把動畫定格成陶、佳士得康丁斯基 8,580 萬美元紀錄、書法家杜忠誥辭世。"
  ],
  "weekly": null,
  "sections": [
@@ -41,6 +41,610 @@
   }
  ],
  "items": [
+  {
+   "id": "fair-trade-usa-minimum-price-2027",
+   "sec": "industry",
+   "title": "Fair Trade USA 調高保證最低價：水洗阿拉比卡每磅 1.40 → 2 美元，2027/2/1 起",
+   "orig": "Fair Trade USA Raising Minimum Coffee Prices to New Fairtrade Levels",
+   "date": "2026/11/18",
+   "media": "Daily Coffee News",
+   "author": "Nick Brown",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "美國公平貿易認證組織 Fair Trade USA 宣布調高咖啡的保證最低價，適用 2027 年 2 月 1 日起簽的合約。調整後四種價格都和國際公平貿易組織 Fairtrade International 12 月 1 日生效的新底價一致。",
+    {
+     "table": {
+      "cap": "Fair Trade USA 最低價（每磅，美元）",
+      "cols": [
+       "品項",
+       "現行",
+       "2027/2/1 起"
+      ],
+      "rows": [
+       [
+        "水洗阿拉比卡",
+        "1.40",
+        "2.00"
+       ],
+       [
+        "日曬阿拉比卡",
+        "1.35",
+        "1.95"
+       ],
+       [
+        "水洗羅布斯塔",
+        "1.05",
+        "1.35"
+       ],
+       [
+        "日曬羅布斯塔",
+        "1.01",
+        "1.30"
+       ]
+      ]
+     }
+    },
+    "另外的加價不變：公平貿易溢價每磅 20 美分、有機加價 30 美分（Fairtrade International 的有機加價是 40 美分）。",
+    "背景：兩個系統 2011 年分家。2023 年 Fairtrade International 十多年來第一次調漲最低價，Fair Trade USA 當時選擇凍結不跟，理由是怕價格提高會讓認證咖啡的採購量變少，反而傷到農民。Fair Trade USA 咖啡主管 Adam Lane 說，三年來市場經歷長期高價，供應鏈壓力不同了，所以改變立場。",
+    "帳面上水洗阿拉比卡漲約 43%，但目前期貨價遠高於底價，短期內對實際合約價影響有限。Lane 的說法是：「它的價值在價格下跌時才會出現」，讓農民和買家知道底在哪裡、比較好規劃投資。"
+   ],
+   "why": "最低價是「保險」，不是現在的成交價：現在國際豆價還很高，這次調整不會讓我們進的豆子馬上變貴。它真正的意思是，兩大公平貿易系統都承認「舊的底價已經養不活農民」，跟前幾期談的生活收入、GCP 永續採購比例下滑是同一條線。客人問「公平貿易豆是不是比較貴、錢有沒有到農民手上」時，可以說：最低價和每磅 20 美分溢價是保障機制，在豆價崩跌時最有感。",
+   "detail": [
+    "生效日｜2027/2/1 起簽的合約",
+    "對齊對象｜Fairtrade International 2026/12/1 新底價",
+    "分家｜2011 年 Fair Trade USA 脫離國際系統",
+    "2023 年｜國際版漲價，Fair Trade USA 當時凍結",
+    "下一步｜2027 年檢討有機加價"
+   ],
+   "watch": "豆價若回落，新底價會不會開始實際墊高認證豆成本；Fair Trade USA「Innovation for Impact」計畫後續會加什麼機制。",
+   "link": "https://dailycoffeenews.com/2026/11/18/fair-trade-usa-raising-minimum-coffee-prices-to-new-fairtrade-levels/",
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "kenya-flavour-atlas-expo-launch-2026",
+   "sec": "industry",
+   "title": "肯亞風味地圖續報：展會後確定 2027 年出免費開放版，還要加入土壤與氣候分析",
+   "orig": "Kenya Unveils Coffee Flavour Mapping Project",
+   "date": "2026/11/16",
+   "media": "Science Africa；The Standard（肯亞）",
+   "author": "Milliam Murigi",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "上期「大家問」整理過的肯亞咖啡風味地圖，11/14–16 在奈洛比的 Kenya Coffee Flavour and Origin Expo 正式啟動。Science Africa 報導：約 300 位肯亞與國際杯測師，盲測全國約 500 支樣品，杯測時不知道產地和合作社，結果會做成「肯亞國家咖啡風味地圖集」，預定 2027 年以免費、開放的形式發布。",
+    "這次新增的資訊：地圖不只記錄風味，也會加入土壤與氣候適宜性分析，用來解釋各地為什麼長出不同風味，並找出氣候變遷下適合種咖啡的地區。主辦是聯合國糧農組織（FAO）和工發組織（UNIDO），與肯亞政府和產業合作。",
+    "FAO 駐肯亞代表 Farayi Zimudzi 一句話點出問題：「我們的分級制度告訴農民豆子多大，卻沒有告訴他們風味，而風味才是最後決定價格的東西。」",
+    {
+     "table": {
+      "cap": "報導引用的肯亞產業數字（2024/25 咖啡局年報）",
+      "cols": [
+       "項目",
+       "數字"
+      ],
+      "rows": [
+       [
+        "產量",
+        "近 51,000 公噸生豆（clean coffee）"
+       ],
+       [
+        "面積",
+        "超過 117,000 公頃，33 個郡"
+       ],
+       [
+        "出口收入",
+        "增加 17.5%，達 3.44 億美元"
+       ],
+       [
+        "平均拍賣價",
+        "上漲近 50%，每袋 340 美元"
+       ],
+       [
+        "咖啡櫻桃收購價",
+        "每公斤 81 先令升到 114 先令以上"
+       ],
+       [
+        "小農單產",
+        "每公頃約 439 公斤，潛力 520 公斤"
+       ]
+      ]
+     }
+    },
+    "肯亞 The Standard（11/18）訪問合作社：南迪（Nandi）合作社聯盟過去主要靠拍賣系統銷售，希望地圖讓更多買家認識南迪的風味、增加直接銷售；穆蘭加（Murang'a）農民合作社聯盟執行長 Irene Kabochi 說，知道各區風味特色後，可以把行銷資源集中在偏好明亮酸質或果香的市場。技術夥伴 Torch Coffee 共同創辦人 Marty Pollack 說，這套產區風味記錄的做法幾年前從中國開始。"
+   ],
+   "why": "這是 Ben 要求持續追蹤的系列。目前進度：杯測做完了，完整地圖還要等到 2027 年，這次仍沒有各郡的風味結果。值得注意的是 FAO 那句話：肯亞傳統的 AA、AB 分級是看豆子大小，不是看風味。介紹肯亞豆時，可以跟客人說「AA 是顆粒大小，不是風味等級」，這是很多人誤會的地方；地圖出來後，我們就能用「郡」來講風味，而不只是用分級。",
+   "detail": [
+    "盲測｜杯測時不知道產地與合作社",
+    "發布｜2027 年，免費開放資料",
+    "新增｜土壤、氣候適宜性分析",
+    "主辦｜FAO、UNIDO 與肯亞政府",
+    "郡數｜Science Africa 引年報寫 33 郡；先前 DCN 寫 34 個產郡"
+   ],
+   "watch": "主辦單位是否先公布初步結果或樣品數的正式數字（之前各媒體寫 500 或約 700 支）。",
+   "note": "Business Daily（11/18）同題報導需付費，只讀到開頭兩段。產郡數各媒體寫法不同（33 或 34），以正式地圖為準。",
+   "link": "https://news.scienceafrica.co.ke/kenya-unveils-coffee-flavour-mapping-project/",
+   "extra_links": [
+    {
+     "t": "The Standard：合作社怎麼看風味地圖",
+     "u": "https://www.standardmedia.co.ke/business/article/2001562470/kenya-maps-coffee-flavours-to-unlock-premium-markets"
+    },
+    {
+     "t": "CoffeeTalk：地圖集的內容與時程",
+     "u": "https://coffeetalk.com/daily-dose/from-origin/11-2026/111260/"
+    }
+   ],
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "roasting-partner-roastery-erp",
+   "sec": "industry",
+   "title": "Roasting Partner 烘豆廠營運系統：從生豆批次、烘焙紀錄到出貨與稽核一套管，月費 449 美元起",
+   "orig": "Roasting Partner Launches an Operating System for Roasters",
+   "date": "2026/11/18",
+   "media": "Daily Coffee News",
+   "author": "Howard Bryman",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "美國聖路易的 Roasting Partner 10 月起開放給外部烘豆商使用。它不是單純的烘焙曲線紀錄軟體，而是把生產、庫存、銷售、採購、咖啡館營運、排班和衛生稽核紀錄放在同一個系統，業界叫 ERP（企業資源規劃）。",
+    {
+     "table": {
+      "cap": "方案",
+      "cols": [
+       "方案",
+       "月費"
+      ],
+      "rows": [
+       [
+        "Basic",
+        "449 美元"
+       ],
+       [
+        "Pro",
+        "749 美元"
+       ],
+       [
+        "Enterprise",
+        "依需求報價，給多據點業者"
+       ]
+      ]
+     }
+    },
+    {
+     "list": [
+      "生豆：依批次記錄存放位置、存放時間、數量，加上採購合約、到岸成本和生豆市場行情",
+      "烘焙：依訂單、批量、庫存新舊排烘焙順序，往下追到包裝與出貨",
+      "紀錄：原生支援 Mill City Roasters 烘豆機；其他有 TC4 類控制板或 Modbus 的機器也能記錄，並可和開源軟體 Artisan 互通",
+      "稽核：除蟲、清潔、溫度紀錄，可依批次追溯生豆和成品"
+     ]
+    },
+    "共同創辦人 Tyler Reaska 說：「烘焙紀錄軟體告訴你滾筒裡發生什麼事；我們把那一爐連到它的生豆批次、成本、裝進哪一袋、誰買走，以及稽核員會要的紀錄。」系統先在當地烘豆商 La Finca Coffee（一間烘豆廠加三家門市）實際運作過。下一步要做品質報告和連接生豆、包材、運輸供應商的交易平台。"
+   ],
+   "why": "之前「大家問」比較過 Artisan 和 Cropster，這則是另一個方向：小烘豆廠真正花時間的常常不是曲線，而是「這包豆子是哪一批生豆、成本多少、還剩多少」。即使不買這類軟體，也可以檢查自己的紀錄有沒有做到「一爐 → 一批生豆 → 一個成本」可以串起來。月費約 449 美元起，對小店不便宜，比較適合有批發、多門市的規模。",
+   "detail": [
+    "開放時間｜2026 年 10 月起對外",
+    "擁有者｜Thomas Acquisition（Thomas Coffee 母公司）",
+    "共同開發｜Tyler Reaska、Rachel Tucker",
+    "串接｜QuickBooks Online、Shopify",
+    "最初功能｜生豆價格與庫存預測"
+   ],
+   "note": "內容主要是創辦人說法，屬於產品介紹，沒有第三方使用評價。",
+   "link": "https://dailycoffeenews.com/2026/11/18/roasting-partner-launches-an-operating-system-for-roasters/",
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "fda-methylene-chloride-decaf-pending",
+   "sec": "science",
+   "title": "美國 FDA 撤銷部分二氯甲烷食品用途，但低咖啡因咖啡的禁用申請還沒決定",
+   "orig": "FDA Revokes Some Methylene Chloride Use, But Decaf Decision Still Pending",
+   "date": "2026/11/18",
+   "media": "Daily Coffee News",
+   "author": "Nick Brown",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "美國食品藥物管理局（FDA）11 月 9 日宣布，以二氯甲烷（methylene chloride）在實驗動物身上致癌的證據為由，撤銷幾項食品相關用途，2027 年 1 月 11 日生效：包括標示蔬果用的墨水，以及兩種溶劑在部分食用色素製程中的用途（FDA 認定業界早已不用）。",
+    "這次決定沒有處理咖啡。用二氯甲烷做低咖啡因（常被稱為「歐洲法」）在美國仍然合法，殘留上限是低咖啡因烘焙咖啡與即溶萃取物 10 ppm。另一份 2023 年 12 月提出的申請，要求撤銷苯、二氯乙烷、二氯甲烷、三氯乙烯等溶劑的食品用途（包含低咖啡因製程），FDA 資料庫顯示仍在審查、沒有時間表。申請方引用聯邦法律的 Delaney 條款：會讓人或動物致癌的食品添加物不得核准。",
+    {
+     "table": {
+      "cap": "各方立場",
+      "cols": [
+       "單位",
+       "立場"
+      ],
+      "rows": [
+       [
+        "美國環保協會 EDF（申請方）",
+        "歡迎這次決定，但要求 FDA 也處理低咖啡因製程"
+       ],
+       [
+        "美國咖啡協會 NCA",
+        "反對禁用，認為在現行上限下歐洲法安全；禁用會限制供應、增加成本"
+       ],
+       [
+        "部分咖啡公司",
+        "已改用不靠二氯甲烷的方式，或主打水處理法"
+       ]
+      ]
+     }
+    },
+    "NCA 引用 2023 年調查：約 10% 美國成人、約 2,600 萬人每天喝低咖啡因咖啡。"
+   ],
+   "why": "客人問「低咖啡因是不是用化學藥劑泡出來的」時，可以分清楚：常見方法有溶劑法（二氯甲烷、乙酸乙酯，後者常被叫「甘蔗法」）、水處理法和二氧化碳法。美國目前仍允許二氯甲烷法，但正在審查是否禁用。店裡如果賣低咖啡因豆，先跟供應商確認是哪一種處理法，寫進豆卡，回答客人時才有根據。",
+   "action": "把店裡低咖啡因豆的脫咖啡因方法查清楚，寫在豆卡或菜單備註上。",
+   "detail": [
+    "宣布｜2026/11/9",
+    "生效｜2027/1/11",
+    "咖啡｜這次不受影響，仍可使用",
+    "殘留上限｜10 ppm（美國現行）",
+    "待審申請｜2023 年 12 月提出，無時間表"
+   ],
+   "watch": "FDA 對低咖啡因溶劑申請的決定；美國若禁用，進口低咖啡因豆的處理法標示會不會跟著改變。",
+   "note": "台灣對低咖啡因咖啡溶劑殘留的規定，這次沒查到可靠資料，之後再補。乙酸乙酯「甘蔗法」是業界常見說法，不在 DCN 原文中。",
+   "link": "https://dailycoffeenews.com/2026/11/18/fda-revokes-some-methylene-chloride-use-but-decaf-decision-still-pending/",
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "kaohsiung-coffee-festival-2026-nov",
+   "sec": "food",
+   "title": "高雄咖啡節這週末 11/21–22 凹子底森林公園：66 家咖啡甜點品牌、原鄉咖啡、手沖講座",
+   "orig": "",
+   "date": "2026/11/18",
+   "media": "今傳媒（高雄市觀光局新聞稿）、青年日報",
+   "author": "李祖東、李佩玲",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "高雄市觀光局主辦的「2026 高雄咖啡節」11 月 21、22 日下午 3 點到晚上 9 點在凹子底森林公園舉行，今年是第三屆。集結 66 家在地精品咖啡、烘焙甜點和原鄉部落品牌，加上農業局「神農市集」，總共超過 150 家咖啡、農產和選物品牌。",
+    {
+     "list": [
+      "原鄉品牌：樁萱巫師咖啡莊園、伊嵐烏麗南橫玉穗精品咖啡、二集團 Tabakai 雅鳳愛玉、蝶 Svongvong 烘焙坊",
+      "講座與手沖體驗：KEEP Coffee Roastery（觀光局說入選 2026 全球百大咖啡館第 46 名）、高雄市咖啡茶品推廣協會理事長黃俊豪、林老師咖啡、內向咖啡館",
+      "樹德科大、高雄餐旅大學的咖啡創意料理秀，另有音樂演出"
+     ]
+    },
+    "同週末 BTS（11/19、21、22 世運主場館）、彭佳慧（11/21 高雄巨蛋）、N.Flying（高流海音館）都在高雄演出，觀光局主打「白天逛咖啡節、晚上看演唱會」。交通：捷運紅線凹子底站 4 號出口步行可到；輕軌愛河之星站步行約 6 分鐘。"
+   ],
+   "why": "南部最近的大型咖啡市集，而且有原鄉咖啡莊園直接擺攤，是認識桃源、那瑪夏、茂林一帶產區的好機會；剛好在演唱會週末，人潮會很多。休假去的人可以留意原鄉莊園怎麼介紹自己的豆子、甜點品牌怎麼跟咖啡搭配，回來分享。",
+   "detail": [
+    "日期｜2026/11/21–22（六、日）",
+    "時間｜15:00–21:00",
+    "地點｜高雄凹子底森林公園",
+    "規模｜66 家參展＋神農市集，合計超過 150 家",
+    "票價｜新聞稿沒有寫",
+    "資訊｜高雄旅遊網、官方 FB／IG、「高雄GO！」App"
+   ],
+   "note": "今年 7–8 月食尚玩家曾報導高雄咖啡節訂在 8/22–23 舉行，以「冰咖啡」為主題；這次觀光局新聞稿的日期是 11/21–22，兩者關係（是否延期）報導沒有說明。",
+   "link": "https://lifenews.com.tw/618276",
+   "extra_links": [
+    {
+     "t": "青年日報：66 家精品飄香",
+     "u": "https://www.ydn.com.tw/tw/News/ugC_News_Detail.aspx?ID=650600"
+    }
+   ],
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "taipei-coffee-festival-2026-dec",
+   "sec": "food",
+   "title": "2026 臺北咖。啡節 12/3–6 圓山花博：60 多家參展、13 家海外品牌首度來台，早鳥票到 11/22",
+   "orig": "",
+   "date": "2026/11/18",
+   "media": "ETtoday 旅遊雲、窩客島",
+   "author": "黃士原",
+   "tier": "T3",
+   "read": 5,
+   "summary": [
+    "由有趣餐飲行銷規劃的「2026 臺北咖。啡節」12 月 3 日到 6 日在圓山花博登場，主題「Flavor Beyond Borders」。超過 60 家台灣與海外精品咖啡店參加，其中 13 家海外品牌首度來台。窩客島報導，今年場地擴大到花海廣場和環形廣場兩區，搭大型篷房。",
+    {
+     "table": {
+      "cap": "首度來台的海外品牌（依 ETtoday）",
+      "cols": [
+       "地區",
+       "品牌"
+      ],
+      "rows": [
+       [
+        "日本",
+        "沖繩 Lumi Umi、名古屋 SHRUB COFFEE、兵庫 CINEMA COFFEE ROASTERS（2026 PCRC 巴拿馬烘焙賽冠軍）、京都 KAZETO COFFEE、仙台 Keyaki Coffee（2023 JCRC 亞軍）、札幌 Node brewit"
+       ],
+       [
+        "印尼",
+        "日惹 Space Roastery"
+       ],
+       [
+        "泰國",
+        "Y'EST WORKS Coffee Roastery、Brave Roasters"
+       ],
+       [
+        "新加坡",
+        "PPP Coffee、Kyuukei Coffee"
+       ],
+       [
+        "韓國",
+        "Center Coffee Korea、Brewing Ceremony"
+       ]
+      ]
+     }
+    },
+    {
+     "table": {
+      "cap": "參展的 2026 亞太百大咖啡館",
+      "cols": [
+       "店家",
+       "名次"
+      ],
+      "rows": [
+       [
+        "ULT Coffee Roaster（大阪）",
+        "第 3"
+       ],
+       [
+        "Urban Coffee Roaster（香港）",
+        "第 15"
+       ],
+       [
+        "Alchemist（新加坡）",
+        "第 36"
+       ],
+       [
+        "Homeground Coffee Roasters（新加坡）",
+        "第 38"
+       ],
+       [
+        "Brewing Ceremony（首爾）",
+        "第 58"
+       ],
+       [
+        "Coffee Sind（台灣）",
+        "第 60"
+       ],
+       [
+        "Roastwork（香港）",
+        "第 73"
+       ]
+      ]
+     }
+    },
+    "窩客島列出的限定品項包括：香港 BLOSSOM 波甚珈琲以芒果糯米飯為靈感的特調（報導說拿下今年達芬奇咖啡師大賽世界冠軍）、東京 IRON COFFEE 用坦尚尼亞圓豆做的拿鐵、鮮乳坊與多家攤位合作的奶咖刮刮卡等。場外每天有 8 台餐車。"
+   ],
+   "why": "這是年底台北最集中的一次「不用出國喝亞洲名店」機會，對吧台夥伴最有價值的是比較：同樣是淺焙手沖，日本、韓國、東南亞的店在風味方向和出杯方式上差在哪。想去的人早鳥票 11/22 截止，可以先跟店裡排好 12/3–6 其中一天的休假。",
+   "action": "想去的人在 11/22 前買早鳥票，並先挑 3 家想比較的店，回來分享各家的濃縮或手沖風格差異。",
+   "detail": [
+    "日期｜2026/12/3–12/6",
+    "地點｜圓山花博（花海廣場、環形廣場）",
+    "單日票｜250 元；早鳥 220 元，線上賣到 11/22",
+    "雙日套票｜590 元，限量 500 份，12/3–4 兩天＋淺嚐杯",
+    "規模｜60 多家，13 家海外品牌首度來台",
+    "開放時間｜這次查不到"
+   ],
+   "note": "內容以主辦單位提供資料為主（ETtoday 照片均註明主辦提供），各店得獎與排名為報導所寫，未逐一查證原始榜單。",
+   "link": "https://travel.ettoday.net/article/3274464.htm",
+   "extra_links": [
+    {
+     "t": "窩客島：限定品項與餐車整理",
+     "u": "https://www.walkerland.com.tw/subject/view/425719"
+    }
+   ],
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "freshcup-smile-test-hospitality",
+   "sec": "food",
+   "title": "「微笑測試」檢查待客訓練有沒有用：客人進門一分鐘內有沒有笑，眼睛有沒有跟著笑",
+   "orig": "You train for hospitality. The smile test will reveal how effective it is.",
+   "date": "2026/11/18",
+   "media": "Fresh Cup（Operator Notes 專欄）",
+   "author": "Garrett Oden",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "Fresh Cup 發行人 Garrett Oden 在每週營運專欄裡，分享他十年前管理咖啡館時學到的方法。起點是一個常見經驗：走進一家期待已久的店，咖啡師看你一眼不說話，點完單、拿到飲料，互動就結束了。他說很少店會去量待客訓練的效果，因為服務很難量化，但有一個簡單的方法。",
+    {
+     "list": [
+      "挑一個平常的尖峰時段，坐在看得到門口和櫃台的位置，觀察客人的臉",
+      "問題一：客人多久會笑？理想是進門一分鐘內，因為某個原因笑出來；從頭到尾面無表情就是不及格",
+      "問題二：是嘴角的禮貌笑，還是眼睛也在笑？兩種都算成功，但眼睛的笑代表客人是真的感受到"
+     ]
+    },
+    "接著可以比較哪位咖啡師讓客人最快笑、最開心，看他們做了什麼不一樣。作者觀察到的共通點：客人進門時微笑、眼神接觸、打招呼；記住並叫出客人的名字，忘記了就拿來開玩笑；點餐時給每位客人幾秒真正的交流；目標是建立關係，而不只是把服務做好。"
+   ],
+   "why": "這個方法不用花錢、不用問卷，店長或資深夥伴找一個尖峰時段坐下來看 30 分鐘就能做。重點不是要大家硬擠笑容，而是看「客人有沒有被看見」：進門那一刻有沒有人抬頭、點單時有沒有多說一句。也可以反過來用在訓練新人：請他們觀察誰讓客人笑得最快，學那個人的做法。",
+   "action": "這週挑一個尖峰時段，請一位不在吧台的夥伴觀察 20 位客人：一分鐘內笑了幾位、有幾位是眼睛也在笑。",
+   "detail": [
+    "觀察時段｜平常的尖峰一小時",
+    "及格線｜進門一分鐘內笑",
+    "加分｜眼睛跟著笑，不只嘴角",
+    "常見做法｜打招呼、叫名字、點單時多幾秒交流"
+   ],
+   "note": "這是作者個人經驗的方法，不是研究；文中提到「研究顯示咖啡館的社交互動帶來歸屬感與忠誠度」，原文沒有附出處。",
+   "link": "https://freshcup.com/the-smile-test-will-tell-you-if-your-hospitality-training-works/",
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "creative-boom-adobe-max-creatives-fears",
+   "sec": "design",
+   "title": "專欄：Adobe MAX 一週後，插畫家和設計師說出對 AI 的害怕；Adobe 法務：重點已從訓練轉向「風格保護」",
+   "orig": "'It's going to be scary': a week on from Adobe MAX 2026, creatives get honest about the future",
+   "date": "2026/11/18",
+   "media": "Creative Boom",
+   "author": "Katy Cowan",
+   "tier": "T2",
+   "read": 9,
+   "summary": [
+    "Creative Boom 編輯 Katy Cowan 今年第一次親自到邁阿密看 Adobe MAX 的 Sneaks（實驗工具發表）。十個實驗專案裡，有的讓現場歡呼，例如把一處的修圖複製到另一處、拖進場景的設計元素會自動調整透視和風格並保持向量可編輯、能「畫上光線」的 Deep Brush；也有讓觀眾沉默的，例如建立虛構角色的外型、聲音和個性並和它聊天，或把單張照片變成可以走進去取景的 3D 空間。她說自己用 AI 工具三、四年，但坐在會場「覺得有點想吐，而不是興奮」。",
+    "她在 LinkedIn 問創作者最近最怕什麼，十多人回覆：",
+    {
+     "list": [
+      "插畫與手寫字藝術家 Ana Moreno Chávez：以前每月 3–5 個案子，今年整年只有 3–5 個",
+      "動態設計師 Oleksandr Merkulov：不怕工具，怕客戶習慣「快又過得去」，失去多改一輪讓作品變好的耐心",
+      "設計師 Isabella Wordsworth：第一版就看起來像完成品時，會失去把好點子磨成好作品的摩擦；實驗變成奢侈品",
+      "品牌設計師 Sophie O'Connor：新人被 AI 取代，那以後誰來成為資深？",
+      "UX／UI 設計師 Andrew Areoff：跟上 AI 會加速自己職位消失，拒絕 AI 也一樣"
+     ]
+    },
+    "Adobe 副總裁暨副法務長 Karen Robinson 說，2024 年創作者對英國 AI 訓練「預設可用、需自行退出」提案的反彈是合理的；現在她聽到的擔心「比較不是訓練，而是產出」，因為 AI 產出會直接跟創作者競爭。創作者想要的是「風格保護」：有明確風格的藝術家應該能保護它，但她說目前做不到，而且光靠授權金解決不了。她提到攝影剛出現時也不受著作權保護，是經過一連串判決才承認拍照者的創作決定。Adobe 設計資深副總裁 Eric Snowden 則說，他生成的每張圖仍要在 Photoshop 精修：「事情會改變，會很可怕……但也有亮點，傾身迎向它。」"
+   ],
+   "why": "這篇最接近我們做插畫、品牌、網站的夥伴每天面對的事：不是工具會不會用，而是案量、客戶期待和新人的養成。值得帶走的是兩個具體觀念：一是「風格保護」正在成為下一個討論重點，經營個人風格的插畫家要開始留意作品被模仿時能主張什麼；二是 Merkulov 說的「快又過得去」，提案時可以把「多一輪調整」的價值講清楚，而不是只拚速度。",
+   "detail": [
+    "受歡迎專案｜Rinse Repeat、Link Up、Deep Brush",
+    "引發不安｜Screen Test、Live Set、Sight Span、Sound Bender",
+    "Adobe 觀點｜擔心重點從訓練資料轉向產出競爭",
+    "法律現況｜作者說風格目前無法受保護",
+    "作者立場｜自認 AI 使用者，仍對產業前景擔心"
+   ],
+   "note": "這是編輯的第一人稱專欄，受訪者意見來自 LinkedIn 回覆，不是調查。Sneaks 展示的專案不保證會正式推出。",
+   "link": "https://www.creativeboom.com/insight/its-going-to-be-scary-a-week-on-from-adobe-max-creatives-get-honest-about-the-future/",
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "elenor-kopka-animation-to-ceramics",
+   "sec": "design",
+   "title": "把動畫的一格捏成陶：德國藝術家 Elenor Kopka 用手繪動畫裡扭動的形狀做陶藝雕塑",
+   "orig": "Elenor Kopka on turning her strange, squiggly animations into ceramic sculptures",
+   "date": "2026/11/18",
+   "media": "Creative Boom",
+   "author": "Ayla Angelos",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "住在法國里昂的德國藝術家 Elenor Kopka 原本念插畫和版畫，後來自學把手繪圖做成動畫，2025 年完成陶藝學徒訓練。她最近的創作是把動畫裡不斷變形的形狀「定格」成陶：先在 3D 裡做出物件、做成動畫，再挑出其中幾格，用陶土重現，變成一系列從螢幕上的扭動中凍結下來的瞬間。",
+    "她說：「動畫把動作關在螢幕或投影裡，雕塑存在於真實世界卻停在某個姿態，我很喜歡探索兩者之間的關係。」",
+    "她做動畫常常不畫分鏡，一個鏡頭接一個鏡頭往下畫，「逐格手繪沒有計畫有點危險，有時畫完的東西最後整段剪掉，但我還是這樣做」。2025 年的短片《MOLD》連配樂都是她自己寫的；另一件作品是爵士樂手 Adam O'Farrill〈Late June〉的音樂錄影帶。她希望作品讓人笑，也讓人有點不安，但不是「反諷」。孩子出生約一年，她說育嬰期幾乎沒有創作，現在靠「把手放在陶土上，看會發生什麼」慢慢回到工作室。"
+   ],
+   "why": "給做數位插畫和動畫的夥伴一個跨媒材的思路：螢幕上的角色或形狀，可以挑關鍵的一格變成實體，陶、紙、壓克力都行。店裡如果要做周邊或空間小擺設，從品牌插畫裡挑一個動作「定格」成立體物件，會比直接印圖更有記憶點。日系陶藝的夥伴也可以看看，陶如何承接動畫的線條感。",
+   "detail": [
+    "學經歷｜插畫、版畫；自學動畫；2025 年完成陶藝學徒",
+    "流程｜3D 建模 → 動畫 → 挑影格 → 陶土重現",
+    "短片｜《MOLD》（2025），自己作曲",
+    "合作｜Adam O'Farrill〈Late June〉MV"
+   ],
+   "link": "https://www.creativeboom.com/inspiration/elenor-kopka-on-turning-her-strange-squiggly-animations-into-ceramic-sculptures/",
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "christies-ny-kandinsky-record-nov-2026",
+   "sec": "design",
+   "title": "紐約秋拍續報：康丁斯基《Betonte Ecken》8,580 萬美元創紀錄，佳士得 20 世紀夜拍 6.27 億美元",
+   "orig": "Kandinsky record and trove consigned by Jeff Koons buoy Christie's 20th-century sale in New York",
+   "date": "2026/11/18",
+   "media": "The Art Newspaper",
+   "author": "",
+   "tier": "T2",
+   "read": 7,
+   "summary": [
+    "佳士得 11 月 17 日紐約 20 世紀夜拍，落槌 5.21 億美元、含佣金 6.27 億美元，落在拍前估價 5.11–7.43 億美元的低端，但比去年同場的 3.901 億美元（含佣 4.717 億）明顯好。75 件中 31 件有第三方保證、5 件由拍賣行自己保證；6 件流拍，加上 3 件撤拍，成交率 88%，共創下 6 項藝術家紀錄。",
+    {
+     "table": {
+      "cap": "重點拍品（含佣金）",
+      "cols": [
+       "作品",
+       "成交價",
+       "備註"
+      ],
+      "rows": [
+       [
+        "康丁斯基《Betonte Ecken》（1923）",
+        "8,580 萬美元",
+        "藝術家紀錄；1986 年以 100 萬美元購入"
+       ],
+       [
+        "克林姆《Litzlbergkeller》（1915–16）",
+        "8,230 萬美元",
+        "1997 年以 1,440 萬美元購入"
+       ],
+       [
+        "畢卡索《Le Baiser》（1969）",
+        "3,110 萬美元",
+        "Jeff Koons 委託，低於 4,000–6,000 萬估價"
+       ],
+       [
+        "賈科梅蒂《Figure, demie grandeur (no.2)》（1949）",
+        "2,590 萬美元",
+        "Herbert Lust 收藏"
+       ],
+       [
+        "林飛龍《Ogue Orisa》（1943）",
+        "1,160 萬美元",
+        "藝術家紀錄"
+       ],
+       [
+        "波特羅銅雕《Horse》（2006）",
+        "520 萬美元",
+        "藝術家紀錄，作品擺在佳士得門口人行道"
+       ]
+      ]
+     }
+    },
+    "Jeff Koons 委託的一批畢卡索與古典大師作品合計 1.047 億美元；其中 Cornelis Cornelisz van Haarlem 1590 年的《Hercules and Achelous》以 1,390 萬美元再創該藝術家紀錄。7 件 1950 年代波洛克小品、莫迪里亞尼一件油畫流拍；芙烈達．卡蘿一件畫作因出口問題在最後一刻撤拍。拍賣官 Adrien Meyer 說：「有很久沒看到的亞洲大量參與。」"
+   ],
+   "why": "接續上一期草間彌生的秋拍紀錄。這場的特點是「稀有、久未上市的作品才撐得起價格」：兩件最貴的都是收藏家持有 30 年以上才釋出。對關注市場的人，也可以看到同一場裡大名字不保證成交，估價訂太高的畢卡索就低於估價。康丁斯基是抽象藝術的源頭之一，這件是他在包浩斯任教的威瑪時期作品，屬於幾何抽象，可以拿來對照店裡常見的幾何、色塊類品牌視覺。",
+   "detail": [
+    "拍賣日｜2026/11/17，紐約",
+    "總額｜落槌 5.21 億、含佣 6.27 億美元",
+    "保證｜31 件第三方、5 件拍賣行保證",
+    "成交率｜88%（含撤拍計算）",
+    "下一場｜蘇富比梵谷《Châtaigniers en fleurs》"
+   ],
+   "note": "Artnet 標題寫總額 6.266 億美元，與 The Art Newspaper 的 6.27 億一致（四捨五入）。作品中文譯名為本刊暫譯，原文名保留。",
+   "link": "https://www.theartnewspaper.com/2026/11/18/kandinsky-record-and-a-trove-consigned-by-jeff-koons-buoy-christies-solid-20th-century-evening-sale-in-new-york",
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "tu-chung-kao-calligrapher-passes",
+   "sec": "design",
+   "title": "書法家杜忠誥辭世，享壽 79 歲：兼具文字學研究與「傳統與實驗」並進的書藝",
+   "orig": "",
+   "date": "2026/11/18",
+   "media": "中央社",
+   "author": "王寶兒",
+   "tier": "T2",
+   "read": 2,
+   "summary": [
+    "中央社報導，台灣書道藝術家杜忠誥 10 月 28 日辭世，享壽 79 歲。文化部常務次長徐宜君 11 月 18 日出席告別式，頒贈總統褒揚令，由妻子張翠鳳代表受贈。",
+    "杜忠誥創作和理論研究並重，結合文學、古文字學與禪學，著有《漢字美學：杜忠誥文字書法論文集》、《說文篆文訛形釋例》等，藝術上鼓勵「傳統與實驗」並進。2008 年起陸續出版《符號・氣韻・遊戲—杜忠誥六十書法展》、《淬煉與超越—杜忠誥回鄉書法展》、《凝煉與幻變—杜忠誥七十書藝展》、《墨海掣鯨—杜忠誥竹塹‧磺溪巡迴展作品集》等作品集。曾任台師大國文系副教授，並在台藝大、北藝大美術系所兼任。"
+   ],
+   "why": "書法是漢字設計的根：字型、品牌標準字、招牌和手寫菜單，都在處理同樣的筆畫、結構與留白。杜忠誥從古文字研究出發做實驗性書藝，作品集名稱裡的「符號」「遊戲」也點出他把書法當成造形來思考。做字型或品牌的夥伴，可以從他的作品集找漢字造形的靈感。",
+   "detail": [
+    "辭世｜2026/10/28，享壽 79 歲",
+    "褒揚｜11/18 文化部代頒總統褒揚令",
+    "專著｜《漢字美學》、《說文篆文訛形釋例》",
+    "教職｜台師大國文系副教授；台藝大、北藝大兼任"
+   ],
+   "link": "https://www.cna.com.tw/news/acul/202611180195.aspx",
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "pdg-macap-grinder-consistency-sponsored",
+   "sec": "skip",
+   "title": "磨豆機規格不等於杯中風味：PDG 談粒徑分布與一致性，但是 Macap 贊助稿",
+   "orig": "More than mechanics: How much does your grinder actually affect espresso extraction?",
+   "date": "2026/11/18",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T3",
+   "read": 7,
+   "summary": "文章說刀盤大小、馬達功率和出粉量只描述機器，真正影響風味的是粒徑分布；建議在尖峰時段實際測粉重、出杯時間、TDS 是否穩定，並在最忙的時候試喝。但文末註明 Macap 是 PDG 的贊助商，文中大段介紹 Macap Supra 系列。",
+   "why": "「尖峰時段再試喝一次」這個觀念不錯，但整篇是廠商贊助內容，數字也多是產品規格，所以放路過。",
+   "note": "Macap 為 Perfect Daily Grind 贊助商（原文註明）。",
+   "link": "https://perfectdailygrind.com/2026/11/grinder-affect-espresso-extraction/",
+   "pub": "2026-11-19"
+  },
+  {
+   "id": "barista-mag-bordeaux-cafes",
+   "sec": "skip",
+   "title": "波爾多不只有葡萄酒：Barista Magazine 介紹 6 家咖啡館",
+   "orig": "Bordeaux Beyond Wine—6 Cafés to Visit in the French City",
+   "date": "2026/11/18",
+   "media": "Barista Magazine",
+   "author": "Urvashi Roe",
+   "tier": "T2",
+   "read": 6,
+   "summary": "Barista Magazine 的城市咖啡指南，介紹法國波爾多的精品咖啡店，包括 2017 年由 Pierre Guerin 創立、他在紐西蘭奧克蘭學咖啡後回來開的 Cafe Piha，以及 L'Alchimiste、Gravaine、Books & Coffee 等。作者認為在講究風土與產地的葡萄酒城市，咖啡也被用同樣的眼光看待。",
+   "why": "旅遊型清單，離我們比較遠；之後有人去法國可以翻出來參考。",
+   "link": "https://www.baristamagazine.com/bordeaux-beyond-wine-6-cafes-to-visit-in-the-french-city/",
+   "pub": "2026-11-19"
+  },
   {
    "id": "ttfb-five-brands-price-up-3-6pct-2026-11",
    "sec": "industry",
