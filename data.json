@@ -1,17 +1,17 @@
 {
  "edition": {
-  "id": "2026-11-19",
-  "no": 22,
-  "date": "2026-11-19",
-  "label": "11月19日 週四"
+  "id": "2026-11-20",
+  "no": 23,
+  "date": "2026-11-20",
+  "label": "11月20日 週五"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "Fair Trade USA 跟進國際公平貿易，水洗阿拉比卡最低價每磅從 1.40 調到 2 美元，2027/2/1 起。",
-  "肯亞風味地圖續報：約 300 位杯測師盲測約 500 支樣品，2027 年出免費開放版，還會加入土壤與氣候分析。",
-  "美國 FDA 撤銷部分二氯甲烷用途，但低咖啡因咖啡的溶劑禁用申請還在審查。",
-  "咖啡節兩檔：高雄這週末 11/21–22 凹子底；台北 12/3–6 圓山花博，早鳥票 11/22 截止。",
-  "ARTs：Adobe MAX 後插畫家和設計師談 AI 的害怕與「風格保護」、Elenor Kopka 把動畫定格成陶、佳士得康丁斯基 8,580 萬美元紀錄、書法家杜忠誥辭世。"
+  "巴西 2026/27 產量上修到創紀錄 7,250 萬袋，但大雨讓阿拉比卡品質參差，期末庫存反而比 6 月預估少 22.7%。",
+  "燕麥奶不再理所當然：Blue Bottle 改回全脂牛奶預設；巴黎新咖啡店 92% 賣抹茶，咖啡在社群上只排第四個話題。",
+  "身體與咖啡兩則：挪威研究每天 1–2 杯和血栓再發風險較低有關；這週熱傳的「肝癌降 47%」其實是 7 月研究、而且是 5 杯以上那組。",
+  "週末去哪：台南水交社森之市「珈琲與花物語」今天到週日，6 組日本咖啡與飲品品牌，免費入場。",
+  "ARTs：Maker’s Mark 用真紅蠟壓印做新識別、成大土佐和紙特展 11/21 開展、奈良美智紐約個展、希爾瑪・阿夫・克林特拍出估價 16 倍。"
  ],
  "weekly": null,
  "sections": [
@@ -41,6 +41,726 @@
   }
  ],
  "items": [
+  {
+   "id": "brazil-usda-2026-27-record-72-5m-quality-stocks",
+   "sec": "industry",
+   "title": "巴西 2026/27 產季上修到創紀錄 7,250 萬袋，但大雨傷了阿拉比卡品質，期末庫存反而砍兩成",
+   "orig": "Brazil’s Record Coffee Harvest Comes with Quality and Stock Concerns",
+   "date": "2026/11/19",
+   "media": "Daily Coffee News（引述美國農業部 USDA FAS 巴西半年報）",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "美國農業部海外農業局（USDA FAS）巴西辦公室的半年報，把已收完的 2026/27 產季估到 7,250 萬袋（每袋 60 公斤），比上一季多 15.1%，創紀錄，也高於 6 月年報的 7,190 萬袋。",
+    {
+     "table": {
+      "cap": "USDA FAS 巴西 2026/27 估計（60 公斤袋）",
+      "cols": [
+       "項目",
+       "數字",
+       "變化"
+      ],
+      "rows": [
+       [
+        "總產量",
+        "7,250 萬",
+        "年增 15.1%"
+       ],
+       [
+        "阿拉比卡",
+        "4,920 萬",
+        "上修 170 萬袋，年增 29.5%"
+       ],
+       [
+        "羅布斯塔",
+        "2,330 萬",
+        "下修 110 萬袋，年減 6.8%"
+       ],
+       [
+        "出口預估",
+        "4,907 萬",
+        "年增 25.8%，維持不變"
+       ],
+       [
+        "期末庫存",
+        "342 萬",
+        "比 6 月預估的 442.5 萬少 22.7%"
+       ]
+      ]
+     }
+    },
+    "阿拉比卡大增，來自好天氣、種植面積擴大和兩年一循環的「大年」。但生長季後段的大雨拖慢採收和乾燥、讓果實掉到地上，米納斯吉拉斯（Minas Gerais）等主要產區的品質因此變差。羅布斯塔則因聖埃斯皮里圖（Espírito Santo）和巴伊亞（Bahia）單位產量下滑而減產。",
+    "出口方面，巴西咖啡出口商協會（Cecafé）10 月出口 533 萬袋，是 1990 年有紀錄以來單月最高。報告預期農民會「漲價就賣、跌價就囤」，慢慢釋出貨源。",
+    "下一季的變數：2027/28 是阿拉比卡的「小年」，目前雨水讓開花提早，但美國海洋暨大氣總署（NOAA）11/12 的展望顯示，到 2027 年 1–3 月出現強到非常強聖嬰的機率超過 79%，高溫或降雨不規則可能影響果實充實和杯品。",
+    "另外，巴西正在討論改寫官方咖啡分級規則，新增包含精品咖啡在內的品質等級，並把傳統的瑕疵「數顆數」改成量瑕疵豆的重量，但還沒通過。"
+   ],
+   "why": "產量創紀錄、庫存卻變緊，這就是最近豆價上下震盪的背景（上週我們寫過阿拉比卡跌到 6 月以來低點）。對我們進豆來說有兩個訊號：一是今年巴西豆量多但阿拉比卡品質參差，挑巴西豆時杯測要更仔細，別只看產地名；二是明年是小年又碰上強聖嬰，生豆價格不太可能一路往下，囤貨和報價要保守看。",
+   "detail": [
+    "產量來源｜阿拉比卡大年＋面積擴大＋天氣好",
+    "品質問題｜採收後段大雨，果實落地、乾燥延誤",
+    "巴西國內消費｜約 2,239 萬袋，持平，僅次於美國",
+    "生產成本｜高利率、肥料和運費仍在壓",
+    "價格｜9 月巴西阿拉比卡、羅布斯塔均價都比去年低約 29%"
+   ],
+   "watch": "明年 1 月起的 2027/28 首批產量估計；聖嬰對開花後結果的影響；巴西新分級制度是否通過。",
+   "link": "https://dailycoffeenews.com/2026/11/19/brazils-record-coffee-harvest-comes-with-quality-and-stock-concerns/",
+   "extra_links": [
+    {
+     "t": "Comunicaffe：USDA 上修巴西產量",
+     "u": "https://www.comunicaffe.com/brazil-usda-raises-2026-27-crop-estimate-to-record-72-5m-bags-15-including-49-2m-arabica/"
+    }
+   ],
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "coffee-byproducts-eu-novel-food-trieste-2026",
+   "sec": "industry",
+   "title": "咖啡樹只有不到 5% 進到杯子裡：歐盟新穎食品法規卡住咖啡果皮、咖啡葉和野生咖啡種",
+   "orig": "Less than 5% of the coffee plant ends up in the cup: a missed opportunity for farmers and businesses",
+   "date": "2026/11/13",
+   "media": "Comunicaffe International",
+   "author": "",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "10 月 19–20 日在義大利的里雅斯特（Trieste）舉行的國際咖啡大會（International Coffee Convention）期間，國際貿易中心（ITC）共同主持的「咖啡循環經濟中心」在 10/18 辦了一場工作坊，談咖啡副產品怎麼進歐盟市場。國際咖啡組織（ICO）和歐洲咖啡聯盟（ECF）都有參加。",
+    "核心數字：咖啡樹的產出只有不到 5% 最後進到杯子，其他像果皮、銀皮、葉子、果肉，每年約 4,000 萬公噸，大多被當廢棄物。",
+    "卡關的地方在歐盟「新穎食品」（novel food）法規：核准是一個產品、一個物種分開審。咖啡果皮茶（cascara）和咖啡葉茶目前只核准阿拉比卡和羅布斯塔（canephora）兩種，其他野生咖啡種和副產品幾乎不可能合法上市。",
+    {
+     "list": [
+      "路線一：在現行法規內擴大、整合已有的核准",
+      "路線二：長期爭取把整個咖啡屬（Coffea）排除在新穎食品範圍之外",
+      "兩條路都需要共同建立科學證據，會後成立聯合工作小組，之後發表工作坊報告"
+     ]
+    },
+    "大會科學委員會主席 Dirk Lachenmeier 說，最壞情況是每個部位、每個物種都要重新申請一次核准。Coffee Consulate 的 Steffen Schwarz 則說：「我們需要的不是更寬鬆的法規，而是更好的法規。」"
+   ],
+   "why": "咖啡果皮茶、咖啡葉茶這幾年在精品咖啡館越來越常見，也是產地農民多一份收入的方法。這篇提醒我們：同樣叫「cascara」，能不能賣、能賣哪個品種的，各市場規定不一樣。客人問「咖啡果皮茶是什麼、為什麼不常見」，可以用「咖啡樹只有不到 5% 變成咖啡」這個數字開頭，說明它是把原本丟掉的部分變成飲品。",
+   "detail": [
+    "副產品量｜每年約 4,000 萬公噸",
+    "已核准｜cascara、咖啡葉茶：僅阿拉比卡和羅布斯塔",
+    "背景｜氣候變遷可能讓大片阿拉比卡產地在 2050 年前不適種，野生種同時是保育和商機"
+   ],
+   "note": "報導發布於 11/13，工作坊在 10/18；這期才補上。文中沒有談台灣法規。",
+   "link": "https://www.comunicaffe.com/less-than-5-of-the-coffee-plant-ends-up-in-the-cup-a-missed-opportunity-for-farmers-and-businesses/",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "coffee-vte-recurrence-norway-2026",
+   "sec": "science",
+   "title": "挪威研究：第一次靜脈血栓後，平常每天喝 1–2 杯咖啡的人，再發風險約只有不喝者一半",
+   "orig": "Norwegian study links one to two cups of coffee a day to lower risk of a second blood clot",
+   "date": "2026/11/13",
+   "media": "Comunicaffe International（引述 Research and Practice in Thrombosis and Haemostasis）",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "挪威研究團隊（Melliane M. Olsen、Sigrid K. Brækkan、Kristian Hveem、Kjersti Grønning、John-Bjarne Hansen）在 2026 年 10 月號的《Research and Practice in Thrombosis and Haemostasis》發表，追蹤 2,071 位第一次發生靜脈血栓（VTE，包含深部靜脈血栓和肺栓塞）的人。資料來自特倫德拉格健康研究（HUNT）和特羅姆瑟研究兩個挪威族群研究，咖啡習慣是在第一次血栓「之前」就記錄的。",
+    {
+     "table": {
+      "cap": "研究重點",
+      "cols": [
+       "項目",
+       "結果"
+      ],
+      "rows": [
+       [
+        "追蹤時間",
+        "中位數 2.8 年"
+       ],
+       [
+        "再發人數",
+        "310 人"
+       ],
+       [
+        "每天 1–2 杯",
+        "再發風險約為不喝者的一半，是最低的一組"
+       ],
+       [
+        "喝更多",
+        "沒有一致的額外好處"
+       ],
+       [
+        "第一次血栓有明確誘因（手術、久臥）",
+        "喝咖啡者再發風險約減半"
+       ],
+       [
+        "第一次血栓找不到誘因",
+        "看不出明確關聯"
+       ]
+      ]
+     }
+    },
+    "研究的限制：因為咖啡量是血栓前記錄的，這個結果無法回答「確診後才開始喝、或改變喝的量」會不會影響再發。"
+   ],
+   "why": "這是觀察性研究，只能說「有關聯」，不能說咖啡能預防血栓，更不能取代醫師的抗凝治療。對吧台來說，它和最近幾則（心房顫動、帕金森氏症、腸道）一樣，指向「適量」：好處集中在每天 1–2 杯，喝更多沒有加分。客人如果提到自己有血栓病史在問能不能喝咖啡，請他問自己的醫師。",
+   "detail": [
+    "期刊｜Research and Practice in Thrombosis and Haemostasis，2026 年 10 月號",
+    "樣本｜2,071 位首次靜脈血栓患者",
+    "資料來源｜挪威 HUNT 研究、特羅姆瑟研究"
+   ],
+   "note": "沒有讀到論文全文，數字依 Comunicaffe 的整理；報導日期 11/13。",
+   "link": "https://www.comunicaffe.com/norwegian-study-links-one-to-two-cups-of-coffee-a-day-to-lower-risk-of-a-second-blood-clot/",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "coffee-liver-uk-biobank-47pct-resurfaces",
+   "sec": "science",
+   "title": "這週熱傳的「喝咖啡肝癌風險降 47%」：是 7 月 Cedars-Sinai 的英國 35 萬人研究，47% 是每天 5 杯以上那組",
+   "orig": "Coffee may help shield the liver from fat, scarring, and cancer",
+   "date": "2026/07/25",
+   "media": "ScienceDaily（Cedars-Sinai 新聞稿）",
+   "author": "Kristin Reynolds",
+   "tier": "T1",
+   "read": 5,
+   "summary": [
+    "11/19 自由健康網、中時、中天等台灣媒體同時報導「喝咖啡護肝、肝癌風險降 47%、低咖啡因也有益」。追到原始來源，是美國 Cedars-Sinai 醫學中心 7 月發表在《Clinical Gastroenterology and Hepatology》的研究，不是新研究。",
+    "研究用英國生物銀行（UK Biobank）354,957 位一開始沒有肝硬化或肝癌的成人，追蹤中位數 13 年，還比對了肝臟 MRI 和血液蛋白。",
+    {
+     "table": {
+      "cap": "每天 5 杯以上 vs 不喝咖啡",
+      "cols": [
+       "結果",
+       "風險"
+      ],
+      "rows": [
+       [
+        "肝硬化",
+        "低 32%"
+       ],
+       [
+        "肝癌",
+        "低 47%"
+       ],
+       [
+        "肝病死亡",
+        "低 42%"
+       ]
+      ]
+     }
+    },
+    {
+     "list": [
+      "喝較多咖啡的人，MRI 上肝脂肪、鐵過量、纖維化、發炎都較少",
+      "每天 1–2 杯就看得到好處，3–4 杯時關聯最強",
+      "含咖啡因和低咖啡因咖啡都有類似關聯，表示不只是咖啡因的作用"
+     ]
+    },
+    "作者特別說明：雖然 5 杯以上那組也有好處，但不建議大家為此加到 5 杯；這是觀察性研究，不能證明咖啡直接預防肝病。資深作者 Ju Dong Yang 說，不會建議原本不喝的人只為護肝開始喝。"
+   ],
+   "why": "客人看到新聞來問「咖啡是不是能防肝癌」時，可以這樣回答：大型研究確實看到喝咖啡的人肝比較健康，低咖啡因也有，但「降 47%」是每天 5 杯以上那一組，研究者自己也不建議喝到那麼多；比較實在的說法是「每天 3–4 杯以內、本來就愛喝的人，不用擔心咖啡傷肝」。標題寫「證實」就說過頭了。",
+   "detail": [
+    "期刊｜Clinical Gastroenterology and Hepatology",
+    "樣本｜354,957 人，追蹤中位數 13 年",
+    "不適合的人｜未控制的高血壓、某些心律不整、嚴重焦慮、失眠者先問醫師",
+    "利益揭露｜資深作者之一有藥廠顧問關係（新聞稿自行揭露）"
+   ],
+   "note": "台灣媒體 11/19 的報導多為轉述，沒有標明研究發表時間；本則以 Cedars-Sinai 新聞稿為準。",
+   "link": "https://sciencedaily.com/releases/2026/07/260719035955.htm",
+   "extra_links": [
+    {
+     "t": "Healio：咖啡攝取與肝硬化、肝癌風險",
+     "u": "https://www.healio.com/news/gastroenterology/20260730/higher-coffee-intake-linked-to-significantly-reduced-risk-for-cirrhosis-liver-cancer"
+    }
+   ],
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "bad-bunny-tour-cafe-comunion-backstage-bar",
+   "sec": "fun",
+   "title": "Bad Bunny 世界巡演的後台咖啡吧：波多黎各 Café Comunión 推著特製吧台箱，每到一城就用當地烘豆商",
+   "orig": "Bad Bunny, Great Coffee: Brewing On Tour With The International Superstar",
+   "date": "2026/11/19",
+   "media": "Sprudge",
+   "author": "Zachary Carlsen",
+   "tier": "T2",
+   "read": 7,
+   "summary": [
+    "拉丁天王 Bad Bunny 2026 年世界巡演的後台，有一個專業咖啡吧，由波多黎各咖啡館 Café Comunión 的創辦人 Abner Roldán 和 Karla Ly Quiñones 經營了一年。Sprudge 在馬德里站（現場約 7 萬名觀眾）訪問了 Roldán。",
+    "起點是 Bad Bunny 在波多黎各的駐唱系列《Debí Tirar Más Fotos》，他們負責全部 31 場的後台咖啡，反應很好，巡演團隊就請他們跟著上路，還特別做了一個能隨巡演運送的「咖啡吧台箱」（road case）。",
+    {
+     "table": {
+      "cap": "後台咖啡吧配置",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "義式機",
+        "La Marzocco Linea"
+       ],
+       [
+        "磨豆機",
+        "Ceado Rev Titan"
+       ],
+       [
+        "燕麥奶",
+        "主要由 Minor Figures 提供"
+       ],
+       [
+        "咖啡豆",
+        "盡量用當地烘豆商：墨西哥市 Café Avellaneda、波哥大 Tropicalia、馬德里 Hola Coffee、倫敦 Square Mile、米蘭 Ditta Artigianale 等"
+       ],
+       [
+        "營業時間",
+        "約下午 1 點到演出開始後"
+       ]
+      ]
+     }
+    },
+    "他們說，在體育場做好咖啡，關鍵在事前：有一份詳細的「咖啡技術需求表」（coffee rider），每次進場前和巡演電工一起確定位置和穩定電源，還要跑超市試不同牛奶。"
+   ],
+   "why": "最有意思的是他們的心得：服務對象雖然有明星和貴賓，但大多數是每天見面的工作人員，做久了「看到人走過來就知道他要喝什麼」，跟我們對熟客一樣。咖啡吧最後變成不同部門的人碰面聊天的地方。這提醒我們：熟客記憶和「款待第一、咖啡第二」，在任何場地都是吧台最有價值的部分。",
+   "detail": [
+    "駐唱場次｜波多黎各 31 場全包",
+    "挑戰｜場地本來就不是為咖啡設計",
+    "附加任務｜每城試超市牛奶，找最合團隊口味的"
+   ],
+   "note": "Sprudge 的特別企劃專區由 La Marzocco 冠名，文中義式機也是 La Marzocco，閱讀時可留意。",
+   "link": "https://sprudge.com/bad-bunny-great-coffee-brewing-on-tour-with-the-international-superstar-1250962.html",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "a-matter-of-concrete-hifi-speaker-amoc-fff-01",
+   "sec": "fun",
+   "title": "鹿特丹咖啡店 A Matter of Concrete 出了自己的音響：手工喇叭限量 10 台，每台 2,240 歐元",
+   "orig": "Rotterdam’s A Matter of Concrete Just Released Their Own Hi-Fi Speaker",
+   "date": "2026/11/18",
+   "media": "Sprudge",
+   "author": "Zac Cadwalader",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "鹿特丹精品咖啡烘豆商 A Matter of Concrete 和音響品牌 Form Follows Frequency 合作，推出限量喇叭 AMOC-FFF-01。創辦人 Rob Clarijs 說，咖啡從來不只是杯子裡的東西，煮咖啡時的音樂、空間、人和器物都是體驗的一部分，他想做一個「不用在好看和好聽之間二選一」、自己店裡和家裡都想放的喇叭。",
+    {
+     "table": {
+      "cap": "AMOC-FFF-01",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "形式",
+        "手工兩音路主動式喇叭"
+       ],
+       [
+        "單體／擴大機",
+        "義大利 B&C 單體、Hypex 擴大機"
+       ],
+       [
+        "外箱",
+        "樺木合板，搭配髮絲紋鋁板"
+       ],
+       [
+        "輸入",
+        "XLR、AUX；支援 Spotify Connect、AirPlay、藍牙、Chromecast"
+       ],
+       [
+        "數量與價格",
+        "首批 10 台，含稅 2,240 歐元（約 2,460 美元）"
+       ],
+       [
+        "之後",
+        "限量預購，預估等 6 個月"
+       ]
+      ]
+     }
+    },
+    "Sprudge 認為這反映「黑膠／音響咖啡館」在各地流行，咖啡和音響愛好者本來就重疊很多。"
+   ],
+   "why": "音樂是咖啡館空間的一部分，客人不一定說得出來，但會感覺得到。這則可以當作店裡聊天的話題，也提醒我們：店內音樂的音量、音質和曲風，值得像磨豆刻度一樣定期檢查。",
+   "detail": [
+    "合作方｜Form Follows Frequency 共同創辦人 Florent Gatin、Miguel Herreras",
+    "趨勢｜音響咖啡館（hi-fi cafe）在各地流行"
+   ],
+   "link": "https://sprudge.com/rotterdams-a-matter-of-concrete-just-released-their-own-hi-fi-speaker-1626371.html",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "oat-milk-default-blue-bottle-whole-milk-2026",
+   "sec": "food",
+   "title": "燕麥奶還是精品咖啡的預設嗎？Blue Bottle 10 月改回全脂牛奶，點單時直接問「全脂還是燕麥」",
+   "orig": "Is oat milk still specialty coffee’s default?",
+   "date": "2026/11/19",
+   "media": "Perfect Daily Grind",
+   "author": "Tasmin Grant",
+   "tier": "T2",
+   "read": 8,
+   "summary": [
+    "Blue Bottle Coffee 在 2026 年 10 月把預設奶改回全脂牛奶，理由是「客人的偏好已經改變」。App 點單預設牛奶，門市咖啡師會問客人要全脂還是燕麥。公司說這是營運決定，為了第一次就做對、減少重做，永續方針不變。",
+    "燕麥奶怎麼變成預設：2017 年 Oatly 業務到英美精品咖啡店送咖啡師專用燕麥奶；2018 年 Blue Bottle 的生命週期評估發現乳製品是店內主要溫室氣體來源；2022 年 5 月全美改燕麥奶預設，三個月後燕麥占含奶飲品 63%。英國大學咖啡館的研究也顯示，改成預設後燕麥點單比例從 16.6% 升到 51.9%。",
+    "PDG 整理出燕麥奶退燒的幾個原因：",
+    {
+     "list": [
+      "行銷減少：Oatly 的銷管費用（含行銷）從 2022 年高峰少了 9,200 萬美元，占營收比從 57.2% 降到 37.2%，免費樣品和合作變少",
+      "口味：有咖啡師認為某些植物奶會蓋過咖啡；2026 年 Global Coffee Awards 美加賽區的植物奶 flat white 項目改用杏仁奶",
+      "成分：約 30% 消費者說在減少加工食品，咖啡師專用燕麥奶常加油脂和酸度調節劑",
+      "蛋白質：美國乳品銷售額到 2025 年 11 月成長 3% 到 177 億美元，植物奶下滑 3% 到 24 億美元"
+     ]
+    },
+    "但不是大家都跟進：Stumptown 仍以燕麥奶為預設，57% 英國咖啡店表示需求和成本合適時會考慮燕麥預設。植物奶加價方面，星巴克 2024 年 11 月取消美加的 0.8 美元加價，Caribou 2026 年 1 月跟進，但很多獨立店仍加 50 美分以上；Blue Bottle 則是牛奶預設、換燕麥不加價。"
+   ],
+   "why": "這篇最實用的建議是：改菜單前先記錄自己店裡幾個月的「牛奶比例」，再決定預設和要不要減少品項。每多一種奶，就多佔冰箱、多一盒開了用不完的耗損。英國咖啡店老闆的做法也值得參考：結帳時直接問「全脂還是燕麥？」，重做明顯變少，省時間也省材料。",
+   "action": "這週起在點單紀錄上標註每杯奶類飲品用的奶，一個月後看比例。",
+   "detail": [
+    "Blue Bottle 試點｜加州 3 店，燕麥占含奶飲品 68%",
+    "英國經驗｜2023 年有店家燕麥占奶類飲品逾 80%",
+    "新產品｜Planet Oat 推簡化配方，Oatly 推高纖版本",
+    "差異化｜有店家改主打 A2 或草飼全脂牛奶"
+   ],
+   "link": "https://perfectdailygrind.com/2026/11/is-oat-milk-still-specialty-coffee-default/",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "paris-coffee-shop-boom-matcha-beantropy-2026",
+   "sec": "food",
+   "title": "巴黎 18 個月開了 165 家咖啡店，新店 92% 賣抹茶：咖啡在社群上只排第四個話題",
+   "orig": "Paris coffee shop boom: as coffee loses centre stage, cafés reinvent their storytelling",
+   "date": "2026/11/08",
+   "media": "Comunicaffe International（引述 Beantropy × Comyu 2026 報告）",
+   "author": "",
+   "tier": "T2",
+   "read": 6,
+   "summary": [
+    "由 De’Longhi 委託、智庫 Beantropy 和精品咖啡社群 App Comyu 合作的報告，田野觀察巴黎 150 多家店、做了 40 場訪談，加上 Comyu 的資料庫。結論：巴黎咖啡店數量大增，但「只賣咖啡的咖啡店已經是例外」。",
+    {
+     "table": {
+      "cap": "巴黎咖啡店報告重點",
+      "cols": [
+       "項目",
+       "數字"
+      ],
+      "rows": [
+       [
+        "新開咖啡店",
+        "18 個月 165 家，約每 3 天一家"
+       ],
+       [
+        "菜單有話題飲品",
+        "96%"
+       ],
+       [
+        "新店有賣抹茶",
+        "將近 92%"
+       ],
+       [
+        "IG 帳號曾發抹茶、ube 拿鐵、焙茶等內容",
+        "70%（分析逾 1,000 則貼文）"
+       ]
+      ]
+     }
+    },
+    {
+     "table": {
+      "cap": "客人在社群上聊什麼",
+      "cols": [
+       "話題",
+       "占比"
+      ],
+      "rows": [
+       [
+        "食物",
+        "22%"
+       ],
+       [
+        "店的美感",
+        "21.8%"
+       ],
+       [
+        "話題飲品",
+        "17.7%"
+       ],
+       [
+        "咖啡",
+        "16.5%"
+       ]
+      ]
+     }
+    },
+    "報告用電影比喻：咖啡在 14% 的店是「主角」，14% 是「配角」，24% 是「客串」，48% 只是「臨演」。咖啡產地、品種、烘焙和風味的內容在社群上越來越少，被空間、體驗和飲品顏值取代。",
+    "格勒諾布爾管理學院研究者 Nathalie Louisgrand 的分析也指出，年輕客人把咖啡當成拍照、分享的視覺物件，北歐與工業風加上「侘寂」的簡約，是這類店常見的視覺語言。"
+   ],
+   "why": "這和台灣的狀況很像：抹茶、焙茶、甜點和空間常常比單品豆更吸引新客。報告的意思不是精品咖啡沒救了，而是咖啡的角色變了。對我們的提醒是：話題飲品和空間負責把人帶進來，咖啡要靠吧台的介紹和一杯穩定的好味道，讓客人下次是為了咖啡回來。",
+   "detail": [
+    "委託方｜De’Longhi（咖啡機品牌）",
+    "研究期間｜2025/1–2026/3",
+    "結論｜精品咖啡沒被殺死，但不再是店的唯一主角"
+   ],
+   "note": "報告由咖啡機品牌 De’Longhi 委託。報導中研究期間寫 2025/1–2026/3，但「165 家」的 18 個月又寫成到 2026 年 9 月為止，兩處時間不一致；報導日期 11/8，這期才補上。",
+   "link": "https://www.comunicaffe.com/paris-coffee-shop-boom-as-coffee-loses-centre-stage-cafes-reinvent-their-storytelling/",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "mori-market-coffee-flower-tainan-2026",
+   "sec": "food",
+   "title": "森之市「珈琲與花物語・南迴篇」今天起到週日在台南水交社：300 多組品牌，6 組日本咖啡與飲品，免費入場",
+   "orig": "",
+   "date": "2026/11/12",
+   "media": "Bella 儂儂",
+   "author": "Stanley Kuo",
+   "tier": "T3",
+   "read": 5,
+   "summary": [
+    "風格市集森之市《2026 珈琲與花物語・南迴篇》11 月 20 日（五）到 22 日（日）在台南水交社文化園區戶外場域舉行，每天 12:00–18:00，免費入場。9 月台北場有近 300 組品牌、近 3 萬人次參加。",
+    {
+     "table": {
+      "cap": "日本參展品牌",
+      "cols": [
+       "品牌",
+       "地區與特色"
+      ],
+      "rows": [
+       [
+        "ハレとケ珈琲 Haretoke Coffee",
+        "德島，深焙"
+       ],
+       [
+        "REDPOISON",
+        "橫濱，以「點珈」概念探索風味"
+       ],
+       [
+        "FILTER SUPPLY",
+        "福岡，台北場後再次來台"
+       ],
+       [
+        "canaan",
+        "北海道，著重產地風土與烘焙"
+       ],
+       [
+        "Nagasawa COFFEE",
+        "岩手盛岡，不同焙度與沖煮"
+       ],
+       [
+        "TOBA TOBA COLA",
+        "鹿兒島喜界島，柑橘加香料的精釀可樂"
+       ]
+      ]
+     }
+    },
+    "台灣咖啡有厝珈啡、流浪卡布、觀九峰咖啡、鄰人咖啡、Alchemist 等；也有甜點、餐飲、陶藝、花藝和香氛選物。主視覺由插畫家 Happieslin 快樂林繪製，現場有「疊印」明信片活動，每天限量 100 份兌換紀念徽章，主視覺郵票每天 15:00 起限量 100 份。"
+   ],
+   "why": "想看日本小型烘豆店怎麼做深焙、怎麼呈現產地，這是不用出國的機會；台南的夥伴週末可以去走走。陶藝和選物攤位也值得看，對店裡杯器、陳列和包裝都有參考價值。",
+   "detail": [
+    "地址｜台南市南區興中街 118 號",
+    "時間｜11/20–22，12:00–18:00",
+    "費用｜免費入場，品牌各自販售",
+    "建議｜人潮多，停車位難找，可搭公車"
+   ],
+   "link": "https://www.bella.tw/articles/travel&foodies/61095/2026-tainan-coffee-flower-story-mori-market",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "makers-mark-turner-duckworth-red-wax-identity-2026",
+   "sec": "design",
+   "title": "Maker’s Mark 新品牌識別：Turner Duckworth 把酒廠農場的小麥、橡木和植物壓進紅蠟，做成新圖形",
+   "orig": "Turner Duckworth dips Maker's Mark's new identity in red wax",
+   "date": "2026/11/19",
+   "media": "Creative Boom",
+   "author": "Katy Cowan",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "美國肯塔基波本威士忌 Maker’s Mark 的每一瓶，至今仍是手工沾紅蠟封口。這次全球品牌識別再度交給倫敦設計公司 Turner Duckworth：他們把酒廠所在地 Star Hill Farm（肯塔基州 Loretto）的軟紅冬小麥麥稈、美國橡木年輪和農場原生植物，一一沾進同一種紅蠟、再壓印，做成一組新的品牌圖形。",
+    {
+     "list": [
+      "新色彩配置、新攝影風格",
+      "客製字體：來自共同創辦人 Margie Samuels 的手寫字，酒瓶、酒標和紅蠟都是她的主意",
+      "品牌平台叫「Perfectly Unreasonable」（完美地不講理），新識別要用「更現代、更簡約」的方式在全球一致呈現"
+     ]
+    },
+    "Turner Duckworth 在 2021 年也幫 Maker’s Mark 做過識別，當時是把紅蠟滴落畫成圖形；五年後，「畫」換成了真的蠟。新識別 11 月 17 日上線，正陸續用在數位、社群、廣告、零售和活動，已經在美國和中國的活動、澳洲和英國的戶外廣告出現，2027 年會推到更多市場。",
+    "品牌全球行銷副總裁 Chloe Lloyd-Jones 說，在越來越講求速度和自動化的世界，他們仍相信有些東西值得慢慢用手做。"
+   ],
+   "why": "這是「把品牌最有辨識度的製程，直接變成視覺素材」的好例子：不是再畫一個 logo，而是讓真實的材料和手作痕跡說話，在 AI 圖像氾濫的時候特別有說服力。對做品牌和插畫的人，可以想想自己的客戶有什麼「只有它有」的材料或動作；對店裡，我們的咖啡渣、生豆麻袋、手沖的水流，也都可能是包裝和菜單設計的素材。",
+   "detail": [
+    "設計公司｜Turner Duckworth London",
+    "上線｜2026/11/17",
+    "字體來源｜共同創辦人 Margie Samuels 手寫字",
+    "軼事｜Bill Samuels Sr. 燒掉家族 170 年的配方重新開始"
+   ],
+   "link": "https://www.creativeboom.com/news/turner-duckworth-dips-makers-marks-new-identity-in-red-wax/",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "tosa-washi-ncku-museum-2026",
+   "sec": "design",
+   "title": "成大「薄如蟬翼：日本土佐和紙的世界挑戦」11/21 開展：最薄 0.03 毫米的千年手漉紙，人間國寶之孫來台演講",
+   "orig": "",
+   "date": "2026/11/19",
+   "media": "中央社",
+   "author": "張榮祥",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "國立成功大學「薄如蟬翼：日本土佐和紙的世界挑戦」特展 11 月 21 日到 12 月 16 日在成大歷史文物館展出。",
+    "土佐和紙產於日本高知縣土佐市、伊野町和周邊，用清澈水源和天然植物纖維手工抄製，有千年歷史，質地薄、軟、柔、韌，最薄據稱只有 0.03 毫米，是日本國家指定的傳統工藝品。用途從錢包、紙燈籠到現代書籍、繪畫，近年更是國際文物保存修復和藝術創作的重要媒材。",
+    {
+     "table": {
+      "cap": "受邀演講者",
+      "cols": [
+       "講者",
+       "背景"
+      ],
+      "rows": [
+       [
+        "一宮佳世子",
+        "日本紙保存修復與紙類專家，曾祖父是手工和紙職人，曾任職日本國內外紙張貿易公司"
+       ],
+       [
+        "浜田治",
+        "伊野町資深手漉和紙藝師，人間國寶浜田幸雄之孫，和兄長製作的紙被各國博物館用於修復與創作"
+       ]
+      ]
+     }
+    }
+   ],
+   "why": "做平面、插畫和書籍設計的人，紙是作品的一部分：同一張圖印在不同紙上，感覺完全不同。這檔展能近看「薄到透光、卻夠韌」的紙怎麼做出來，也能聽修復師講紙怎麼保存作品。台南的夥伴可以順路去，對店裡的菜單、杯套、包裝用紙也會有新想法。",
+   "detail": [
+    "展期｜2026/11/21–12/16",
+    "地點｜國立成功大學歷史文物館",
+    "票價／預約｜中央社報導沒寫，出發前請查成大歷史文物館公告",
+    "演講時間｜報導沒寫，查不到"
+   ],
+   "note": "目前只找到中央社報導，成大歷史文物館的官方頁面這次沒查到。",
+   "link": "https://www.cna.com.tw/news/acul/202611190187.aspx",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "yoshitomo-nara-david-zwirner-ny-2026",
+   "sec": "design",
+   "title": "奈良美智睽違近十年的紐約個展：David Zwirner 兩個展間近百件作品，首週 2.6 萬人看，展到 12/12",
+   "orig": "Yoshitomo Nara’s Beloved Wide-Eyed Figures Return to New York",
+   "date": "2026/11/19",
+   "media": "Colossal",
+   "author": "Grace Ebert",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "日本藝術家奈良美智在紐約 David Zwirner 畫廊舉行同名個展，是他將近十年來第一次在紐約辦個展，佔用畫廊兩個空間，展出近 100 件、橫跨數十年的繪畫、素描和大型銅雕。畫廊說開幕夜有 4,000 人排隊，第一週就有 26,000 人參觀。展期到 12 月 12 日。",
+    "展覽中心仍是他招牌的大頭大眼孩子：看起來天真，表情卻帶著懷疑、無聊甚至叛逆。畫面多是柔和粉彩色，有些寫著「world peace」「tomorrow’s far away」這類短句。",
+    "立體作品的起點是 2011 年東北大地震：家鄉青森一帶災情慘重，他開始捏陶，覺得黏土給了畫布給不了的喘息。展出的銅雕是從小型陶塑原型放大，外層塗白色聚氨酯漆，保留像是用巨大拇指捏出來的手作痕跡，讓人聯想到他北國的雪景。",
+    "他剛完成赫希宏雕塑花園（Hirshhorn Sculpture Garden）的大型計畫；明年秋天，舊金山現代藝術博物館（SFMOMA）將舉辦他的大型回顧展。"
+   ],
+   "why": "奈良美智是很多插畫和角色設計者的啟蒙：線條簡單、角色一眼就認得，卻有很複雜的情緒。這次可以看他怎麼從平面角色走到陶和銅雕，把「手捏的痕跡」保留在大尺寸作品上。去不了紐約的話，明年 SFMOMA 的回顧展值得先記下來。",
+   "detail": [
+    "地點｜紐約 David Zwirner 畫廊（兩個展間）",
+    "作品｜近 100 件繪畫、素描、銅雕",
+    "人氣｜開幕夜 4,000 人排隊，首週 26,000 人",
+    "下一站｜明年秋天 SFMOMA 大型回顧展"
+   ],
+   "note": "Colossal 原文沒寫開展日期。",
+   "link": "https://www.thisiscolossal.com/2026/11/yoshitomo-nara-new-york/",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "hilma-af-klint-ser-iii-no5-record-127m",
+   "sec": "design",
+   "title": "續報：希爾瑪・阿夫・克林特〈Ser III No. 5〉拍出 1,270 萬美元，是估價上限 16 倍，刷新作者紀錄",
+   "orig": "Rare Hilma af Klint Painting Sells for Staggering $12.7M",
+   "date": "2026/11/19",
+   "media": "Hyperallergic",
+   "author": "Anna Lee",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "11/12 我們預告過的拍賣有結果了：瑞典抽象先驅希爾瑪・阿夫・克林特（Hilma af Klint）1920 年的油畫〈Ser III No. 5〉，11 月 19 日在斯德哥爾摩 Bukowskis 的現代藝術與設計拍賣，以 1 億 2,890 萬瑞典克朗（約 1,270 萬美元）成交。",
+    {
+     "table": {
+      "cap": "拍賣前後對照",
+      "cols": [
+       "項目",
+       "數字"
+      ],
+      "rows": [
+       [
+        "估價",
+        "600 萬–800 萬瑞典克朗"
+       ],
+       [
+        "成交",
+        "1 億 2,890 萬瑞典克朗（約 1,270 萬美元）"
+       ],
+       [
+        "倍數",
+        "超過估價上限 16 倍"
+       ],
+       [
+        "之前作者紀錄",
+        "16 萬 5,825 美元（2019 年水彩）"
+       ]
+      ]
+     }
+    },
+    "這是 30 年來第一件進入公開市場的阿夫・克林特抽象畫，屬於她 1920 年幾個月內密集完成的 85 件幾何抽象之一，畫面有神智學符號、三角形和圓形，是她晚年轉向較寫實的水彩之前，最後一批幾何抽象。"
+   ],
+   "why": "稀有作品加上 2018 年古根漢回顧展後的高人氣，讓一件小尺寸畫作（38.5×29 公分）賣出估價的 16 倍。這說明抽象藝術的價格不只看作品本身，「市場上有沒有」和「這幾年被多少人看見」同樣關鍵。",
+   "detail": [
+    "拍賣行｜Bukowskis（斯德哥爾摩）",
+    "日期｜2026/11/19",
+    "尺寸｜38.5×29 公分（依上期 The Art Newspaper 資料）"
+   ],
+   "note": "Hyperallergic 沒有說明成交價是否含買方佣金。Artnet 也報導了這個結果，但網站擋自動程式。",
+   "link": "https://hyperallergic.com/rare-hilma-af-klint-painting-sells-for-staggering-12-7m/",
+   "extra_links": [
+    {
+     "t": "上期預告：希爾瑪・阿夫・克林特罕見上拍",
+     "u": "https://theartnewspaper.com/2026/10/20/hilma-after-klint-painting-expected-to-make-800000-at-auction-in-stockholm"
+    }
+   ],
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "nespresso-swarovski-crystal-machine-2026",
+   "sec": "skip",
+   "title": "Nespresso 和施華洛世奇聯名：鑲 44 顆水晶的膠囊咖啡機、耶誕倒數月曆",
+   "orig": "",
+   "date": "2026/11/19",
+   "media": "三立新聞網、T客邦",
+   "author": "",
+   "tier": "T3",
+   "read": 3,
+   "summary": "Nespresso 首度和施華洛世奇聯名，10 月 30 日起推出節慶系列：CITIZ PLATINUM 限量咖啡機機身鑲 44 顆水晶，另有三款限定膠囊（濃烈黑咖啡、榛果布朗尼、藍莓起司蛋糕風味）、聯名杯具和 24 天耶誕倒數月曆。這週又被多家媒體重新報導。",
+   "why": "10 月底就上市的節慶商品，和我們的吧台、選豆沒有關係；客人聊到時知道有這回事即可。",
+   "detail": [],
+   "link": "https://www.techbang.com/posts/134496-nespresso-swarovski-christmas-crystal-coffee-machine",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "barista-mag-frozen-hot-chocolate-cup-of-coa",
+   "sec": "skip",
+   "title": "Barista Magazine：冰沙熱可可在暖冬受歡迎，但內容主要是在介紹一款可可粉",
+   "orig": "Frozen Hot Chocolate Is Having Its Moment",
+   "date": "2026/11/19",
+   "media": "Barista Magazine",
+   "author": "Delilah L. Morris",
+   "tier": "T2",
+   "read": 3,
+   "summary": "文章說在秋冬偏暖的地區，冰沙熱可可（frozen hot chocolate）是穩定的熱賣品，克里夫蘭一家咖啡館說它「不是流行，是常備品」。但篇幅多在介紹 Cup of Coa 可可粉的配方與售價（內布拉斯加一家店 16 盎司約 6.5–7 美元），附的食譜也是用這個品牌。",
+   "why": "題目本身有趣，但內容接近產品介紹，資訊量不夠放進正刊。",
+   "detail": [],
+   "link": "https://www.baristamagazine.com/frozen-hot-chocolate-is-having-its-moment/",
+   "pub": "2026-11-20"
+  },
+  {
+   "id": "sprudge-coffee-advent-calendars-2026",
+   "sec": "skip",
+   "title": "Sprudge 2026 咖啡倒數月曆清單：Onyx 附 500 片拼圖、Kaffebox 收 13 家歐洲小烘豆商",
+   "orig": "It’s Coffee Advent Calendar Season For 2026—Have You Ordered Yet?",
+   "date": "2026/11/19",
+   "media": "Sprudge",
+   "author": "Zac Cadwalader",
+   "tier": "T2",
+   "read": 4,
+   "summary": "Sprudge 整理今年的精品咖啡倒數月曆：Onyx Coffee Lab 24 份 56 克、至少 10 個產國，附手繪 500 片拼圖和網頁遊戲；挪威 Kaffebox 24 份 50 克、13 家歐洲微型烘豆商；La Cabra 改成 24 包掛耳式單杯包；柏林 The Barn 24 份 50 克中焙；Black & White 改成每週一包、共四包 100 克。",
+   "why": "是送禮購物清單，國外品牌在台灣也不好買，對工作影響不大；想做自家節慶禮盒的人可以參考包裝點子。",
+   "detail": [],
+   "link": "https://sprudge.com/its-coffee-advent-calendar-season-for-2026-have-you-ordered-yet-1633963.html",
+   "pub": "2026-11-20"
+  },
   {
    "id": "fair-trade-usa-minimum-price-2027",
    "sec": "industry",
