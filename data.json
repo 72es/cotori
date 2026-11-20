@@ -1,17 +1,17 @@
 {
  "edition": {
-  "id": "2026-11-20",
-  "no": 23,
-  "date": "2026-11-20",
-  "label": "11月20日 週五"
+  "id": "2026-11-21",
+  "no": 24,
+  "date": "2026-11-21",
+  "label": "11月21日 週六"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "巴西 2026/27 產量上修到創紀錄 7,250 萬袋，但大雨讓阿拉比卡品質參差，期末庫存反而比 6 月預估少 22.7%。",
-  "燕麥奶不再理所當然：Blue Bottle 改回全脂牛奶預設；巴黎新咖啡店 92% 賣抹茶，咖啡在社群上只排第四個話題。",
-  "身體與咖啡兩則：挪威研究每天 1–2 杯和血栓再發風險較低有關；這週熱傳的「肝癌降 47%」其實是 7 月研究、而且是 5 杯以上那組。",
-  "週末去哪：台南水交社森之市「珈琲與花物語」今天到週日，6 組日本咖啡與飲品品牌，免費入場。",
-  "ARTs：Maker’s Mark 用真紅蠟壓印做新識別、成大土佐和紙特展 11/21 開展、奈良美智紐約個展、希爾瑪・阿夫・克林特拍出估價 16 倍。"
+  "ICE 認證阿拉比卡庫存跌到 18.6 萬袋，是 1999 年 2 月以來最低；巴西豆還在排隊等分級，豆價一週內來回震盪。",
+  "哥倫比亞 Clearpath 競標 15 批全數售出，最高的是野生種 Eugenioides 每公斤 905 美元，不是藝伎。",
+  "WCR 公開第一套阿拉比卡基因分型工具，5,053 個標記，幼苗階段就能先挑樹。",
+  "餐飲：陶板屋 11/24 起套餐加服務費破 800 元；壽司郎紐約首店全店不收小費。",
+  "ARTs：中美館「蠍子與青蛙」66 件典藏開展、天野喜孝《新宿．幻變》12/5 台北展、臺灣建築獎首獎基隆美術館、R.E.M. 封面設計 30 年。"
  ],
  "weekly": null,
  "sections": [
@@ -41,6 +41,643 @@
   }
  ],
  "items": [
+  {
+   "id": "ice-arabica-certified-stocks-27yr-low-nov-2026",
+   "sec": "industry",
+   "title": "ICE 認證阿拉比卡庫存跌到 27 年新低：18.6 萬袋，是 1999 年 2 月以來最少，待分級的巴西豆卻在排隊",
+   "orig": "Arabica Stocks Hit 1999 Low",
+   "date": "2026/11/17",
+   "media": "ADMISI（另參考 Reuters、Barchart、Perfect Daily Grind）",
+   "author": "Mark Bowman",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "紐約洲際交易所（ICE）倉庫裡，已通過分級、可以拿來交割期貨的阿拉比卡「認證庫存」連兩個交易日大減，創下 27 年來最低。",
+    {
+     "table": {
+      "cap": "ICE 阿拉比卡認證庫存（60 公斤袋）",
+      "cols": [
+       "日期",
+       "認證庫存",
+       "待分級"
+      ],
+      "rows": [
+       [
+        "11/13（五）",
+        "211,321",
+        "166,456"
+       ],
+       [
+        "11/16（一）",
+        "186,414（−24,907）",
+        "196,852（+30,396）"
+       ],
+       [
+        "11/18（三）",
+        "—",
+        "246,647"
+       ]
+      ]
+     }
+    },
+    "186,414 袋是 1999 年 2 月以來最低；待分級的量則是兩年九個月來最高，ADMISI 指出新增的全部來自巴西。也就是說，倉庫裡「現在能交貨」的豆很少，但巴西豆正在排隊等著驗。",
+    "價格這週來回震盪：11/12 跌到約五個月低點後，週一、週二反彈，Barchart 報導 12 月合約 11/17 收漲 2.1%、到兩週高點；11/19 一度到每磅約 2.80 美元，11/20 又回落到約 2.69 美元。羅布斯塔則因越南正在採收，跌到約 2.75 年低點。",
+    "這裡有一個媒體數字要注意：Perfect Daily Grind 的週報同時寫了「兩天跌 15% 到 211,321 袋」和「週一跌到 186,414 袋」，看起來矛盾，其實是前後兩天的資料（週五和週一）。它寫的「12 月合約漲 0.7% 到每磅 2.81 美元」，我們在其他來源對不上，這期不採用。"
+   ],
+   "why": "這和上週寫的「巴西產量創紀錄」並不衝突：豆子很多，但能立刻交割的庫存很少，所以短期價格容易被庫存數字拉著跑。對我們來說，生豆報價這陣子可能一週內上下好幾趴，問進口商報價時記得問清楚是哪一天的價格、有效期多久；年底如果要談明年上半年的合約，也可以等巴西這批豆分級進倉、庫存回升時再看。",
+   "detail": [
+    "認證庫存｜通過分級、可用來交割期貨的豆",
+    "低點紀錄｜1999 年 2 月以來最低",
+    "羅布斯塔｜約 2.75 年低點，越南採收中",
+    "哥倫比亞｜USDA 把 2026/27 出口估計下修約 6% 到 1,150 萬袋（Barchart 11/19）"
+   ],
+   "watch": "待分級的巴西豆通過後，認證庫存會不會快速回升；12 月合約到期前的價格波動。",
+   "note": "價格數字來自不同時間點的報導（Reuters、Barchart、Trading Economics），只取方向與大致水準。",
+   "link": "https://www.admisi.com/arabica-stocks-hit-1999-low/",
+   "extra_links": [
+    {
+     "t": "Perfect Daily Grind 週報 11/20",
+     "u": "https://perfectdailygrind.com/2026/11/coffee-news-recap-20-november-2026/"
+    },
+    {
+     "t": "Reuters（Arab News 轉載）",
+     "u": "https://www.arabnews.pk/article/coffee-rises-on-27-year-low-stocks-pakistan-sugar-tender-draws-400-a-ton-offer-3007252"
+    },
+    {
+     "t": "Barchart 11/17（Webull 轉載）",
+     "u": "https://www.webull.com/news/15940759323788288"
+    }
+   ],
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "clearpath-colombia-best-15-auction-2026",
+   "sec": "industry",
+   "title": "哥倫比亞 Clearpath 競標 15 批全數售出：歐基尼奧伊德斯種每公斤 905 美元、508 次出價，日本兼松標走藝伎",
+   "orig": "Colombia's Best 15 — Clearpath Coffee Auction 2026",
+   "date": "2026/11/16",
+   "media": "M-Cultivo 競標結果頁（另參考 Perfect Daily Grind）",
+   "author": "",
+   "tier": "T1",
+   "read": 4,
+   "summary": [
+    "哥倫比亞出口商 Clearpath Coffee 第二屆私人競標（官網品牌名「Colombia's Best 15」，也稱 Colombia Legends）11 月 16 日在 M-Cultivo 平台舉行，15 批全部有人得標，總重 216.5 公斤，總額 50,877.5 美元，共 2,086 次出價，平均每公斤 235 美元。分成「傳承」（產地、品種、傳統）和「創新」（新處理法）兩組。",
+    {
+     "table": {
+      "cap": "前 7 名（每公斤美元）",
+      "cols": [
+       "批次",
+       "品種／處理",
+       "價格與得標者"
+      ],
+      "rows": [
+       [
+        "Inmaculada",
+        "Eugenioides／日曬，Valle del Cauca",
+        "905，15 公斤，508 次出價"
+       ],
+       [
+        "El Obraje",
+        "藝伎／水洗，Nariño",
+        "381.5，日本兼松（Kanematsu）"
+       ],
+       [
+        "El Diviso",
+        "藝伎／日曬，Huila",
+        "310.5，INLIGHT"
+       ],
+       [
+        "Capilla del Rosario",
+        "衣索比亞原生種／蜜處理，Antioquia",
+        "303.5，INLIGHT"
+       ],
+       [
+        "Mikava",
+        "藝伎／二氧化碳浸漬，Risaralda",
+        "300，Tomorrow Coffee Roasters"
+       ],
+       [
+        "San Pedro",
+        "藝伎／日曬，Tolima",
+        "280.5"
+       ],
+       [
+        "El Mirador",
+        "Wush Wush／蜜處理，Huila",
+        "204"
+       ]
+      ]
+     }
+    },
+    "其他批次落在每公斤 100–123 美元，包括 SL28、羅麗娜（Laurina）、波旁希爪（Sidra）、粉紅波旁。最便宜的 Buena Vista 粉紅波旁每公斤 100 美元，只有 1 次出價。",
+    "Perfect Daily Grind 說買家來自 16 國、出價 2,090 次，並寫出 Inmaculada 生產者是 Jorge Castro、El Obraje 是 Pablo Guerrero；競標結果頁上的出價數是 2,086，也沒有列生產者名字。"
+   ],
+   "why": "最貴的不是藝伎，而是野生種 Eugenioides（阿拉比卡的兩個親本物種之一），而且一批 15 公斤就占了總額四分之一以上，說明頂端買家在追「稀有物種」。同時，藝伎的價差很大：同樣是藝伎，從 381.5 到 115.5 美元，產區、處理和生產者名氣比品種名更決定價格。跟客人介紹藝伎時，可以用這個例子說明「藝伎」只是品種，不是品質保證。",
+   "detail": [
+    "總額｜50,877.5 美元，15 批全數售出",
+    "最高｜Inmaculada Eugenioides 905 美元/公斤",
+    "出價最多｜Inmaculada 508 次、El Obraje 439 次",
+    "多批得標｜INLIGHT 3 批；兼松、Source Green、Polygone 各 2 批",
+    "樣品盒｜15 支各 100 克，395 美元"
+   ],
+   "link": "https://clearpathcoffee.mcultivo.com/auction/colombias-best-15-2026",
+   "extra_links": [
+    {
+     "t": "Clearpath 競標官網",
+     "u": "https://clearpathauction.coffee/"
+    },
+    {
+     "t": "Perfect Daily Grind 週報",
+     "u": "https://perfectdailygrind.com/2026/11/coffee-news-recap-20-november-2026/"
+    }
+   ],
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "coffee-planet-cp-monogram-2026",
+   "sec": "industry",
+   "title": "阿聯咖啡公司 Coffee Planet 換上「CP」字母標：從上面看是杯子、從正面看像沖煮把手，由內部團隊設計",
+   "orig": "Coffee Planet unveils new CP monogram",
+   "date": "2026/11/20",
+   "media": "Tea & Coffee Trade Journal（另參考 Campaign Middle East）",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "在阿聯起家、經營超過 20 年的 Coffee Planet，業務涵蓋烘豆、製造、零售、咖啡店、自有品牌代工、設備維修和訓練，產品在阿聯 600 多個零售點販售。它推出新的「CP」字母標：C 和 P 放在一顆咖啡豆的輪廓裡，外圈像繞著豆子轉的星球軌道；從上往下看像一杯咖啡，從正面看像義式機的沖煮把手。",
+    "根據 Campaign Middle East 10 月的報導，標誌由行銷經理 Nishta Mital 和平面設計師 Fahd Malik 在公司內部完成，沒有找外部設計公司。理由是原本的「COFFEE PLANET」全名字標在小空間裡太擠。原字標、色彩、字體和語氣都保留；先用在印刷、數位素材、電子郵件簽名、部分門市、活動推車、制服和徽章，包裝暫時不換。",
+    "創辦人兼董事長 Allan Jones 說：「很多人本來就叫我們 CP，用這兩個字母做符號是很自然的演進。」"
+   ],
+   "why": "這是很實際的品牌課題：全名字標在杯套、徽章、社群大頭貼這種小地方常常放不下。Coffee Planet 的做法是「保留原字標、另做一個能單獨存在的小符號」，而且先從制服、徽章這類便宜的地方試，不急著換包裝。我們的杯子、貼紙、印章如果也有字太小的問題，可以參考這種分層做法。",
+   "detail": [
+    "設計者｜內部：Nishta Mital、Fahd Malik",
+    "保留｜原字標、色彩、字體",
+    "先用在｜制服、徽章、活動推車、數位素材",
+    "暫不更動｜包裝與招牌"
+   ],
+   "link": "https://www.teaandcoffee.net/news/40568/coffee-planet-unveils-new-cp-monogram/",
+   "extra_links": [
+    {
+     "t": "Campaign Middle East：設計過程",
+     "u": "https://campaignme.com/coffee-planet-cp-monogram/"
+    }
+   ],
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "wcr-arabica-dartag-snp-panel-2026",
+   "sec": "science",
+   "title": "世界咖啡研究組織推出第一套公開的阿拉比卡基因分型工具：5,053 個標記，幼苗就能先挑好樹",
+   "orig": "New tool gives arabica breeders a faster, cheaper way to select better coffee trees",
+   "date": "2026/11/16",
+   "media": "World Coffee Research（論文刊於 Frontiers in Plant Science）",
+   "author": "",
+   "tier": "T1",
+   "read": 5,
+   "summary": [
+    "育種最花時間的是等：一棵咖啡樹要好幾年才結果，才知道風味、產量、抗病好不好。世界咖啡研究組織（WCR）11 月 16 日發表一套「中密度 SNP 標記組合」，讓育種者採幼苗的葉子做 DNA 檢測，在結果前就先篩掉不理想的植株。WCR 說這是第一套公開、任何育種單位都能使用的阿拉比卡基因分型工具。",
+    {
+     "list": [
+      "5,053 個 SNP 標記，涵蓋約 98.7% 的基因體",
+      "能分開阿拉比卡的兩套「親本」基因組（來自 C. canephora 和 C. eugenioides），之前 8,500 個標記的晶片做不到",
+      "收進 WCR 舊有品種鑑定工具的 53 個標記，新舊資料能接得上",
+      "能分辨野生、改良和帶有其他物種基因的材料，包括近年選出的波旁衍生品種"
+     ]
+    },
+    "開發時定序了來自巴西、哥斯大黎加、盧安達等 5 個機構的 94 株不同植株，並用 Marsellesa × 藝伎雜交的 215 株後代，做出目前標記最密的阿拉比卡遺傳圖譜（1,854 個標記，約是過去最好的兩倍）。合作單位包括澳洲 Diversity Arrays Technology（DArT）、巴西 Embrapa、智利 Universidad de la Frontera、哥斯大黎加 ICAFE 與 CATIE、盧安達農業局。",
+    "任何公私立育種計畫都能透過 DArT 下單檢測（DArTag 平台）。每個樣本多少錢，公告和論文都沒寫。羅布斯塔版本正在開發，Innovea 全球羅布斯塔育種網的 6 國都已加入。",
+    "WCR 研究員 Jorge Berny 說：阿拉比卡育種一直缺一個共用、負擔得起的分型工具，中密度的組合讓育種計畫「用得起、能常態使用」。"
+   ],
+   "why": "這不會馬上改變我們手上的豆子，但它會加快未來新品種的出現：抗葉鏽病、耐熱、杯品好的品種可以更快被挑出來。上個月我們寫過「買來的藝伎苗不一定是本人」，這類工具也能用來確認品種身分。客人問「咖啡也在做基因改造嗎？」可以說明：這是用 DNA 檢測「挑」樹，不是改基因。",
+   "detail": [
+    "發表｜WCR 2026/11/16；論文 Frontiers in Plant Science 第 17 卷",
+    "標記數｜5,053 個 SNP",
+    "基因體覆蓋｜約 98.7%",
+    "取得方式｜向 DArT 下單（Coffee_DArTag_WCR 1.0）",
+    "價格｜未公布"
+   ],
+   "link": "https://worldcoffeeresearch.org/news/new-tool-gives-arabica-breeders-a-faster-cheaper-way-to-select-better-coffee-trees",
+   "extra_links": [
+    {
+     "t": "論文：A medium density SNP marker panel for Arabica Coffee",
+     "u": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1955056/full"
+    }
+   ],
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "torani-sweet-miso-2027-flavor",
+   "sec": "fun",
+   "title": "糖漿品牌 Torani 選出 2027 年度風味：「甜味噌」，楓糖和焦糖化紅糖加上味噌的鹹鮮",
+   "orig": "Torani names Sweet Miso its 2027 Flavor of the Year",
+   "date": "2026/11/17",
+   "media": "Perfect Daily Grind（週報摘要）",
+   "author": "",
+   "tier": "T2",
+   "read": 1,
+   "summary": "美國百年糖漿品牌 Torani 宣布 2027 年度風味是「Sweet Miso」：把楓糖、焦糖化紅糖和味噌的鹹鮮味混在一起，讓熟悉的飲品多一層「鮮味」（umami）。",
+   "why": "鹹甜系飲品（海鹽焦糖、鹹奶油）已經很普遍，下一步是更有層次的「鮮」。味噌對台灣客人並不陌生，冬季特調可以試試在焦糖或黑糖拿鐵裡加一點白味噌，鹽分要很少、先試小量。",
+   "action": "試做一杯：黑糖拿鐵加約 1–2 克白味噌化開，比較加與不加的差別。",
+   "note": "這期只讀到 Perfect Daily Grind 的摘要，沒有讀到 Torani 原始公告。",
+   "link": "https://perfectdailygrind.com/2026/11/coffee-news-recap-20-november-2026/",
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "wowprime-tokiya-price-up-nov24-2026",
+   "sec": "food",
+   "title": "王品陶板屋 11/24 起漲 30 元：和風套餐 698 → 728 元，加服務費約 801 元，跟西堤、石二鍋同一波",
+   "orig": "",
+   "date": "2026/11/19",
+   "media": "ETtoday 旅遊雲",
+   "author": "黃士原",
+   "tier": "T3",
+   "read": 2,
+   "summary": [
+    "繼石二鍋、西堤牛排之後，王品集團的陶板屋 11 月 24 日起漲價，基本和風套餐從 698 元調到 728 元，漲 30 元、約 4.3%。王品說是因應各項營運成本上升。內用另收 10% 服務費，換算每人約 801 元，第一次突破 800 元。",
+    "調價消息是粉絲先發現的：有人早早訂了 11/24 開始的 Kuromi 聯名活動，前幾天接到餐廳電話說活動開始時會同步漲價。持舊餐券的，依票券頁說明以券面金額折抵、差額現場補。",
+    {
+     "table": {
+      "cap": "11/24 同一天調價的連鎖",
+      "cols": [
+       "品牌",
+       "調整"
+      ],
+      "rows": [
+       [
+        "陶板屋",
+        "和風套餐 698 → 728 元"
+       ],
+       [
+        "西堤",
+        "據壹電視報導貴 30 元"
+       ],
+       [
+        "瓦城集團 5 品牌",
+        "平均約 3.6%（上週已報導）"
+       ]
+      ]
+     }
+    },
+    "壹電視另外報導，饗食天堂除平日下午餐外各餐期每位成人調漲 30 元，春水堂約八成品項調漲、平均 12%。"
+   ],
+   "why": "大型連鎖選在同一天、以「小幅、整數」方式漲，是在測客人能接受的心理價位（這次是 800 元）。對我們有兩點參考：一是現在漲價的理由大家都說得出口（食材、人力、油價），反彈相對小；二是陶板屋被抓到的不是漲價本身，而是「訂位時沒說、事後電話通知」。如果我們調整價格，最好提前公告、讓已預訂或有儲值的客人知道怎麼處理。",
+   "detail": [
+    "漲幅｜30 元、約 4.3%",
+    "含服務費｜728 × 1.1 ≈ 801 元",
+    "生效｜2026/11/24",
+    "舊餐券｜按券面折抵，差額依現場公告補"
+   ],
+   "note": "西堤、饗食天堂、春水堂的數字來自壹電視報導，未逐一核對官方公告。",
+   "link": "https://travel.ettoday.net/article/3275043.htm",
+   "extra_links": [
+    {
+     "t": "壹電視：餐飲接力漲",
+     "u": "https://www.nexttv.com.tw/NextTV/News/Home/Life/2026-11-20/2532326.html"
+    },
+    {
+     "t": "APPI News：含服務費怎麼算",
+     "u": "https://appi.news/articles/tokiya-set-meal-price/"
+    }
+   ],
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "sushiro-times-square-no-tipping-2026",
+   "sec": "food",
+   "title": "壽司郎美國首店在紐約時代廣場開幕：146 席、平板點餐專用軌道送餐，全店不收小費改付時薪",
+   "orig": "Sushiro Opens 146-Seat New York Flagship To Make US Debut",
+   "date": "2026/11/19",
+   "media": "Retail News Asia（另參考 FOOD & LIFE COMPANIES 公告）",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "日本迴轉壽司龍頭壽司郎（母公司 FOOD & LIFE COMPANIES）11 月 19 日（美東時間）在紐約曼哈頓第八大道 667 號開出美國第一家店「SUSHIRO Times Square」。店有三層：1、2 樓是 146 席迴轉壽司，地下室有 3 間包廂，菜單超過 200 品項。",
+    {
+     "list": [
+      "點餐：桌上觸控螢幕「DIGIRO」，壽司走專用快速軌道直接送到座位，不靠一圈圈轉的輸送帶",
+      "價格：一般壽司每盤多為 5、6 美元，高價品項 8、10 美元",
+      "營業：每天 11:00–23:00",
+      "小費：全店明確不收小費，外場和廚房員工領時薪、有內部升遷制度"
+     ]
+    },
+    "Retail News Asia 分析，對手藏壽司是先從皇后區法拉盛進紐約，壽司郎則直接選在人流最大的時代廣場；不收小費代表薪資成本得完全靠翻桌率撐，這家店能不能撐住曼哈頓的高租金，會決定它在美國的展店速度。"
+   ],
+   "why": "「不收小費、把服務成本放進定價」在美國是逆著走，但對我們很熟悉：台灣多數店也不收小費，差別在服務費。這篇值得看的是它怎麼用設備減少外場人力（桌邊點餐、直送軌道），把省下的成本換成時薪。我們尖峰時段如果卡在點餐和送餐，可以想想哪些環節能讓客人自己完成。",
+   "detail": [
+    "地址｜667 8th Avenue, New York",
+    "座位｜146 席＋地下 3 間包廂",
+    "品項｜200 多種，含拉麵、天婦羅、茶碗蒸",
+    "創立｜1975 年大阪，全球 1,000 多家"
+   ],
+   "link": "https://retailnews.asia/sushiro-opens-146-seat-new-york-flagship-to-make-us-debut",
+   "extra_links": [
+    {
+     "t": "FOOD & LIFE COMPANIES 開幕公告",
+     "u": "https://food-and-life.co.jp/en/corporate-news/31887/"
+    }
+   ],
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "blue-bottle-bangkok-emquartier-lantern",
+   "sec": "food",
+   "title": "曼谷 Blue Bottle 旗艦店：東京事務所 I IN 用一盞倒錐形的藍色「天燈」當吧台頂棚，泰國柚木配金色細節",
+   "orig": "",
+   "date": "2026/11/17",
+   "media": "EVERYDAY OBJECT（另參考 superfuture、The Nation Thailand）",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "這幾天中文設計媒體熱傳的曼谷 Blue Bottle 旗艦店，其實 8 月 24 日就已開幕，位在 EmQuartier 購物中心 G 樓、可直通 BTS Phrom Phong 站，約 200 平方公尺、80 多個座位，是 Blue Bottle 在泰國第一家「完整體驗旗艦店」。泰國第一家店則是 3 天前（8/21）開在 Central Park。",
+    "空間由東京建築設計事務所 I IN 操刀：中央吧台上方是一個巨大的藍色倒錐形頂棚，靈感來自泰國傳統的天燈節慶，燈籠內側和下緣藏了間接照明，讓整個燈籠像浮在半空；牆面和天花板是柔和的藍，金色細節象徵好運，家具和木作用泰國本地柚木。",
+    {
+     "list": [
+      "本店限定：NOLA 漂浮、列日鬆餅、優格碗、曼谷限定托特包",
+      "泰國全線：和泰國冰淇淋品牌 Grazia 合作的甜點（巧克力柳橙費南雪、椰子芒果瑪德蓮、慢烤蛋塔）",
+      "Central Park 店是東南亞第一家有五頭「京都風格義式濃縮咖啡龍頭吧」的店"
+     ]
+    },
+    "背景：泰國是 Blue Bottle 第 7 個國家，全球 140 多家；雀巢今年 4 月同意把 Blue Bottle 賣給瑞幸的控股股東大鉦資本（Centurium Capital）。"
+   ],
+   "why": "這是「在地化但不俗套」的好例子：沒有直接放佛寺、大象，而是把天燈抽象成一個量體，再用本地木材和顏色收尾，品牌的極簡感還在。對我們店裡空間或節慶布置，可以參考這種做法：挑一個在地意象，簡化成一個大的造型，其他地方保持乾淨。",
+   "detail": [
+    "開幕｜2026/8/24",
+    "設計｜I IN（東京）",
+    "面積｜約 200 平方公尺、80 多席",
+    "材質｜泰國柚木、藍色牆面、金色細節"
+   ],
+   "note": "台灣媒體 Popbee 的原文這期讀不到（網站擋自動程式），改用 EVERYDAY OBJECT、superfuture 和 The Nation 的報導。",
+   "link": "https://www.everydayobject.us/blue-bottle-in-thailand/",
+   "extra_links": [
+    {
+     "t": "superfuture：開幕資訊",
+     "u": "https://superfuture.com/2026/10/new-restaurants-bars/bangkok-blue-bottle-coffee-cafe-opening/"
+    },
+    {
+     "t": "The Nation Thailand",
+     "u": "https://www.nationthailand.com/business/corporate/40070197"
+    }
+   ],
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "tmoa-scorpion-and-frog-yageo-collection-2026",
+   "sec": "design",
+   "title": "中美館「蠍子與青蛙：國巨基金會典藏展」開展：34 位藝術家 66 件作品、55 件台灣首展，展到 2027/4/4，全票 300 元",
+   "orig": "",
+   "date": "2026/11/20",
+   "media": "臺中市政府新聞局（另參考 Marie Claire、Bella）",
+   "author": "",
+   "tier": "T1",
+   "read": 5,
+   "summary": [
+    "臺中市立美術館（綠美圖）和國巨基金會合辦的「蠍子與青蛙：國巨基金會典藏展」11 月 20 日開展，集結 34 位藝術家共 66 件典藏，其中 55 件第一次在台灣展出。國巨基金會董事長陳泰銘是全球知名收藏家；市長盧秀燕說，去年春天她和副市長親自拜訪借展，獲陳董事長「爽快應允」。",
+    "展名來自俄國寓言：蠍子請青蛙背牠過河，說「螫你我們都會淹死」，結果還是在河中央螫了青蛙。策展人 Philip Larratt-Smith（長年任職路易絲・布爾喬亞的 Easton Foundation，也策過富邦美術館布爾喬亞展）以「本能與理性」「身心之別」為主軸，把作品排成 20 組並置，例如蒙德里安的幾何格線對上席勒的身體線條、一組「鮮紅色」把靜物、席勒水彩裸女和昆斯〈氣球狗（紅）〉放在一起。",
+    {
+     "table": {
+      "cap": "看展資訊",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "展期",
+        "2026/11/20–2027/4/4"
+       ],
+       [
+        "地點",
+        "臺中市立美術館 展覽室 D、E（西屯區中科路 2201 號）"
+       ],
+       [
+        "開放",
+        "週二至週日 9:00–17:00，週六到 20:00，週一休"
+       ],
+       [
+        "票價",
+        "全票 300、優待 220、愛心 150 元；6 歲以下免費"
+       ],
+       [
+        "套票",
+        "加真鍋大度《關係時態》350 元；加亞洲大學現代美術館 499 元"
+       ],
+       [
+        "預約",
+        "不指定日期票在各售票平台；假日時段票在美術館官網與綠美圖 1 樓服務台"
+       ]
+      ]
+     }
+    },
+    "點名作品包括：霍克尼〈克里斯多福・伊舍伍德與唐・巴查迪〉（1968，他雙人肖像系列的第一件）、培根〈教宗習畫之六〉、羅斯科〈No. 7〉、里希特〈瑪莉安阿姨〉、沃荷〈自畫像（驚悚假髮）〉、布爾喬亞〈蜘蛛〉、克林姆〈坐在扶手椅上的女士〉、常玉〈背影裸女〉、畢卡索〈男人頭像〉、真蒂萊斯基〈冥想中的抹大拉的馬利亞〉等。",
+    "陳泰銘說，看藝術不必先懂市場價值或藝術史地位，只要願意在作品前停下來、對藝術家好奇，就是這個展最大的意義。"
+   ],
+   "why": "這是今年台灣最值得排進行程的西洋現當代藝術展之一，從 16 世紀到當代一次看到，而且大多是第一次來台。對做平面、插畫的人，「20 組並置」本身就是很好的構圖與色彩課：同樣是紅色、同樣是身體，不同年代的人怎麼處理。展期到明年 4 月，假日人多，建議平日或週六晚上去，先買時段票。",
+   "detail": [
+    "規模｜34 位藝術家、66 件，55 件台灣首展",
+    "策展｜Philip Larratt-Smith",
+    "結構｜20 組作品並置",
+    "活動｜策展人講座、定時導覽、親子導覽"
+   ],
+   "note": "Bella 報導霍克尼該作 2025 年在佳士得以 4,000 萬美元成交，這期未在官方資料核對。官方新聞稿標題寫「55 件世界級典藏台灣首亮相」，總數是 66 件，兩者不矛盾。",
+   "link": "https://www.taichung.gov.tw/3416697/post",
+   "extra_links": [
+    {
+     "t": "Marie Claire：票價與作品",
+     "u": "https://www.marieclaire.com.tw/lifestyle/art/96537"
+    },
+    {
+     "t": "Bella：重點作品",
+     "u": "https://www.bella.tw/articles/movies&culture/59397/yageo-foundation-collection-exhibition-taichung-art-museum-2026"
+    }
+   ],
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "yoshitaka-amano-shinjuku-taipei-2026",
+   "sec": "design",
+   "title": "天野喜孝《新宿．幻變》插畫展 12/5 起在台北中山區：70 多幅授權複製畫，配合中文版畫冊上市",
+   "orig": "",
+   "date": "2026/11/20",
+   "media": "VERSE（另參考巴哈姆特 GNN）",
+   "author": "許弼善",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "日本插畫家天野喜孝的作品展《天野喜孝－新宿．幻變》12 月 5 日到 27 日在台北「陋室五月小風景」展出（中山北路二段 116 巷 12 號），12:00–19:00，週一、週二休館。",
+    "《新宿．幻變》（Shinjuku）是天野喜孝和英美導演、編劇兼小說家 Christopher「MINK」Morrison 合作的插畫小說：故事設定在 2020 年的東京新宿，賞金獵人 Daniel 尋找失蹤的妹妹，捲入黑道權力鬥爭、神祕力量和量子研究。英文版由美國 Dark Horse 出版；陋室五月取得授權出版中文版書籍與畫冊，VERSE 說 10 月 30 日全球同步上市。",
+    "展出的是 70 多幅原作的授權複製畫，不是原作，搭配場地的燈光分區；現場也賣書、畫冊和限定周邊。"
+   ],
+   "why": "天野喜孝是影響許多遊戲與插畫創作者的日本插畫家。這次雖然是複製畫，但 70 多幅一次排開，很適合研究他怎麼用線條和留白處理角色與城市。做插畫或數位插畫的朋友，可以帶著畫冊對照看；喜歡動漫、日本文化的也值得順路走一趟。",
+   "detail": [
+    "展期｜2026/12/5–12/27",
+    "地點｜陋室五月小風景（台北市中山區）",
+    "時間｜12:00–19:00，週一、二休",
+    "展品｜70 多幅授權複製畫"
+   ],
+   "note": "四篇報導都沒寫票價或是否免費入場，這期查不到，出發前請先看主辦單位公告。",
+   "link": "https://www.verse.com.tw/article/yoshitaka-amano-shinjuku",
+   "extra_links": [
+    {
+     "t": "巴哈姆特 GNN",
+     "u": "https://gnn.gamer.com.tw/detail.php?sn=315357"
+    }
+   ],
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "taiwan-architecture-award-2026-keelung-museum",
+   "sec": "design",
+   "title": "2026 臺灣建築獎：基隆美術館拿首獎，勝過普立茲克得主設計的綠美圖；竹構造的八仙山獲新人獎",
+   "orig": "",
+   "date": "2026/11/17",
+   "media": "聯合報（另參考立報傳媒、Bella）",
+   "author": "陳宛茜",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "中華民國全國建築師公會主辦的 2026 臺灣建築獎 11 月 17 日揭曉。112 件符合資格的作品先選出 12 件入圍，評審 10 月底實地走訪後決定得獎名單。",
+    {
+     "table": {
+      "cap": "得獎名單",
+      "cols": [
+       "獎項",
+       "作品",
+       "設計"
+      ],
+      "rows": [
+       [
+        "首獎",
+        "基隆美術館",
+        "禾磊建築＋吳明杰建築師事務所"
+       ],
+       [
+        "佳作",
+        "國家檔案館（新北林口）",
+        "九典聯合建築師事務所"
+       ],
+       [
+        "佳作",
+        "臺中綠美圖",
+        "SANAA＋劉培森建築師事務所"
+       ],
+       [
+        "佳作",
+        "臺東江賢二藝術園區",
+        "黃文榮建築師事務所＋地方建築 林友寒＋江賢二"
+       ],
+       [
+        "新人獎",
+        "八仙山國家森林遊樂園－自然構築計畫",
+        "初樸建築師事務所 葉育鑫"
+       ]
+      ]
+     }
+    },
+    "基隆美術館的前身是 1903 年的基隆公會堂，1985 年由建築師楊卓成改建成文化中心，2021 年起再轉型。這次改造 1 到 3 樓，用開放空間把建築重新接回東岸港區；評審說它在預算、新舊材料和多方協調的限制下，讓歷史場域變成親民、有活力的市民空間。Bella 補充，原有白色預鑄混凝土外牆板大多保留。",
+    "佳作的綠美圖由普立茲克獎得主妹島和世、西澤立衛的 SANAA 設計，劉培森形容它「國際級建築，鄉鎮級預算」，歷經三任市長。新人獎八仙山用竹構造，立報說是台灣第一個以竹構造做統包的公共工程，葉育鑫說：「竹構造很多人不敢使用。」",
+    "12 月 12 日下午在南港展覽館有「2026 臺灣建築獎論壇」；完整評審過程會刊在《建築師》雜誌 2027 年 2 月號。"
+   ],
+   "why": "這次首獎給的不是新蓋的明星建築，而是「把舊建築改好」。對做空間設計的人，基隆美術館是很好的案例：保留原本的外牆和結構記憶，只用動線和開口重新連結城市。週末去基隆看海，可以順路進去看看；綠美圖則正好可以和上面那檔「蠍子與青蛙」一起排。",
+   "detail": [
+    "主辦｜中華民國全國建築師公會",
+    "評審｜戴育澤（召集）、張匡逸、許伯元、黃少妤、蘇睿弼",
+    "流程｜112 件 → 12 件入圍 → 實地評選",
+    "論壇｜12/12 下午，南港展覽館"
+   ],
+   "note": "Shopping Design 原文讀不到（網站擋自動程式），改用聯合報、立報與 Bella 的報導。",
+   "link": "https://money.udn.com/money/story/122328/9883479",
+   "extra_links": [
+    {
+     "t": "立報傳媒",
+     "u": "https://www.limedia.tw/comm/75711/"
+    },
+    {
+     "t": "Bella：12 件入圍",
+     "u": "https://www.bella.tw/articles/design&gadget/60603/2026-taiwan-architecture-awards-top-12-new-landmark"
+    }
+   ],
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "rem-album-art-chris-bilheimer-wallpaper",
+   "sec": "design",
+   "title": "R.E.M. 30 年專輯封面怎麼做的：設計師 Chris Bilheimer 談〈Monster〉的失焦熊氣球、〈Up〉的紙箱箭頭",
+   "orig": "A journey through 30 years of R.E.M. album design",
+   "date": "2026/11/20",
+   "media": "Wallpaper*",
+   "author": "Craig McLean",
+   "tier": "T2",
+   "read": 6,
+   "summary": [
+    "美國樂團 R.E.M. 的《Reveal》（2001）25 週年紀念盒裝 11 月 20 日發行，Wallpaper* 藉此訪問替樂團做了 30 多年封面的平面設計師 Chris Bilheimer（55 歲，住德州奧斯汀）。他 35 年前在喬治亞州雅典的 Kinko's 影印店認識主唱 Michael Stipe，一起拼貼素材；《Automatic for the People》（1992）背面的文字是他排版、再請招牌師傅手繪在玻璃上；從《Monster》（1994）起全職負責。他和 Stipe 合作拿過三次葛萊美提名。",
+    {
+     "list": [
+      "《Monster》：配色從 1970 年代初的水果麥片盒出發；封面是一張意外失焦的熊氣球照片。氣球廠商只要幾張專輯就授權，樂團後來還跟他們買了一批氣球做宣傳",
+      "《New Adventures in Hi-Fi》：吉他手 Peter Buck 指著一張山丘照片說「這張當封面」，Bilheimer 說那是 Buck 唯一一次對美術有意見",
+      "《Up》：特別色印刷、手繪標準字；「up」來自一本收集紙箱上「向上」箭頭的書",
+      "《Accelerate》：用 Stipe 拍的數百張建築照片拼出反烏托邦城市，走龐克傳單、影印、剪貼美學",
+      "《Collapse Into Now》：Stipe 揮手道別的照片用丙酮侵蝕；Bilheimer 當時不知道那會是最後一張"
+     ]
+    },
+    "這次《Reveal》的新封面，是把 Stipe 當年巡演拍的拍立得照片，處理成像紅外線底片拍的粉紅色調。Bilheimer 說，越做到後面，Stipe 越想「玩弄」自己的舊作品。"
+   ],
+   "why": "好的封面常常來自「意外」和「日常物件」：失焦的氣球、紙箱上的箭頭、麥片盒的顏色。對做平面和品牌的人，這篇很適合拿來看一位設計師如何和同一個客戶長期合作 30 年，而且每次都不重複自己。我們做季節菜單或杯套時，也可以從店裡的日常物件找素材。",
+   "detail": [
+    "設計師｜Chris Bilheimer（奧斯汀）",
+    "契機｜《Reveal》25 週年盒裝，Craft Recordings 發行",
+    "合作起點｜1991《Out of Time》前後",
+    "葛萊美｜與 Stipe 合作獲三次提名"
+   ],
+   "link": "https://www.wallpaper.com/art/music/rem-album-artwork-chris-bilheimer",
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "barista-mag-copenhagen-gut-microbiota-repeat",
+   "sec": "skip",
+   "title": "Barista Magazine：常喝咖啡的人腸道菌較豐富，就是我們 11/16 寫過的哥本哈根研究",
+   "orig": "Frequent Coffee Drinkers May Have Better Gut Health, New Study Shows",
+   "date": "2026/11/20",
+   "media": "Barista Magazine",
+   "author": "Bhavi Patel",
+   "tier": "T2",
+   "read": 4,
+   "summary": "報導哥本哈根大學 61 人研究：常喝咖啡者腸道菌種類較多、小腸 pH 較低。文章自己也提醒，多重比較校正後菌種差異就不顯著，樣本小、屬觀察性研究。",
+   "why": "同一篇研究換個角度報導，沒有新資料；想看細節請看 11/16 那篇。",
+   "link": "https://www.baristamagazine.com/frequent-coffee-drinkers-may-have-better-gut-health-new-study-shows/",
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "bellwether-shop-roaster-2027-sponsored",
+   "sec": "skip",
+   "title": "Bellwether 2027 版免排煙烘豆機：1.5 公斤桌上型 14,900 美元起，但是贊助稿",
+   "orig": "New Product: Bellwether's Updated Shop Roaster Gets Rebuilt On The Inside and Out",
+   "date": "2026/11/20",
+   "media": "Fresh Cup",
+   "author": "Garrett Oden",
+   "tier": "T3",
+   "read": 4,
+   "summary": "Bellwether 的電熱免排煙商用烘豆機 2027 年初出新版：桌上型每批 1.5 公斤、14,900 美元起；連續烘焙型可自動連烘 13 批（20 公斤），19,900 美元起。",
+   "why": "Fresh Cup 標明是與 Bellwether 合作的贊助內容，屬廠商觀點，先記著就好。",
+   "link": "https://freshcup.com/new-product-bellwethers-updated-shop-roaster-gets-rebuilt-on-the-inside-and-out/",
+   "pub": "2026-11-21"
+  },
+  {
+   "id": "cooabriel-labor-case-hearing-2026",
+   "sec": "skip",
+   "title": "巴西咖啡合作社 Cooabriel 因成員農場勞動問題出庭：雀巢說涉案農民不在它的供應鏈",
+   "orig": "Weekly Coffee News: Rocket Showroom in Geneva + New Labor Abuse Case",
+   "date": "2026/11/20",
+   "media": "Daily Coffee News",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 2,
+   "summary": "巴西羅布斯塔合作社 Cooabriel 11/16 出庭，檢方指控它未能防止成員農場的類奴役勞動；合作社說會查勞動違規名單、停權被列名的成員。雀巢向路透確認向該合作社採購，但說涉案農民不在其供應鏈。",
+   "why": "是 11/17、11/18 強迫勞動議題的延續，案件還在進行，對我們的採購沒有直接影響。",
+   "link": "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/",
+   "pub": "2026-11-21"
+  },
   {
    "id": "brazil-usda-2026-27-record-72-5m-quality-stocks",
    "sec": "industry",
