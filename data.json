@@ -1,17 +1,16 @@
 {
  "edition": {
-  "id": "2026-11-21",
-  "no": 24,
-  "date": "2026-11-21",
-  "label": "11月21日 週六"
+  "id": "2026-11-22",
+  "no": 25,
+  "date": "2026-11-22",
+  "label": "11月22日 週日"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "ICE 認證阿拉比卡庫存跌到 18.6 萬袋，是 1999 年 2 月以來最低；巴西豆還在排隊等分級，豆價一週內來回震盪。",
-  "哥倫比亞 Clearpath 競標 15 批全數售出，最高的是野生種 Eugenioides 每公斤 905 美元，不是藝伎。",
-  "WCR 公開第一套阿拉比卡基因分型工具，5,053 個標記，幼苗階段就能先挑樹。",
-  "餐飲：陶板屋 11/24 起套餐加服務費破 800 元；壽司郎紐約首店全店不收小費。",
-  "ARTs：中美館「蠍子與青蛙」66 件典藏開展、天野喜孝《新宿．幻變》12/5 台北展、臺灣建築獎首獎基隆美術館、R.E.M. 封面設計 30 年。"
+  "想把生豆採購外包？SourceOS 用「每磅固定費、不抽成」收費，年用量 20 萬磅約 1.8 萬美元（新聞稿試算）。",
+  "北卡烘豆廠 Bellator 烘豆機起火停業：這週清一次銀皮桶和排煙管。",
+  "聖安東尼奧一家咖啡館換老闆，員工從社群才知道、選擇離職：店裡的大變動先跟夥伴說。",
+  "ARTs：吳明益《苦雨之地》法譯本、詩人向明辭世、Sheena Liam 刺繡肖像、Teenage Engineering 第一台 CD 機。"
  ],
  "weekly": null,
  "sections": [
@@ -41,6 +40,330 @@
   }
  ],
  "items": [
+  {
+   "id": "sourceos-fractional-green-buyer",
+   "sec": "industry",
+   "title": "SourceOS 推「兼職生豆採購」：年買 20 萬磅的烘豆廠約付 1.8 萬美元，專職採購約 11 萬",
+   "orig": "SourceOS Brings the Fractional Model To Green Coffee Sourcing",
+   "date": "2026/11/19",
+   "media": "Sprudge（新聞稿）",
+   "author": "",
+   "tier": "T3",
+   "read": 3,
+   "summary": [
+    "美國華盛頓州奧林匹亞的新公司 SourceOS 11/19 上線，主打「兼職生豆採購」（fractional green buyer）：像很多成長中的公司外包財務長、行銷總監一樣，把生豆採購整個外包。它說烘豆廠買豆通常只有兩種做法：老闆在烘豆和接電話之間擠時間買，或是請一位全職採購。",
+    {
+     "list": [
+      "烘豆廠決定風味方向和用量；SourceOS 負責找豆選豆、配方與菜單、合約與到貨、庫存，以及每支豆的故事",
+      "直接在烘豆廠自己的 Cropster 帳號裡作業，每兩週對一次進度",
+      "收費是每磅固定費用，依年用量訂、一年不變；進口商直接向烘豆廠請款，SourceOS 不加價、不抽佣"
+     ]
+    },
+    {
+     "table": {
+      "cap": "新聞稿給的成本比較（年用量 20 萬磅）",
+      "cols": [
+       "方案",
+       "年成本"
+      ],
+      "rows": [
+       [
+        "SourceOS",
+        "約 18,000 美元（含差旅、樣品）"
+       ],
+       [
+        "全職採購（含福利）",
+        "約 110,000 美元"
+       ]
+      ]
+     }
+    },
+    "客群是年採購量約 7.5 萬到 100 萬磅的烘豆廠。創辦人 Oliver Stormshak 創立並經營 Sea Level Coffee（旗下有 Olympia Coffee Roasting）20 年，新聞稿說他有 Q Grader 和 Q Processing Expert 資格，和 13 個國家的生產者、處理廠、出口商有往來。"
+   ],
+   "why": "「按磅收固定費、不抽成」是這個模式的重點：採購拿的錢不會因為選了比較貴的豆或某家進口商而變多，利益衝突比較小。對小烘豆廠來說，平常其實就是「老闆擠時間買豆」那一種；這篇可以當成一張檢查表，看看我們採購時有沒有漏掉合約、到貨、庫存和豆子故事這幾段。",
+   "detail": [
+    "收費方式｜每磅固定費，依年用量定價、一年不變",
+    "工作方式｜在烘豆廠的 Cropster 帳號內作業，兩週一次會議",
+    "客群｜年用量約 7.5 萬–100 萬磅"
+   ],
+   "note": "這是公司新聞稿，成本比較是 SourceOS 自己的試算，沒有第三方驗證。",
+   "link": "https://sprudge.com/sourceos-brings-the-fractional-model-to-green-coffee-sourcing-1654778.html",
+   "pub": "2026-11-22"
+  },
+  {
+   "id": "bellator-roaster-fire-new-bern",
+   "sec": "industry",
+   "title": "北卡烘豆廠 Bellator 烘豆機起火停業，募款 1.5 萬美元修機器和清理",
+   "orig": "North Carolina Roaster Seeks Support After Fire",
+   "date": "2026/11/20",
+   "media": "Daily Coffee News（引述 WCTI）",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 1,
+   "summary": "美國北卡羅來納州 New Bern 的 Bellator Roasting Company，烘豆機 11/17 起火，目前停業、復業時間未定。店家在 GoFundMe 募款 15,000 美元，用在可能的設備修理或更換、清理和其他復原費用。報導沒有說明起火原因。",
+   "why": "小烘豆廠一場火就可能停業好一陣子，修機、清理都是錢。原因報導沒寫，但烘豆機起火常見的風險點是銀皮、油垢累積在排煙管和集塵桶，這是我們自己能控制的部分。",
+   "action": "這週排一次銀皮桶、排煙管和冷卻盤底下的清潔，並確認烘豆區的滅火器在有效期限內、大家知道放在哪。",
+   "detail": [
+    "起火日期｜11/17",
+    "募款目標｜15,000 美元（GoFundMe）"
+   ],
+   "note": "Daily Coffee News 週報中的短訊，起火原因與損失程度未公開。",
+   "link": "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/",
+   "pub": "2026-11-22"
+  },
+  {
+   "id": "rocket-espresso-geneva-modular-retail",
+   "sec": "industry",
+   "title": "Rocket Espresso 在日內瓦咖啡館裡開模組化展示區：霧黑表面、可移動示範桌",
+   "orig": "Rocket Introduces Modular Retail Concept With Chronic Coffee in Geneva",
+   "date": "2026/11/20",
+   "media": "Daily Coffee News",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 1,
+   "summary": "義大利咖啡機品牌 Rocket Espresso 在瑞士日內瓦 Chronic Coffee Roasters 店內（Rue Argand 2）推出新的零售展示概念，和跨領域設計工作室 OPS Team 合作。空間用霧黑表面、可移動的示範桌和金屬展示格架；Rocket 說這些模組化陳列可以依店面大小和格局調整。",
+   "why": "這是「店中店」的做法：設備品牌不自己開門市，而是進駐咖啡館，讓客人在真的吧台旁邊看機器。對我們的啟發是：店裡如果要賣器材或豆子，陳列可以做成能移動、能拆組的模組，活動時推出來、平常收起來，不用為了零售固定佔一塊地。",
+   "detail": [
+    "地點｜日內瓦 Chronic Coffee Roasters（Rue Argand 2）",
+    "設計｜OPS Team"
+   ],
+   "link": "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/",
+   "pub": "2026-11-22"
+  },
+  {
+   "id": "folklores-coffee-sale-staff-resign",
+   "sec": "food",
+   "title": "聖安東尼奧咖啡館換老闆改名，員工從社群上才知道店被賣掉，選擇離職",
+   "orig": "San Antonio's Folklores Coffee House Rebrands After Ownership Change",
+   "date": "2026/11/20",
+   "media": "Daily Coffee News（引述 CultureMap）",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 1,
+   "summary": "美國德州聖安東尼奧 Government Hill 的 Folklores Coffee House 換了老闆，改名 Por La Vida Coffee。共同創辦人 Emilie Herrera 11/5 宣布出售，買下的是 Nikki Martinez。Martinez 說，員工是從社群媒體得知這筆交易後辭職的。",
+   "why": "同一件事，員工是「被告知」還是「滑手機看到」，結果可能完全不同。店裡有任何大變動（換老闆、改名、改營業時間、調整排班制度），先跟夥伴當面說，再對外公布，是留住人最便宜的做法。",
+   "detail": [
+    "新店名｜Por La Vida Coffee",
+    "宣布出售｜11/5，由共同創辦人 Emilie Herrera 宣布"
+   ],
+   "note": "Daily Coffee News 週報短訊，員工離職人數與細節未說明。",
+   "link": "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/",
+   "pub": "2026-11-22"
+  },
+  {
+   "id": "stardust-teas-moon-milk-sun-chai",
+   "sec": "food",
+   "title": "Stardust Teas 把「月光奶」做成即溶粉：蝶豆花加薑汁粉的藍色飲品，另有晨間 Sun Chai",
+   "orig": "Tea Huntress' Bestseller Gets Its Own Brand: Sarah Scarborough Launches Stardust Teas",
+   "date": "2026/11/20",
+   "media": "Sprudge（新聞稿）",
+   "author": "",
+   "tier": "T3",
+   "read": 3,
+   "summary": [
+    "在茶業 30 年的 Sarah Scarborough（Tea Huntress 創辦人）在美國納許維爾推出新品牌 Stardust Teas。招牌 Moon Milk 是她 2021 年秋分聚會時調出來的，後來成為 Tea Huntress 賣最好的商品，這次獨立成品牌，三款都是即溶粉：",
+    {
+     "table": {
+      "cap": "三款產品（依新聞稿）",
+      "cols": [
+       "品項",
+       "內容"
+      ],
+      "rows": [
+       [
+        "Moon Milk 無糖",
+        "蝶豆花＋脫水薑汁粉，藍色，可熱可冰，配牛奶或水"
+       ],
+       [
+        "Moon Milk 微甜",
+        "同上，加有機蜂蜜和原蔗糖"
+       ],
+       [
+        "Sun Chai",
+        "有機紅茶粉、原蔗糖、有機香料精華、喜馬拉雅粉紅鹽"
+       ]
+      ]
+     }
+    },
+    "品牌在官網直營，也在田納西和蒙大拿幾家選物店、咖啡館販售。"
+   ],
+   "why": "有意思的是飲品「時段」的切法：早上 Sun Chai、晚上 Moon Milk，用一天的節奏來設計菜單。我們的晚間或無咖啡因選項，也可以用這種「晚上喝什麼」的故事包裝；蝶豆花的藍色加薑的辛香，是不靠咖啡因也有記憶點的組合。至於新聞稿說的舒緩、抗發炎功效，沒有附研究，跟客人介紹時不要照搬。",
+   "detail": [
+    "核心原料｜蝶豆花、脫水薑汁粉",
+    "Moon Milk 起源｜2021 年秋分聚會"
+   ],
+   "note": "這是公司新聞稿；功效說法未附研究佐證。",
+   "link": "https://sprudge.com/tea-huntress-bestseller-gets-its-own-brand-sarah-scarborough-launches-stardust-teas-1654474",
+   "pub": "2026-11-22"
+  },
+  {
+   "id": "wu-ming-yi-land-of-little-rain-french",
+   "sec": "design",
+   "title": "吳明益《苦雨之地》法譯本在巴黎亮相：譯者關首奇合作十餘年，作者盼小學開攀樹課",
+   "orig": "",
+   "date": "2026/11/21",
+   "media": "中央社",
+   "author": "曾依璇",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "吳明益 2019 年出版的短篇集《苦雨之地》（6 則故事）推出法語譯本 Le Pays des petites pluies，由法國亞洲書庫（L’Asiathèque）出版、關首奇（Gwennaël Gaffric）翻譯。亞洲書庫 11/20 晚間在巴黎辦座談和簽書會，書店坐滿旅法台灣人和歐洲讀者。",
+    "吳明益在座談中分享花蓮的山景、收成和除草時現身的伯勞鳥照片。他說外國人常以為台灣只有熱鬧和高科技，他更希望大家認識台灣複雜的自然環境；書中〈冰盾之森〉寫攀樹的生態學家，他自己也去學了攀樹，希望台灣的小學都上攀樹課。",
+    {
+     "list": [
+      "談譯者：英譯者石岱崙（Darryl Sterk）第一次翻他的書，提出的疑問存成檔案「長達 3 萬字」",
+      "譯者會抓出作者沒想到的錯：他曾寫「巴黎動物園」，精確說是巴黎植物園裡的動物園區",
+      "他認為關首奇是他在法語世界最好的譯者；關首奇另著有研究吳明益的生態批評專書"
+     ]
+    },
+    "同一趟行程，他也和黃崇凱、李昂、廖芸婕在聖納澤爾參加「外國作家與譯者之家」（MEET）文學活動；主辦單位放映他推薦的《戀戀風塵》，片中有兩個中華商場的鏡頭，正好拍到他親戚和自己的家。"
+   ],
+   "why": "給喜歡文字和出版的夥伴：一本書走到國外，譯者其實是「最細緻的讀者」，3 萬字的提問清單就是證明。對做品牌、寫菜單文案的我們也一樣：寫完給一個最挑剔的讀者看一遍，常能揪出自己看不到的錯。週末想讀，可以從《苦雨之地》或《天橋上的魔術師》開始。",
+   "detail": [
+    "法文書名｜Le Pays des petites pluies",
+    "出版社｜亞洲書庫 L’Asiathèque",
+    "譯者｜關首奇 Gwennaël Gaffric"
+   ],
+   "link": "https://www.cna.com.tw/news/acul/202611210147.aspx",
+   "pub": "2026-11-22"
+  },
+  {
+   "id": "poet-xiang-ming-dies-99",
+   "sec": "design",
+   "title": "詩人向明辭世，享耆壽 99 歲：曾任《藍星詩刊》主編、《台灣詩學季刊》首任社長",
+   "orig": "",
+   "date": "2026/11/21",
+   "media": "中央社（引述文化部新聞稿）",
+   "author": "邱祖胤",
+   "tier": "T2",
+   "read": 2,
+   "summary": [
+    "資深現代詩人向明 11/20 辭世，享耆壽 99 歲，文化部將頒贈旌揚狀。向明本名董仲元，後改名董平，1928 年生於湖南長沙，1949 年隨軍來台後投入現代詩創作。",
+    {
+     "list": [
+      "曾任《藍星詩刊》主編、《中華日報》副刊編輯",
+      "參與創辦《台灣詩學季刊》並任首任社長",
+      "詩集有《雨天書》、《狼煙》、《青春的臉》、《水的回想》等；詩評有《客子光陰詩卷裡》、《新詩50問》、《新詩後50問》",
+      "曾獲中山文藝獎、國家文藝獎"
+     ]
+    },
+    "他的詩風被形容為溫潤平實，常從日常細節提煉生命哲思，詩人蕭蕭稱他「台灣詩壇的儒者」。"
+   ],
+   "why": "《新詩50問》和《新詩後50問》是很多人讀現代詩的入門書，用問答的方式講詩怎麼讀、怎麼寫。想讀詩又不知道從哪裡開始的夥伴，可以從這兩本開始；店裡如果做閱讀角或節氣小卡，向明「從日常小事寫起」的詩也很適合搭配。",
+   "detail": [
+    "本名｜董仲元，後改名董平",
+    "生年｜1928 年，湖南長沙"
+   ],
+   "link": "https://www.cna.com.tw/news/acul/202611210169.aspx",
+   "pub": "2026-11-22"
+  },
+  {
+   "id": "sheena-liam-embroidery-unbearable-lightness",
+   "sec": "design",
+   "title": "刺繡也能是插畫：Sheena Liam 用絲線繡女性肖像，立體髮辮垂出布面，巴黎個展到 12/19",
+   "orig": "Elegance Flows Through Sheena Liam's Embroideries in Green",
+   "date": "2026/11/20",
+   "media": "Colossal",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "曾是模特兒和芭蕾舞者的 Sheena Liam，這幾年用刺繡做女性肖像：人物留著立體的長髮辮，從布面垂下來；偶爾一根鬆脫的線像飄過臉頰的髮絲。",
+    "新個展《The Unbearable Lightness》收錄近八年的作品，幾件作品裡的人物穿著同一款開背條紋緊身衣，條紋帶出精準和節奏感；舞者手牽手圍成圈、扶著彼此的腰，或獨自伸展。她關心女性勞動，認為慢慢一針一線地繡，在快速、數位化的世界裡本身就是一種抵抗。",
+    {
+     "list": [
+      "做法｜先打底稿，再用線覆蓋，最後加上髮辮、剪掉線頭",
+      "展覽｜巴黎，展到 12/19"
+     ]
+    }
+   ],
+   "why": "給做插畫、平面的夥伴：她的作品其實是「線稿＋單一主色＋一個立體細節」，構圖很像插畫，只是換成了線。對店裡也有啟發：菜單、杯套或節慶小卡，有時只要一個實體材質的細節（一條繩、一段線），就能讓平面設計變得想摸一下。",
+   "detail": [
+    "創作年份｜近八年的作品",
+    "主題｜女性、舞者、動作與勞動"
+   ],
+   "note": "Colossal 內文的畫廊名稱前後不一致：圖片來源寫 Idem Paris，內文寫 Item Gallery；以畫廊官方資訊為準，這次沒有查證。",
+   "link": "https://www.thisiscolossal.com/2026/11/sheena-liam-the-unbearable-lightness-embroideries/",
+   "pub": "2026-11-22"
+  },
+  {
+   "id": "teenage-engineering-ep-bc-1-cd-player",
+   "sec": "design",
+   "title": "Teenage Engineering 出第一台 CD 播放機 EP/BC-1：紅色 LED、80 年代專業音響外型，259 英鎊",
+   "orig": "Compact disc gets the TE treatment: meet the Teenage Engineering EP/BC-1 CD player",
+   "date": "2026/11/20",
+   "media": "Wallpaper*",
+   "author": "Jonathan Bell",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "以設計聞名的瑞典音響品牌 Teenage Engineering 推出第一台 CD 播放機 EP/BC-1，也是新產品線「broadcast series」的第一台。外型是細長方塊，CD 直接露在機構上方，一排紅色 LED 顯示時間碼、曲目和音量，整體是 80 年代末、90 年代初專業音響的風格。",
+    {
+     "list": [
+      "變速：可以把 CD 放慢或加快到 50%–150%",
+      "USB 2.0 數位輸出、可把 CD 轉成數位檔、藍牙和 Auracast 串流、可播 mp3 資料光碟",
+      "內建節拍偵測，可輸出同步節拍",
+      "內建充電電池，能疊在 EP-35 喇叭擴大機上一起帶著走"
+     ]
+    },
+    "品牌說這個系列是要「把實體音樂格式重新帶進現代情境」，源自公司內部想保存大家從小用的格式。售價 259 英鎊。"
+   ],
+   "why": "這是很好的「懷舊但不復刻」案例：保留 CD 看得見轉動、紅色 LED 的記憶點，功能卻全部現代化。品牌改版時常卡在「要不要保留舊東西」，TE 的答案是挑一兩個最有辨識度的元素留下，其他都更新。店裡如果有黑膠或 CD 播放的角落，也是一種讓空間有個性的方式。",
+   "detail": [
+    "產品線｜broadcast series 第一台",
+    "售價｜259 英鎊"
+   ],
+   "link": "https://www.wallpaper.com/tech/compact-disc-gets-the-te-treatment-meet-the-teenage-engineering-ep-bc-1-cd-player",
+   "pub": "2026-11-22"
+  },
+  {
+   "id": "bosch-verocafe-lineup-2026",
+   "sec": "skip",
+   "title": "Bosch 北美全自動咖啡機 VeroCafe 改版，999–2,999 美元",
+   "orig": "Bosch Refreshes VeroCafe Automatic Espresso Machine Lineup",
+   "date": "2026/11/20",
+   "media": "Daily Coffee News",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 1,
+   "summary": "Bosch 在北美推出改版並重新命名的 VeroCafe 全自動咖啡機，Series 4、6、8、10，售價 999 到 2,999 美元，依型號最多 41 種飲品、有冷萃模式、杯架高度可調、奶系統自動蒸氣沖洗。",
+   "why": "家用全自動機，北美市場，和我們吧台無關，看過就好。",
+   "detail": [],
+   "link": "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/",
+   "pub": "2026-11-22"
+  },
+  {
+   "id": "coffee-class-crowdfunding-round-3",
+   "sec": "skip",
+   "title": "拉斯維加斯咖啡集團 The Coffee Class 第三輪群眾募資，上限約 61.8 萬美元",
+   "orig": "The Coffee Class Launches Third Crowdfunding Round",
+   "date": "2026/11/20",
+   "media": "Daily Coffee News",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 1,
+   "summary": "The Coffee Class 透過 StartEngine 對外募股，SEC 文件列的目標約 2 萬到 61.8 萬美元，期限 2027/1/26。2019 年由 Kyle Cunningham 創立，目前在拉斯維加斯有 7 家咖啡館和 1 家調酒吧，共 4 個品牌。",
+   "why": "美國小型連鎖的籌資動作，跟我們的日常沒有直接關係。",
+   "detail": [],
+   "link": "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/",
+   "pub": "2026-11-22"
+  },
+  {
+   "id": "black-rock-coffee-ipo-lawsuit-amended",
+   "sec": "skip",
+   "title": "Black Rock Coffee Bar 揭露 IPO 集體訴訟修正起訴，指控展店與成本說法誤導",
+   "orig": "Black Rock Coffee Bar Discloses Amended IPO Lawsuit",
+   "date": "2026/11/20",
+   "media": "Daily Coffee News",
+   "author": "Daily Coffee News Staff",
+   "tier": "T2",
+   "read": 1,
+   "summary": "Black Rock Coffee Bar 在季報揭露，11/2 有人在紐約南區法院對它提出修正後的證券集體訴訟，指控公司對展店成長、工程成本、業績和新店對舊店影響的說法有誤導。公司表示會應訴。它 2025 年上市。",
+   "why": "美國上市連鎖的投資人訴訟，後續要看法院，對我們沒有實務影響。",
+   "detail": [],
+   "link": "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/",
+   "pub": "2026-11-22"
+  },
   {
    "id": "ice-arabica-certified-stocks-27yr-low-nov-2026",
    "sec": "industry",
