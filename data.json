@@ -1,16 +1,17 @@
 {
  "edition": {
-  "id": "2026-11-23",
-  "no": 26,
-  "date": "2026-11-23",
-  "label": "11月23日 週一"
+  "id": "2026-11-24",
+  "no": 27,
+  "date": "2026-11-24",
+  "label": "11月24日 週二"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "羅布斯塔期貨跌到三年新低（每噸 2,854 美元），越南採收加速；豆價會不會降，要看生豆合約，通常落後好幾個月。",
-  "高雄咖啡節首日逾 3 萬人次，攤商搭 BTS 演唱會推紫色飲品：附近有大型活動時，可以準備一款主題限定。",
-  "星巴克外帶客「不能坐著等」引熱議：店裡的規矩先講清楚、夥伴說法一致，比規定本身更重要。",
-  "ARTs：倫敦設計博物館 10 週年 10 張海報（Calvert、Jony Ive、Tim Burton），人權館繪本的摺頁手法，沈昭良東京舞台車攝影展，七股《山山山屋》陶片地景。"
+  "桃園復興好咖節：不插電烘豆冠軍是在地嫣泱莊園李健瑄，手沖冠軍台北陳璽聿；種豆的人也在烘、在沖。",
+  "Ernesto Illy 國際咖啡獎：宏都拉斯 Finca Piedra Parada 奪最佳，評審用義式、冷萃、濾泡三種沖法盲測。",
+  "205 萬人統合分析：喝咖啡和較低憂鬱機率有關，含糖飲料、珍奶在另一邊；但都是觀察性研究，不能說預防。",
+  "韓國星巴克一句文案觸及光州事件，連兩季虧損：發文前查日期、用語多一人看。",
+  "ARTs：打開台北 12/12–13 開放 60 多處空間（抽籤到 11/27 中午）、節慶廣告的手工感與 AI 爭議、骨頭造型咖啡器具、梵谷 1.9 億美元紀錄。"
  ],
  "weekly": null,
  "sections": [
@@ -40,6 +41,622 @@
   }
  ],
  "items": [
+  {
+   "id": "fuxing-coffee-fest-2026-unplugged-roast-results",
+   "sec": "industry",
+   "title": "桃園復興好咖節比賽結果：不插電烘豆冠軍是在地嫣泱莊園李健瑄，手沖冠軍是台北陳璽聿",
+   "orig": "",
+   "date": "2026/11/22",
+   "media": "台灣好報（蕃新聞轉載）",
+   "author": "劉蘇梅",
+   "tier": "T3",
+   "read": 3,
+   "summary": [
+    "桃園市復興區公所 11/21–22 在角板山天幕活動廣場辦「2026 復興好咖節－復興好咖・品味山林」，和 CSCA 中華精品咖啡交流協會合辦兩項比賽：第一天是「不插電烘焙競賽」，選手不靠電力輔助，憑手感和火力經驗控制烘焙；第二天是手沖咖啡競賽。",
+    {
+     "table": {
+      "cap": "2026 復興好咖節得獎名單",
+      "cols": [
+       "名次",
+       "不插電烘焙",
+       "手沖"
+      ],
+      "rows": [
+       [
+        "第一名",
+        "李健瑄（復興區嫣泱咖啡莊園）",
+        "陳璽聿（臺北市）"
+       ],
+       [
+        "第二名",
+        "黃金由",
+        "張瑞宗"
+       ],
+       [
+        "第三名",
+        "李旭禾",
+        "簡睿樺"
+       ],
+       [
+        "第四名",
+        "黃宗淵",
+        "李健瑄"
+       ],
+       [
+        "第五名",
+        "張瑞宗",
+        "柳建章"
+       ],
+       [
+        "第六名",
+        "陳右霖",
+        "尤駿"
+       ]
+      ]
+     }
+    },
+    "現場另有國際拉花金牌得主周正中的拉花展演、農事烘豆體驗、咖啡莊園農遊，以及約 15 攤市集。復興區長蘇佐璽說，復興好咖節從 112 年（2023）首屆辦到現在，今年改由區公所接續主辦並導入專業賽事，希望提升復興咖啡的品牌知名度。"
+   ],
+   "why": "不插電烘焙考的是沒有溫控電腦、沒有即時曲線時的火力判斷，跟我們看曲線、記錄數據的烘法是兩種功夫，但核心一樣：聽爆裂、看豆色、聞氣味。名單裡也看得到「種的人也在沖、在烘」：烘焙冠軍李健瑄來自在地莊園，手沖也拿第四；張瑞宗兩項都進前五。客人問「桃園也有咖啡？」可以聊復興區角板山這個產地和這場比賽。",
+   "detail": [
+    "日期地點｜11/21–22，角板山天幕活動廣場",
+    "主辦｜復興區公所，比賽與 CSCA 合辦",
+    "首屆｜112 年（2023）",
+    "兩項都入榜｜李健瑄（烘焙 1、手沖 4）、張瑞宗（烘焙 5、手沖 2）"
+   ],
+   "watch": "復興區咖啡的種植面積、產量，以及在地莊園會不會送豆參加 TCAGs 等評鑑。",
+   "note": "報導沒有寫參賽人數、評分標準和比賽用豆。",
+   "link": "https://n.yam.com/Article/20261122603170",
+   "extra_links": [
+    {
+     "t": "點傳媒報導（同份名單）",
+     "u": "https://news.586.com.tw/2026/11/662441/"
+    }
+   ],
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "ernesto-illy-award-2026-honduras-piedra-parada",
+   "sec": "industry",
+   "title": "第 11 屆 Ernesto Illy 國際咖啡獎：宏都拉斯 Finca Piedra Parada 奪最佳，旅客票選給哥倫比亞考卡合作社",
+   "orig": "Ernesto Illy International Coffee Award 2026: Honduras wins Best of the Best, Colombia takes the \"Coffee Lovers' Choice\" award",
+   "date": "2026/11/23",
+   "media": "PR Newswire（illycaffè 新聞稿）",
+   "author": "",
+   "tier": "T1",
+   "read": 4,
+   "summary": [
+    "義大利 illycaffè 公布第 11 屆 Ernesto Illy 國際咖啡獎。參賽的 27 支豆來自 9 國：巴西、哥倫比亞、哥斯大黎加、薩爾瓦多、衣索比亞、瓜地馬拉、宏都拉斯、尼加拉瓜、盧安達，是 illy 品管實驗室從這 9 個主要採購國的 2025/26 產季中，各挑出最好的 3 批。",
+    {
+     "table": {
+      "cap": "兩個獎",
+      "cols": [
+       "獎項",
+       "得主",
+       "怎麼選"
+      ],
+      "rows": [
+       [
+        "Best of the Best",
+        "宏都拉斯 Denis Rolando Cortez Monge 的 Finca Piedra Parada",
+        "9 人國際評審盲測：3 位技術專家、3 位米其林主廚、3 位記者，每支豆用義式、冷萃、濾泡 3 種方式喝"
+       ],
+       [
+        "Coffee Lovers' Choice",
+        "哥倫比亞 Cooperativa de Caficultores del Cauca 的 Daniel Anaya Anaya",
+        "羅馬菲烏米奇諾機場 ITA 航空貴賓室的旅客盲測票選"
+       ]
+      ]
+     }
+    },
+    "頒獎在羅馬，前一場論壇辦在聯合國糧農組織（FAO）總部，談氣候、市場和小農融資，ICO 執行長 Vanusia Nogueira、英國皇家植物園 Kew 的 Aaron Davis 等人出席。"
+   ],
+   "why": "這個獎和 COE 這類產地競賽不同：是大型烘豆商從自己的供應鏈挑豆，評審有主廚和記者，還要同時用義式、冷萃、濾泡三種方式喝，比較接近「端到一般客人面前好不好喝」；另一個獎直接讓機場旅客票選。對我們的意思是：一支豆在三種沖法都站得住，才是真的耐用；選義式配方或冷萃豆時，也可以這樣交叉試喝。",
+   "detail": [
+    "屆數｜第 11 屆",
+    "參賽｜9 國、27 批，2025/26 產季",
+    "評審組成｜技術專家、米其林主廚、記者各 3 位",
+    "宏都拉斯紀錄｜2017 年第 2 屆最佳也是宏都拉斯（José Abelardo Díaz Enamorado）"
+   ],
+   "note": "這是主辦方 illycaffè 的新聞稿，沒有公布分數或得獎豆的處理法。",
+   "link": "https://www.prnewswire.com/news-releases/ernesto-illy-international-coffee-award-2026-honduras-wins-best-of-the-best-colombia-takes-the-coffee-lovers-choice-award-302948655.html",
+   "extra_links": [
+    {
+     "t": "Fresh Cup：2017 年第 2 屆由宏都拉斯奪最佳",
+     "u": "https://freshcup.com/honduran-grower-wins-ernesto-illy-international-coffee-award/"
+    }
+   ],
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "usbc-2027-san-diego-qualifier-nine",
+   "sec": "industry",
+   "title": "2027 美國咖啡師大賽第二場資格賽：San Diego 24 人取 9，前冠軍 Frank La、Wenbo Yang 晉級",
+   "orig": "Here Are The Winners Of The Second 2027 US Barista Championship Qualifier",
+   "date": "2026/11/23",
+   "media": "Sprudge",
+   "author": "Zac Cadwalader",
+   "tier": "T2",
+   "read": 2,
+   "summary": [
+    "2027 美國咖啡師大賽（USBC）第二場分區資格賽上週末在 San Diego 的 Mixed Grounds Coffee 舉行，三天、24 位選手，最後 9 人晉級明年 1 月底在田納西州 Franklin（Nashville 近郊）的全國賽。本月稍早第一場在 Houston，報導說那場就有 6 位前決賽選手和 2 位全國冠軍。",
+    {
+     "list": [
+      "Frank La（Be Bright Coffee）",
+      "Hugo Cano（Texture Coffee）",
+      "Reyna Callejo（Olympia Coffee）",
+      "Seidy Selivanow（Kafiex Roasters）",
+      "Wenbo Yang（Story Coffee）",
+      "Miranda Huncovsky（Go Get Em Tiger）",
+      "William Shadley（Mandarin Coffee）",
+      "Alex Sciarotta（Gloom Coffee）",
+      "Brandon Vanderhoof（Ceremony Coffee）"
+     ]
+    },
+    "Frank La 是 2024 USBC 冠軍；Wenbo Yang 拿過 2023 美國手沖、2024 美國拉花和 2026 美國烘豆冠軍；Hugo Cano 是 2026 美國咖啡調酒冠軍。兩場資格賽結束，全國賽名單已經確定。"
+   ],
+   "why": "資格賽就滿是前冠軍，代表美國賽事的密度很高；Wenbo Yang 一人橫跨手沖、拉花、烘豆、義式四種比賽，也說明現在的比賽選手越來越「全能」。1 月底全國賽可以追：看冠軍選什麼豆、怎麼設計招牌飲品，常常是隔年咖啡館菜單的風向。",
+   "detail": [
+    "資格賽地點｜San Diego，Mixed Grounds Coffee",
+    "人數｜24 人參賽、9 人晉級",
+    "全國賽｜2027 年 1 月底，田納西州 Franklin"
+   ],
+   "watch": "2027 USBC 全國賽結果，冠軍將代表美國參加世界咖啡師大賽。",
+   "link": "https://sprudge.com/here-are-the-winners-of-the-second-2027-us-barista-championship-qualifier-1647236.html",
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "evoca-carlyle-park-square-midco-2026",
+   "sec": "industry",
+   "title": "Gaggia、Saeco 母公司 Evoca 換老闆：凱雷和 Park Square 從 Lone Star 手上接手，市場稱是債轉股",
+   "orig": "Investment Firms Acquiring Parent Company of Italy's Evoca Group",
+   "date": "2026/11/23",
+   "media": "Daily Coffee News",
+   "author": "",
+   "tier": "T2",
+   "read": 2,
+   "summary": [
+    "義大利商用咖啡機與販賣機大廠 Evoca Group 的母公司（LSF9 Canto Midco，簡稱 Midco）將由投資公司凱雷（Carlyle）和 Park Square Capital 從 Lone Star Funds 旗下取得全部股權。兩家本來就是 Evoca 的債權方，11/18 宣布，金額未揭露，預計 2027 上半年完成。",
+    "彭博 9 月曾報導 Lone Star 考慮出售，或把所有權轉給債權人；義大利私募媒體 BeBeez 形容這是一次債轉股重整。Evoca 總部在 Valbrembo，產品賣到 135 個以上國家，品牌包括 Gaggia Milano、Saeco、Necta、Wittenborg、Cafection、Futurmat，從傳統義式機、全自動機到辦公室咖啡和販賣機都有。"
+   ],
+   "why": "對店家來說，咖啡機品牌換股東通常不會立刻影響什麼，但「債轉股」代表原本的財務壓力不小。用 Gaggia、Saeco 商用機的店，可以留意接下來幾年代理商的零件供應和保固服務有沒有變化。",
+   "detail": [
+    "新股東｜Carlyle、Park Square Capital（原本是債權方）",
+    "賣方｜Lone Star Funds（2016 年買下）",
+    "完成時間｜預計 2027 上半年",
+    "旗下品牌｜Gaggia Milano、Saeco、Necta 等 6 個"
+   ],
+   "link": "https://dailycoffeenews.com/2026/11/23/investment-firms-acquiring-parent-company-of-italys-evoca-group/",
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "coffee-depression-meta-analysis-205m-2026",
+   "sec": "science",
+   "title": "59 篇研究、205 萬人的統合分析：喝咖啡的人憂鬱機率低約 13%，含糖飲料高 29%，但都是觀察性研究",
+   "orig": "Meta-Analysis Links Coffee to Lower Odds of Depression",
+   "date": "2026/11/23",
+   "media": "Daily Coffee News（引述《Depression and Anxiety》期刊）",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "中國吉林大學公共衛生學院團隊 8/31 在期刊《Depression and Anxiety》發表統合分析，合併 59 篇研究（132 份報告）、22 國、共 2,050,716 人，看各種無酒精飲料和憂鬱、焦慮、壓力的關係。",
+    {
+     "table": {
+      "cap": "各類飲料和憂鬱的關聯",
+      "cols": [
+       "飲料",
+       "結果"
+      ],
+      "rows": [
+       [
+        "咖啡",
+        "憂鬱機率較低，勝算比 0.87（約低 13%）；和焦慮、壓力沒有顯著關聯"
+       ],
+       [
+        "含糖飲料",
+        "憂鬱機率高約 29%"
+       ],
+       [
+        "碳酸飲料、汽水、代糖飲料、能量飲料",
+        "和憂鬱呈正相關"
+       ],
+       [
+        "珍珠奶茶",
+        "和憂鬱、焦慮都呈正相關（碳酸飲料也和焦慮相關）"
+       ]
+      ]
+     }
+    },
+    "作者推測咖啡裡的綠原酸等多酚，可能透過抗氧化、抗發炎影響大腦，但這只是理論。研究限制很明顯：全部是觀察性研究，大多是橫斷面（同一時間點量飲食和心理狀態），飲用量多為自己回報，各研究的測量方法差很多，結果也不一致。研究由「白求恩計畫」專案支持，作者聲明無利益衝突。"
+   ],
+   "why": "這類研究只能說「有關聯」，不能說「喝咖啡能防憂鬱」：也可能是心情好的人比較常去喝咖啡。跟客人聊可以講「目前大型整理研究看到咖啡和較低的憂鬱機率有關，但還沒證明因果」。比較值得注意的是，含糖飲料和珍奶站在另一邊；我們推甜味飲品時，可以多提供少糖選項。",
+   "detail": [
+    "期刊｜Depression and Anxiety，8/31 發表",
+    "規模｜59 篇研究、132 份報告、2,050,716 人、22 國",
+    "設計｜全部觀察性，多為橫斷面"
+   ],
+   "note": "沒讀到期刊原文，數字依 Daily Coffee News 轉述。DCN 提到另一份 46 萬人研究（每天約 2–3 杯情緒障礙風險最低）沒有被納入這次分析。",
+   "link": "https://dailycoffeenews.com/2026/11/23/meta-analysis-links-coffee-to-lower-odds-of-depression/",
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "beyond-pumpkin-fall-winter-drinks-2026",
+   "sec": "food",
+   "title": "南瓜拿鐵之外：烤地瓜拿鐵、現磨香料糖漿、榛果回潮，美國咖啡館怎麼做秋冬季節飲品",
+   "orig": "Beyond Pumpkin: Rethinking Fall Drinks",
+   "date": "2026/11/23",
+   "media": "Barista Magazine",
+   "author": "",
+   "tier": "T2",
+   "read": 7,
+   "summary": [
+    "南瓜香料拿鐵（PSL）2003 年推出後，已經從流行變成每年的固定儀式。糖漿品牌 Torani 的調查說，70% 受訪者打算購買南瓜香料飲品。美國咖啡館現在的做法是：保留南瓜，但做成自己的版本，或換成別的根莖類和香料。",
+    {
+     "table": {
+      "cap": "幾家店的做法",
+      "cols": [
+       "店家",
+       "做法"
+      ],
+      "rows": [
+       [
+        "Andytown（舊金山）",
+        "南瓜香料糖漿用黑糖加 Oaktown Spice Shop 現磨香料，「更辣、更不甜」；9/1 前沒上市，熟客會傳訊息來催"
+       ],
+       [
+        "Coffee Culture（奧勒岡 Corvallis）",
+        "用南瓜泥加自家香料做醬，直接和蒸奶混合；9 月初賣到 11 月初，銷量是其他季節飲品的 3 倍"
+       ],
+       [
+        "Never Coffee Lab（波特蘭）",
+        "不做 PSL，改做 Yamz：烤到接近焦糖化的地瓜、佛蒙特楓糖、鹽、肉桂，口感奶油般滑順"
+       ],
+       [
+        "Guilder（波特蘭）",
+        "建議用紅蘿蔔、地瓜、delicata 南瓜，配八角或丁香"
+       ]
+      ]
+     }
+    },
+    {
+     "list": [
+      "冷飲化：Torani 說 2016 年前南瓜飲品多是熱的，現在有氮氣南瓜冷萃、南瓜冷奶泡",
+      "懷舊風味：Barista 22 說疫情後客人想要「舒服、懷舊」的味道，杏仁酒、胡桃、榛果回潮",
+      "甜辣組合：Beyond the Bean 推辣椒糖漿，配巧克力很受歡迎"
+     ]
+    }
+   ],
+   "why": "台灣不過感恩節，但「季節限定」的邏輯一樣：熟客會期待、會催。可以借的是做法而不是南瓜本身：台灣冬天有地瓜、芋頭、紅豆、黑糖，自己熬醬比現成糖漿更有辨識度；香料用現磨、糖少一點，做出「更像食物、不像糖水」的季節飲品。",
+   "action": "試一小批烤地瓜泥加黑糖、肉桂、少許鹽做醬，做成熱拿鐵和冰的奶泡兩種版本，請同事盲喝。",
+   "detail": [
+    "PSL 推出｜2003 年",
+    "Torani 調查｜70% 受訪者打算買南瓜香料飲品",
+    "Barista 22｜南瓜是 60 種口味中的前 10 名，有客戶全年採購"
+   ],
+   "note": "文章多是店家和糖漿品牌的說法，銷量數字是店家自述。",
+   "link": "https://www.baristamagazine.com/beyond-pumpkin-rethinking-fall-drinks/",
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "plastic-free-coffee-makers-cnn-2026",
+   "sec": "food",
+   "title": "咖啡機的新身分象徵是「沒有塑膠」：Caraway 不鏽鋼加玻璃的滴濾機賣到缺貨",
+   "orig": "Coffee's New Status Symbol Is a Machine Without Plastic",
+   "date": "2026/11/23",
+   "media": "Fresh Cup（引述 CNN）",
+   "author": "Fionn Pooler",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "CNN 記者 Jordan Valinsky 報導，家用咖啡機正在去塑膠化，原因包括對微塑膠的擔心、永續考量，以及消費者想買更有質感的器具；社群、網紅和各種研究都推波助瀾，家長和重視健康的人盡量避開塑膠。",
+    {
+     "list": [
+      "Keurig Dr Pepper 的 K-Rounds（現在叫 AltaRounds）和 Lavazza 的 Tablì，用壓縮咖啡粉錠取代塑膠膠囊，但機器本身仍有塑膠零件",
+      "家居品牌 Caraway 推出沖煮路徑全無塑膠的滴濾機，主要零件是不鏽鋼和玻璃，目前賣到缺貨、正在增產",
+      "Caraway 執行長 Jordan Nathan：「如果你還沒做，就已經落後了。」"
+     ]
+    },
+    "Fresh Cup 補充：微塑膠對人體的實際風險還沒有定論，但已有研究顯示膠囊和外帶杯會釋出微塑膠。"
+   ],
+   "why": "客人越來越常問「這個杯子、濾杯是什麼材質」。吧台上的陶瓷、玻璃、不鏽鋼器具本身就是賣點，可以順口說明；外帶杯的淋膜問題，之前寫過滑鐵盧大學的纖維素內塗層研究，可以一起回顧。也提醒自己別說過頭：微塑膠的健康風險目前還沒有確定結論。",
+   "detail": [
+    "新選擇｜咖啡粉錠（AltaRounds、Tablì）",
+    "全無塑膠沖煮路徑｜Caraway 滴濾機",
+    "風險定論｜微塑膠對人體的風險尚未確立"
+   ],
+   "note": "只讀到 Fresh Cup 週報的整理，沒讀 CNN 原文。",
+   "link": "https://freshcup.com/coffee-news-club-november-23rd/",
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "starbucks-korea-q3-loss-tank-day-2026",
+   "sec": "food",
+   "title": "韓國星巴克連兩季虧損：第三季營業虧損 453 億韓元，起因是 5 月一句行銷文案觸及光州事件",
+   "orig": "Starbucks Korea's losses deepen as boycott fallout lingers",
+   "date": "2026/11/12",
+   "media": "The Korea Herald",
+   "author": "",
+   "tier": "T2",
+   "read": 3,
+   "summary": [
+    "經營韓國星巴克的 SCK Co. 第三季（7–9 月）營業虧損 453 億韓元（約 3,390 萬美元），去年同期是獲利 600 億韓元；虧損約是第二季首度虧損（184 億韓元）的 2.5 倍。",
+    {
+     "table": {
+      "cap": "第三季數字",
+      "cols": [
+       "項目",
+       "數字"
+      ],
+      "rows": [
+       [
+        "營收",
+        "6,790 億韓元，年減 16.2%"
+       ],
+       [
+        "前三季營收",
+        "2.24 兆韓元，年減 5.2%"
+       ],
+       [
+        "門市數",
+        "2,219 家，比上季多 34 家，創新高"
+       ],
+       [
+        "10 月刷卡消費",
+        "1,258.6 億韓元，月增 4.2%，連 4 個月成長（IGAWorks）"
+       ]
+      ]
+     }
+    },
+    "起因是 5/18 的隨行杯促銷：文案用了「Tank Day」和「拍桌子」等字眼，讓人聯想到 1980 年光州民主化運動中碾壓民眾的坦克，以及 1987 年朴鍾哲遭刑求致死後警方的掩飾說詞。結果引發全國抵制，時任執行長孫正鉉被撤換，新世界集團會長鄭溶鎮公開道歉，公司之後讓員工上歷史課，也取消了 6 月的夏季集點換贈品活動。5 月起刷卡消費被 A Twosome Place 超越，9 月才拿回第一，但還沒回到事件前水準。冬季集點活動已重新開跑到 12/31，公司也在組織調整、研議優退。"
+   ],
+   "why": "一句文案、一個日期，就能讓全國最大的連鎖咖啡掉兩季。重點不是要怕，而是發文前多一道檢查：活動日期剛好是什麼紀念日？用語會不會讓人聯想到特定事件？小店發一則限動也一樣，多給一位同事看過再發，成本很低。",
+   "action": "排社群或店內活動時，順手查一下當天是不是重要紀念日，用語請另一位同事讀一遍。",
+   "detail": [
+    "事件日期｜2026/5/18 隨行杯促銷",
+    "第二季｜首度虧損 184 億韓元",
+    "第三季｜虧損 453 億韓元",
+    "競爭者｜A Twosome Place 5 月起刷卡消費一度超越"
+   ],
+   "link": "https://www.koreaherald.com/article/10935257",
+   "extra_links": [
+    {
+     "t": "World Coffee Portal：虧損擴大",
+     "u": "https://www.worldcoffeeportal.com/news/starbucks-koreas-losses-widen-as-tank-day-campaign-backlash-lingers/"
+    }
+   ],
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "open-house-taipei-2026-crossing",
+   "sec": "design",
+   "title": "2026 打開台北 12/12–13 開放 60 多處平常進不去的空間：抽籤登記到 11/27 中午",
+   "orig": "",
+   "date": "2026/11/23",
+   "media": "La Vie",
+   "author": "",
+   "tier": "T3",
+   "read": 5,
+   "summary": [
+    "「2026 打開台北｜OPEN HOUSE TAIPEI」12/12–13 限時 48 小時登場，今年主題「跨越之間」，串聯大台北 60 多處空間，從水岸、街道、地底到歷史現場。Open House 1992 年源自倫敦，已擴及全球 50 多座城市；打開台北 2020 年取得授權，累積開放超過 550 處空間、逾 13 萬人次參與。",
+    "策展從「路徑、系統、日常」出發，分 6 條軸線。挑幾處跟設計、空間最相關的：",
+    {
+     "table": {
+      "cap": "部分開放空間",
+      "cols": [
+       "空間",
+       "看點"
+      ],
+      "rows": [
+       [
+        "國家鐵道博物館",
+        "特別開放平常管制的柴電工場「地下檢修坑」，看轉向架和車底機械"
+       ],
+       [
+        "裏山 SKY",
+        "科教館頂樓的溫室花木與日式庭園"
+       ],
+       [
+        "南港機廠社會住宅",
+        "與捷運機廠共構，綠色基座加都市空橋"
+       ],
+       [
+        "新生擴建抽水站",
+        "地底大型泵浦機組，集水面積 904 公頃"
+       ],
+       [
+        "國立臺灣圖書館圖書醫院",
+        "古籍修復工作現場"
+       ],
+       [
+        "太平國小博物館",
+        "舊蒸飯室改成展間，保存黃土水《少女》胸像"
+       ],
+       [
+        "曲線擬合古物店",
+        "文山區街角，保留舊餐廳出餐口和白磁磚，用法國古董旋轉梯串起家具與台灣原生植物庭園"
+       ],
+       [
+        "古花植物藝術圖書室",
+        "中山區巷弄，植物古籍與科學繪畫，藏 1777 年《倫敦植物誌》"
+       ]
+      ]
+     }
+    },
+    "今年預約空間全面改成線上抽籤：11/20 17:00 起到 11/27 12:00 登記志願；另有約 30 處在指定時段免預約自由參觀。"
+   ],
+   "why": "對做空間和品牌的人，這是一年一次「看建築怎麼被用」的機會：抽水站、機廠這種基礎設施的動線和材料，跟美術館很不一樣。小空間也值得看：古物店怎麼留下舊餐廳的出餐口、植物圖書室怎麼陳列書與圖，對咖啡館的動線、展示牆和選物陳列都是現成參考。抽籤只到這週五中午，想去的現在就登記。",
+   "detail": [
+    "活動日期｜2026/12/12–13",
+    "抽籤登記｜11/20 17:00 至 11/27 12:00",
+    "免預約｜約 30 處，指定時段",
+    "規模｜60 多處空間，6 條策展軸線"
+   ],
+   "note": "資料來自 La Vie 報導，各空間的開放時段和名額請以打開台北官方公告為準。",
+   "link": "https://www.wowlavie.com/article/260027657",
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "creative-boom-holiday-ads-craft-2026",
+   "sec": "design",
+   "title": "專欄：今年節慶廣告的共同主題是「手工感」，Prada、Dior、Rimowa 都找動畫和插畫，但觀眾開始抓 AI",
+   "orig": "Why craft is the big theme of this year's holiday ads",
+   "date": "2026/11/23",
+   "media": "Creative Boom",
+   "author": "Michael Feder（Hornet 創辦合夥人）",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "動畫製作公司 Hornet 的創辦合夥人 Michael Feder 看完今年的節慶廣告，認為共同主題是「工藝」：Prada、Levi's、Dior 都用動畫拍節慶廣告。但要讓觀眾相信是真的手工，也越來越難。Dior 以瑪琳・黛德麗為靈感的廣告就被質疑用了多少 AI；導演 Sylvain Chomet 否認使用生成式 AI，但承認用了自動補間來產生部分中間格。Feder 認為觀眾變成「AI 糾察隊」，正說明大家在乎作品怎麼做出來。",
+    {
+     "list": [
+      "以人為核心：La Mer 今年由 Samuel Jerome Mason 執導，取材上世紀中舞台美術和節慶櫥窗，做成懷舊的 CG 世界",
+      "克制：節慶情緒最濃，越精品越要安靜；檢驗法是「創辦人或原設計師認得出這是自己的品牌嗎？」刺繡、絲、紙等材質能撐住手工感",
+      "建世界，不是做一支廣告：Hornet 和 Blinkink 為 John Lewis 做的動畫《The Bear and the Hare》十多年後仍被重溫，當年還延伸出繪本、周邊和 Lily Allen 唱的冠軍單曲",
+      "選對工藝並說清楚為什麼：如果每個品牌都用動畫或名人，意義就被稀釋；他點名 Rimowa 和 Studio Linguini、GUT Amsterdam 做的紙藝節慶片"
+     ]
+    }
+   ],
+   "why": "給畫插畫、做品牌的人：在 AI 大量出現的這一年，「看得出是人做的」反而成了賣點，連自動補間都會被追問。對店裡的節慶設計也一樣：一張手繪的聖誕菜單、一組手剪紙的櫥窗，比套範本更能讓客人記得；重點是選一種跟我們品牌有關的手工方式，而且做得出一致的世界觀，可以從杯套、菜單延伸到社群。",
+   "detail": [
+    "作者立場｜Hornet 是動畫製作公司，本身是手工動畫的受益者",
+    "Dior 爭議｜導演否認生成式 AI，承認用自動補間",
+    "延伸案例｜John Lewis《The Bear and the Hare》延伸繪本、周邊、單曲"
+   ],
+   "note": "這是業者觀點專欄，作者公司本身製作動畫廣告。",
+   "link": "https://www.creativeboom.com/insight/this-years-holiday-ads-have-one-thing-in-common-and-its-good-news-for-creatives/",
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "pose-bureau-x-coffee-tools-topology",
+   "sec": "design",
+   "title": "長得像骨頭和肌腱的咖啡器具：中國 Pose Bureau 用拓撲最佳化設計把手、填壓器和手沖架",
+   "orig": "Design Details: The Organic Forms of X Coffee Tools by Pose Bureau",
+   "date": "2026/11/23",
+   "media": "Daily Coffee News",
+   "author": "Howard Bryman",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "中國設計公司 Pose Bureau 的「X」系列咖啡器具（2025 年推出，不鏽鋼）把手、填壓器和手沖架做成像骨頭、肌腱一樣的分枝和孔洞。他們先用電腦「拓撲最佳化」算出哪裡需要材料、哪裡要避熱，再加上自己的美感。共同創辦人 Prospero Wang 說，手沖架模仿的是狗腿，看得到骨頭和肌肉；另一位設計師 Yusheng Zhu 是插畫家兼工業設計師。靈感來自荷蘭藝術家 Joris Laarman 和中國藝術家譚智鵬。",
+    {
+     "table": {
+      "cap": "定價（美元）",
+      "cols": [
+       "品項",
+       "價格"
+      ],
+      "rows": [
+       [
+        "X 手沖架",
+        "499"
+       ],
+       [
+        "58mm X 填壓器",
+        "99"
+       ],
+       [
+        "58mm X 把手",
+        "249"
+       ]
+      ]
+     }
+    },
+    "製作上用 3D 列印的塑膠原型取代傳統蠟模，包陶殼、燒掉塑膠再灌金屬，他們稱為 lost-PLA 脫模鑄造。Pose Bureau 出身 2011 年在中國成立的工業鑄造廠，因為設備只能鑄小件，又喜歡精品咖啡，就從咖啡器具開始。Wang 說：每天要摸、要用的東西，價值會隨著每一次操作攤開。開發中的還有濃縮杯、V60 濾杯和 Flair 手壓機用的拉桿。"
+   ],
+   "why": "這是「演算法算結構、人決定美感」的好例子：拓撲最佳化給出骨架，設計師再加上狗腿的意象。對做視覺的人，可以看到參數化造型怎麼從螢幕走到能量產的金屬件；對吧台，它也提醒我們器具是客人最常看到的「品牌物件」，把手、填壓器的造型本身就會說故事。",
+   "detail": [
+    "材質｜不鏽鋼，有拋光和霧面",
+    "設計方法｜拓撲最佳化加手繪調整",
+    "製程｜lost-PLA 脫模鑄造",
+    "把手｜第三批生產排在 11 月"
+   ],
+   "link": "https://dailycoffeenews.com/2026/11/23/design-details-the-organic-forms-of-x-coffee-tools-by-pose-bureau/",
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "van-gogh-blossoming-chestnut-trees-190m",
+   "sec": "design",
+   "title": "續報：梵谷〈盛開的栗樹〉1.904 億美元創紀錄：開拍前幾小時才和猶太藏家後人達成協議",
+   "orig": "Van Gogh's record-breaking 'Blossoming Chestnut Trees': the $190m sale and the restitution claim that nearly upended it",
+   "date": "2026/11/20",
+   "media": "The Art Newspaper",
+   "author": "Martin Bailey",
+   "tier": "T2",
+   "read": 6,
+   "summary": [
+    "梵谷 1890 年 5 月畫的〈盛開的栗樹〉（Châtaigniers en fleurs）11/18 在紐約蘇富比以含佣金 1.904 億美元成交。從 1.35 億美元起拍，兩位電話買家競價，不到 4 分鐘由現場的紐約畫商 William Acquavella（應是代表匿名客戶）以落槌價 1.65 億美元拿下。蘇富比事前沒給正式估價，只說落槌約 1.8 億美元，實際略低。",
+    {
+     "table": {
+      "cap": "拍賣史上更貴的只有三件",
+      "cols": [
+       "作品",
+       "成交價"
+      ],
+      "rows": [
+       [
+        "達文西〈救世主〉",
+        "約 4.5 億美元（佳士得 2017）"
+       ],
+       [
+        "克林姆〈伊莉莎白・萊德勒肖像〉",
+        "2.36 億美元（蘇富比 2025）"
+       ],
+       [
+        "沃荷〈槍擊鼠尾草藍瑪麗蓮〉",
+        "1.95 億美元（佳士得 2022）"
+       ]
+      ]
+     }
+    },
+    "梵谷前一個紀錄是 2022 年佳士得的〈有柏樹的果園〉1.17 億美元，這次高出 62%。拍前一週，柏林的劫掠藝術研究者 Gunnar Schnabel 主張這件作品屬於納粹時期被迫出售：畫作曾屬出版人 Samuel Fischer，1936 年由家族以 2.2 萬美元賣出。蘇富比表示，這筆交易和家族 1938 年後在維也納遭蓋世太保沒收的收藏情況不同，戰後也從未有人求償；最後在開拍前與 Fischer 家族繼承人達成協議，照常拍出。作者比對同期成交價（〈有柏樹的果園〉1935 年以 1.5 萬美元成交），認為 2.2 萬美元不算賤賣。同場另外 11 件 Blaquier-Arrieta 收藏多在低估價附近或更低成交。"
+   ],
+   "why": "這是二級市場「超級名作照樣有人買、其他作品偏冷」的典型畫面：同一場其他作品多在低估價附近。來源（provenance）也越來越是價格的一部分：納粹時期的經手紀錄，拍前一週就能讓整場拍賣懸而未決。對關心收藏的人，看作品除了看畫，也要看它一路經過誰的手。",
+   "detail": [
+    "成交｜含佣金 1.904 億美元，落槌 1.65 億美元",
+    "買家｜畫商 William Acquavella（代表匿名客戶）",
+    "梵谷生前｜近千幅油畫，有紀錄的售出只有一件〈紅色葡萄園〉"
+   ],
+   "link": "https://www.theartnewspaper.com/2026/11/20/deeper-look-van-goghs-record-breaking-blossoming-chestnut-trees-190m-sale-restitution-claim",
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "accademia-toddy-cold-brew-caffeine-series",
+   "sec": "skip",
+   "title": "La Marzocco 旗下學院和 Toddy 合拍冷萃咖啡因影片：說粉水比、豆種影響大，烘焙度影響小，但新聞稿沒給數據",
+   "orig": "Accademia Del Caffè Espresso & Toddy Present \"Hot VS Cold Conversations With Toddy\"",
+   "date": "2026/11/19",
+   "media": "Sprudge（新聞稿）",
+   "author": "",
+   "tier": "T3",
+   "read": 3,
+   "summary": "La Marzocco 在佛羅倫斯的咖啡教育研究中心 Accademia del Caffè Espresso，和冷萃器材品牌 Toddy 合作推出影片系列，用控制實驗看 7 個變因對冷萃咖啡因含量的影響：萃取時間、研磨度、粉水比、水質、豆種與烘焙度、萃取溫度、攪拌。新聞稿說，在他們的測試條件下，粉水比和豆種對咖啡因濃度影響較大，烘焙度和萃取溫度影響較小。",
+   "why": "題目對吧台有用（客人常問冷萃是不是比較濃），但這是合作廠商的新聞稿，沒有公開數據和實驗條件，等影片或數據出來再細看。",
+   "detail": [
+    "性質｜廠商合作新聞稿，未附數據",
+    "變因｜時間、研磨、粉水比、水質、豆種與烘焙度、溫度、攪拌"
+   ],
+   "link": "https://sprudge.com/accademia-del-caffe-espresso-toddy-present-hot-vs-cold-conversations-with-toddy-1674671.html",
+   "pub": "2026-11-24"
+  },
+  {
+   "id": "lefty-spiral-pourover-press-release",
+   "sec": "skip",
+   "title": "不鏽鋼螺旋手沖架 Lefty 上市：新聞稿說保溫比一般濾杯好，但沒有任何數據",
+   "orig": "Lefty, A Left-Hand Spiral Of Stainless Steel That Reimagines Pour-Over Brewing, Makes Its Debut",
+   "date": "2026/11/23",
+   "media": "Sprudge（新聞稿）",
+   "author": "",
+   "tier": "T3",
+   "read": 2,
+   "summary": "Sprudge 刊出的新聞稿：美國 Chuck Mack Design 花兩年設計、由 Ace Wire Spring & Form Co. 製造的左旋不鏽鋼螺旋手沖器具 Lefty。新聞稿稱比放在杯上的濾杯更保溫、萃取更好，但沒有提出測試數據。",
+   "why": "廠商自己的新聞稿，沒有測試或評測，看看造型就好。",
+   "detail": [
+    "性質｜廠商新聞稿，無數據"
+   ],
+   "link": "https://sprudge.com/lefty-a-left-hand-spiral-of-stainless-steel-that-reimagines-pour-over-brewing-makes-its-debut-1674126.html",
+   "pub": "2026-11-24"
+  },
   {
    "id": "robusta-ice-3yr-low-vietnam-harvest-2026-11",
    "sec": "industry",
