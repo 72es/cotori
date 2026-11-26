@@ -115,9 +115,9 @@
     },
     {
       "name": "Hyperallergic",
-      "url": "https://hyperallergic.com/feed/",
+      "url": "https://hyperallergic.com/latest/rss/",
       "lang": "en",
-      "note": "藝術評論與展評；RSS 含全文。偏美國、政治議題多，只挑展評、評論和藝術家相關"
+      "note": "藝術評論與展評；2026/11/27 起舊網址 /feed/ 回 404，改用網站宣告的 /latest/rss/。RSS 內文約 4 千字元，長文可能只有前段，要讀全文另抓文章頁。偏美國、政治議題多，只挑展評、評論和藝術家相關"
     },
     {
       "name": "Colossal",
