@@ -1,17 +1,17 @@
 {
  "edition": {
-  "id": "2026-11-26",
-  "no": 29,
-  "date": "2026-11-26",
-  "label": "11月26日 週四"
+  "id": "2026-11-27",
+  "no": 30,
+  "date": "2026-11-27",
+  "label": "11月27日 週五"
  },
  "intro": "第 {n} 期 cotori，傳送咖啡新知。按星星與留言回饋，讓 cotori 新知搜羅更準確；留言提問的，下一期就回答。",
  "keys": [
-  "星巴克傳已請花旗、摩根士丹利準備出售日本事業，規模數十億美元；繼中國之後再走輕資產。",
-  "USDA 估印尼 2026/27 咖啡減產 8.2%，羅布斯塔受雨害、阿拉比卡下修，美國買走約一半印尼阿拉比卡。",
-  "WCC 世界盃拉花台灣選拔：崑山科大陳修醫二度奪冠，2027 年赴里斯本，同校包辦亞軍與烘豆季軍。",
-  "全家餐飲推「豊島拉麵」押注一人用餐；台中多家名店收攤，業者說股市熱、民生冷。",
-  "ARTs：國家檔案館「島讀」獲羅馬設計獎金獎、故宮「數理乾坤」特展開展、Walala 3 萬片磁磚地鐵站、Carling 隊徽式新識別。"
+  "路易莎董座證實最快明年 1 月漲價 3–5%，基本工資調升讓集團每月人事成本多約 500 萬元；七大餐飲集團明年合計徵才逾 5,400 人搶人。",
+  "阿拉比卡期貨因巴西米納斯吉拉斯預報大雨單日漲 2.8%，羅布斯塔則續跌到三年新低，兩種豆走勢分岔。",
+  "第一屆科學驅動咖啡盃研討會：預熱生豆最多省 20% 烘焙能源、杯子顏色與唾液差異都會改變風味感受。",
+  "印尼 Kenangan Coffee 開台灣第 5 店進駐誠品西門；Fritz Hansen 台北展間把手沖咖啡館放進家具店。",
+  "ARTs：亞美館《炎之花果》開展、Pattern Coffee 包裝系統、日月潭亞當書店獲 iF 獎、Hoor Al Qasimi 策展 2028 威尼斯雙年展。"
  ],
  "weekly": null,
  "sections": [
@@ -41,6 +41,697 @@
   }
  ],
  "items": [
+  {
+   "id": "louisa-2027-price-rise-3-5pct",
+   "sec": "industry",
+   "title": "路易莎最快明年 1 月漲價 3–5%：基本工資調升，集團每月人事成本多約 500 萬元",
+   "orig": "",
+   "date": "2026/11/26",
+   "media": "鏡週刊；TVBS；壹蘋新聞網",
+   "author": "",
+   "tier": "T3",
+   "read": 3,
+   "summary": [
+    "路易莎集團董事長黃銘賢 11 月 26 日在旗下健身房 Selfroom 台北大巨蛋店開幕記者會上說，因應人事、原物料等成本，路易莎咖啡最快明年元旦（1 月）調價，平均漲幅約 3–5%，比今年那次小。這是路易莎繼今年 1 月調價後再度喊漲。",
+    {
+     "table": {
+      "cap": "路易莎調價重點（11/26 記者會）",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "時間",
+        "最快 2027 年 1 月（仍在規劃）"
+       ],
+       [
+        "漲幅",
+        "平均約 3–5%"
+       ],
+       [
+        "原因",
+        "基本工資調升、原物料、電費"
+       ],
+       [
+        "人事成本",
+        "每月約多 500 萬元，全年約 6,000 萬元"
+       ],
+       [
+        "配套",
+        "搭組合優惠：例如咖啡漲 5 元，配三明治再折 5 元"
+       ],
+       [
+        "可能跟進",
+        "丹生炊事、玖仰（壹蘋寫「久仰」）"
+       ],
+       [
+        "暫不漲",
+        "白霧時光、青焰炭火熟成牛排"
+       ]
+      ]
+     }
+    },
+    "TVBS 報導，2027 年起最低工資月薪調到 3 萬 900 元、時薪 205 元。黃銘賢說門市成本已經「緊到不能緊」，漲價是「活下去的必要手段」，上游工廠、物流和供應商也要幫員工調薪，都會反映在成本上。壹蘋引述他說今年最大的影響仍是咖啡期貨漲了七、八成。",
+    "展店方面，鏡週刊寫明年預計開 30–40 家、幾乎都是直營，總店數將超過 600 家，直營占比過半；壹蘋寫目前路易莎咖啡約 550 家、加上集團其他品牌約 600 家。兩家說法的統計口徑不同。黃銘賢也說，目前掃碼和自助點餐機的自行點餐比例接近 5 成，之後會導入 AI 語音點餐。"
+   ],
+   "why": "連鎖品牌把工資上漲講明白、搭組合優惠緩衝，是這一波調價的典型做法。客人如果拿「路易莎又要漲」來比價，可以先知道：理由是基本工資和咖啡豆成本，幅度約一杯幾元。對我們來說，明年 1 月前後是客人對價格最敏感的時候，菜單上的組合和加購設計值得先想好。",
+   "detail": [
+    "自助點餐比例｜掃碼加點餐機接近 5 成",
+    "上次調價｜2026 年 1 月",
+    "最低工資（2027）｜月薪 30,900 元、時薪 205 元（TVBS）"
+   ],
+   "watch": "正式調價日與各品項新價格；其他連鎖咖啡是否跟進。",
+   "note": "副品牌名稱鏡週刊和 TVBS 寫「玖仰」，壹蘋寫「久仰」；店數各家口徑不同。",
+   "link": "https://www.mirrormedia.mg/story/20261126edi045",
+   "extra_links": [
+    {
+     "t": "TVBS：最低工資與 6,000 萬人事支出",
+     "u": "https://news.tvbs.com.tw/life/4056509"
+    },
+    {
+     "t": "壹蘋：店數與咖啡期貨",
+     "u": "https://news.nextapple.com/life/20261126/479A27661ECB4AC8CDCA0F5E40BCA023"
+    }
+   ],
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "arabica-rebound-minas-rain-robusta-low-nov25",
+   "sec": "industry",
+   "title": "阿拉比卡期貨單日漲 2.8%：米納斯吉拉斯預報 10 天大雨引發空單回補，羅布斯塔續跌到三年新低",
+   "orig": "Arabica Coffee Rises on Short Covering, Brazil Rain",
+   "date": "2026/11/25",
+   "media": "Wisevoter（引述 Barchart）",
+   "author": "",
+   "tier": "T3",
+   "read": 3,
+   "summary": [
+    "11 月 25 日（週三），ICE 3 月阿拉比卡期貨收漲 7.40 美分（+2.82%），從約 5.25 個月低點反彈；同一天羅布斯塔則跌到三年新低。上漲主因是預報巴西米納斯吉拉斯州未來 10 天降雨最多約 36.9 毫米，交易員回補空單。",
+    "大雨對巴西是兩面刃：太多雨可能淹到咖啡園、傷害作物；但開花期雨量偏多，又可能提高 2026/27 年度收成。羅布斯塔則受越南供給壓抑，越南咖啡可可協會預估 2026/27 羅布斯塔產量 210 萬公噸、年增 5%。",
+    {
+     "table": {
+      "cap": "市場數字",
+      "cols": [
+       "項目",
+       "數字"
+      ],
+      "rows": [
+       [
+        "3 月阿拉比卡",
+        "+7.40 美分（+2.82%）"
+       ],
+       [
+        "ICE 阿拉比卡庫存",
+        "283,036 袋，3.75 個月高點"
+       ],
+       [
+        "待分級",
+        "251,230 袋（上週五）"
+       ],
+       [
+        "基金羅布斯塔淨空單",
+        "增至 24,069（截至 11/17 當週）"
+       ],
+       [
+        "Conab 巴西 2026 估產",
+        "6,760 萬袋（9/24 上修）"
+       ]
+      ]
+     }
+    }
+   ],
+   "why": "這是 11/23 那則「羅布斯塔三年新低」的後續：阿拉比卡和羅布斯塔走勢分岔，短線主要看巴西天氣。期貨單日漲跌不會直接反映到我們的生豆報價，但如果之後烘豆商報價波動，可以知道背景是巴西雨季和越南增產兩股力量在拉扯。",
+   "detail": [
+    "降雨預報｜米納斯吉拉斯未來 10 天最多約 36.9 毫米",
+    "越南 2026/27 羅布斯塔｜210 萬公噸、年增 5%"
+   ],
+   "watch": "巴西開花期降雨是否過量、Conab 下一次估產。",
+   "note": "Wisevoter 是整理 Barchart 報導的網站，原始 Barchart 稿這次沒有直接讀到；數字以該稿為準。",
+   "link": "https://wisevoter.com/world/2026/11/25/arabica-coffee-rises-brazil-rain-short-covering",
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "kenangan-ximen-eslite-5th-store",
+   "sec": "industry",
+   "title": "印尼 Kenangan Coffee 開台灣第 5 店：誠品西門 11/28 試營運、12/5 開幕，冬季推杜拜可可飲 139 元起",
+   "orig": "",
+   "date": "2026/11/26",
+   "media": "聯合新聞網；Taiwan News",
+   "author": "",
+   "tier": "T3",
+   "read": 3,
+   "summary": [
+    "印尼連鎖 Kenangan Coffee（凱娜克咖啡）進台灣 9 個月，第 5 間門市「誠品西門時光店」進駐誠品生活西門店，11 月 28 日起試營運、12 月 5 日正式開幕。前 4 店是新光 A11、中壢站前、新光桃站、新竹巨城。",
+    {
+     "table": {
+      "cap": "開幕與冬季活動",
+      "cols": [
+       "期間",
+       "內容"
+      ],
+      "rows": [
+       [
+        "11/28–12/4",
+        "西門店試營運：全品項（凱娜冰系列除外）L 杯免費升級 XL"
+       ],
+       [
+        "12/5–12/6",
+        "西門店開幕：熱銷前 6 名 XL 杯同品項買一送一"
+       ],
+       [
+        "12/5–2027/1/7",
+        "其他 4 店杜拜可可系列 L 升 XL（西門店 12/7 起）"
+       ],
+       [
+        "12/7–2027/1/31",
+        "App 集滿 10 點換 MBTI 保溫杯盲盒"
+       ]
+      ]
+     }
+    },
+    "品牌首度公開的熱銷前 6 名：凱娜克拿鐵（棕櫚糖）、白茉輕雪拿鐵（茉莉花茶加拿鐵）、叩叩娜鐵（椰香）、開心果雪霜瑪奇朵、靜岡抹茶歐蕾、蜜桃 P 美式。冬季新品「雪霜杜拜可可歐蕾」和「絲絨杜拜可可歐蕾」每杯 139 元起。"
+   ],
+   "why": "Kenangan 的招牌是棕櫚糖、茉莉、椰子這類東南亞風味加奶，主打「調味拿鐵」而不是單品豆。它從百貨、車站一路開到西門，代表這類甜感拿鐵在台灣年輕客群有市場。我們做季節飲品時，可以參考它用「一個辨識度高的糖」撐起整條產品線的做法。",
+   "detail": [
+    "台灣門市｜5 家（含西門）",
+    "招牌風味｜棕櫚糖"
+   ],
+   "note": "Taiwan News 標題寫 11/28「正式插旗」，內文和聯合新聞網都寫 11/28 試營運、12/5 正式開幕。內容多為品牌提供的活動資訊。",
+   "link": "https://udn.com/news/story/124378/9904221",
+   "extra_links": [
+    {
+     "t": "Taiwan News：活動細節",
+     "u": "https://www.taiwannews.com.tw/zh/news/6481079"
+    }
+   ],
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "science-driven-coffee-cup-2026-simonelli",
+   "sec": "science",
+   "title": "第一屆「科學驅動咖啡盃」研討會：預熱生豆最多省 20% 烘焙能源、AI 分辨發酵處理法、杯子顏色會改變風味感受",
+   "orig": "How science is changing our understanding of coffee",
+   "date": "2026/11/26",
+   "media": "Perfect Daily Grind",
+   "author": "",
+   "tier": "T2",
+   "read": 8,
+   "summary": [
+    "義大利 Simonelli Group 和卡梅里諾大學合辦的研究中心 RICH（2016 年成立）11 月 19–20 日在 Simonelli 園區辦了第一屆 Science-Driven Coffee Cup，也是 RICH 十週年。來自 16 國、130 多人參加，兩天有 20 場口頭報告、4 場主題演講、18 張海報。文章主旨是：咖啡研究常要好幾年才傳到烘豆師和咖啡館，這類研討會想縮短距離。",
+    "和店裡最相關的幾個發表：",
+    {
+     "table": {
+      "cap": "研討會重點發表",
+      "cols": [
+       "主題",
+       "講者",
+       "內容"
+      ],
+      "rows": [
+       [
+        "烘焙節能",
+        "Samo Smrke（ZHAW）",
+        "預熱生豆最多可省約 20% 烘焙能源"
+       ],
+       [
+        "處理法驗證",
+        "Philipp Weller（曼海姆應用科大）",
+        "分析 220 支巴西樣品，用 AI 找出區分兩種自然發酵的生物標記"
+       ],
+       [
+        "混豆檢測",
+        "Marino Petracco",
+        "用化學標記測配方中阿拉比卡和羅布斯塔比例"
+       ],
+       [
+        "產地指紋",
+        "Erica Liberto（杜林大學）",
+        "把電腦視覺用在氣相層析，建立連結產地的化學指紋"
+       ],
+       [
+        "冷萃酸感",
+        "Agnese Santanatoglia",
+        "13 支阿拉比卡冷萃：酸感來自很多化合物，不只有機酸"
+       ],
+       [
+        "感官心理",
+        "Charles Spence（牛津大學）",
+        "杯子設計、環境顏色、聲音、描述用語和期待都會改變香氣、醇厚度和喜好"
+       ],
+       [
+        "個人差異",
+        "Kate Howell（墨爾本大學）",
+        "唾液成分不同，可能解釋同一杯咖啡為何每個人喝起來不同"
+       ],
+       [
+        "咖啡渣",
+        "Lucia Panzella（那不勒斯大學）",
+        "把咖啡渣轉成咖啡油、酚類和糖，可能用在環保包材"
+       ]
+      ]
+     }
+    },
+    "另外還有 UC Davis 的 Jean-Xavier Guinard 測試 AI 能否從感官資料預測消費者喜好和專家分數，Trinity College Dublin 的 Alessio Benavoli 發表優化烘焙參數的機器學習系統 CLOOP。文章提到主辦方正在籌備第二屆。"
+   ],
+   "why": "這篇是研討會整理，沒有完整論文數據，但有兩點今天就用得上：一是 Spence 的研究再次提醒，杯子、燈光、背景音樂和菜單描述，都是「風味」的一部分；二是唾液差異可以拿來跟客人聊，為什麼同一支豆有人喝到莓果、有人只覺得酸。",
+   "action": "同一支手沖分別用白杯和深色杯給同事盲測，記下大家對酸和甜的描述差在哪。",
+   "detail": [
+    "日期地點｜11/19–20，義大利 Belforte del Chienti",
+    "規模｜130 多人、16 國",
+    "議程｜5 場科學場次、20 場口頭報告、18 張海報"
+   ],
+   "watch": "各發表是否陸續刊出正式論文（特別是生豆預熱節能和發酵生物標記）。",
+   "note": "主辦方 Simonelli Group 是 Perfect Daily Grind 的贊助商，文中也大量引用其執行長談話；各研究細節只有摘要，沒有完整數據。",
+   "link": "https://perfectdailygrind.com/2026/11/science-changing-understanding-of-coffee/",
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "freshcup-coffee-shop-names-fuglen",
+   "sec": "fun",
+   "title": "咖啡店名怎麼取？挪威 Fuglen 名字來自店裡的鸚鵡，如今日本店比挪威多；捷克 Born 拆字藏著城市名",
+   "orig": "What’s in a Name? How Coffee Businesses Shape Their Identity",
+   "date": "2026/11/26",
+   "media": "Fresh Cup",
+   "author": "",
+   "tier": "T2",
+   "read": 6,
+   "summary": [
+    "Fresh Cup 訪問幾家咖啡品牌，談店名背後的故事。",
+    {
+     "list": [
+      "Fuglen（挪威）：1963 年在奧斯陸以「Kaffefuglen」（咖啡鳥）開業，名字來自店裡的鸚鵡 Jacco，象徵咖啡豆和茶葉來自世界各地；1980 年代末挪威禁止食品店養鳥，鸚鵡由老闆帶回家，活到 50 多歲。2008 年由 2007 年挪威咖啡師冠軍 Einar K. Holthe 接手，改名 Fuglen（「鳥」），logo 換成北極燕鷗。現在 14 家店、2 座烘豆廠：挪威 2 家、日本 8 家、韓國和印尼各 2 家。",
+      "Pueblo Querido（紐約）：哥倫比亞 Calarcá 移民家族開的烘豆品牌，名字意思是「心愛的家鄉」，logo 上戴頭飾的原住民男子以家族父親為原型，現在布魯克林和皇后區共 5 家。",
+      "Born Coffee（捷克布爾諾）：創辦人 Bá Vu 說名字代表辭掉穩定工作「重生」；把 BORN 中間的 O 移到最後，就變成城市名 BRNO。",
+      "Prolog Coffee（哥本哈根）：丹麥語念法沒有英文的硬 G，創辦人 Jonas Gehl 說各種念法都可以，「如果名字需要解釋，我就不會選它」。"
+     ]
+    },
+    "Holthe 還發現一件趣事：他的挪威西岸口音會把 Fuglen 的 G 念出來，多數挪威人念「FULEN」，但日本、韓國和印尼的客人反而跟他一樣念出清楚的 G。"
+   ],
+   "why": "店名是客人最先記住的東西，也是最常被問的問題。可以想想：如果客人問「幻猻家」名字怎麼來的，每個人回答得一樣嗎？有一個大家都講得順的版本，就是最省錢的品牌故事。",
+   "detail": [
+    "Fuglen 最大市場｜日本（2012 年開東京店）",
+    "Prolog 名字意思｜一直在過程中，每天都是新開始"
+   ],
+   "link": "https://freshcup.com/whats-in-a-name-how-coffee-businesses-shape-their-identity/",
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "seven-restaurant-groups-hiring-2027",
+   "sec": "food",
+   "title": "七大餐飲集團 2027 年合計徵才逾 5,400 人：三商幹部最高調薪 15%，石二鍋最快 4 個月升店長",
+   "orig": "",
+   "date": "2026/11/26",
+   "media": "聯合新聞網",
+   "author": "",
+   "tier": "T3",
+   "read": 4,
+   "summary": [
+    "王品、饗賓、瓦城、漢來美食、三商餐飲、全家餐飲和豆府七大餐飲集團，2027 年合計徵才規模超過 5,400 人，並以加薪和快速升遷搶人。",
+    {
+     "table": {
+      "cap": "七大集團 2027 徵才與調薪",
+      "cols": [
+       "集團",
+       "徵才",
+       "調薪與制度"
+      ],
+      "rows": [
+       [
+        "王品",
+        "逾 1,200 人",
+        "明年調薪方案待最後核定；石二鍋有經驗幹部最快 4 個月升店長，月薪上看 6 萬"
+       ],
+       [
+        "饗賓",
+        "逾 1,000 人",
+        "依營運表現與市場薪資年度調薪；年底門市達 106 家"
+       ],
+       [
+        "三商餐飲",
+        "1,000 人",
+        "門市正職店長與幹部調幅約 4–15%（1 月起）"
+       ],
+       [
+        "全家餐飲",
+        "逾 800 人正職",
+        "今年已兩度調薪，新人起薪 3.8 萬；明年依績效調 2–5%"
+       ],
+       [
+        "豆府",
+        "逾 600 人",
+        "每年 1、7 月調薪晉升，每季績效獎金"
+       ],
+       [
+        "瓦城",
+        "逾 500 職缺",
+        "強化營運績效獎金"
+       ],
+       [
+        "漢來美食",
+        "310 人",
+        "依單位、年資、表現調整，不全面調薪"
+       ]
+      ]
+     }
+    },
+    "王品表示集團已連續 13 年調升品牌起薪；2025 年超過三成店長、主廚年薪破百萬，19 位年薪 200 萬元，最高的店長超過 300 萬元。"
+   ],
+   "why": "大集團明年同時展店、加薪、縮短升遷時間，小店能拿來留人的籌碼不是薪水數字，而是學得到東西、排班有彈性、做得有成就感。這也和上一則路易莎漲價是同一件事的兩面：人事成本上升，價格和制度都要跟著調。",
+   "detail": [
+    "合計徵才｜逾 5,400 人",
+    "最多｜王品逾 1,200 人"
+   ],
+   "link": "https://udn.com/news/story/7241/9904644",
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "fritz-hansen-taipei-showroom-space-cafe",
+   "sec": "food",
+   "title": "Fritz Hansen 台北新展間把咖啡館放進家具店：白天 SPACE+CAFÉ 手沖、晚上二三醇窖選酒，地下室是 PK 系列「起居室」",
+   "orig": "",
+   "date": "2026/11/25",
+   "media": "美麗佳人 Marie Claire",
+   "author": "",
+   "tier": "T3",
+   "read": 5,
+   "summary": [
+    "丹麥家具品牌 Fritz Hansen（1872 年創立）11 月在台北東區敦化南路巷弄開設兩層樓新展間，找了 11 個月才找到這個地點。一樓以北歐咖啡館為概念，由 2019 年在高雄創立的 SPACE+CAFÉ 提供手沖咖啡，另有三二行館董事長邱柏翰打造的葡萄酒品牌「二三醇窖」選酒；地下一樓則以住宅場景陳列 Poul Kjærholm（PK）經典系列。",
+    "亞太區執行長 Dario Reicherl 說：「家具店通常有點無聊，容易給人距離感。」所以展間在視覺和觸覺之外，加入咖啡、葡萄酒的味覺和音樂的聽覺；他提到「喝一杯咖啡大概 15 到 20 分鐘」，讓人有時間真的坐在家具上。品牌在韓國、日本也有類似空間，但台北是第一次做「白天咖啡、晚上葡萄酒」。",
+    "二三醇窖預計 12 月試營運、明年農曆春節前正式開幕，下午兩點後供酒。"
+   ],
+   "why": "這是「咖啡當停留時間」的案例：家具品牌用一杯咖啡換來客人 15–20 分鐘真正坐下、摸到產品。反過來看，咖啡館的椅子、燈和杯子也在替我們說話；客人待得舒服，才有機會加點甜點或買豆子。",
+   "detail": [
+    "品牌經典｜Arne Jacobsen 1955 年七號椅，銷量逾 500 萬張",
+    "咖啡夥伴｜SPACE+CAFÉ（2019 年高雄創立）",
+    "酒夥伴｜二三醇窖，12 月試營運"
+   ],
+   "note": "文章未寫正式開幕日期與營業時間，只寫「本月」開幕。",
+   "link": "https://www.marieclaire.com.tw/lifestyle/living/97292",
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "caesar-banqiao-cong-caphe-dec-2026",
+   "sec": "food",
+   "title": "板橋凱撒泰饗蓮花 × 越南 CỘNG CÀ PHÊ 12 月聯名：月亮蝦餅配香菜檸檬醬，雙方互送優惠券",
+   "orig": "",
+   "date": "2026/11/26",
+   "media": "品味風",
+   "author": "",
+   "tier": "T3",
+   "read": 2,
+   "summary": [
+    "板橋凱撒大飯店的 Lotus 泰饗蓮花餐廳 12 月 1–31 日和越南河內咖啡品牌 CỘNG CÀ PHÊ（2007 年創立，以越式飲品和復古懷舊風格聞名）聯名。台灣限定「蝦餅佐香菜醬」用餐廳的月亮蝦餅、金錢蝦餅，配 CỘNG CÀ PHÊ 特製的香菜檸檬醬；甜點和 CỘNG CÀ PHÊ 合作的甜點品牌「熊夫人」共同製作。聯名品項每日限量，用點餐系統選購。",
+    "跨店導流是這次的重點：到 CỘNG CÀ PHÊ 板橋大遠百店追蹤 IG 可領泰饗蓮花折價券；到泰饗蓮花用餐則送 CỘNG CÀ PHÊ 甜點兌換券。"
+   ],
+   "why": "咖啡館和附近餐廳「互送一張券」，是不花廣告費的導流方式，重點是兩邊客群相近、距離夠近。我們也可以想想，周邊有哪家店的客人和我們重疊。",
+   "detail": [
+    "期間｜12/1–12/31",
+    "互惠｜追蹤 IG 領餐廳券；用餐送咖啡店甜點券"
+   ],
+   "note": "內容為飯店新聞稿。",
+   "link": "https://www.savorlifestyle.com/20261126-2/",
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "asia-museum-promethean-bloom-yanagi-mishima",
+   "sec": "design",
+   "title": "亞美館《炎之花果》開展到 2027/5/9：栁美和用回收廢鋼做植物、三島律惠以 160 多塊回收玻璃磚鋪進安藤忠雄大廳",
+   "orig": "Promethean Bloom and Its Fruits",
+   "date": "2026/11/26",
+   "media": "VERSE；蕃薯藤旅遊",
+   "author": "",
+   "tier": "T2",
+   "read": 6,
+   "summary": [
+    "台中霧峰的亞洲大學附屬現代美術館（亞美館）「當代大師系列」第二部曲《炎之花果：栁美和・三島律惠》11 月 26 日開展。英文展名的 Promethean 取自盜火給人類的普羅米修斯：「花」比喻火催生的文明繁盛，「果」指運用自然力量後的成果與未預期的後果。",
+    {
+     "table": {
+      "cap": "兩位藝術家",
+      "cols": [
+       "藝術家",
+       "背景",
+       "這次作品"
+      ],
+      "rows": [
+       [
+        "栁美和 Miwa Yanagi",
+        "2009 年代表日本館參加第 53 屆威尼斯雙年展；《電梯女郎》《我的祖母們》攝影系列",
+        "《礦脈與氣根》：2024 年在東和鋼鐵苗栗廠駐村約兩個月，用廢鋼做出蘭花、蕨芽般的可拆組雕塑；《桃》《蘭》《百合》植物系列；首次在台展出的錄像〈黃泉平坂～排斥與遊戲～〉；現場手繪大型牆面"
+       ],
+       [
+        "三島律惠 Ritsue Mishima",
+        "1962 年生於京都，1989 年移居威尼斯，和穆拉諾島工匠合作，只用無色透明玻璃",
+        "〈神秘三角〉：和春池玻璃用回收玻璃做出 160 多塊玻璃磚，尺寸呼應亞美館原有三角地磚；三樓長廊《途徑》23 件玻璃雕塑，新作〈宇環〉由 102 個玻璃球體組成"
+       ]
+      ]
+     }
+    },
+    "栁美和和台灣淵源很深：1998 年參加台北雙年展，受沈昭良《舞台車》系列啟發做了劇場作品《日輪之翼》，2016 年起到蘭嶼研究野生白花蝴蝶蘭「阿婆蘭」，2021 年轉成台日共製歌仔戲。三島律惠這次沒有進台灣工廠，而是先在威尼斯做樣本，再由春池玻璃開發製作、她確認成果。",
+    {
+     "table": {
+      "cap": "參觀資訊",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "展期",
+        "2026/11/26–2027/5/9"
+       ],
+       [
+        "開放",
+        "週二至週日 9:30–17:00"
+       ],
+       [
+        "地點",
+        "台中市霧峰區柳豐路 500 號"
+       ],
+       [
+        "聯票",
+        "和臺中市立美術館「蠍子與青蛙：國巨基金會典藏展」雙館聯票，兩館各入館一次"
+       ],
+       [
+        "票價",
+        "這次沒查到，請看亞美館售票資訊"
+       ]
+      ]
+     }
+    }
+   ],
+   "why": "這檔展是「材料再生」的好例子：廢鋼和回收玻璃不是被藏起來，而是成為作品的主角。對做插畫、品牌或空間的人，三島律惠讓玻璃「跟著建築的形狀和光走」，是很好的現場教材；安藤忠雄（亞美館）和妹島和世（中美館）兩棟建築可以用聯票一天看完。",
+   "detail": [
+    "館方｜館長李玉玲策展",
+    "合作產業｜東和鋼鐵、春池玻璃",
+    "建築｜安藤忠雄設計"
+   ],
+   "note": "栁美和受《舞台車》啟發的年份，蕃薯藤寫 2014 年，VERSE 未寫年份。",
+   "link": "https://www.verse.com.tw/article/promethean-bloom-and-its-fruits",
+   "extra_links": [
+    {
+     "t": "蕃薯藤旅遊：展期與聯票",
+     "u": "https://travel.yam.com/article/141747"
+    }
+   ],
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "pattern-coffee-fluent-format-belfast",
+   "sec": "design",
+   "title": "品牌設計工作室自己當客戶：貝爾法斯特 Pattern Coffee 用「跟袋子同形狀的書衣」讓每批豆子各有一套視覺",
+   "orig": "Pattern Coffee is what happens when a Belfast branding studio becomes its own client",
+   "date": "2026/11/26",
+   "media": "Creative Boom",
+   "author": "",
+   "tier": "T2",
+   "read": 5,
+   "summary": [
+    "北愛爾蘭貝爾法斯特品牌與數位顧問公司 Fluent Format 的創辦人兼創意總監 David Lewis，和公司首席工程師 Andile Cebekhulu，下班後一起經營精品咖啡品牌 Pattern Coffee。兩人先花了九個月試喝世界各地的咖啡，才決定做成生意。名字來自一通下班後的電話：咖啡成了每天的儀式，「停下來、重整、再出發」；品牌標語是「Your daily sweet spot」。",
+    {
+     "list": [
+      "包裝：不用常見的咖啡罐，而是做一個沿著咖啡袋輪廓的外套（sleeve），整體形狀不變，每批咖啡各有自己的視覺。Lewis 說：「袋子在店架上好不好看，和放在家裡廚房檯面上一樣重要。」",
+      "行銷：沒有傳統廣告，靠跑團、健身房合作，甚至在炸雞翅店快閃；也贊助基層橄欖球（含女子賽事）和兒童癌症基金會。",
+      "語氣：刻意避開難懂的風味描述和沖煮比例，「不需要什麼都懂，才能享受好咖啡」。",
+      "經營：兩人都沒從公司拿錢，收入全投回品牌；唯一犒賞自己的是一台 La Marzocco Linea Mini，帶著在貝爾法斯特各地快閃。"
+     ]
+    },
+    "兩人把 Pattern 叫做「創意沙坑」，用來實驗包裝和攝影。Lewis 說，自己挑貨、包貨、出錢之後，對合作的新創老闆有了完全不同的體會。"
+   ],
+   "why": "對做品牌設計的人，這是「設計師自己當業主」的真實紀錄：系統化包裝（固定外形＋每批換視覺）讓品牌既一致又有新鮮感。對店裡來說，季節豆、限定豆的標籤也能用同一招：外框不變，換色彩和插畫。",
+   "detail": [
+    "工作室｜Fluent Format（貝爾法斯特）",
+    "包裝系統｜袋形外套＋每批獨立視覺",
+    "咖啡機｜La Marzocco Linea Mini 快閃用"
+   ],
+   "link": "https://www.creativeboom.com/insight/pattern-coffee-is-what-happens-when-a-belfast-branding-studio-becomes-its-own-client/",
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "adam-bookstore-sun-moon-lake-if-2026",
+   "sec": "design",
+   "title": "日月潭亞當書店獲 2026 iF 設計獎：禹樂空間用波浪褶皺清水模、鐵鏽紅旋轉梯和圓頂天井，把書店和咖啡廳放進山林",
+   "orig": "",
+   "date": "2026/11/26",
+   "media": "Bella 儂儂；udn 旅遊",
+   "author": "",
+   "tier": "T3",
+   "read": 5,
+   "summary": [
+    "南投魚池鄉的 Adam bookstore 亞當書店由空間主人侯文軒委託「禹樂空間整合」設計，獲 2026 年德國 iF 設計獎。建築以清水模為主，正面做成整排波浪般的褶皺，光線一照會出現細細的陰影線；上方是水平延伸的白色屋頂，像浮在山林裡。設計時考量基地南側山林、北側開闊視野，以及周圍的櫻花和銀杏。",
+    {
+     "list": [
+      "一樓：弧形清水模咖啡吧台和選物區，正中央一座鐵鏽紅旋轉樓梯像雕塑，座椅用橘紅皮革呼應樓梯色。",
+      "二樓用餐區：連續清水模拱頂，三個拱形落地窗把檳榔樹海和遠山切成三幅畫，牆上掛著鮮豔的畫作。",
+      "二樓書店區：木質書牆（藝術、設計、文學與生活類）、像河流蜿蜒的竹編長椅，上方是收攏的圓頂天井；角落有主人收藏的無敵鐵金剛和鋼彈模型。",
+      "材質只有清水模、白、木頭和鐵鏽紅四種。"
+     ]
+    },
+    {
+     "table": {
+      "cap": "參觀資訊（udn 旅遊）",
+      "cols": [
+       "項目",
+       "內容"
+      ],
+      "rows": [
+       [
+        "地址",
+        "南投縣魚池鄉武登村銃櫃巷 52 號（台 21 線旁）"
+       ],
+       [
+        "營業",
+        "10:00–18:00，週二、週三公休"
+       ],
+       [
+        "價格",
+        "飲品約 160–300 元、輕食約 200–220 元"
+       ],
+       [
+        "規定",
+        "低消一杯飲品、限時 90 分鐘"
+       ],
+       [
+        "開幕",
+        "2026 上半年試營運，8 月正式開幕"
+       ]
+      ]
+     }
+    }
+   ],
+   "why": "這間店把「建築本身就是來的理由」做到極致：顏色收斂到四種、讓一座樓梯當主角，是小空間也學得到的手法。對做空間或品牌的人，這是台灣少見把書店、咖啡、藝術展示和個人收藏放在一起還不雜亂的案例。",
+   "detail": [
+    "設計｜禹樂空間整合",
+    "獎項｜2026 iF 設計獎"
+   ],
+   "note": "Shopping Design 原文擋自動程式，改用 Bella 儂儂與 udn 旅遊的報導；iF 獎項類別這次沒查到。營業資訊以店家公告為準。",
+   "link": "https://www.bella.tw/articles/design&gadget/60637/sun-moon-lake-adam-bookstore-new-landmark",
+   "extra_links": [
+    {
+     "t": "udn 旅遊：空間、菜單與營業資訊",
+     "u": "https://travel.udn.com/travel/story/7207/9774340"
+    }
+   ],
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "hoor-al-qasimi-venice-biennale-2028",
+   "sec": "design",
+   "title": "2028 威尼斯雙年展策展人出爐：沙迦藝術基金會的 Hoor Al Qasimi，連續第二屆由非西方女性策展",
+   "orig": "Hoor Al Qasimi to curate Venice Biennale in 2028",
+   "date": "2026/11/26",
+   "media": "The Art Newspaper；designboom",
+   "author": "",
+   "tier": "T2",
+   "read": 4,
+   "summary": [
+    "威尼斯雙年展宣布，阿聯酋策展人 Hoor Al Qasimi 擔任第 62 屆國際藝術展策展人，展期 2028 年 4 月 8 日至 11 月 26 日。今年（2026）那屆由已故的喀麥隆出生策展人 Koyo Kouoh 策劃，The Art Newspaper 指出這是連續第二屆由來自西方藝術圈以外的女性擔綱。",
+    {
+     "table": {
+      "cap": "Hoor Al Qasimi 經歷",
+      "cols": [
+       "年份",
+       "經歷"
+      ],
+      "rows": [
+       [
+        "2003",
+        "從倫敦 Slade 美術學院畢業後，策劃第 6 屆沙迦雙年展"
+       ],
+       [
+        "2009",
+        "創立沙迦藝術基金會（Sharjah Art Foundation）"
+       ],
+       [
+        "2020",
+        "策劃第 2 屆拉合爾雙年展"
+       ],
+       [
+        "2025",
+        "第 6 屆日本愛知三年展藝術總監"
+       ],
+       [
+        "2026",
+        "第 25 屆雪梨雙年展藝術總監"
+       ]
+      ]
+     }
+    },
+    "雙年展主席 Pietrangelo Buttafuoco 說，她的工作「對深植的記憶與其遺產有深刻關注」，並「有難得的能力去傾聽地方與人」。展名、主題和參展藝術家都還沒公布。"
+   ],
+   "why": "威尼斯雙年展是看當代藝術風向最重要的指標之一。Al Qasimi 做過愛知三年展，熟悉亞洲；她長期關注殖民歷史、地方記憶和西方以外的藝術家，台灣藝術家在 2028 年的能見度值得期待。想提前做功課，可以從今年的雪梨雙年展「Rememory」看起。",
+   "detail": [
+    "屆別｜第 62 屆國際藝術展",
+    "展期｜2028/4/8–11/26",
+    "主題與藝術家｜尚未公布"
+   ],
+   "link": "https://www.theartnewspaper.com/2026/11/26/emirati-curator-hoor-al-qasimi-to-lead-venice-biennale-in-2028",
+   "extra_links": [
+    {
+     "t": "designboom：展期與經歷",
+     "u": "https://www.designboom.com/art/hoor-al-qasimi-curator-venice-art-biennale-2028/"
+    }
+   ],
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "seven-eleven-coffee-buy7-get7-dec-2026",
+   "sec": "skip",
+   "title": "7-11「咖啡買 7 送 7」12/1 開賣，限時 3 天",
+   "orig": "",
+   "date": "2026/11/26",
+   "media": "Cosmopolitan",
+   "author": "",
+   "tier": "T3",
+   "read": 2,
+   "summary": "Cosmopolitan 報導，7-11 咖啡買 7 送 7 優惠 12 月 1 日開賣、限時 3 天，品項含美式、拿鐵、馥芮白、燕麥拿鐵 4 款。同一週萊爾富、全家也有咖啡買幾送幾和第二杯優惠。",
+   "why": "路過原因：超商寄杯促銷幾乎每週都有，對我們的經營沒有直接影響；只是客人可能拿來比價。",
+   "detail": [
+    "開賣｜12/1，限時 3 天"
+   ],
+   "note": "只讀到標題，細節以 7-11 公告為準。",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaGFZZnNHVERJVk92ZnRtbGVfZDFnRmk5ekh1bjdGVEE1Z1NSRDRlazY2cEtVeTVQNmhCSFBiSG8yVERoRm5VdDFuY0tzOEdiNTVmSjJ1MXJTVl9HWmhpbVQ4WUVvUGFlejgzTGJ4RGtLbVh3aTZjdEhTMjdTOUxvczBWX1BDRms?oc=5",
+   "pub": "2026-11-27"
+  },
+  {
+   "id": "philippines-coffee-excise-house-rejects",
+   "sec": "skip",
+   "title": "菲律賓眾議院委員會否決咖啡貨物稅提案，農業團體原本警告會轉嫁給農民",
+   "orig": "House panel shoots down coffee excise proposal",
+   "date": "2026/11/26",
+   "media": "Inquirer.net",
+   "author": "",
+   "tier": "T3",
+   "read": 3,
+   "summary": "Inquirer.net 報導，菲律賓眾議院委員會否決對咖啡產品課徵貨物稅的提案；菲律賓農業與食品商會（PICAFI）同日警告，如果咖啡被課稅，負擔會落在農民身上。同週另一則報導標題是酒商主張「年輕人偏好咖啡，不如改課咖啡稅」。",
+   "why": "路過原因：外國稅制提案、已被否決，對台灣門市沒有影響；只是說明咖啡在亞洲已經大到會被政府盯上當稅源。",
+   "detail": [
+    "結果｜委員會否決"
+   ],
+   "note": "只讀到 Google News 標題與摘要，全文未讀（Google News 連結為轉址）。",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWXdmNXloTEJPVzFWTENLZmVXNHRHWXhPWFhnNl9FUnd1Ymk1VFBNVFgtVG5MbHJGSUNaUjh2RlNMX1pEd1gxS09LcUZlMldVUkJpR0lsMndvMlNmSld3NzQ0eVF2WHdnMjV6eVJCMWhjR19xckUyaGlMWng5V0RLQnhPT2dQSG5ReDdnZEMxRVRObDFVaHhLSHo0UU1MYWvSAaQBQVVfeXFMTmJHa0V5OS1uXzduVW5BVm92NjFZNnhyMGlZLTJpTF9PX1I1ckJlOHA4a203RGJsZ0EtNWVqYUpJbU1kVWhEb1NTNUdqNGNIUTJTVW9qZXVNY0ZpSVlhVnR6SEg3QXZsZEhNUzhtUWFDWTB1RWJtMVRwYnVNeXNXV01jR19xUFoxSnk5bWNLeWNHYUdXd3hXU3BnU2syanBYcUJaYzg?oc=5",
+   "pub": "2026-11-27"
+  },
   {
    "id": "starbucks-japan-sale-banks-nov-2026",
    "sec": "industry",
@@ -13419,275 +14110,6 @@
    "note": "這是美國的資料，台灣的喝法不一定相同。",
    "link": "https://dailycoffeenews.com/2026/10/26/u-s-coffee-drink-calories-climbed-40-in-15-year-span/",
    "pub": "2026-10-28"
-  },
-  {
-   "id": "basket-acidity-sweetness",
-   "sec": "science",
-   "hl": "long",
-   "title": "濾杯孔型也是萃取參數：同一支豆，換濾杯就能在「明亮」和「甜感」之間切換",
-   "orig": "Acidity vs sweetness: How basket design affects espresso extraction",
-   "date": "2026/10/26",
-   "media": "Perfect Daily Grind",
-   "author": "Bhavi（受訪：Davide Spinelli）",
-   "tier": "T2",
-   "read": 9,
-   "summary": "這篇的核心主張是：濃縮的酸和甜不是豆子固定的性格，而是萃取出來的結果，濾杯要像研磨度、水溫一樣當成配方參數。義式甜感主要來自三個訊號：醇厚度、懸浮的脂質和克立瑪。文章比較 IMS 兩款 58mm 濾杯：孔洞平均分布的 NT 讓出水均勻，杯子更乾淨、酸質更清楚；孔洞集中在中央的 Big Bang 讓出水往中間收，口感更圓、甜感更多，也比較能容忍布粉的小失誤。",
-   "why": "這是吧台馬上能試的實驗。客人覺得某支豆太酸時，不一定要換豆子，先換濾杯、重新調研磨度，酸甜平衡可能就不一樣。值得找一支偏酸的豆，用店裡的兩種濾杯各調一次，盲測比較看看。",
-   "detail": [
-    "分辨好的酸和不好的酸，四個問題：會不會讓你分泌唾液、口腔乾淨；酸有沒有可辨認的形狀（柑橘、紅莓、蘋果）且底下有甜；收尾乾淨持久還是消失後留下澀感；延長萃取後，如果酸降甜升，原本就是萃取不足。",
-    "研究引用：精品豆的酸感主要來自有機酸，商業豆的酸澀則和綠原酸較相關。",
-    "換濾杯一定要重新調研磨度：固定粉量、液重、溫度和布粉方式，先打一杯參考，再一次只改一個變數，通常兩三杯就夠，最後用折射儀和杯測確認。",
-    "最常見的錯誤：沒有重調就比較，把萃取時間造成的差異算到濾杯頭上；其次是改粉量去補償，等於換了整個配方。",
-    "粉量參考：23.5mm 的 Big Bang，深焙 17–19 克、中焙 18–20 克、淺焙 19–21 克。",
-    "門市管理建議：配方卡寫上濾杯型號；每個濾杯做記號或固定配一支把手；每支豆設預設濾杯，另一款當修正工具。",
-    "評估指標：TDS 與萃取率、五分制感官評分、不同咖啡師與時段的萃取時間一致性，以及客人的反應（倒掉重做的杯數、對酸的抱怨、單點濃縮的銷量）。"
-   ],
-   "note": "受訪者是 IMS-Filtri 的品牌大使，IMS 也是 Perfect Daily Grind 的贊助商，屬廠商觀點；原理可信，但不必只用這個品牌驗證。",
-   "action": "這週找一支偏酸的單品，用店裡兩種濾杯各調一次，盲測比較。",
-   "link": "https://perfectdailygrind.com/2026/10/espresso-basket-design-extraction/",
-   "pub": "2026-10-27"
-  },
-  {
-   "id": "chiayi-auction",
-   "sec": "industry",
-   "hl": "short",
-   "title": "嘉義咖啡節紫金級競標：水洗批次 5 公斤 20 萬元標出，每公斤 4 萬元",
-   "orig": "嘉義咖啡節競標熱烈 水洗咖啡5公斤20萬元標出",
-   "date": "2026/10/26",
-   "media": "自由時報（標題）、報新聞（縣府資料）",
-   "author": "",
-   "tier": "T2",
-   "read": 3,
-   "summary": "啡嚐嘉義咖啡節最後一天的紫金級公開競標，一支水洗批次 5 公斤以 20 萬元標出，換算每公斤生豆 4 萬元。這次競標的豆子來自縣府 10 月 17、18 日辦的產地杯測分級評鑑，73 支生豆依處理法和品種分五組，選出 5 支紫金級、13 支金級、11 支銀級和 32 支優等。",
-   "why": "每公斤 4 萬元是收藏級的價格，不是日常採購行情，但它代表台灣豆正在建立自己的價格標竿。跟客人聊台灣咖啡時，這是一個好話題：嘉義現在用分級評鑑加公開競標，讓好豆子被看見。",
-   "detail": [
-    "評鑑導入臺灣咖啡分類分級系統，分水洗、蜜處理、日曬、藝伎水洗、藝伎其他五組。",
-    "評審：12 位國內外專業評審，加上 2 位通過考評的在地種子評審（仙井咖啡莊園、山時棲咖啡莊園）。",
-    "人才培育：縣府已輔導 20 位種子成員取得 SCA 的 CVA 咖啡價值評估證照。",
-    "26 日下午同時舉辦杯測分級媒合，讓金級、銀級批次直接對接採購端。"
-   ],
-   "note": "自由時報全文讀不到，得標者、批次莊園和其他紫金級批次的價格待下期補；評鑑數字取自縣府發布的資料。",
-   "link": "https://news.ltn.com.tw/news/ChiayiCounty/breakingnews/5619431",
-   "extra_links": [
-    {
-     "t": "報新聞：杯測分級與競標說明",
-     "u": "https://n.yam.com/Article/20261026837927"
-    }
-   ],
-   "pub": "2026-10-27"
-  },
-  {
-   "id": "brazil-real-coffee",
-   "sec": "industry",
-   "hl": "short",
-   "title": "巴西大選後雷亞爾重挫，阿拉比卡期貨回落約 1.5%",
-   "orig": "Brazil markets face sell off as Lula stuns investors with election win",
-   "date": "2026/10/26",
-   "media": "Business Today（引述彭博）、Rio Times、Trading Economics、Fresh Cup（引述彭博）",
-   "author": "",
-   "tier": "T3",
-   "read": 4,
-   "summary": "巴西總統決選結果出爐後，週日晚間芝商所的美元兌雷亞爾期貨上漲約一成，隱含雷亞爾從上週五約 4.98 跌到 5.6 附近；在東京掛牌的巴西股票 ETF 盤中最多跌 16%，是 2020 年以來最大跌幅。紐約阿拉比卡期貨 10 月 26 日報價約每磅 302.85 美分，跌約 1.5%。彭博另一篇分析指出，巴西豐收理應壓低價格，但交易所認證庫存處在 1999 年以來最低，價格一直下不來。",
-   "why": "巴西是全世界最大的咖啡產國，它的貨幣和收成會牽動全球生豆價格，最後也會反映在我們進貨的成本上。這則讓大家知道，咖啡價格不只看天氣，也看匯率和政治。",
-   "detail": [
-    "選舉結果：盧拉得票約 51.8%，佛拉維歐．波索納洛 48.2%；波索納洛陣營要求宣告決選無效。",
-    "花旗週五調查 73 位投資人，多數預期盧拉勝選後雷亞爾至少跌 5%，利率交換也會上升超過 1 個百分點。",
-    "巴西券商 Monte Bravo 預估，聖保羅股市開盤第一個小時可能跌 11%，交易員預期會觸發熔斷。這段寫作時巴西股市還沒開盤。",
-    "雷亞爾今年稍早升值，讓巴西農民出口收入減少、更不想賣豆；這股力量現在可能反轉。",
-    "彭博引述 Archer Consulting：部分巴西豆在私人市場拿得到溢價，農民沒有動機交割到交易所；等巴西和其他產區的過剩供給真正到貨，期貨可能大跌。",
-    "阿拉比卡報價取自 Trading Economics 的差價合約參考價，和交易所收盤價可能略有差距。"
-   ],
-   "watch": "觀察點：雷亞爾本週收在哪裡，以及巴西農民會不會開始把囤著的豆子賣出。",
-   "note": "雷亞爾與 ETF 數字來自亞洲時段的期貨與東京盤，屬開盤前訊號；巴西本地市場實際收盤，下一期再對照。",
-   "link": "https://www.businesstoday.in/markets/stocks/story/brazil-markets-face-sell-off-as-lula-stuns-investors-with-election-win-563551-2026-10-26",
-   "extra_links": [
-    {
-     "t": "Rio Times：雷亞爾期貨",
-     "u": "https://www.riotimesonline.com/brazil-real-falls-after-lula-runoff-win/"
-    },
-    {
-     "t": "Fresh Cup 咖啡週報（彭博庫存分析）",
-     "u": "https://freshcup.com/coffee-news-club-october-26th/"
-    },
-    {
-     "t": "Trading Economics 咖啡報價",
-     "u": "https://tradingeconomics.com/commodity/coffee"
-    }
-   ],
-   "pub": "2026-10-27"
-  },
-  {
-   "id": "dyk-carbonic-maceration",
-   "sec": "fun",
-   "hl": "long",
-   "title": "二氧化碳浸漬發酵做多久？一篇論文比較了 31°C 和 36°C、2 到 10 天",
-   "orig": "Profile of chemical compounds, aroma, and cup quality of arabica coffee from ohmic-heated carbonic maceration",
-   "date": "2026/03/19",
-   "media": "AIMS Agriculture and Food",
-   "author": "Mustafa Arnida 等（印尼哈山努丁大學）",
-   "tier": "T1",
-   "read": 8,
-   "summary": "二氧化碳浸漬（carbonic maceration）是從葡萄酒借來的處理法：把整顆咖啡果放進充滿二氧化碳的密閉槽裡發酵。這篇開放取用的論文，用可控溫的歐姆加熱發酵槽，比較 31°C 和 36°C 兩種溫度、48、144、240 小時三種時間，再用液相層析、氣相層析質譜和杯測檢驗。四組發酵處理的杯測分數是 85.0 到 85.75 分，對照組是 84.5 分；發酵越久，糖分越低，酚類、吡啶這類揮發物越多。",
-   "why": "店裡如果有厭氧或二氧化碳浸漬的豆子，這篇能幫你跟客人說清楚：這種處理大約讓杯測分數提高 0.5 到 1.25 分，不是神奇的跳級；發酵太久會往發酵味、酚類走。說明風味時，可以講得更精準、也更誠實。",
-   "detail": [
-    "處理條件：阿拉比卡整顆咖啡果，在富含二氧化碳的厭氧環境中發酵，用歐姆加熱控溫在 31°C 或 36°C。",
-    "綠原酸：3-CQA 和 4-CQA 隨發酵時間下降；5-CQA 在 36°C、240 小時時持平或略升。",
-    "葫蘆巴鹼：低溫時相對穩定，時間拉長、尤其 36°C 時下降。",
-    "咖啡因在中等時間達到高峰後持平；糖分整體隨時間下降，10 天後明顯偏低。",
-    "揮發物：不同處理在主成分分析中分群明顯；時間越長，酚類、醇類、吡咯、吡啶等越多。",
-    "杯測風味描述包括堅果、花香、檸檬、紅糖、香料、果香和酒香。",
-    "限制：只測兩個溫度、三個時間點；摘要沒有說明杯測分數差異的統計顯著性，也沒有交代重複次數，結論只適用於這套設備和條件。"
-   ],
-   "note": "你知道嗎專題：題目是「厭氧與二氧化碳浸漬發酵」。這裡整理的是期刊摘要與目錄資訊。",
-   "link": "https://www.aimspress.com/article/doi/10.3934/agrfood.2026009",
-   "pub": "2026-10-27"
-  },
-  {
-   "id": "coffee-cacao-lab",
-   "sec": "science",
-   "hl": "short",
-   "title": "美國國務院出資 800 萬美元，成立咖啡與可可創新實驗室，研究抗逆品種",
-   "orig": "UH Mānoa and Clemson to lead federal program to boost US, global coffee, cacao production",
-   "date": "2026/10/26",
-   "media": "Fresh Cup（引述 Maui Now、Clemson 新聞稿）",
-   "author": "Fionn Pooler",
-   "tier": "T2",
-   "read": 3,
-   "summary": "夏威夷大學馬諾阿分校和克萊門森大學將共同主持一個多年期的「咖啡與可可創新實驗室」，第一年由美國國務院出資 800 萬美元。計畫要和夏威夷及世界各地的農民、研究者合作，開發更強的作物品種、測試田間管理方法，提升產區面對氣候變遷的韌性。夏威夷是美國唯一同時商業種植咖啡和可可的州。",
-   "why": "咖啡的品種改良要好幾年才會看到成果，但這類研究決定了未來我們買得到什麼樣的豆子：更抗病、更耐氣候變化。知道研究在往哪裡走，跟客人聊產地時也更有底。",
-   "detail": [
-    "主持單位：夏威夷大學馬諾阿分校熱帶農業學院、克萊門森大學。",
-    "資金：美國國務院出資，第一年 800 萬美元，計畫總額為數百萬美元等級的多年期研究。",
-    "工作內容：開發改良品種、測試耕作方法、強化生產系統，從夏威夷擴大到全球產區。",
-    "背景：2025 年的大規模裁員與經費凍結曾影響夏威夷咖啡產業；美國國際開發署關閉時，資助了全球數十個咖啡計畫。",
-    "同期其他研究新聞：衣索比亞研究團隊用超音波把咖啡羊皮層變成高純度纖維素，詳見意外區。"
-   ],
-   "link": "https://freshcup.com/coffee-news-club-october-26th/",
-   "pub": "2026-10-27"
-  },
-  {
-   "id": "parchment",
-   "sec": "science",
-   "hl": "long",
-   "title": "咖啡羊皮層變高純度纖維素：衣索比亞團隊用超音波，把純度從 83% 拉到 92%",
-   "orig": "Impact of combined ultrasound-assisted alkaline delignification and two-stage bleaching for efficient microfibrillated cellulose isolation from Ethiopian coffee parchment",
-   "date": "2026/10/19",
-   "media": "Case Studies in Chemical and Environmental Engineering（經 Bioengineer、Sprudge、Ethiopian Business Review 報導）",
-   "author": "B. T. Kidanu、A. K. Sibhatu、B. Z. Tizazu（阿迪斯阿貝巴科技大學）",
-   "tier": "T1",
-   "read": 5,
-   "summary": "羊皮層是咖啡豆外面那層紙一樣的薄殼，乾燥脫殼時會被去掉，約占咖啡果乾重的 6% 到 10%，在衣索比亞多半直接在田裡燒掉。研究團隊在鹼液處理時同時打高強度超音波，再做兩段漂白，最後得到純度 91.8% 的微纖化纖維素，去除了 93% 的木質素；傳統做法只有 83.3% 純度、72.5% 去木質素。這種纖維素耐熱、在水中分散均勻，適合做複合材料、薄膜和塗層。",
-   "why": "羊皮層是咖啡豆外面那層薄殼，我們拿到生豆時早就被去掉了。這個研究讓產地的廢棄物有機會變成另一份收入，是講咖啡永續時一個具體、有數字的例子。",
-   "detail": [
-    "原理：超音波在液體中產生微小氣泡並瞬間崩解（空蝕效應），把植物細胞壁打開，讓化學藥劑更容易滲透。",
-    "第一步鹼處理：傳統做法用 4% 氫氧化鈉、90°C、4 小時，只去掉約 29% 的木質素；加上 60 分鐘超音波後提高到約 50%，纖維素含量從 54.3% 升到 71.8%，並保留 96.3% 的原始纖維素。",
-    "省藥劑：4% 鹼液加超音波，回收的纖維素比 8% 鹼液不加超音波還多。",
-    "兩段漂白：先用鹼性過氧化氫，再用 pH 4.5 的亞氯酸鈉；殘留木質素從 25.5% 降到 3.5%。",
-    "材料性質：結晶度從 60.4% 升到 80.8%；耐熱到 264°C 才開始分解，最後殘碳約 4%（原料超過 25%）；顆粒約 1.6 微米，在水中不易結塊。",
-    "可能用途：塑膠和生質聚合物的補強填料、薄膜、塗層；纖維素本身也用於紙板、生質塑膠、紡織、食品與化妝品。",
-    "作者自己點出的限制：仍需大量能源和化學品（多次漂白、清洗、乾燥）；沒有生命週期和成本分析，環境與經濟效益還不能確認；超音波從實驗室燒瓶放大到工廠是很大的工程挑戰。"
-   ],
-   "note": "數字來自 Bioengineer 與 Ethiopian Business Review 對論文的整理，期刊全文未讀。",
-   "link": "https://bioengineer.org/sound-waves-turn-ethiopian-coffee-waste-into-high-grade-cellulose/",
-   "extra_links": [
-    {
-     "t": "Sprudge 原報導",
-     "u": "https://sprudge.com/researchers-created-a-way-to-turn-coffee-parchment-into-highly-sought-after-cellulose-1492471.html"
-    },
-    {
-     "t": "Ethiopian Business Review",
-     "u": "https://ethiopianbusinessreview.net/ethiopian-researchers-turn-coffee-waste-into-high-purity-cellulose-using-sound-waves/"
-    }
-   ],
-   "pub": "2026-10-27"
-  },
-  {
-   "id": "milk-brew",
-   "sec": "food",
-   "title": "牛奶冷萃：一個懷疑論者的病毒飲品實測",
-   "orig": "Milk Brew & Me: A Skeptic’s Journey Through The Viral Coffee Drink",
-   "date": "2026/10/22",
-   "media": "Sprudge",
-   "author": "Jenn Chen",
-   "tier": "T2",
-   "read": 5,
-   "summary": "牛奶冷萃（milk brew）在日本流行已久，現在紅到美國：不用水，直接用牛奶或植物奶冷泡咖啡。作者是台裔美國人，乳糖不耐又不愛冷萃，實測後的結論是「可以接受」：口感像更厚實、沒有濃縮刺激感的冰拿鐵，喜歡冰拿鐵的人應該會喜歡。",
-   "why": "牛奶冷萃在日本流行已久，現在紅到美國。台灣客人熟悉冷泡茶和奶茶，接受度可能更高。作者的失敗經驗（濾紙太慢、泡太久會澀、一定要冷藏）都是試做前要先知道的。",
-   "detail": [
-    "奶脂會包覆咖啡粉，萃取時間要比一般冷萃長，過程中要邊試喝。",
-    "失敗經驗：V60 濾紙流速太慢；直接浸泡 16 小時過萃又澀；太厚的布茶包完全泡不出味道。",
-    "比較成功的做法：Morgan Eckroth 的無乳糖牛奶配方，再多泡幾小時；改用金屬或網狀濾器。",
-    "起點配方：京都 Kurasu 的版本。",
-    "食安：作者強調不要用熱牛奶悶蒸，全程冷藏。",
-    "植物奶：試了夏威夷豆奶和黑芝麻奶，黑芝麻奶太濃稠，抓不住咖啡味。"
-   ],
-   "link": "https://sprudge.com/milk-brew-me-a-skeptics-journey-through-the-viral-coffee-drink-1308095.html",
-   "pub": "2026-10-27"
-  },
-  {
-   "id": "foodpanda",
-   "sec": "food",
-   "title": "Grab 併 foodpanda 破局，專家示警台灣外送市場 4 大隱憂",
-   "orig": "台灣外送市場恐失衡！Grab併foodpanda破局 專家示警4大危機",
-   "date": "2026/10/25",
-   "media": "FTNN 新聞網（轉述 ETtoday）",
-   "author": "林欣愉",
-   "tier": "T3",
-   "read": 3,
-   "summary": "公平會 10/21 否決 Grab 以 6 億美元（約新台幣 193 億元）收購 foodpanda 台灣業務，主因是 Uber 與 Grab 之間有股權、董事和商業合作關係。中華獨立董事協會創會理事長駱秉寬指出，市場仍有 4 大隱憂：平台競爭誘因減弱、foodpanda 可能縮減投資、Uber 的全球收購布局，以及新業者難以進場。",
-   "why": "外送平台的抽成和補貼，直接影響門市外送的利潤。foodpanda 前景不明的這段期間，兩個平台給店家的條件可能會變，值得留意。",
-   "detail": [
-    "Uber 持有 foodpanda 母公司 Delivery Hero 約 24.77% 表決權股份，另以衍生性商品取得約 11.74% 經濟權益，合計約 36.51%。",
-    "駱秉寬強調這兩項不等於實際持股，公平會仍要查投票安排、董事提名和否決權。",
-    "他擔心即使市場保有兩個品牌，如果利益連動，價格、商家抽成、外送員報酬的競爭仍可能減弱。",
-    "他建議公平會採取 5 項措施，包括查明跨國平台的持股與控制權、持續監測市場競爭。"
-   ],
-   "note": "FTNN 轉述 ETtoday 的報導，屬二手轉述。",
-   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%81%A3%E5%A4%96%E9%80%81%E5%B8%82%E5%A0%B4%E6%81%90%E5%A4%B1%E8%A1%A1-grab%E4%BD%B5foodpanda%E7%A0%B4%E5%B1%80-%E5%B0%88%E5%AE%B6%E7%A4%BA%E8%AD%A64%E5%A4%A7%E5%8D%B1%E6%A9%9F-085000528.html",
-   "pub": "2026-10-27"
-  },
-  {
-   "id": "delonghi",
-   "sec": "skip",
-   "title": "De'Longhi 把 La Marzocco、Eversys 的持股提高到 88%",
-   "orig": "De’Longhi Boosts Ownership of La Marzocco and Eversys Business to 88%",
-   "date": "2026/10/23",
-   "media": "Daily Coffee News",
-   "author": "DCN 編輯部",
-   "tier": "T2",
-   "read": 3,
-   "summary": "De'Longhi 以 6.625 億歐元，買下關係企業 DLI 持有的 26.46% 股權，對專業咖啡事業部（La Marzocco、Eversys）的持股從約 61% 提高到 88%。截至 6 月的 12 個月，這個事業部營收 5.69 億歐元、年增 38%，調整後 EBITDA 1.72 億歐元，預期 2026 年營收破 6 億歐元。",
-   "why": "La Marzocco 和 Eversys 的生意越做越大，代表咖啡館願意花錢買穩定出杯和省人力的設備。這是整個產業的設備趨勢。",
-   "detail": [
-    "估值不一致：DCN 寫事業部股權價值約 25 億歐元，PDG 寫 23.6 億歐元，以 De'Longhi 官方公告為準。",
-    "歷程：2017 年買下 Eversys 40%，2021 年買下其餘 60%；2024 年 2 月與 La Marzocco 併入同一事業部，品牌各自保留。",
-    "2023 年底估值約 12.8 億歐元，兩年多接近翻倍。",
-    "人事：Guido Bernardinelli 主掌事業部，Lorenzo Carboni 任 La Marzocco 執行長。"
-   ],
-   "link": "https://dailycoffeenews.com/2026/10/23/delonghi-boosts-ownership-of-la-marzocco-and-eversys-business-to-88/",
-   "pub": "2026-10-27"
-  },
-  {
-   "id": "dcn-weekly",
-   "sec": "skip",
-   "title": "咖啡產業週報：戰爭衝擊航運，歐盟法規恐排擠衣索比亞小農",
-   "orig": "Weekly Coffee News: New 20-Kilo Roasters + War Impacting Coffee Trade",
-   "date": "2026/10/23",
-   "media": "Daily Coffee News",
-   "author": "DCN 編輯部",
-   "tier": "T2",
-   "read": 4,
-   "summary": "瑞士咖啡貿易商因航運中斷、戰爭和運費上漲，開始改走替代航線並加大庫存，年會調查中「戰爭」是首要擔憂。另一份 ODI 報告警告，歐盟零毀林法規（EUDR）的溯源與文件要求，可能讓衣索比亞小農被排除在歐洲市場之外。",
-   "why": "幾則產業短訊：戰爭讓咖啡海運變慢變貴、歐盟法規可能讓衣索比亞小農賣不進歐洲、Blue Bottle 紐約店員組工會。都是會慢慢影響生豆供應和咖啡館經營的事。",
-   "detail": [
-    "Mill City 首批 20 公斤 M 系列烘豆機 10/9 出貨，30 公斤機型預計 2027 年 1 月開始製造。",
-    "Blue Bottle 紐約世貿中心店員工宣布籌組工會，訴求薪資、排班不穩定和懲處方式。",
-    "Blueprint Coffee 把關稅退款，以 5% 折扣碼回饋顧客。",
-    "歐洲咖啡聯盟發布海運貨櫃處理指引：清潔、濕度、氣味、裝載方式。",
-    "Compass Coffee 創辦人訴訟和解；公司資產今年已賣給 Caffè Nero。"
-   ],
-   "link": "https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/",
-   "pub": "2026-10-27"
   }
  ],
  "qa": [
